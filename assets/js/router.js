@@ -14,7 +14,7 @@ const Router = {
     this.current = pageId;
 
     // Sync navbar active state
-    const navMap = { home: 0, portfolio: 4, timeline: 5 };
+    const navMap = { home: 0, portfolio: 5, timeline: 6 };
     if (navMap[pageId] !== undefined)
       document.querySelectorAll('.navbar__btn')[navMap[pageId]]?.classList.add('is-active');
 
@@ -82,3 +82,17 @@ const Tabs = {
     sid.querySelector('.country-tab-panel[data-group="' + group + '"]')?.classList.add('is-active');
   },
 };
+
+/* Keep the navbar selection box on whichever item the user actually clicked.
+   The in-page scroll links all route to 'home', so positional sync alone
+   can't tell them apart — this lets the clicked button win. */
+document.addEventListener('DOMContentLoaded', () => {
+  const links = document.querySelector('.navbar__links');
+  if (!links) return;
+  links.addEventListener('click', (e) => {
+    const btn = e.target.closest('.navbar__btn');
+    if (!btn || !links.contains(btn)) return;
+    links.querySelectorAll('.navbar__btn').forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+  });
+});

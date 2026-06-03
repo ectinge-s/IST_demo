@@ -25,11 +25,13 @@
   </span>
   <div class="navbar__links">
     <button class="navbar__btn is-active" onclick="Router.go('home')">科系介绍</button>
+    <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#offers'})">offer展示</button>
     <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#instructors'})">导师团队</button>
     <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#resources'})">资源网络</button>
     <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#courses'})">课程产品</button>
-    <button class="navbar__btn" onclick="Router.go('portfolio')">案例展示</button>
-    <button class="navbar__btn" onclick="Router.go('timeline')">升学时间轴</button>
+    <span class="navbar__div" aria-hidden="true"></span>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('portfolio')">案例展示</button>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('timeline')">升学时间轴</button>
   </div>
   <div class="navbar__search-wrap">
     <span class="navbar__search-icon">⌕</span>
@@ -129,6 +131,22 @@
     </div>
   </section>
 
+  <!-- OFFERS -->
+  <section class="home-section" id="offers">
+    <div class="section-eyebrow">Offers 2026</div>
+    <h2 class="section-title">offer 展示</h2>
+    <p class="section-desc">2026 申请季录取战报。覆盖美国、英国、港新与全球院校的硕博 offer 成果，点击切换地区查看各院校 offer 数量。</p>
+    <div id="offers-total"></div>
+    <hr class="section-divider">
+    <div class="filter-bar" id="offers-country-tabs">
+      <button class="filter-btn is-active" data-group="US" onclick="OffersPage.switchGroup('US',this)">🇺🇸 美国</button>
+      <button class="filter-btn" data-group="UK" onclick="OffersPage.switchGroup('UK',this)">🇬🇧 英国</button>
+      <button class="filter-btn" data-group="HK_SG" onclick="OffersPage.switchGroup('HK_SG',this)">🇭🇰 港新</button>
+      <button class="filter-btn" data-group="OTHER" onclick="OffersPage.switchGroup('OTHER',this)">🌏 其他</button>
+    </div>
+    <div id="offers-grid"></div>
+  </section>
+
   <!-- INSTRUCTORS -->
   <section class="home-section" id="instructors">
     <div class="section-eyebrow">Instructors</div>
@@ -226,6 +244,7 @@
 <script src="assets/js/router.js"></script>
 <script src="assets/js/components.js"></script>
 <script src="assets/js/pages/home.js"></script>
+<script src="assets/js/pages/offers.js"></script>
 <script src="assets/js/pages/planning.js"></script>
 <script src="assets/js/pages/portfolio.js"></script>
 <script src="assets/js/pages/timeline.js"></script>
@@ -234,6 +253,7 @@
 (async () => {
   await DATA.load();
   HomePage.build();
+  OffersPage.build();
   PlanningPage.build();
   PortfolioPage.build();
   TimelinePage.build();

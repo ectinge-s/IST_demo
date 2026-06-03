@@ -40,6 +40,17 @@
 }
 .navbar__btn:hover { color: var(--color-text); background: var(--color-surface); }
 .navbar__btn.is-active { color: var(--color-text); border-color: var(--color-border-2); background: var(--color-surface); }
+/* Divider + page-link cue: 案例展示 / 升学时间轴 live on their own pages,
+   so they read as destinations (small ↗) rather than in-page anchors. */
+.navbar__div { width: 1px; height: 16px; align-self: center; flex-shrink: 0; margin: 0 7px; background: var(--color-border-2); }
+.navbar__btn--page { color: var(--color-text-secondary); }
+.navbar__btn--page::after {
+  content: "↗"; font-family: var(--font-mono); font-size: 9px;
+  margin-left: 5px; vertical-align: 1px; color: var(--color-text-faint);
+  transition: color var(--transition-fast);
+}
+.navbar__btn--page:hover::after,
+.navbar__btn--page.is-active::after { color: var(--color-accent); }
 .navbar__search-wrap { position: relative; margin-left: var(--space-3); }
 .navbar__search {
   width: 200px; padding: 6px 12px 6px 32px;

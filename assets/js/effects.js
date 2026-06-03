@@ -1,7 +1,6 @@
 /* ═══════════════════════════════════════════
    VISUAL EFFECTS (presentation only — no app logic)
    - Comet cursor inside the hero
-   - Hero bloom + logomark parallax on mouse
    - Scroll-reveal for sections (gated so no-JS shows all)
 ═══════════════════════════════════════════ */
 (function () {
@@ -27,10 +26,11 @@
     window.addEventListener('resize', resize);
 
     var pts = [];                 // trail history (head = last)
-    var MAX = 32;                 // length of the comet
+    var MAX = 28;                 // max recorded points
+    var MIN_DIST = 6;             // resample spacing — long segments, butt caps → seamless ribbon
     var target = { x: -1e3, y: -1e3 };
     var head = { x: -1e3, y: -1e3 };
-    var active = false, raf = null;
+    var active = false, raf = null, drain = 0, headAlpha = 1;
 
     hero.addEventListener('pointermove', function (e) {
       var r = hero.getBoundingClientRect();
@@ -47,27 +47,64 @@
 
     function loop() {
       // ease head toward cursor → the trail bends on curves, straightens on fast straight moves
-      head.x += (target.x - head.x) * 0.3;
-      head.y += (target.y - head.y) * 0.3;
-      pts.push({ x: head.x, y: head.y });
-      if (pts.length > MAX) pts.shift();
+      head.x += (target.x - head.x) * 0.32;
+      head.y += (target.y - head.y) * 0.32;
+
+      // Resample by distance: only record a point once the head has travelled
+      // MIN_DIST. Even spacing keeps segments long enough that their round caps
+      // overlap into one smooth ribbon instead of a string of dots.
+      var last = pts[pts.length - 1];
+      if (!last || Math.hypot(head.x - last.x, head.y - last.y) >= MIN_DIST) {
+        pts.push({ x: head.x, y: head.y });
+        if (pts.length > MAX) pts.shift();
+      } else if (!active && pts.length) {
+        pts.shift();                       // retract the tail after the pointer leaves
+      }
+
+      // Holding still inside the hero: drain the tail so it never pools into a
+      // bright dot under the cursor.
+      var nearTarget = Math.hypot(target.x - head.x, target.y - head.y) < 0.8;
+      if (active && nearTarget && pts.length) {
+        drain = (drain + 1) % 2;
+        if (drain === 0) pts.shift();
+      }
+
+      // Fade head glow in/out: snap to 1 when moving, ease slowly to 0 when still.
+      if (active && nearTarget) {
+        headAlpha += (0 - headAlpha) * 0.025;   // slow fade → ~2-3 s to dark
+      } else {
+        headAlpha = 1;
+      }
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       if (pts.length > 3) {
-        ctx.lineCap = 'round';
+        ctx.lineCap = 'butt';
         ctx.lineJoin = 'round';
         ctx.globalCompositeOperation = 'lighter';
-        // Soft, low-contrast comet: wide blue haze → mid body → gentle pale core.
-        drawSmooth(36, function (t) { return 'rgba(40,60,255,' + (0.045 * t) + ')'; });
-        drawSmooth(20, function (t) { return 'rgba(80,95,250,' + (0.085 * t) + ')'; });
-        drawSmooth(10, function (t) { return 'rgba(130,148,255,' + (0.12 * t) + ')'; });
-        drawSmooth(4,  function (t) { return 'rgba(190,205,235,' + (0.16 * t) + ')'; });
+        // Soft comet in the LIME accent: wide haze → mid body → bright pale core.
+        drawSmooth(72, function (t) { return 'rgba(150,240,95,'  + (0.075 * t) + ')'; });
+        drawSmooth(40, function (t) { return 'rgba(196,246,108,' + (0.14  * t) + ')'; });
+        drawSmooth(20, function (t) { return 'rgba(226,241,105,' + (0.22  * t) + ')'; });
+        drawSmooth(8,  function (t) { return 'rgba(243,255,200,' + (0.30  * t) + ')'; });
+        // Round cap on the head only — a filled circle at the cursor tip.
+        var hp = pts[pts.length - 1];
+        ctx.beginPath();
+        ctx.arc(hp.x, hp.y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(243,255,200,' + (0.30 * headAlpha) + ')';
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(hp.x, hp.y, 10, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(196,246,108,' + (0.14 * headAlpha) + ')';
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(hp.x, hp.y, 20, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(150,240,95,' + (0.075 * headAlpha) + ')';
+        ctx.fill();
       }
 
-      var moving = Math.abs(target.x - head.x) > 0.4 || Math.abs(target.y - head.y) > 0.4;
-      if (active || moving || pts.length) {
-        if (!active && !moving) { pts.shift(); if (!pts.length) { raf = null; return; } }
+      var moving = Math.hypot(target.x - head.x, target.y - head.y) > 0.4;
+      if (active || moving || pts.length > 1 || headAlpha > 0.01) {
         raf = requestAnimationFrame(loop);
       } else { raf = null; }
     }
@@ -91,32 +128,7 @@
     }
   }
 
-  /* ---- 2. Hero parallax (blooms + logomark drift toward cursor) ---- */
-  function initParallax() {
-    var hero = document.querySelector('.hero');
-    if (!hero || reduce) return;
-    var blueB = hero.querySelector('.hero__bloom--blue');
-    var limeB = hero.querySelector('.hero__bloom--lime');
-    var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
-
-    hero.addEventListener('pointermove', function (e) {
-      var r = hero.getBoundingClientRect();
-      tx = ((e.clientX - r.left) / r.width - 0.5);   // -0.5 … 0.5
-      ty = ((e.clientY - r.top) / r.height - 0.5);
-      if (!raf) raf = requestAnimationFrame(tick);
-    });
-
-    function tick() {
-      cx += (tx - cx) * 0.06;
-      cy += (ty - cy) * 0.06;
-      if (blueB) blueB.style.translate = (cx * 34) + 'px ' + (cy * 34) + 'px';
-      if (limeB) limeB.style.translate = (cx * -26) + 'px ' + (cy * -26) + 'px';
-      if (Math.abs(tx - cx) > 0.001 || Math.abs(ty - cy) > 0.001) { raf = requestAnimationFrame(tick); }
-      else { raf = null; }
-    }
-  }
-
-  /* ---- 3. Scroll-reveal (gated by body.fx-ready) ---- */
+  /* ---- 2. Scroll-reveal (gated by body.fx-ready) ---- */
   function initReveal() {
     if (reduce || !('IntersectionObserver' in window)) return;
     document.body.classList.add('fx-ready');
@@ -132,7 +144,7 @@
     setTimeout(function () { targets.forEach(reveal); }, 2600);
   }
 
-  function boot() { initComet(); initParallax(); initReveal(); }
+  function boot() { initComet(); initReveal(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
