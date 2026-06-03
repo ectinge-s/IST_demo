@@ -97,7 +97,6 @@
     if (!hero || reduce) return;
     var blueB = hero.querySelector('.hero__bloom--blue');
     var limeB = hero.querySelector('.hero__bloom--lime');
-    var mark = hero.querySelector('.hero__logomark');
     var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
 
     hero.addEventListener('pointermove', function (e) {
@@ -112,7 +111,6 @@
       cy += (ty - cy) * 0.06;
       if (blueB) blueB.style.translate = (cx * 34) + 'px ' + (cy * 34) + 'px';
       if (limeB) limeB.style.translate = (cx * -26) + 'px ' + (cy * -26) + 'px';
-      if (mark) mark.style.translate = (cx * -22) + 'px ' + (cy * -22) + 'px';
       if (Math.abs(tx - cx) > 0.001 || Math.abs(ty - cy) > 0.001) { raf = requestAnimationFrame(tick); }
       else { raf = null; }
     }
