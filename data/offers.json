@@ -472,6 +472,11 @@
           "school_zh": "澳门科技大学",
           "school_en": "Macau University of Science and Technology",
           "offer_count": 4
+        },
+        {
+          "school_zh": "澳门城市大学",
+          "school_en": "City University of Macau",
+          "offer_count": 3
         }
       ],
       "all_schools": [

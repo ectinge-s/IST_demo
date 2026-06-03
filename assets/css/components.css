@@ -229,10 +229,13 @@
 /* ── COURSE CARD ── */
 .course-card { background: var(--color-bg); display: flex; flex-direction: column; }
 .course-card__img {
-  width: 100%; aspect-ratio: 16/9; background: var(--color-surface);
+  width: 100%; aspect-ratio: 9/16; background: var(--color-surface);
   display: flex; align-items: center; justify-content: center;
   font-family: var(--font-en); font-size: var(--text-xs); color: var(--color-text-muted);
   position: relative; overflow: hidden;
+}
+.course-card__img img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
 }
 .course-card__img-label {
   position: absolute; bottom: 8px; left: 8px;

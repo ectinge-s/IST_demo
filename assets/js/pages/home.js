@@ -124,7 +124,7 @@ const HomePage = {
                       c.enrollment_status === '已满' ? 'course-card__badge--status-full' : '';
     return `<div class="course-card" data-ptype="${c.program_type}" data-cat="${c.category}">
       <div class="course-card__img">
-        <span style="opacity:.4">${c.program_type === '行业导师带训（线上）' ? '导师带训' : '岗位实习'}</span>
+        ${c.poster ? `<img src="${c.poster}" alt="${c.company}" loading="lazy">` : `<span style="opacity:.4">${c.program_type === '行业导师带训（线上）' ? '导师带训' : '岗位实习'}</span>`}
         <span class="course-card__img-label">${c.category || '其他'}</span>
       </div>
       <div class="course-card__body">
@@ -166,7 +166,9 @@ const HomePage = {
     return `<div class="grid-4" style="background:var(--color-border);gap:3px;">
       ${items.map(c => `
         <div class="course-card">
-          <div class="course-card__img"><span style="opacity:.4">${c.program_type}</span></div>
+          <div class="course-card__img">
+            ${c.poster ? `<img src="${c.poster}" alt="${c.company}" loading="lazy">` : `<span style="opacity:.4">${c.program_type}</span>`}
+          </div>
           <div class="course-card__body">
             <div class="course-card__company">${c.company}</div>
             <div class="course-card__role">${c.role_or_course}</div>
