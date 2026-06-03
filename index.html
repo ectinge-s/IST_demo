@@ -258,7 +258,38 @@
   PortfolioPage.build();
   TimelinePage.build();
   Search.init();
+
+  // Poster overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'poster-overlay';
+  overlay.innerHTML = '<button class="poster-overlay__close" aria-label="Close">✕</button><img class="poster-overlay__img" src="" alt="">';
+  document.body.appendChild(overlay);
+  const overlayImg = overlay.querySelector('.poster-overlay__img');
+
+  function openPoster(src, alt) {
+    overlayImg.src = src;
+    overlayImg.alt = alt;
+    overlay.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closePoster() {
+    overlay.classList.remove('is-open');
+    document.body.style.overflow = '';
+    overlayImg.src = '';
+  }
+
+  overlay.querySelector('.poster-overlay__close').addEventListener('click', closePoster);
+  overlay.addEventListener('click', e => { if (e.target === overlay) closePoster(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePoster(); });
+
+  document.addEventListener('click', e => {
+    const imgEl = e.target.closest('.course-card__img');
+    if (!imgEl) return;
+    const img = imgEl.querySelector('img');
+    if (img) openPoster(img.src, img.alt);
+  });
 })();
 </script>
+
 </body>
 </html>

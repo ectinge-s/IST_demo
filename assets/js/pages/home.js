@@ -110,6 +110,7 @@ const HomePage = {
         <button class="filter-btn" data-icat="头部大厂" onclick="HomePage._filterInternsCat('头部大厂',this)">头部大厂</button>
         <button class="filter-btn" data-icat="行业名企" onclick="HomePage._filterInternsCat('行业名企',this)">行业名企</button>
         <button class="filter-btn" data-icat="创意工作室" onclick="HomePage._filterInternsCat('创意工作室',this)">创意工作室</button>
+        <button class="filter-btn" data-icat="其他" onclick="HomePage._filterInternsCat('其他',this)">其他</button>
       </div>`;
 
     const grid = `<div class="grid-4" id="internship-grid" style="background:var(--color-border);gap:3px;">

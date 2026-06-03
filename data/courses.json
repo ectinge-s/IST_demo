@@ -12,7 +12,9 @@
     "duration": "灵活安排（报名前联系老师）",
     "enrolled_count": "—",
     "capacity": "不限",
-    "price_rmb": "¥18,800"
+    "price_rmb": "¥18,800",
+    "poster": "img/courses/course_000_AI创意产品经理产业班_AIGC创意先修课+创意产品经理.jpg"
+
   },
   {
     "tab": "industry_class",
@@ -27,7 +29,8 @@
     "duration": "灵活安排（报名前联系老师）",
     "enrolled_count": "—",
     "capacity": "不限",
-    "price_rmb": "¥6,800"
+    "price_rmb": "¥6,800",
+    "poster": "img/courses/course_001_AI创意视频产业班_创意先修课+商业视频实操.jpg"
   },
   {
     "tab": "cert",
@@ -74,7 +77,8 @@
     "duration": "1个月",
     "enrolled_count": "—",
     "capacity": "不限",
-    "price_rmb": "¥34,800"
+    "price_rmb": "¥34,800",
+    "poster": "img/courses/course_004_中国动漫集团_沉浸式VR策展实习生.jpg"
   },
   {
     "tab": "internship",
