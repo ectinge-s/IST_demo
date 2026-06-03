@@ -154,10 +154,10 @@
 .plan-hero__title em { font-style: normal; color: var(--color-accent); text-shadow: var(--glow-accent-soft); }
 .plan-hero__sub { font-size: var(--text-md); color: var(--color-text-muted); max-width: 640px; line-height: 1.85; text-wrap: pretty; }
 
-/* Industry overview cards */
-.industry-overview { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 1px; background: var(--color-border); }
-.industry-overview > * { min-width: 0; }
+/* Industry overview cards — flex so the 5 cards grow to fill full width (no trailing blank) */
+.industry-overview { display: flex; flex-wrap: wrap; gap: 1px; background: var(--color-border); }
 .industry-ov-card {
+  flex: 1 1 200px; min-width: 0;
   background: var(--color-bg); padding: var(--space-6) var(--space-5);
   cursor: pointer; transition: background var(--transition-fast);
   display: flex; flex-direction: column; gap: var(--space-2);
@@ -345,7 +345,7 @@
 }
 .portfolio-cat-btn:hover { border-color: var(--color-primary-bright); color: var(--color-text); background: var(--color-surface-2); }
 .portfolio-cat-btn.is-active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); box-shadow: var(--glow-primary-soft); }
-.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 3px; background: var(--color-border); }
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 3px; background: var(--color-border); }
 .portfolio-grid > * { min-width: 0; }
 
 /* ── TIMELINE PAGE ── */
@@ -402,7 +402,7 @@
   .navbar__search-wrap { display: none; }
 }
 @media (max-width: 1024px) {
-  .industry-overview { grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); }
+  .industry-ov-card { flex-basis: 170px; }
 }
 @media (max-width: 860px) {
   .navbar { padding: 0 var(--space-4); gap: 0; }

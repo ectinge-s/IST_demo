@@ -171,12 +171,11 @@ img { max-width: 100%; display: block; }
 .section-divider { border: none; border-top: 1px solid var(--color-border); margin: var(--space-7) 0; }
 
 /* ── GRID HELPERS ── */
-/* Fluid: tracks auto-fit the container width — no horizontal overflow, adapts at every size.
-   minmax floor keeps cards legible; they reflow column-count instead of squashing. */
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(218px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-5 { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 3px; background: var(--color-border); }
+/* auto-fit (not auto-fill): empty tracks collapse so cards always fill the full row width — no trailing blank. */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-5 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 3px; background: var(--color-border); }
 .grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > * { background: var(--color-bg); min-width: 0; }
 
 /* ── TAG / BADGE ── */
