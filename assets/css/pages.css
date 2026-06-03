@@ -39,8 +39,8 @@
 /* Big floating mark logo on the right, behind content */
 .hero__logomark {
   position: absolute; z-index: 0; pointer-events: none;
-  right: clamp(-260px, -7vw, -90px); top: 50%;
-  width: clamp(540px, 66vw, 930px); aspect-ratio: 1;
+  right: clamp(-148px, -4vw, -12px); top: 50%;
+  width: clamp(432px, 52.8vw, 744px); aspect-ratio: 1;
   transform: translateY(-50%);
   opacity: .22;
   filter: drop-shadow(0 0 80px rgba(31,40,232,.2));
