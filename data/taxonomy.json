@@ -1,0 +1,232 @@
+{
+  "互联网科技": {
+    "academic_branch": "用户体验与人机智能",
+    "academic_branch_en": "UX & Human-Computer Intelligence",
+    "industry_id": "internet",
+    "legacy_subdirections": [
+      "用户体验设计",
+      "人机交互",
+      "界面设计",
+      "交互设计"
+    ],
+    "new_subdirections": [
+      "AI产品设计",
+      "人机智能",
+      "智能体交互",
+      "生物信息计算与设计",
+      "多模态交互",
+      "行为设计/决策设计",
+      "数据驱动设计",
+      "娱乐交互体验设计"
+    ],
+    "industry_subfields": [
+      "互联网大厂（Meta / Google / 字节 / 阿里）",
+      "AI产品与大模型公司（DeepSeek / Anthropic / OpenAI）",
+      "SaaS工具与企业软件（Figma / Notion / Salesforce）",
+      "电商与消费数字平台（Amazon / 拼多多 / 小红书）",
+      "XR与空间计算（Apple Vision Pro团队 / Meta Reality Labs）",
+      "金融科技产品设计（Stripe / Ant / PayPal）",
+      "智能助手与对话式AI产品"
+    ],
+    "program_tags_hint": [
+      "HCI",
+      "Interaction Design",
+      "UX",
+      "User Experience",
+      "Human-Computer Interaction",
+      "AI Design",
+      "Design Informatics",
+      "Digital Design",
+      "Information Experience",
+      "Cognitive Systems"
+    ]
+  },
+  "建筑环境科技": {
+    "academic_branch": "空间设计与智能环境",
+    "academic_branch_en": "Spatial Design & Intelligent Environments",
+    "industry_id": "arch",
+    "legacy_subdirections": [
+      "建筑设计",
+      "景观设计",
+      "景观建筑",
+      "城市设计",
+      "城市规划",
+      "室内设计",
+      "环境设计",
+      "可持续建筑设计"
+    ],
+    "new_subdirections": [
+      "空间服务设计",
+      "智能空间产品",
+      "响应式环境",
+      "虚拟空间体验",
+      "城市数据科学",
+      "智慧城市",
+      "生态设计"
+    ],
+    "industry_subfields": [
+      "顶尖国际建筑事务所（ZHA / BIG / Gensler / SOM）",
+      "参数化与计算性设计工作室",
+      "智慧城市与城市数字孪生（华为城市BU / 中规院）",
+      "文化与遗产空间设计（KKAA / 如恩 / 大舍）",
+      "地产与商业空间开发（CBRE / 万科设计院）",
+      "景观与城市规划院（AECOM / EDAW）",
+      "BIM与数字建造技术服务商"
+    ],
+    "program_tags_hint": [
+      "Architecture",
+      "Landscape Architecture",
+      "Urban Design",
+      "Computational Design",
+      "Spatial Design",
+      "Interior Design",
+      "City Planning",
+      "Urban Studies",
+      "Design Technology",
+      "Sustainable Design",
+      "Design Studies"
+    ]
+  },
+  "智能实体产业": {
+    "academic_branch": "工业工程与智能制造",
+    "academic_branch_en": "Industrial Systems & Intelligent Manufacturing",
+    "industry_id": "hardware",
+    "legacy_subdirections": [
+      "工业设计",
+      "产品设计",
+      "工业工程",
+      "交通工具设计",
+      "汽车设计",
+      "家具设计",
+      "可穿戴产品设计"
+    ],
+    "new_subdirections": [
+      "数字制造",
+      "智能建造",
+      "计算设计",
+      "机器人产品",
+      "智能产品开发",
+      "材料设计/材料工程"
+    ],
+    "industry_subfields": [
+      "新能源汽车与智能座舱（理想 / 蔚来 / 小鹏 / 比亚迪）",
+      "消费电子与移动OS（小米 / 华为 / OPPO / Apple）",
+      "人形与服务机器人（宇树 / 波士顿动力 / Figure）",
+      "IoT与智能家居（涂鸦 / 小米生态链 / Dyson）",
+      "工业与航空航天HMI",
+      "运动与健康可穿戴设备",
+      "交通工具与出行产品设计（SAIC设计院 / 比亚迪设计院）"
+    ],
+    "program_tags_hint": [
+      "Industrial Design",
+      "Product Design",
+      "Design Engineering",
+      "Transportation Design",
+      "Automotive Design",
+      "Advanced Product Design",
+      "Human Factors",
+      "Integrated Product Design",
+      "Design & Engineering"
+    ]
+  },
+  "品牌与服务": {
+    "academic_branch": "社会创新与产品策略",
+    "academic_branch_en": "Social Innovation & Product Strategy",
+    "industry_id": "brand",
+    "legacy_subdirections": [
+      "服务设计",
+      "服务产品",
+      "信息设计",
+      "产品策略",
+      "用户体验策略",
+      "设计管理",
+      "社会创新"
+    ],
+    "new_subdirections": [
+      "公共服务与政策",
+      "商业创新设计",
+      "数据伦理",
+      "教育/健康科技",
+      "创意文化产业管理",
+      "娱乐产业管理",
+      "产品管理",
+      "工程管理",
+      "数字资产管理"
+    ],
+    "industry_subfields": [
+      "顶尖设计咨询（IDEO / frog / LUNAR / Fjord）",
+      "管理咨询设计部门（McKinsey Design / BCG Platinion）",
+      "广告创意与品牌体验（奥美 / W+K / R/GA）",
+      "教育科技产品（Coursera / 网易有道 / 好未来）",
+      "医疗健康体验设计（Philips Design / 微医 / 平安健康）",
+      "金融与保险数字化体验",
+      "餐饮与零售全渠道体验（麦当劳体验创新 / 名创优品）",
+      "公共事业与政府服务设计"
+    ],
+    "program_tags_hint": [
+      "Service Design",
+      "Design Strategy",
+      "Social Innovation",
+      "Design Management",
+      "Design for Social Innovation",
+      "Design Futures",
+      "Systemic Design",
+      "Information Design",
+      "Communication Design",
+      "Design Impact",
+      "Global Innovation Design",
+      "Design for Change",
+      "Service Systems Design"
+    ]
+  },
+  "数字文化娱乐": {
+    "academic_branch": "叙事交互与沉浸体验",
+    "academic_branch_en": "Narrative Experience & Immersive Media",
+    "industry_id": "culture",
+    "legacy_subdirections": [
+      "交互艺术",
+      "交互装置",
+      "创意计算机编程",
+      "舞台美术",
+      "舞台设计与制作",
+      "陈列设计",
+      "交互媒体实践"
+    ],
+    "new_subdirections": [
+      "数字人文",
+      "展览体验设计",
+      "XR沉浸式体验设计",
+      "实时媒体表演",
+      "数字舞台设计",
+      "舞台科技",
+      "互动叙事设计"
+    ],
+    "industry_subfields": [
+      "互动艺术装置与展览（teamLab / Studio Drift / Random Studio）",
+      "游戏美术与用户体验（米哈游 / Epic / Riot Games）",
+      "沉浸式文旅与主题体验（华强方特 / 融创文旅 / 黑弓 Blackbow）",
+      "演出科技与舞台系统（ES Global / PRG / 盛世骄阳）",
+      "影视XR与虚拟制作（ILM Stagecraft / Base FX）",
+      "博物馆与策展科技（UCCA / 故宫数字文创）",
+      "品牌IP与数字营销创意（蔡国强工作室 / AKQA）",
+      "新媒体内容创作与直播技术平台"
+    ],
+    "program_tags_hint": [
+      "Game Design",
+      "Entertainment Technology",
+      "Computational Arts",
+      "Creative Computing",
+      "Immersive Media",
+      "New Media Art",
+      "Digital Direction",
+      "Media Design",
+      "Creative Technology",
+      "Stage Design",
+      "Set Design",
+      "Theater Design",
+      "Design for Stage",
+      "Scenic Design",
+      "Interactive Media"
+    ]
+  }
+}

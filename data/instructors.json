@@ -1,0 +1,302 @@
+[
+  {
+    "id": "inst-01",
+    "name": "导师 A",
+    "role": "业界导师",
+    "title": "科技公司资深设计师",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-02",
+    "name": "导师 B",
+    "role": "业界导师",
+    "title": "互联网大厂产品经理",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-03",
+    "name": "导师 C",
+    "role": "业界导师",
+    "title": "建筑事务所主创",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-04",
+    "name": "导师 D",
+    "role": "业界导师",
+    "title": "游戏公司创意总监",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-05",
+    "name": "导师 E",
+    "role": "业界导师",
+    "title": "品牌咨询顾问",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "arch",
+    "placeholder": true
+  },
+  {
+    "id": "inst-06",
+    "name": "导师 F",
+    "role": "业界导师",
+    "title": "UX研究员",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-07",
+    "name": "导师 G",
+    "role": "业界导师",
+    "title": "空间设计师",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-08",
+    "name": "导师 H",
+    "role": "业界导师",
+    "title": "工业设计师",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-09",
+    "name": "导师 J",
+    "role": "业界导师",
+    "title": "创意科技工程师",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-10",
+    "name": "导师 K",
+    "role": "业界导师",
+    "title": "沉浸式体验设计师",
+    "tag": "industry",
+    "tag_cls": "tag-blue",
+    "industry": "arch",
+    "placeholder": true
+  },
+  {
+    "id": "inst-11",
+    "name": "导师 L",
+    "role": "学术导师",
+    "title": "CMU HCI 副教授",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-12",
+    "name": "导师 M",
+    "role": "学术导师",
+    "title": "RCA Design 讲师",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-13",
+    "name": "导师 N",
+    "role": "学术导师",
+    "title": "MIT Media Lab 研究员",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-14",
+    "name": "导师 P",
+    "role": "学术导师",
+    "title": "哈佛 GSD 助理教授",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-15",
+    "name": "导师 Q",
+    "role": "学术导师",
+    "title": "TU Delft 讲师",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "arch",
+    "placeholder": true
+  },
+  {
+    "id": "inst-16",
+    "name": "导师 R",
+    "role": "学术导师",
+    "title": "UCL Bartlett 研究员",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-17",
+    "name": "导师 S",
+    "role": "学术导师",
+    "title": "Edinburgh 设计信息学讲师",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-18",
+    "name": "导师 T",
+    "role": "学术导师",
+    "title": "Goldsmiths 计算艺术讲师",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-19",
+    "name": "导师 U",
+    "role": "学术导师",
+    "title": "Imperial College 设计工程讲师",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-20",
+    "name": "导师 V",
+    "role": "学术导师",
+    "title": "NYU ITP 助理教授",
+    "tag": "academic",
+    "tag_cls": "tag-lime",
+    "industry": "arch",
+    "placeholder": true
+  },
+  {
+    "id": "inst-21",
+    "name": "导师 W",
+    "role": "校友导师",
+    "title": "Meta UX Designer，2022届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-22",
+    "name": "导师 X",
+    "role": "校友导师",
+    "title": "ZHA 参数化设计师，2021届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-23",
+    "name": "导师 Y",
+    "role": "校友导师",
+    "title": "米哈游概念设计师，2023届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-24",
+    "name": "导师 Z",
+    "role": "校友导师",
+    "title": "IDEO 服务设计师，2020届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-25",
+    "name": "导师 A",
+    "role": "校友导师",
+    "title": "teamLab 创意工程师，2022届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "arch",
+    "placeholder": true
+  },
+  {
+    "id": "inst-26",
+    "name": "导师 B",
+    "role": "校友导师",
+    "title": "Apple 产品设计师，2021届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "internet",
+    "placeholder": true
+  },
+  {
+    "id": "inst-27",
+    "name": "导师 C",
+    "role": "校友导师",
+    "title": "Gensler BIM工程师，2022届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "hardware",
+    "placeholder": true
+  },
+  {
+    "id": "inst-28",
+    "name": "导师 D",
+    "role": "校友导师",
+    "title": "字节跳动体验设计，2023届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "culture",
+    "placeholder": true
+  },
+  {
+    "id": "inst-29",
+    "name": "导师 E",
+    "role": "校友导师",
+    "title": "frog design 策略顾问，2020届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "brand",
+    "placeholder": true
+  },
+  {
+    "id": "inst-30",
+    "name": "导师 F",
+    "role": "校友导师",
+    "title": "黑弓 Blackbow 导演，2021届",
+    "tag": "alumni",
+    "tag_cls": "tag-gray",
+    "industry": "arch",
+    "placeholder": true
+  }
+]

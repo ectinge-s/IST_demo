@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    
+    <linearGradient id="_未命名的渐变_21" data-name="未命名的渐变 21" x1="84.94" y1="4771.62" x2="-137.87" y2="4771.62" gradientTransform="translate(3646.82 -3176.65) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"></stop>
+      <stop offset=".08" stop-color="#fff" stop-opacity=".96"></stop>
+      <stop offset=".22" stop-color="#fff" stop-opacity=".87"></stop>
+      <stop offset=".4" stop-color="#fff" stop-opacity=".71"></stop>
+      <stop offset=".61" stop-color="#fff" stop-opacity=".49"></stop>
+      <stop offset=".83" stop-color="#fff" stop-opacity=".22"></stop>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_21-2" data-name="未命名的渐变 21" x1="98.97" y1="250" x2="221.2" y2="250" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#_未命名的渐变_21"></linearGradient>
+    <linearGradient id="_未命名的渐变_21-3" data-name="未命名的渐变 21" x1="11520.34" y1="250" x2="11642.58" y2="250" gradientTransform="translate(11921.37) rotate(-180) scale(1 -1)" xlink:href="#_未命名的渐变_21"></linearGradient>
+  </defs>
+  <circle class="cls-4" cx="254.06" cy="178.68" r="111.41"></circle>
+  <g>
+    <polygon class="cls-2" points="98.97 399.43 98.97 86.63 221.2 17.62 221.2 482.38 98.97 399.43"></polygon>
+    <polygon class="cls-1" points="401.03 399.43 401.03 86.63 278.8 17.62 278.8 482.38 401.03 399.43"></polygon>
+    <polygon class="cls-3" points="105.22 383.99 250 287.94 394.78 383.99 250 473.25 105.22 383.99"></polygon>
+    <polygon class="cls-3" points="388.1 350.38 250.77 252.7 111.9 350.34 110.13 347.83 250.78 248.94 389.88 347.88 388.1 350.38"></polygon>
+  </g>
+</svg>

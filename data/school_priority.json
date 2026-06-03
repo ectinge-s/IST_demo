@@ -1,0 +1,494 @@
+{
+  "US": [
+    {
+      "school_en": "Carnegie Mellon University",
+      "school_zh": "卡内基梅隆大学"
+    },
+    {
+      "school_en": "Massachusetts Institute of Technology",
+      "school_zh": "麻省理工学院"
+    },
+    {
+      "school_en": "Harvard University",
+      "school_zh": "哈佛大学"
+    },
+    {
+      "school_en": "Stanford University",
+      "school_zh": "斯坦福大学"
+    },
+    {
+      "school_en": "Cornell University",
+      "school_zh": "康奈尔大学"
+    },
+    {
+      "school_en": "Columbia University",
+      "school_zh": "哥伦比亚大学"
+    },
+    {
+      "school_en": "Yale University",
+      "school_zh": "耶鲁大学"
+    },
+    {
+      "school_en": "University of Pennsylvania",
+      "school_zh": "宾夕法尼亚大学"
+    },
+    {
+      "school_en": "New York University",
+      "school_zh": "纽约大学"
+    },
+    {
+      "school_en": "University of California--Berkeley",
+      "school_zh": "加州大学伯克利分校"
+    },
+    {
+      "school_en": "University of California Los Angeles",
+      "school_zh": "加州大学洛杉矶分校"
+    },
+    {
+      "school_en": "University of Southern California",
+      "school_zh": "南加州大学"
+    },
+    {
+      "school_en": "Princeton University",
+      "school_zh": "普林斯顿大学"
+    },
+    {
+      "school_en": "Northwestern University",
+      "school_zh": "西北大学"
+    },
+    {
+      "school_en": "University of Chicago",
+      "school_zh": "芝加哥大学"
+    },
+    {
+      "school_en": "University of Michigan Ann Arbor",
+      "school_zh": "密歇根大学安娜堡分校"
+    },
+    {
+      "school_en": "Rhode Island School of Design",
+      "school_zh": "罗德岛设计学院"
+    },
+    {
+      "school_en": "Pratt Institute",
+      "school_zh": "普瑞特艺术学院"
+    },
+    {
+      "school_en": "Duke University",
+      "school_zh": "杜克大学"
+    },
+    {
+      "school_en": "Brown University",
+      "school_zh": "布朗大学"
+    },
+    {
+      "school_en": "Johns Hopkins University",
+      "school_zh": "约翰斯·霍普金斯大学"
+    },
+    {
+      "school_en": "Cooper Union",
+      "school_zh": "库伯联盟"
+    },
+    {
+      "school_en": "ArtCenter College of Design",
+      "school_zh": "艺术中心设计学院"
+    },
+    {
+      "school_en": "Parsons School of Design",
+      "school_zh": "帕森斯艺术设计学院"
+    },
+    {
+      "school_en": "School of Visual Arts",
+      "school_zh": "纽约视觉艺术学院"
+    },
+    {
+      "school_en": "California College of the Arts",
+      "school_zh": "加州艺术学院"
+    },
+    {
+      "school_en": "Savannah College of Art and Design",
+      "school_zh": "萨凡纳艺术设计学院"
+    },
+    {
+      "school_en": "School of the Art Institute of Chicago",
+      "school_zh": "芝加哥艺术学院"
+    },
+    {
+      "school_en": "Cranbrook Academy of Art",
+      "school_zh": "克兰布鲁克艺术学院"
+    },
+    {
+      "school_en": "Maryland Institute College of Art",
+      "school_zh": "马里兰艺术学院"
+    },
+    {
+      "school_en": "Massachusetts College of Art and Design",
+      "school_zh": "麻省艺术与设计学院"
+    },
+    {
+      "school_en": "College for Creative Studies",
+      "school_zh": "创意设计学院"
+    },
+    {
+      "school_en": "Minneapolis College of Art and Design",
+      "school_zh": "明尼阿波利斯艺术与设计学院"
+    },
+    {
+      "school_en": "Academy of Art University",
+      "school_zh": "旧金山艺术大学"
+    },
+    {
+      "school_en": "Illinois Institute of Technology",
+      "school_zh": "伊利诺伊理工学院"
+    },
+    {
+      "school_en": "Pennsylvania State University",
+      "school_zh": "宾州州立大学帕克分校"
+    },
+    {
+      "school_en": "Stevens Institute of Technology",
+      "school_zh": "史蒂文斯科技学院"
+    },
+    {
+      "school_en": "University of Kansas",
+      "school_zh": "堪萨斯大学"
+    },
+    {
+      "school_en": "Virginia Commonwealth University",
+      "school_zh": "弗吉尼亚联邦大学"
+    },
+    {
+      "school_en": "Columbia College Chicago",
+      "school_zh": "芝加哥哥伦比亚学院"
+    }
+  ],
+  "UK": [
+    {
+      "school_en": "Royal College of Art",
+      "school_zh": "皇家艺术学院"
+    },
+    {
+      "school_en": "University College London",
+      "school_zh": "伦敦大学学院"
+    },
+    {
+      "school_en": "Imperial College London",
+      "school_zh": "伦敦帝国理工学院"
+    },
+    {
+      "school_en": "University of Cambridge",
+      "school_zh": "剑桥大学"
+    },
+    {
+      "school_en": "University of Edinburgh",
+      "school_zh": "爱丁堡大学"
+    },
+    {
+      "school_en": "University of the Arts London",
+      "school_zh": "伦敦艺术大学"
+    },
+    {
+      "school_en": "Central Saint Martins",
+      "school_zh": "中央圣马丁艺术与设计学院"
+    },
+    {
+      "school_en": "London College of Communication",
+      "school_zh": "伦敦传媒学院"
+    },
+    {
+      "school_en": "Goldsmiths University of London",
+      "school_zh": "伦敦大学金匠学院"
+    },
+    {
+      "school_en": "The Glasgow School of Art",
+      "school_zh": "格拉斯哥艺术学院"
+    },
+    {
+      "school_en": "Loughborough University",
+      "school_zh": "拉夫堡大学"
+    },
+    {
+      "school_en": "AA",
+      "school_zh": "建筑联盟学院"
+    },
+    {
+      "school_en": "University of Manchester",
+      "school_zh": "曼彻斯特大学"
+    },
+    {
+      "school_en": "University of Sheffield",
+      "school_zh": "谢菲尔德大学"
+    },
+    {
+      "school_en": "Brunel University London",
+      "school_zh": "布鲁内尔大学"
+    },
+    {
+      "school_en": "Camberwell College of Arts",
+      "school_zh": "坎伯韦尔艺术学院（UAL）"
+    },
+    {
+      "school_en": "Creative Computing Institute (UAL)",
+      "school_zh": "创意计算研究所（UAL）"
+    },
+    {
+      "school_en": "University of Bristol",
+      "school_zh": "布里斯托大学"
+    },
+    {
+      "school_en": "Kingston University London",
+      "school_zh": "金斯顿大学"
+    },
+    {
+      "school_en": "University of Leeds",
+      "school_zh": "利兹大学"
+    },
+    {
+      "school_en": "Newcastle University",
+      "school_zh": "纽卡斯尔大学"
+    },
+    {
+      "school_en": "University of Glasgow",
+      "school_zh": "格拉斯哥大学"
+    },
+    {
+      "school_en": "University of Nottingham",
+      "school_zh": "诺丁汉大学"
+    },
+    {
+      "school_en": "University of Birmingham",
+      "school_zh": "伯明翰大学"
+    },
+    {
+      "school_en": "University of York",
+      "school_zh": "约克大学"
+    },
+    {
+      "school_en": "University of St Andrews",
+      "school_zh": "圣安德鲁斯大学"
+    },
+    {
+      "school_en": "University of Westminster",
+      "school_zh": "威斯敏斯特大学"
+    },
+    {
+      "school_en": "Birmingham City University",
+      "school_zh": "伯明翰城市大学"
+    },
+    {
+      "school_en": "University for the Creative Arts",
+      "school_zh": "创意艺术大学"
+    },
+    {
+      "school_en": "University of Brighton",
+      "school_zh": "布莱顿大学"
+    },
+    {
+      "school_en": "London Metropolitan University",
+      "school_zh": "伦敦城市大学"
+    },
+    {
+      "school_en": "Manchester Metropolitan University",
+      "school_zh": "曼彻斯特城市大学"
+    },
+    {
+      "school_en": "The University of Liverpool",
+      "school_zh": "利物浦大学"
+    }
+  ],
+  "HK_SG": [
+    {
+      "school_en": "The University of Hong Kong",
+      "school_zh": "香港大学"
+    },
+    {
+      "school_en": "National University of Singapore",
+      "school_zh": "新加坡国立大学"
+    },
+    {
+      "school_en": "The Hong Kong Polytechnic University",
+      "school_zh": "香港理工大学"
+    },
+    {
+      "school_en": "Hong Kong Baptist University",
+      "school_zh": "香港浸会大学"
+    }
+  ],
+  "OTHER": [
+    {
+      "school_en": "Delft University of Technology",
+      "school_zh": "代尔夫特理工大学"
+    },
+    {
+      "school_en": "ETH Zürich",
+      "school_zh": "苏黎世联邦理工学院"
+    },
+    {
+      "school_en": "Aalto University",
+      "school_zh": "阿尔托大学"
+    },
+    {
+      "school_en": "Politecnico di Milano",
+      "school_zh": "米兰理工大学"
+    },
+    {
+      "school_en": "Umeå University",
+      "school_zh": "于默奥大学"
+    },
+    {
+      "school_en": "Design Academy Eindhoven",
+      "school_zh": "埃因霍温设计学院"
+    },
+    {
+      "school_en": "KTH Royal Institute of Technology",
+      "school_zh": "瑞典皇家理工学院"
+    },
+    {
+      "school_en": "Eindhoven University of Technology",
+      "school_zh": "埃因霍温理工大学"
+    },
+    {
+      "school_en": "Chalmers University of Technology",
+      "school_zh": "查尔姆斯理工大学"
+    },
+    {
+      "school_en": "Berlin University of the Arts (UdK)",
+      "school_zh": "柏林艺术大学"
+    },
+    {
+      "school_en": "Royal Danish Academy of Architecture",
+      "school_zh": "丹麦皇家建筑学院"
+    },
+    {
+      "school_en": "Aarhus School of Architecture",
+      "school_zh": "奥胡斯建筑学院"
+    },
+    {
+      "school_en": "Konstfack University of Arts Crafts and Design",
+      "school_zh": "瑞典国立艺术与设计大学"
+    },
+    {
+      "school_en": "Lund University",
+      "school_zh": "隆德大学"
+    },
+    {
+      "school_en": "AA",
+      "school_zh": "建筑联盟学院"
+    },
+    {
+      "school_en": "Domus Academy",
+      "school_zh": "多姆斯设计学院"
+    },
+    {
+      "school_en": "Nuova Accademia di Belle Arti Milano（NABA）",
+      "school_zh": "米兰新美术学院"
+    },
+    {
+      "school_en": "Danmarks Tekniske Universitet",
+      "school_zh": "丹麦技术大学"
+    },
+    {
+      "school_en": "Aalborg Universitet",
+      "school_zh": "奥尔堡大学"
+    },
+    {
+      "school_en": "The Oslo School of Architecture and Design",
+      "school_zh": "奥斯陆建筑与设计学院"
+    },
+    {
+      "school_en": "University of Twente",
+      "school_zh": "特文特大学"
+    },
+    {
+      "school_en": "Politecnico di Torino",
+      "school_zh": "都灵理工大学"
+    },
+    {
+      "school_en": "Università degli Studi Di Firenze",
+      "school_zh": "佛罗伦萨大学"
+    },
+    {
+      "school_en": "Sapienza University of Rome",
+      "school_zh": "罗马第一大学"
+    },
+    {
+      "school_en": "University of Bologna",
+      "school_zh": "博洛尼亚大学"
+    },
+    {
+      "school_en": "Istituto Europeo di Design (IED)",
+      "school_zh": "欧洲设计学院（IED）"
+    },
+    {
+      "school_en": "Istituto Marangoni",
+      "school_zh": "马兰戈尼学院"
+    },
+    {
+      "school_en": "IAAD",
+      "school_zh": "意大利高等应用艺术与设计学院"
+    },
+    {
+      "school_en": "Scuola Politecnica di Design (SPD)",
+      "school_zh": "米兰工业设计学院"
+    },
+    {
+      "school_en": "Design School Kolding",
+      "school_zh": "丹麦科灵设计学院"
+    },
+    {
+      "school_en": "Royal Academy of Art  The Hague",
+      "school_zh": "荷兰海牙皇家艺术学院"
+    },
+    {
+      "school_en": "University of Lapland",
+      "school_zh": "拉普兰大学"
+    },
+    {
+      "school_en": "University of Tampere",
+      "school_zh": "坦佩雷大学"
+    },
+    {
+      "school_en": "Uppsala University",
+      "school_zh": "乌普萨拉大学"
+    },
+    {
+      "school_en": "Utrecht University",
+      "school_zh": "乌得勒支大学"
+    },
+    {
+      "school_en": "Jönköping University",
+      "school_zh": "延雪平大学"
+    },
+    {
+      "school_en": "University of Melbourne",
+      "school_zh": "墨尔本大学"
+    }
+  ],
+  "_meta": {
+    "sidebar_job_max_per_group": 3,
+    "sidebar_job_one_per_school": true,
+    "sidebar_company_total": 5,
+    "sidebar_company_one_per_school": true,
+    "country_groups": {
+      "US": [
+        "US"
+      ],
+      "UK": [
+        "UK"
+      ],
+      "HK_SG": [
+        "HK",
+        "SG"
+      ],
+      "OTHER": [
+        "EU",
+        "AU"
+      ]
+    },
+    "group_labels": {
+      "US": "🇺🇸 美国",
+      "UK": "🇬🇧 英国",
+      "HK_SG": "🇭🇰 港新",
+      "OTHER": "🌏 其他"
+    }
+  }
+}

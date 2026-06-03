@@ -1,0 +1,262 @@
+/* ═══════════════════════════════════════════
+   IST WEBSITE — THEME & LAYOUT
+   Migration note: all visual tokens in :root.
+   Layout classes are semantic, not cosmetic.
+   CSS custom properties = single place to restyle.
+═══════════════════════════════════════════ */
+
+/* ── TOKENS ─────────────────────────────────
+   DARK-FIRST. Brand blue + lime locked; everything
+   else is a near-black layered surface system with
+   surgical glow. Flip a value here → whole site shifts.
+─────────────────────────────────────────── */
+:root {
+  /* Brand — LOCKED */
+  --color-primary:     #1F28E8;   /* electric blue — fills, CTAs */
+  --color-accent:      #E2F169;   /* lime — highlight, data, em */
+
+  /* Brand — derived (for legibility + glow on near-black) */
+  --color-primary-bright: #5A67FF;  /* brighter blue for text/links on dark */
+  --color-primary-deep:   #10166B;  /* recessed blue, borders, fills */
+  --color-primary-veil:   rgba(31,40,232,.14);
+  --color-accent-bright:  #ECFF7A;
+  --color-accent-veil:    rgba(226,241,105,.12);
+
+  --color-black:       #050608;   /* void — navbar, deepest */
+  --color-white:       #FFFFFF;
+
+  /* Surfaces — dark, layered (low → high) */
+  --color-void:        #050608;
+  --color-bg:          #0A0C11;   /* page + card base */
+  --color-surface:     #12151D;   /* raised chip / inset / avatar */
+  --color-surface-2:   #1A1E29;   /* hover / higher elevation */
+  --color-border:      #20242E;   /* hairline grid + dividers */
+  --color-border-2:    #2C313E;   /* stronger divider / focus ring */
+
+  /* Ink */
+  --color-text:        #ECEFF4;
+  --color-text-secondary: #C2C9D4;   /* body copy on dark — readable, not stark */
+  --color-text-muted:  #8A93A3;
+  --color-text-faint:  #545C6B;
+
+  /* Industry colors (tags/accents) — brightened for dark */
+  --color-internet:    #5A67FF;
+  --color-hardware:    #FF9A3D;
+  --color-culture:     #C06BFF;
+  --color-brand:       #46B6FF;
+  --color-arch:        #4FD18B;
+
+  /* Semantic — dark-surface chips (veil bg + bright ink) */
+  --color-success:        #4FD18B;
+  --color-success-veil:   rgba(79,209,139,.14);
+  --color-danger:         #FF5A6E;
+  --color-danger-veil:    rgba(255,90,110,.14);
+  --color-warning:        #FF9A3D;
+  --color-warning-veil:   rgba(255,154,61,.14);
+
+  /* Glow signatures (surgical) */
+  --glow-primary:      0 0 0 1px rgba(90,103,255,.35), 0 0 28px rgba(31,40,232,.55);
+  --glow-primary-soft: 0 0 40px rgba(31,40,232,.35);
+  --glow-accent:       0 0 24px rgba(226,241,105,.38);
+  --glow-accent-soft:  0 0 60px rgba(226,241,105,.18);
+  --shadow-card:       0 1px 0 rgba(255,255,255,.03), 0 12px 30px -16px rgba(0,0,0,.7);
+  --shadow-pop:        0 24px 60px -20px rgba(0,0,0,.85);
+
+  /* Typography */
+  --font-en:   'Space Grotesk', sans-serif;
+  --font-cn:   'Noto Sans SC', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;  /* technical metadata, timestamps, data */
+  --text-xs:   11px;
+  --text-sm:   12px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   20px;
+  --text-xl:   28px;
+  --text-2xl:  40px;
+  --text-3xl:  60px;
+  --text-4xl:  clamp(56px, 8vw, 104px);  /* hero display */
+
+  /* Radius — small, modern */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   14px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  80px;
+  --space-10: 120px;
+
+  /* Layout */
+  --navbar-h:     56px;
+  --sidebar-w:    520px;
+  --content-max:  1240px;
+  --section-pad:  72px 40px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(.2,.8,.2,1);
+  --transition-med:  0.32s cubic-bezier(.2,.8,.2,1);
+  --transition-slow: 0.6s  cubic-bezier(.2,.8,.2,1);
+  --ease-out: cubic-bezier(.2,.8,.2,1);
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-cn);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Faint lab-grid texture across the whole canvas */
+body::before {
+  content: "";
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(1100px 700px at 88% -8%, var(--color-primary-veil), transparent 60%),
+    radial-gradient(900px 600px at -6% 108%, var(--color-accent-veil), transparent 60%),
+    linear-gradient(var(--color-border) 1px, transparent 1px) 0 0 / 100% 64px,
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px) 0 0 / 64px 100%;
+  opacity: .35;
+  -webkit-mask-image: radial-gradient(120% 90% at 50% 0%, #000 30%, transparent 80%);
+          mask-image: radial-gradient(120% 90% at 50% 0%, #000 30%, transparent 80%);
+}
+.navbar, .page, .sidebar, .sidebar-overlay, .search-results { position: relative; z-index: 1; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; color: inherit; border: none; background: none; }
+ul, ol { list-style: none; }
+img { max-width: 100%; display: block; }
+
+/* ── UTILITY ── */
+.u-visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+.u-en { font-family: var(--font-en); }
+.u-muted { color: var(--color-text-muted); }
+.u-faint  { color: var(--color-text-faint); }
+.u-primary { color: var(--color-primary-bright); }
+.u-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ── PAGE SWITCHING ── */
+.page { display: none; padding-top: var(--navbar-h); }
+.page.is-active { display: block; }
+
+/* ── SECTION WRAPPER ── */
+.section-wrap { max-width: var(--content-max); margin: 0 auto; padding: var(--section-pad); }
+.section-eyebrow {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-en);
+  font-size: var(--text-xs);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--color-primary-bright);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+.section-eyebrow::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--color-accent); box-shadow: var(--glow-accent);
+}
+.section-title  { font-size: var(--text-xl); font-weight: 700; line-height: 1.12; letter-spacing: -.02em; margin-bottom: var(--space-3); text-wrap: balance; }
+.section-desc   { font-size: var(--text-base); color: var(--color-text-muted); max-width: 640px; line-height: 1.85; text-wrap: pretty; }
+.section-divider { border: none; border-top: 1px solid var(--color-border); margin: var(--space-7) 0; }
+
+/* ── GRID HELPERS ── */
+/* Fluid: tracks auto-fit the container width — no horizontal overflow, adapts at every size.
+   minmax floor keeps cards legible; they reflow column-count instead of squashing. */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(218px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-5 { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 3px; background: var(--color-border); }
+.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > * { background: var(--color-bg); min-width: 0; }
+
+/* ── TAG / BADGE ── */
+.tag {
+  display: inline-block;
+  font-size: var(--text-xs);
+  padding: 2px 8px;
+  font-family: var(--font-en);
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+.tag--primary  { background: var(--color-primary); color: #fff; }
+.tag--accent   { background: var(--color-accent);  color: var(--color-black); }
+.tag--surface  { background: var(--color-surface);  color: var(--color-text-muted); border: 1px solid var(--color-border); }
+.tag--outline  { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); }
+
+/* ── FILTER BAR ── */
+.filter-bar { display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; margin-bottom: var(--space-4); }
+.filter-bar__label { font-size: var(--text-xs); color: var(--color-text-muted); margin-right: var(--space-1); }
+.filter-btn {
+  padding: 5px 15px;
+  font-size: var(--text-xs);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-fast);
+  font-family: var(--font-cn);
+}
+.filter-btn:hover { border-color: var(--color-primary-bright); color: var(--color-text); background: var(--color-surface-2); }
+.filter-btn.is-active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); box-shadow: var(--glow-primary-soft); }
+
+/* ── TAB BAR ── */
+.tab-bar { display: flex; gap: 2px; background: var(--color-border); flex-wrap: wrap; }
+.tab-btn {
+  padding: 8px 20px;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+  font-family: var(--font-cn);
+  border: none;
+}
+.tab-btn:hover { color: var(--color-text); background: var(--color-surface); }
+.tab-btn.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
+.tab-panel { display: none; }
+.tab-panel.is-active { display: block; }
+
+/* ── ENTRANCE ANIMATIONS ── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes glowPulse {
+  0%,100% { opacity: .55; }
+  50%     { opacity: 1; }
+}
+@keyframes drift {
+  0%   { transform: translate3d(0,0,0) scale(1); }
+  50%  { transform: translate3d(2%, -3%, 0) scale(1.06); }
+  100% { transform: translate3d(0,0,0) scale(1); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .7s var(--ease-out) both; }
+  .reveal-1 { animation-delay: .05s; }
+  .reveal-2 { animation-delay: .14s; }
+  .reveal-3 { animation-delay: .24s; }
+  .reveal-4 { animation-delay: .34s; }
+  .reveal-5 { animation-delay: .46s; }
+}
+
+/* Scroll-reveal — only active once effects.js confirms support (body.fx-ready).
+   Without JS the sections render normally. */
+.fx-ready .home-section {
+  opacity: 0; transform: translateY(26px);
+  transition: opacity .7s var(--ease-out), transform .7s var(--ease-out);
+}
+.fx-ready .home-section.in-view { opacity: 1; transform: none; }

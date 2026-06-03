@@ -1,0 +1,84 @@
+/* ═══════════════════════════════════════════
+   ROUTER — page switching + scroll helpers
+═══════════════════════════════════════════ */
+const Router = {
+  current: 'home',
+
+  go(pageId, opts = {}) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('is-active'));
+    document.querySelectorAll('.navbar__btn').forEach(b => b.classList.remove('is-active'));
+
+    const page = document.getElementById('page-' + pageId);
+    if (!page) return;
+    page.classList.add('is-active');
+    this.current = pageId;
+
+    // Sync navbar active state
+    const navMap = { home: 0, portfolio: 4, timeline: 5 };
+    if (navMap[pageId] !== undefined)
+      document.querySelectorAll('.navbar__btn')[navMap[pageId]]?.classList.add('is-active');
+
+    if (opts.scrollTo) {
+      setTimeout(() => this.scrollTo(opts.scrollTo), 100);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  },
+
+  scrollTo(selector, extraOffset = 0) {
+    const el = typeof selector === 'string' ? document.querySelector(selector) : selector;
+    if (!el) return;
+    const navH = 52 + (document.querySelector('.industry-nav') ? 48 : 0);
+    const top = el.getBoundingClientRect().top + window.scrollY - navH - extraOffset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  },
+
+  goToCoursesTab(tabId) {
+    this.go('home');
+    setTimeout(() => {
+      const btn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+      if (btn) Tabs.switchCourse(tabId, btn);
+      this.scrollTo('#courses');
+    }, 200);
+  },
+
+  goToIndustry(indId) {
+    if (this.current !== 'planning') {
+      this.go('planning');
+      setTimeout(() => this._scrollToIndustry(indId), 250);
+    } else {
+      this._scrollToIndustry(indId);
+    }
+  },
+
+  _scrollToIndustry(indId) {
+    const el = document.getElementById('sec-' + indId);
+    if (el) this.scrollTo(el);
+    document.querySelectorAll('.industry-nav__btn').forEach(b => b.classList.remove('is-active'));
+    document.getElementById('nav-' + indId)?.classList.add('is-active');
+  },
+};
+
+const Tabs = {
+  switchCourse(tabId, btn) {
+    document.querySelectorAll('#courses .tab-btn').forEach(b => b.classList.remove('is-active'));
+    document.querySelectorAll('#courses .tab-panel').forEach(p => p.classList.remove('is-active'));
+    btn?.classList.add('is-active');
+    document.getElementById('tab-' + tabId)?.classList.add('is-active');
+  },
+
+  switchTrack(trackId, btn) {
+    document.querySelectorAll('.track-tab').forEach(b => b.classList.remove('is-active'));
+    document.querySelectorAll('.track-panel').forEach(p => p.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    document.getElementById('track-' + trackId)?.classList.add('is-active');
+  },
+
+  switchCountrySidebar(group, btn) {
+    const sid = document.getElementById('sidebar');
+    sid.querySelectorAll('.country-tab').forEach(b => b.classList.remove('is-active'));
+    sid.querySelectorAll('.country-tab-panel').forEach(p => p.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    sid.querySelector('.country-tab-panel[data-group="' + group + '"]')?.classList.add('is-active');
+  },
+};
