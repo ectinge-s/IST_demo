@@ -12,7 +12,7 @@ SFK · 交互科技与空间科系 · Interactive & Spatial Technology
 
 ### Hero 主标题（h1）
 ```
- × 技术 × 系统
+设计 × 技术 × 系统
 重构你的未来路径
 ```
 *（"重构你的未来路径" em 高亮，配色 lime）*
