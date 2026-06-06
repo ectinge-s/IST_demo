@@ -62,8 +62,9 @@ const PlanningPage = {
       // Core skills from taxonomy
       const skills = (t.legacy_subdirections || []).concat(t.new_subdirections || []);
 
-      // School match partial
-      const schoolPicks = Schools.pickForSidebar(ind.id, 3);
+      // School match partial — use first direction as default context for section header
+      const defaultDir = directions[0] ? directions[0].job_direction : '';
+      const schoolPicks = Schools.pickForSidebar(ind.id, 3, defaultDir, '');
 
       const copy = PlanningPage._getIntro(ind.id);
       return `
@@ -109,7 +110,7 @@ const PlanningPage = {
                         onclick="PlanningPage.filterTier('${ind.id}','${t}',this)">${t}</button>`).join('')}
             </div>
             <div class="company-tag-cloud" id="colist-${ind.id}">
-              ${companies.map(c => `
+              ${companies.slice(0, 20).map(c => `
                 <span class="company-tag" data-tier="${c.tier}"
                       onclick="PlanningPage.openCompanySidebar(DATA.careers.find(x=>x.id==='${c.id}'))">
                   ${c.company}
@@ -233,7 +234,7 @@ const PlanningPage = {
               ${s.prog.program_name_en || s.prog.program_name_zh}
             </div>
             <div class="school-grid-card__meta">
-              ${[s.prog.gpa_requirement, s.prog.language_scores].filter(Boolean).join(' · ')}
+              ${s.prog.program_name_zh || ''}
             </div>
           </div>
         </div>`).join('')}
@@ -249,7 +250,7 @@ const PlanningPage = {
       panel.classList.remove('u-visually-hidden');
       // Lazy-render if not yet rendered
       if (!panel.dataset.rendered) {
-        const picks = Schools.pickForSidebar(indId, 3);
+        const picks = Schools.pickForSidebar(indId, 3, panel.dataset.roleText || '', panel.dataset.companyText || '');
         panel.innerHTML = this._renderSchoolGrid(indId, group, picks);
         panel.dataset.rendered = '1';
       }
@@ -268,7 +269,7 @@ const PlanningPage = {
 
     const panels = GROUPS.map(([g]) => `
       <div class="country-tab-panel${g===activeGroup?' is-active':''}" data-group="${g}">
-        ${Schools.renderFullList(indId, g)}
+        ${Schools.renderFullList(indId, g, '', '')}
       </div>`).join('');
 
     Sidebar.open(`
@@ -287,7 +288,8 @@ const PlanningPage = {
   openCompanySidebar(c) {
     if (!c) return;
     const IND_ID = {'互联网科技':'internet','智能实体产业':'hardware','数字文化娱乐':'culture','品牌与服务':'brand','建筑环境科技':'arch'};
-    const schoolPicks = Schools.pickForCompany(IND_ID[c.industry] || 'internet', 5);
+    const indId = IND_ID[c.industry] || 'internet';
+    const schoolPicks = Schools.pickForCompany(indId, 10, c.job_direction || '', c.company || '');
 
     Sidebar.open(`
       <div class="sidebar__header">
@@ -323,13 +325,7 @@ const PlanningPage = {
         <hr class="sidebar__divider">
         <div class="sidebar__section">
           <div class="sidebar__section-label">代表性学历背景</div>
-          <div class="school-list">
-            ${schoolPicks.map(s => `
-              <div class="school-list-item">
-                <div class="school-list-item__name">${s.school_en} <span class="zh">${s.school_zh}</span></div>
-                <div class="school-list-item__prog">${s.prog.program_name_en || s.prog.program_name_zh}</div>
-              </div>`).join('')}
-          </div>
+          ${Schools._renderFlat(schoolPicks)}
         </div>
       </div>`);
   },
@@ -337,18 +333,8 @@ const PlanningPage = {
   openJobSidebar(indId, direction) {
     const ind = INDUSTRIES.find(i => i.id === indId);
     const jobs = DATA.careers.filter(c => c.job_direction === direction && c.industry === ind.name);
-    const schoolPicks = Schools.pickForSidebar(indId, 3);
-    const GROUPS = [['US','🇺🇸 美国'],['UK','🇬🇧 英国'],['HK_SG','🇭🇰 港新'],['OTHER','🌏 其他']];
-
-    const tabs = GROUPS.map(([g,label]) =>
-      `<button class="country-tab${g==='US'?' is-active':''}"
-               onclick="Tabs.switchCountrySidebar('${g}',this)">${label}</button>`
-    ).join('');
-
-    const panels = GROUPS.map(([g]) => `
-      <div class="country-tab-panel${g==='US'?' is-active':''}" data-group="${g}">
-        ${Schools.renderFullList(indId, g)}
-      </div>`).join('');
+    const companyContext = jobs.map(j => j.company).join(' ');
+    const schoolPicks = Schools.pickForJob(indId, direction, companyContext);
 
     const job = jobs[0] || {};
     Sidebar.open(`
@@ -372,9 +358,8 @@ const PlanningPage = {
           </div>` : ''}
         <hr class="sidebar__divider">
         <div class="sidebar__section">
-          <div class="sidebar__section-label">代表性可匹配专业（按国家）</div>
-          <div class="country-tabs">${tabs}</div>
-          ${panels}
+          <div class="sidebar__section-label">代表性可匹配专业</div>
+          ${Schools._renderFlat(schoolPicks)}
         </div>
       </div>`);
   },

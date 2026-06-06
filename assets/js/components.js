@@ -17,40 +17,97 @@ const Sidebar = {
   },
 };
 
-/* ── SCHOOL HELPERS ── */
-const Schools = {
-  // Get country group key for a program
-  groupOf(country) {
-    if (country === 'US') return 'US';
-    if (country === 'UK') return 'UK';
-    if (country === 'HK' || country === 'SG') return 'HK_SG';
-    return 'OTHER';
+/* ── PROGRAM SCORING ENGINE ── */
+const ProgramScorer = {
+  // Topic keyword sets — checked against program name + college name
+  TOPICS: {
+    ux:          ['interaction','user experience','ux','hci','human-computer','human computer','交互','用户体验','人机交互'],
+    product:     ['product design','product development','integrated product','产品设计','产品开发','工业设计'],
+    service:     ['service design','服务设计'],
+    research:    ['design studies','design research','设计研究','design thinking'],
+    digital:     ['digital media','media design','数字媒体','new media','数字'],
+    ai:          ['artificial intelligence','machine learning','computational','智能','人工智能','数据','data science'],
+    tech:        ['technology','innovation','engineering design','科技','技术创新'],
+    game:        ['game','entertainment design','游戏','entertainment technology'],
+    xr:          ['xr','vr ','ar ','immersive','mixed reality','extended reality','沉浸','虚拟现实','增强现实'],
+    brand:       ['brand','communication design','graphic design','visual communication','品牌','视觉传达','平面设计'],
+    media:       ['media','communication','advertising','传播','媒体','广告'],
+    film:        ['film','screen','motion','影视','电影'],
+    animation:   ['animation','motion design','动画'],
+    arch:        ['architecture','建筑','architectural'],
+    space:       ['spatial','space design','interior','室内','空间设计'],
+    landscape:   ['landscape','景观'],
+    urban:       ['urban','city design','planning','城市','规划'],
+    sustainable: ['sustainable','sustainability','可持续','environmental'],
+    parametric:  ['parametric','computational design','参数化','digital fabrication'],
+    industrial:  ['industrial design','product engineering','工业设计','设计工程'],
+    engineering: ['engineering','mechatronics','工程','机械'],
+    social:      ['social innovation','social design','社会创新','social impact'],
+    fashion:     ['fashion','textile','时尚','服装'],
+    creative:    ['creative technology','creative computing','创意科技'],
+    visual:      ['visual art','fine art','visual design','视觉艺术','纯艺'],
+    strategy:    ['strategy','management','innovation management','策略','管理'],
   },
 
-  // Pick up to maxPerGroup programs per country group, one per school,
-  // ordered by school_priority list.
-  pickForSidebar(industryId, maxPerGroup = 3) {
-    const programs = DATA.programs.filter(p => p.industry_tags.includes(industryId));
-    const priority = DATA.school_priority;
+  // Industry → relevant topic clusters
+  IND_TOPICS: {
+    internet: ['ux','product','digital','ai','tech','service','research'],
+    hardware: ['industrial','engineering','product','tech','ai','parametric'],
+    culture:  ['game','xr','animation','film','digital','media','creative','visual'],
+    brand:    ['brand','media','visual','creative','social','service','strategy'],
+    arch:     ['arch','space','urban','landscape','parametric','sustainable','industrial'],
+  },
+
+  extractTopics(text) {
+    const t = text.toLowerCase();
+    const found = new Set();
+    for (const [topic, kws] of Object.entries(this.TOPICS)) {
+      if (kws.some(kw => t.includes(kw))) found.add(topic);
+    }
+    return found;
+  },
+
+  // Score a single program against role context
+  score(prog, roleText, companyText, industryId) {
+    const progText = [prog.program_name_en, prog.program_name_zh, prog.school_college].join(' ');
+    const progTopics = new Set(prog.keyword_tags || []);
+    const targetTopics = this.extractTopics(roleText + ' ' + companyText);
+    const indTopics = new Set(this.IND_TOPICS[industryId] || []);
+
+    // Specific match (role-derived keywords match program)
+    const specificHits = [...targetTopics].filter(t => progTopics.has(t)).length;
+    // Industry-level match
+    const industryHits = [...indTopics].filter(t => progTopics.has(t)).length;
+    // Industry tag match
+    const tagBonus = (prog.industry_tags || []).includes(industryId) ? 10 : 0;
+    // Prestige
+    const prestige = (prog.prestige_score || 55) * 0.3;
+
+    return specificHits * 25 + industryHits * 8 + tagBonus + prestige;
+  },
+
+  // Return top N programs scored for a role, one per school, grouped by country group
+  topByGroup(roleText, companyText, industryId, maxPerGroup = 3) {
+    const programs = DATA.programs.filter(p => (p.industry_tags || []).includes(industryId));
     const groups = ['US','UK','HK_SG','OTHER'];
     const result = {};
 
     groups.forEach(group => {
-      const countryList = priority._meta.country_groups[group];
-      const prioList = priority[group];
+      const countryList = DATA.school_priority._meta.country_groups[group];
+      const inGroup = programs.filter(p => countryList.includes(p.country));
+      // Score and sort
+      const scored = inGroup
+        .map(p => ({ p, score: this.score(p, roleText, companyText, industryId) }))
+        .sort((a, b) => b.score - a.score);
+      // One per school, top N
       const usedSchools = new Set();
       const picks = [];
-
-      for (const s of prioList) {
+      for (const { p } of scored) {
         if (picks.length >= maxPerGroup) break;
-        const match = programs.find(p =>
-          countryList.includes(p.country) &&
-          (p.school_en === s.school_en || p.school_zh === s.school_zh) &&
-          !usedSchools.has(s.school_en)
-        );
-        if (match) {
-          usedSchools.add(s.school_en);
-          picks.push({ school_en: s.school_en, school_zh: s.school_zh, prog: match });
+        const key = p.school_en || p.school_zh;
+        if (!usedSchools.has(key)) {
+          usedSchools.add(key);
+          picks.push({ school_en: p.school_en, school_zh: p.school_zh, prog: p });
         }
       }
       result[group] = picks;
@@ -58,72 +115,137 @@ const Schools = {
     return result;
   },
 
-  // Pick top 5 programs for company sidebar (across all countries, one per school)
-  pickForCompany(industryId, total = 5) {
-    const programs = DATA.programs.filter(p => p.industry_tags.includes(industryId));
-    const allPrio = [
-      ...DATA.school_priority.US,
-      ...DATA.school_priority.UK,
-      ...DATA.school_priority.HK_SG,
-      ...DATA.school_priority.OTHER,
-    ];
-    const usedSchools = new Set();
+  // Country quota: how many schools to show per country group in flat rec lists
+  // Total should add up to the desired max (10)
+  COUNTRY_QUOTA: { US: 4, UK: 4, HK_SG: 2, OTHER: 0 },
+
+  // Return flat top N across countries respecting COUNTRY_QUOTA, one school per slot, best program per school
+  topFlat(roleText, companyText, industryId, total = 10) {
+    const programs = DATA.programs.filter(p => (p.industry_tags || []).includes(industryId));
+    const groups = DATA.school_priority._meta.country_groups;
     const picks = [];
 
-    for (const s of allPrio) {
-      if (picks.length >= total) break;
-      const match = programs.find(p =>
-        (p.school_en === s.school_en || p.school_zh === s.school_zh) &&
-        !usedSchools.has(s.school_en)
-      );
-      if (match) {
-        usedSchools.add(s.school_en);
-        picks.push({ school_en: s.school_en, school_zh: s.school_zh, prog: match });
+    for (const [group, quota] of Object.entries(this.COUNTRY_QUOTA)) {
+      if (quota <= 0) continue;
+      const countryList = groups[group] || [];
+      const inGroup = programs.filter(p => countryList.includes(p.country));
+      const scored = inGroup
+        .map(p => ({ p, score: this.score(p, roleText, companyText, industryId) }))
+        .sort((a, b) => b.score - a.score);
+      const usedSchools = new Set();
+      let taken = 0;
+      for (const { p } of scored) {
+        if (taken >= quota) break;
+        const key = p.school_en || p.school_zh;
+        if (!usedSchools.has(key)) {
+          usedSchools.add(key);
+          picks.push({ school_en: p.school_en, school_zh: p.school_zh, prog: p });
+          taken++;
+        }
       }
     }
     return picks;
   },
 
-  // Render full list (all programs for industry + country group) for the "view all" sidebar
-  renderFullList(industryId, group) {
-    const countryList = DATA.school_priority._meta.country_groups[group];
+  // Return top schools for a group, one best-matching program per school, max maxSchools schools
+  topForGroup(roleText, companyText, industryId, group, maxSchools = 10) {
+    const countryList = DATA.school_priority._meta.country_groups[group] || [];
     const programs = DATA.programs.filter(p =>
-      p.industry_tags.includes(industryId) && countryList.includes(p.country)
+      (p.industry_tags || []).includes(industryId) && countryList.includes(p.country)
     );
-    // Group by school using priority order
-    const prioList = DATA.school_priority[group];
+    // Score every program, then group by school keeping only the best program per school
     const schoolMap = {};
     programs.forEach(p => {
       const key = p.school_en || p.school_zh;
-      if (!schoolMap[key]) schoolMap[key] = { school_en: p.school_en, school_zh: p.school_zh, progs: [] };
-      schoolMap[key].progs.push(p);
+      const s = this.score(p, roleText, companyText, industryId);
+      if (!schoolMap[key] || s > schoolMap[key].score) {
+        schoolMap[key] = { school_en: p.school_en, school_zh: p.school_zh, prog: p, score: s };
+      }
     });
+    return Object.values(schoolMap)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, maxSchools);
+  },
+};
 
-    // Sort schools by priority
-    const prioKeys = prioList.map(s => s.school_en);
-    const sorted = Object.values(schoolMap).sort((a, b) => {
-      const ai = prioKeys.indexOf(a.school_en);
-      const bi = prioKeys.indexOf(b.school_en);
-      return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
-    });
+/* ── SCHOOL HELPERS ── */
+const Schools = {
+  groupOf(country) {
+    if (country === 'US') return 'US';
+    if (country === 'UK') return 'UK';
+    if (country === 'HK' || country === 'SG') return 'HK_SG';
+    return 'OTHER';
+  },
 
-    if (!sorted.length) return `<p class="u-muted" style="padding:16px 0;font-size:13px;">暂无数据</p>`;
-
-    return sorted.map(s => `
+  // Shared item renderer — shows school name + program EN name + program ZH name
+  _itemHtml(school_en, school_zh, p) {
+    const url = p.program_url || 'https://www.google.com/search?q=' + encodeURIComponent((school_en||school_zh||'') + ' ' + (p.program_name_en||''));
+    return `
       <div class="school-list-item">
-        <div class="school-list-item__name">
-          ${s.school_en} <span class="zh">${s.school_zh}</span>
+        <div class="school-list-item__name">${school_en || school_zh} <span class="zh">${school_zh}</span></div>
+        <div class="school-list-item__prog" onclick="window.open('${url}','_blank')" style="cursor:pointer">
+          ${p.program_name_en || p.program_name_zh}
         </div>
-        ${s.progs.map(p => `
-          <div class="school-list-item__prog"
-               onclick="window.open('${p.program_url || 'https://www.google.com/search?q=' + encodeURIComponent(p.school_en + ' ' + p.program_name_en)}','_blank')">
+        <div class="school-list-item__meta">${p.program_name_zh || ''}</div>
+      </div>`;
+  },
+
+  // Render a flat list of school picks (used by both company + job sidebars)
+  _renderFlat(picks) {
+    if (!picks.length) return `<p class="u-muted" style="padding:16px 0;font-size:13px;">暂无数据</p>`;
+    return `<div class="school-list">${picks.map(s => this._itemHtml(s.prog.school_en, s.prog.school_zh, s.prog)).join('')}</div>`;
+  },
+
+  // Role-aware flat list for company sidebar (10 schools, quota by country)
+  pickForCompany(industryId, total = 10, roleText = '', companyText = '') {
+    return ProgramScorer.topFlat(roleText, companyText, industryId, total);
+  },
+
+  // Role-aware flat list for job sidebar (same format, same quota)
+  pickForJob(industryId, roleText = '', companyText = '') {
+    return ProgramScorer.topFlat(roleText, companyText, industryId, 10);
+  },
+
+  // For the country-tabbed "可匹配院校专业" full view — ALL programs for industry,
+  // grouped by school, schools sorted by best program score, all programs shown per school
+  renderFullList(industryId, group, roleText = '', companyText = '') {
+    const countryList = DATA.school_priority._meta.country_groups[group] || [];
+    const programs = DATA.programs.filter(p =>
+      (p.industry_tags || []).includes(industryId) && countryList.includes(p.country)
+    );
+    if (!programs.length) return `<p class="u-muted" style="padding:16px 0;font-size:13px;">暂无数据</p>`;
+
+    // Group by school, score each program
+    const schoolMap = {};
+    programs.forEach(p => {
+      const key = p.school_en || p.school_zh;
+      if (!schoolMap[key]) schoolMap[key] = { school_en: p.school_en, school_zh: p.school_zh, progs: [], topScore: 0 };
+      const s = ProgramScorer.score(p, roleText, companyText, industryId);
+      schoolMap[key].progs.push({ p, s });
+      if (s > schoolMap[key].topScore) schoolMap[key].topScore = s;
+    });
+
+    // Sort schools by top score, then programs within each school by score
+    const sorted = Object.values(schoolMap).sort((a, b) => b.topScore - a.topScore);
+
+    return `<div class="school-list">${sorted.map(s => {
+      const sortedProgs = s.progs.sort((a, b) => b.s - a.s);
+      return `<div class="school-list-item">
+        <div class="school-list-item__name">${s.school_en || s.school_zh} <span class="zh">${s.school_zh}</span></div>
+        ${sortedProgs.map(({ p }) => {
+          const url = p.program_url || 'https://www.google.com/search?q=' + encodeURIComponent((s.school_en||s.school_zh||'') + ' ' + (p.program_name_en||''));
+          return `<div class="school-list-item__prog" onclick="window.open('${url}','_blank')" style="cursor:pointer">
             ${p.program_name_en || p.program_name_zh}
           </div>
-          <div class="school-list-item__meta">
-            ${[p.gpa_requirement, p.language_scores].filter(Boolean).join(' · ')}
-          </div>
-        `).join('')}
-      </div>`).join('');
+          <div class="school-list-item__meta">${p.program_name_zh || ''}</div>`;
+        }).join('')}
+      </div>`;
+    }).join('')}</div>`;
+  },
+
+  // Legacy — kept for section header school grid (small picks per group)
+  pickForSidebar(industryId, maxPerGroup = 3, roleText = '', companyText = '') {
+    return ProgramScorer.topByGroup(roleText, companyText, industryId, maxPerGroup);
   },
 };
 

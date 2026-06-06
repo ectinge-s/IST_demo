@@ -15,7 +15,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "UK",
@@ -34,7 +39,13 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "tech"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "UK",
@@ -53,7 +64,13 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "tech"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -71,7 +88,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "research",
+      "strategy"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -89,7 +111,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -107,7 +133,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product",
+      "xr"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "UK",
@@ -125,7 +157,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "UK",
@@ -143,7 +179,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative"
+    ],
+    "prestige_score": 67
   },
   {
     "country": "UK",
@@ -161,7 +201,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 69
   },
   {
     "country": "UK",
@@ -179,7 +223,14 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "social",
+      "sustainable",
+      "tech"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -197,7 +248,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -215,7 +270,14 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "industrial",
+      "product",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -234,7 +296,13 @@
       "hardware",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "engineering",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -252,7 +320,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -270,7 +344,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -288,7 +368,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -306,7 +390,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -324,7 +412,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "product"
+    ],
+    "prestige_score": 71
   },
   {
     "country": "UK",
@@ -342,7 +435,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "visual",
+      "creative"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "UK",
@@ -360,7 +458,14 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "strategy",
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 57
   },
   {
     "country": "UK",
@@ -379,7 +484,11 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital"
+    ],
+    "prestige_score": 61
   },
   {
     "country": "UK",
@@ -397,7 +506,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product",
+      "tech"
+    ],
+    "prestige_score": 65
   },
   {
     "country": "UK",
@@ -415,7 +529,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "product",
+      "strategy"
+    ],
+    "prestige_score": 35
   },
   {
     "country": "UK",
@@ -433,7 +553,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product"
+    ],
+    "prestige_score": 43
   },
   {
     "country": "UK",
@@ -451,7 +575,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product"
+    ],
+    "prestige_score": 37
   },
   {
     "country": "UK",
@@ -469,7 +597,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -487,7 +619,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -506,7 +644,13 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "tech"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -524,7 +668,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "research",
+      "strategy"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -542,7 +691,14 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital",
+      "engineering",
+      "media",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -560,7 +716,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -578,7 +739,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -596,7 +761,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -614,7 +783,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -632,7 +805,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -650,7 +827,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -669,7 +850,12 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "digital"
+    ],
+    "prestige_score": 85
   },
   {
     "country": "UK",
@@ -687,7 +873,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 69
   },
   {
     "country": "UK",
@@ -706,7 +896,11 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative"
+    ],
+    "prestige_score": 67
   },
   {
     "country": "UK",
@@ -724,7 +918,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -742,7 +940,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital",
+      "media",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -760,7 +964,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "strategy",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -778,7 +987,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "digital",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -796,7 +1011,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -815,7 +1034,14 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "service",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -833,7 +1059,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -851,7 +1083,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -870,7 +1108,14 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "service",
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "UK",
@@ -889,7 +1134,12 @@
       "hardware",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -908,7 +1158,12 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service",
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -926,7 +1181,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -944,7 +1204,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -962,7 +1226,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -981,7 +1249,11 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 65
   },
   {
     "country": "UK",
@@ -1000,7 +1272,12 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 65
   },
   {
     "country": "UK",
@@ -1018,7 +1295,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "arch",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 63
   },
   {
     "country": "UK",
@@ -1036,7 +1319,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "ux"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "UK",
@@ -1055,7 +1343,13 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "parametric",
+      "xr"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "UK",
@@ -1074,7 +1368,13 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "parametric",
+      "xr"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "UK",
@@ -1092,7 +1392,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "UK",
@@ -1110,7 +1415,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "media"
+    ],
+    "prestige_score": 47
   },
   {
     "country": "UK",
@@ -1128,7 +1437,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital"
+    ],
+    "prestige_score": 51
   },
   {
     "country": "UK",
@@ -1146,7 +1459,13 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "strategy",
+      "tech"
+    ],
+    "prestige_score": 71
   },
   {
     "country": "UK",
@@ -1164,7 +1483,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "engineering",
+      "ux"
+    ],
+    "prestige_score": 71
   },
   {
     "country": "UK",
@@ -1182,7 +1507,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 45
   },
   {
     "country": "UK",
@@ -1200,7 +1529,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 41
   },
   {
     "country": "UK",
@@ -1218,7 +1551,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -1236,7 +1575,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -1254,7 +1597,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "UK",
@@ -1272,7 +1619,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 53
   },
   {
     "country": "UK",
@@ -1290,7 +1641,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 59
   },
   {
     "country": "UK",
@@ -1308,7 +1663,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 49
   },
   {
     "country": "UK",
@@ -1326,7 +1685,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 39
   },
   {
     "country": "UK",
@@ -1344,7 +1707,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 43
   },
   {
     "country": "EU",
@@ -1362,7 +1729,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "EU",
@@ -1380,7 +1753,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "EU",
@@ -1398,7 +1777,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "EU",
@@ -1416,7 +1801,14 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "arch",
+      "industrial",
+      "product",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "EU",
@@ -1435,7 +1827,12 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux",
+      "digital"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "EU",
@@ -1453,7 +1850,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product",
+      "social"
+    ],
+    "prestige_score": 37
   },
   {
     "country": "EU",
@@ -1471,7 +1874,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "EU",
@@ -1489,7 +1898,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 35
   },
   {
     "country": "EU",
@@ -1507,7 +1921,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "EU",
@@ -1525,7 +1943,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "EU",
@@ -1543,7 +1966,14 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "EU",
@@ -1561,7 +1991,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 76
   },
   {
     "country": "EU",
@@ -1579,7 +2013,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 69
   },
   {
     "country": "EU",
@@ -1597,7 +2036,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 25
   },
   {
     "country": "EU",
@@ -1615,7 +2059,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 57
   },
   {
     "country": "EU",
@@ -1633,7 +2082,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "product"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "EU",
@@ -1652,7 +2106,15 @@
       "hardware",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product",
+      "strategy",
+      "tech"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "EU",
@@ -1670,7 +2132,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 33
   },
   {
     "country": "EU",
@@ -1688,7 +2155,16 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "arch",
+      "digital",
+      "media",
+      "tech",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "EU",
@@ -1706,7 +2182,14 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "tech",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "EU",
@@ -1725,7 +2208,13 @@
       "hardware",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "ux"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "EU",
@@ -1743,7 +2232,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "EU",
@@ -1761,7 +2254,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 87
   },
   {
     "country": "EU",
@@ -1779,7 +2276,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "ux"
+    ],
+    "prestige_score": 69
   },
   {
     "country": "EU",
@@ -1797,7 +2299,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 79
   },
   {
     "country": "EU",
@@ -1815,7 +2322,14 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "media",
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "EU",
@@ -1833,7 +2347,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 25
   },
   {
     "country": "EU",
@@ -1852,7 +2371,12 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "game",
+      "ux"
+    ],
+    "prestige_score": 29
   },
   {
     "country": "EU",
@@ -1870,7 +2394,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service",
+      "strategy"
+    ],
+    "prestige_score": 59
   },
   {
     "country": "EU",
@@ -1889,7 +2418,17 @@
       "brand",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "digital",
+      "service",
+      "strategy",
+      "sustainable",
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 61
   },
   {
     "country": "EU",
@@ -1907,7 +2446,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "EU",
@@ -1925,7 +2469,15 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "digital",
+      "sustainable",
+      "tech",
+      "ux"
+    ],
+    "prestige_score": 31
   },
   {
     "country": "EU",
@@ -1943,7 +2495,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "EU",
@@ -1961,7 +2517,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -1980,7 +2540,12 @@
       "brand",
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product",
+      "service"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -1998,7 +2563,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -2017,7 +2586,12 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "digital",
+      "ux"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -2035,7 +2609,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 53
   },
   {
     "country": "EU",
@@ -2053,7 +2632,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service",
+      "xr"
+    ],
+    "prestige_score": 63
   },
   {
     "country": "EU",
@@ -2072,7 +2656,13 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 63
   },
   {
     "country": "EU",
@@ -2090,7 +2680,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service"
+    ],
+    "prestige_score": 49
   },
   {
     "country": "EU",
@@ -2109,7 +2703,13 @@
       "culture",
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "creative",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "EU",
@@ -2127,7 +2727,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "research",
+      "strategy"
+    ],
+    "prestige_score": 47
   },
   {
     "country": "EU",
@@ -2145,7 +2750,14 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "engineering",
+      "industrial",
+      "product",
+      "tech"
+    ],
+    "prestige_score": 39
   },
   {
     "country": "EU",
@@ -2163,7 +2775,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 72
   },
   {
     "country": "EU",
@@ -2181,7 +2798,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "product"
+    ],
+    "prestige_score": 72
   },
   {
     "country": "EU",
@@ -2199,7 +2820,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 72
   },
   {
     "country": "EU",
@@ -2217,7 +2842,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service"
+    ],
+    "prestige_score": 72
   },
   {
     "country": "EU",
@@ -2235,7 +2864,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "EU",
@@ -2253,7 +2886,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 45
   },
   {
     "country": "HK",
@@ -2271,7 +2909,14 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "game",
+      "media",
+      "tech"
+    ],
+    "prestige_score": 93
   },
   {
     "country": "HK",
@@ -2289,7 +2934,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "service",
+      "xr"
+    ],
+    "prestige_score": 93
   },
   {
     "country": "HK",
@@ -2307,7 +2957,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "交互_file"
+    "source": "交互_file",
+    "keyword_tags": [
+      "ai",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2315,7 +2971,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA Architecture (ARB/RIBA Part 2)",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士（ARB/RIBA 二级认证）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2325,7 +2981,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2333,7 +2994,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA Interior Design",
-    "program_name_zh": "",
+    "program_name_zh": "室内设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2343,7 +3004,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2351,7 +3016,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA City Design",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2361,7 +3026,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2369,7 +3038,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA Environmental Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "环境建筑硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2379,7 +3048,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "sustainable",
+      "xr"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2387,7 +3062,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA Digital Direction",
-    "program_name_zh": "",
+    "program_name_zh": "数字创作方向硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2397,7 +3072,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "digital"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2405,7 +3084,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA/MSc Innovation Design Engineering",
-    "program_name_zh": "",
+    "program_name_zh": "创新设计工程硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2416,7 +3095,12 @@
       "brand",
       "hardware"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2424,7 +3108,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MA Information Experience Design",
-    "program_name_zh": "",
+    "program_name_zh": "信息体验设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2434,7 +3118,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "ux",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2442,7 +3132,7 @@
     "school_en": "Royal College of Art",
     "school_college": "",
     "program_name_en": "MDes Design Futures",
-    "program_name_zh": "",
+    "program_name_zh": "设计未来硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2452,7 +3142,12 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "research",
+      "strategy"
+    ],
+    "prestige_score": 99
   },
   {
     "country": "UK",
@@ -2460,7 +3155,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "MA Interior and Spatial Design (Camberwell College of Arts)",
-    "program_name_zh": "",
+    "program_name_zh": "室内与空间设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2470,7 +3165,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "space",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2478,7 +3178,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "MA Narrative Environments (Central Saint Martins)",
-    "program_name_zh": "",
+    "program_name_zh": "叙事环境设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2488,7 +3188,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "ai",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2496,7 +3201,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "MA Interaction Design Communication (London College of Communication)",
-    "program_name_zh": "",
+    "program_name_zh": "交互设计与传播硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2506,7 +3211,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "media",
+      "ux"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2514,7 +3224,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "M ARCH: Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2524,7 +3234,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2532,7 +3247,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "MA Performance: Theatre Making（Wimbledon College of Arts）",
-    "program_name_zh": "",
+    "program_name_zh": "表演艺术：剧场创作硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2542,7 +3257,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2550,7 +3269,7 @@
     "school_en": "University of the Arts London",
     "school_college": "",
     "program_name_en": "MA Theatre and Performance Design（Wimbledon College of Arts）",
-    "program_name_zh": "",
+    "program_name_zh": "剧场与表演设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2560,7 +3279,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "UK",
@@ -2568,7 +3291,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Architecture MArch (ARB/RIBA Part 2)",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士（ARB/RIBA 二级认证）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2578,7 +3301,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2586,7 +3314,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Architectural Computation MSc",
-    "program_name_zh": "",
+    "program_name_zh": "建筑计算理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2596,7 +3324,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2604,7 +3337,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Cinematic and Videogame Architecture MArch",
-    "program_name_zh": "",
+    "program_name_zh": "影视与游戏建筑硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2614,7 +3347,14 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "film",
+      "game",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2622,7 +3362,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Architecture and Historic Urban Environments MA",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与历史城市环境硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2632,7 +3372,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2640,7 +3386,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Urban Design MArch",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计建筑硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2650,7 +3396,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2658,7 +3409,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Landscape Architecture MLA/MA",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2668,7 +3419,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2676,7 +3433,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Urban Spatial Science MSc",
-    "program_name_zh": "",
+    "program_name_zh": "城市空间科学理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2686,7 +3443,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "space",
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2694,7 +3456,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Urban Design and City Planning MSc",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计与城市规划理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2704,7 +3466,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2712,7 +3478,7 @@
     "school_en": "University College London",
     "school_college": "",
     "program_name_en": "Space Syntax: Architecture & Cities MSc/MRes",
-    "program_name_zh": "",
+    "program_name_zh": "空间句法：建筑与城市理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2722,7 +3488,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "UK",
@@ -2730,7 +3501,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Architectural and Urban Design MSc",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2740,7 +3511,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2748,7 +3525,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Interior, Architectural and Spatial Design MA",
-    "program_name_zh": "",
+    "program_name_zh": "室内、建筑与空间设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2758,7 +3535,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2766,7 +3549,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Architecture, Landscape and Environment MSc",
-    "program_name_zh": "",
+    "program_name_zh": "建筑、景观与环境理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2776,7 +3559,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2784,7 +3573,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Landscape Architecture MLA",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2794,7 +3583,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2802,7 +3597,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "European Masters in Landscape Architecture (EMiLA)",
-    "program_name_zh": "",
+    "program_name_zh": "欧洲景观建筑学联合硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2812,7 +3607,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2820,7 +3621,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Landscape and Wellbeing MSc",
-    "program_name_zh": "",
+    "program_name_zh": "景观与健康理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2830,7 +3631,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "landscape"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2838,7 +3643,7 @@
     "school_en": "University of Edinburgh",
     "school_college": "",
     "program_name_en": "Design and Digital Media MSc",
-    "program_name_zh": "",
+    "program_name_zh": "设计与数字媒体理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2848,7 +3653,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "UK",
@@ -2856,7 +3666,7 @@
     "school_en": "AA",
     "school_college": "",
     "program_name_en": "Landscape Urbanism\nMSc/MArch",
-    "program_name_zh": "",
+    "program_name_zh": "景观城市主义硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2866,7 +3676,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "landscape",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "UK",
@@ -2874,7 +3690,7 @@
     "school_en": "AA",
     "school_college": "",
     "program_name_en": "Architecture and Urbanism (DRL)\nMArch",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市主义（数字研究实验室）硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2884,7 +3700,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "UK",
@@ -2892,7 +3714,7 @@
     "school_en": "AA",
     "school_college": "",
     "program_name_en": "Taught MPhil in Architecture and Urban Design (Projective Cities)\nTaught MPhil",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市设计哲学硕士（投射城市）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2902,7 +3724,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "UK",
@@ -2910,7 +3738,7 @@
     "school_en": "University of Manchester",
     "school_college": "",
     "program_name_en": "Master of Architecture (MArch)  (ARB/RIBA Part 2)",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士（ARB/RIBA 二级认证）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2920,7 +3748,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 75
   },
   {
     "country": "UK",
@@ -2928,7 +3761,7 @@
     "school_en": "University of Cambridge",
     "school_college": "",
     "program_name_en": "MPhil in Architecture and Urban Studies",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市研究哲学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2938,7 +3771,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 93
   },
   {
     "country": "UK",
@@ -2946,7 +3785,7 @@
     "school_en": "University of Cambridge",
     "school_college": "",
     "program_name_en": "MPhil in History of Art and Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "艺术史与建筑史哲学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2956,7 +3795,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 93
   },
   {
     "country": "UK",
@@ -2964,7 +3808,7 @@
     "school_en": "University of Manchester",
     "school_college": "",
     "program_name_en": "MA Architecture and Urbanism",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市主义硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2974,7 +3818,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 75
   },
   {
     "country": "UK",
@@ -2982,7 +3832,7 @@
     "school_en": "University of Manchester",
     "school_college": "",
     "program_name_en": "MA Architecture and Adaptive Reuse",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与适应性再利用硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -2992,7 +3842,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 75
   },
   {
     "country": "UK",
@@ -3000,7 +3855,7 @@
     "school_en": "University of Manchester",
     "school_college": "",
     "program_name_en": "MSc Urban Design and International Planning",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计与国际规划理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3010,7 +3865,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 75
   },
   {
     "country": "UK",
@@ -3018,7 +3877,7 @@
     "school_en": "University of Sheffield",
     "school_college": "",
     "program_name_en": "Landscape Architecture MA",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3028,7 +3887,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 73
   },
   {
     "country": "UK",
@@ -3036,7 +3901,7 @@
     "school_en": "University of Sheffield",
     "school_college": "",
     "program_name_en": "Landscape Studies MA",
-    "program_name_zh": "",
+    "program_name_zh": "景观研究硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3046,7 +3911,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "landscape"
+    ],
+    "prestige_score": 73
   },
   {
     "country": "UK",
@@ -3054,7 +3923,7 @@
     "school_en": "University of Sheffield",
     "school_college": "",
     "program_name_en": "Urban Design and Planning MA",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计与规划硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3064,7 +3933,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 73
   },
   {
     "country": "UK",
@@ -3072,7 +3945,7 @@
     "school_en": "The Glasgow School of Art",
     "school_college": "",
     "program_name_en": "Design Innovation and Citizenship MSc",
-    "program_name_zh": "",
+    "program_name_zh": "设计创新与公民参与理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3082,7 +3955,11 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -3090,7 +3967,7 @@
     "school_en": "The Glasgow School of Art",
     "school_college": "",
     "program_name_en": "MDes Design Innovation and Environmental Design",
-    "program_name_zh": "",
+    "program_name_zh": "设计创新与环境设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3100,7 +3977,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "sustainable",
+      "tech"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "UK",
@@ -3108,7 +3990,7 @@
     "school_en": "The Glasgow School of Art",
     "school_college": "",
     "program_name_en": "MDes in Interior Design",
-    "program_name_zh": "",
+    "program_name_zh": "室内设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3118,7 +4000,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_英国研究生"
+    "source": "空间_英国研究生",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 81
   },
   {
     "country": "HK",
@@ -3126,7 +4012,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Architecture (MArch)",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3136,7 +4022,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3144,7 +4035,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Urban Design (MUD)",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3154,7 +4045,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3162,7 +4057,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Science in Urban Design and Transport (UDT)",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计与交通理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3172,7 +4067,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3180,7 +4079,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Science in Urban Design",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3190,7 +4089,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3198,7 +4101,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Urban Design and Regional Planning",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计与区域规划硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3208,7 +4111,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3216,7 +4123,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "Master of Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3226,7 +4133,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3234,7 +4146,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "MFA in Theatre and Entertainment Arts -Arts and Event Management Major",
-    "program_name_zh": "",
+    "program_name_zh": "剧场与娱乐艺术美术硕士（艺术与活动管理）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3244,7 +4156,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "ai",
+      "strategy",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "HK",
@@ -3252,7 +4170,7 @@
     "school_en": "The University of Hong Kong",
     "school_college": "",
     "program_name_en": "MFA in Theatre and Entertainment Arts - Contemporary Design and Technologies  Major- Spatial Design",
-    "program_name_zh": "",
+    "program_name_zh": "剧场与娱乐艺术美术硕士（表演当代设计）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3262,7 +4180,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_香港研究生"
+    "source": "空间_香港研究生",
+    "keyword_tags": [
+      "ai",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 97
   },
   {
     "country": "SG",
@@ -3270,7 +4194,7 @@
     "school_en": "National University of Singapore",
     "school_college": "",
     "program_name_en": "Master of Landscape Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3280,7 +4204,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_新加坡研究生"
+    "source": "空间_新加坡研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "SG",
@@ -3288,7 +4218,7 @@
     "school_en": "National University of Singapore",
     "school_college": "",
     "program_name_en": "Master of Urban Design",
-    "program_name_zh": "",
+    "program_name_zh": "城市设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3298,7 +4228,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_新加坡研究生"
+    "source": "空间_新加坡研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "SG",
@@ -3306,7 +4240,7 @@
     "school_en": "National University of Singapore",
     "school_college": "",
     "program_name_en": "MA Theatre and Performance Studies",
-    "program_name_zh": "",
+    "program_name_zh": "剧场与表演研究硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3316,7 +4250,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_新加坡研究生"
+    "source": "空间_新加坡研究生",
+    "keyword_tags": [
+      "film",
+      "creative"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "AU",
@@ -3324,7 +4263,7 @@
     "school_en": "University of Melbourne",
     "school_college": "",
     "program_name_en": "Master of Urbanism \n(Urban Design)",
-    "program_name_zh": "",
+    "program_name_zh": "城市主义（城市设计）硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3334,7 +4273,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_澳洲研究生"
+    "source": "空间_澳洲研究生",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 23
   },
   {
     "country": "AU",
@@ -3342,7 +4285,7 @@
     "school_en": "University of Melbourne",
     "school_college": "",
     "program_name_en": "Master Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3352,7 +4295,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_澳洲研究生"
+    "source": "空间_澳洲研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 23
   },
   {
     "country": "AU",
@@ -3360,7 +4308,7 @@
     "school_en": "University of Melbourne",
     "school_college": "",
     "program_name_en": "Master of Design (Interior Architecture)",
-    "program_name_zh": "",
+    "program_name_zh": "设计（室内建筑）硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3370,7 +4318,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_澳洲研究生"
+    "source": "空间_澳洲研究生",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 23
   },
   {
     "country": "AU",
@@ -3378,7 +4332,7 @@
     "school_en": "University of Melbourne",
     "school_college": "",
     "program_name_en": "Master of Interior Design",
-    "program_name_zh": "",
+    "program_name_zh": "室内设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3388,7 +4342,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_澳洲研究生"
+    "source": "空间_澳洲研究生",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 23
   },
   {
     "country": "EU",
@@ -3396,7 +4354,7 @@
     "school_en": "Politecnico di Milano",
     "school_college": "",
     "program_name_en": "Sustainable Architecture and Landscape Design",
-    "program_name_zh": "",
+    "program_name_zh": "可持续建筑与景观设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3406,7 +4364,15 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "ai",
+      "arch",
+      "landscape",
+      "sustainable",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -3414,7 +4380,7 @@
     "school_en": "Politecnico di Milano",
     "school_college": "",
     "program_name_en": "Landscape Architecture. Land Landscape Heritage",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3424,7 +4390,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -3432,7 +4404,7 @@
     "school_en": "Politecnico di Milano",
     "school_college": "",
     "program_name_en": "Architecture and Urban Design",
-    "program_name_zh": "",
+    "program_name_zh": "建筑与城市设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3442,7 +4414,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -3450,7 +4428,7 @@
     "school_en": "Politecnico di Milano",
     "school_college": "",
     "program_name_en": "Urban Planning: Cities, Environment & Landscapes",
-    "program_name_zh": "",
+    "program_name_zh": "城市规划：城市、环境与景观硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3460,7 +4438,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "landscape",
+      "urban"
+    ],
+    "prestige_score": 89
   },
   {
     "country": "EU",
@@ -3468,7 +4451,7 @@
     "school_en": "Università degli Studi Di Firenze",
     "school_college": "",
     "program_name_en": "Architecture - Built Environment Interiors",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学——建成环境与室内硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3478,7 +4461,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 51
   },
   {
     "country": "EU",
@@ -3486,7 +4475,7 @@
     "school_en": "Università degli Studi Di Firenze",
     "school_college": "",
     "program_name_en": "Interior and Spatial Design",
-    "program_name_zh": "",
+    "program_name_zh": "室内与空间设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3496,7 +4485,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 51
   },
   {
     "country": "EU",
@@ -3504,7 +4497,7 @@
     "school_en": "Università degli Studi Di Firenze",
     "school_college": "",
     "program_name_en": "Architecture - Building Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3514,7 +4507,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 51
   },
   {
     "country": "EU",
@@ -3522,7 +4520,7 @@
     "school_en": "Delft University of Technology",
     "school_college": "",
     "program_name_en": "Landscape Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3532,7 +4530,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "EU",
@@ -3540,7 +4544,7 @@
     "school_en": "Delft University of Technology",
     "school_college": "",
     "program_name_en": "MSc Architecture, Urbanism and Building Sciences",
-    "program_name_zh": "",
+    "program_name_zh": "建筑、城市主义与建筑科学理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3550,7 +4554,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 95
   },
   {
     "country": "EU",
@@ -3558,7 +4568,7 @@
     "school_en": "KTH Royal Institute of Technology",
     "school_college": "",
     "program_name_en": "MSc Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3568,7 +4578,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 83
   },
   {
     "country": "EU",
@@ -3576,7 +4591,7 @@
     "school_en": "Konstfack University of Arts Crafts and Design",
     "school_college": "",
     "program_name_en": "Master's programme in Spatial Design",
-    "program_name_zh": "",
+    "program_name_zh": "空间设计硕士项目",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3586,7 +4601,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 55
   },
   {
     "country": "EU",
@@ -3594,7 +4613,7 @@
     "school_en": "Aarhus School of Architecture",
     "school_college": "",
     "program_name_en": "Master’s Degree Programme in architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士项目",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3604,7 +4623,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 73
   },
   {
     "country": "EU",
@@ -3612,7 +4636,7 @@
     "school_en": "ETH Zürich",
     "school_college": "",
     "program_name_en": "Master in Landscape Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "景观建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3622,7 +4646,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 93
   },
   {
     "country": "EU",
@@ -3630,7 +4660,7 @@
     "school_en": "Aalto University",
     "school_college": "",
     "program_name_en": "Architecture - Architecture, Landscape architecture and Interior Architecture, Architect, Master of Science (Architecture)",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学——建筑、景观建筑与室内设计",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3640,7 +4670,14 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "EU",
@@ -3648,7 +4685,7 @@
     "school_en": "Berlin University of the Arts (UdK)",
     "school_college": "",
     "program_name_en": "Production Design - Film and Television, Master of Arts (Art and Design)",
-    "program_name_zh": "",
+    "program_name_zh": "影视制作设计艺术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3658,7 +4695,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "film",
+      "xr"
+    ],
+    "prestige_score": 77
   },
   {
     "country": "EU",
@@ -3666,7 +4708,7 @@
     "school_en": "Aalto University",
     "school_college": "",
     "program_name_en": "Interior Architecture Master of Arts",
-    "program_name_zh": "",
+    "program_name_zh": "室内建筑艺术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3676,7 +4718,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 91
   },
   {
     "country": "EU",
@@ -3684,7 +4732,7 @@
     "school_en": "Royal Danish Academy of Architecture",
     "school_college": "",
     "program_name_en": "Spatial Design - Architecture, Design and Interiors",
-    "program_name_zh": "",
+    "program_name_zh": "空间设计——建筑、设计与室内",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -3694,7 +4742,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_欧洲研究生"
+    "source": "空间_欧洲研究生",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 75
   },
   {
     "country": "US",
@@ -3715,7 +4769,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -3737,7 +4796,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "research"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3758,7 +4821,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3779,7 +4847,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "industrial"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3797,7 +4870,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3815,7 +4893,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3833,7 +4916,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3851,7 +4940,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3869,7 +4964,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3887,7 +4988,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3905,7 +5010,14 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 96
   },
   {
     "country": "US",
@@ -3923,7 +5035,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -3945,7 +5063,14 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "tech",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -3963,7 +5088,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -3981,7 +5111,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -3999,7 +5135,14 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4017,7 +5160,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4038,7 +5187,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4058,7 +5212,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "tech"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4079,7 +5238,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "tech",
+      "urban"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4099,7 +5264,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "research",
+      "ai"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4118,7 +5289,12 @@
       "arch",
       "hardware"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "research",
+      "creative"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4137,7 +5313,13 @@
       "arch",
       "hardware"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ux",
+      "research",
+      "sustainable"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4155,7 +5337,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4177,7 +5365,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4195,7 +5387,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4214,7 +5410,12 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "visual",
+      "xr"
+    ],
+    "prestige_score": 92
   },
   {
     "country": "US",
@@ -4235,7 +5436,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4256,7 +5462,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4274,7 +5485,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4292,7 +5509,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4310,7 +5533,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "tech"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4328,7 +5556,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4346,7 +5580,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4364,7 +5602,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4382,7 +5624,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4403,7 +5650,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4422,7 +5674,12 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -4442,7 +5699,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "research",
+      "product"
+    ],
+    "prestige_score": 94
   },
   {
     "country": "US",
@@ -4463,7 +5725,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 94
   },
   {
     "country": "US",
@@ -4482,7 +5749,11 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4500,7 +5771,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "sustainable",
+      "xr"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4518,7 +5795,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4536,7 +5818,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4554,7 +5841,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "sustainable",
+      "xr"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4572,7 +5865,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4593,7 +5891,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "research",
+      "product"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4611,7 +5914,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4629,7 +5936,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "sustainable",
+      "urban"
+    ],
+    "prestige_score": 82
   },
   {
     "country": "US",
@@ -4650,7 +5962,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "game",
+      "tech"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4671,7 +5989,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "research",
+      "creative"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4691,7 +6014,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4711,7 +6038,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4732,7 +6063,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4750,7 +6086,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "space",
+      "creative"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4768,7 +6109,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4786,7 +6132,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4807,7 +6158,14 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "arch",
+      "parametric",
+      "xr"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4828,7 +6186,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "sustainable"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4846,7 +6209,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4864,7 +6233,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4882,7 +6255,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "strategy"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4902,7 +6280,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4920,7 +6302,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4939,7 +6325,12 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 100
   },
   {
     "country": "US",
@@ -4957,7 +6348,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -4975,7 +6371,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "research",
+      "xr"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -4993,7 +6395,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "sustainable"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -5011,7 +6417,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "space",
+      "creative"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -5029,7 +6440,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -5047,7 +6462,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "creative"
+    ],
+    "prestige_score": 88
   },
   {
     "country": "US",
@@ -5065,7 +6485,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "game"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5084,7 +6509,12 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "visual",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5102,7 +6532,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5120,7 +6556,15 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "arch",
+      "parametric",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5138,7 +6582,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5156,7 +6605,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5174,7 +6629,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5192,7 +6651,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5213,7 +6677,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "tech",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5234,7 +6704,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5242,7 +6716,7 @@
     "school_en": "Columbia University",
     "school_college": "",
     "program_name_en": "Master of Education(Art Pedagogy/Creative Technologies/Community Arts)",
-    "program_name_zh": "",
+    "program_name_zh": "教育学硕士（艺术教育/创意技术/社区艺术）",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -5255,7 +6729,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "creative",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5273,7 +6752,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "strategy",
+      "xr"
+    ],
+    "prestige_score": 90
   },
   {
     "country": "US",
@@ -5291,7 +6775,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "game",
+      "tech"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5309,7 +6799,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5327,7 +6822,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5348,7 +6848,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "ai",
+      "industrial"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5366,7 +6872,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5386,7 +6898,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "product"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5404,7 +6921,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5425,7 +6947,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5443,7 +6970,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5461,7 +6992,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "sustainable",
+      "urban"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5479,7 +7015,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "sustainable",
+      "urban"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5497,7 +7039,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "space",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5515,7 +7063,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5533,7 +7086,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5554,7 +7112,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 86
   },
   {
     "country": "US",
@@ -5572,7 +7134,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "game",
+      "tech"
+    ],
+    "prestige_score": 64
   },
   {
     "country": "US",
@@ -5592,7 +7160,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 64
   },
   {
     "country": "US",
@@ -5611,7 +7184,15 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "digital",
+      "media",
+      "parametric",
+      "xr"
+    ],
+    "prestige_score": 64
   },
   {
     "country": "US",
@@ -5632,7 +7213,15 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "game",
+      "media",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5650,7 +7239,13 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "game",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5671,7 +7266,14 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "media",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5692,7 +7294,14 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "game",
+      "media",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5711,7 +7320,13 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "animation",
+      "digital",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5732,7 +7347,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "visual",
+      "creative"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5750,7 +7370,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5768,7 +7393,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5786,7 +7416,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5804,7 +7439,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5822,7 +7461,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5840,7 +7484,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5858,7 +7508,14 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "landscape",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5876,7 +7533,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5896,7 +7559,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "product"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5916,7 +7584,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 78
   },
   {
     "country": "US",
@@ -5934,7 +7606,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -5952,7 +7629,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -5970,7 +7653,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -5991,7 +7679,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -6009,7 +7702,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "ai",
+      "film"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -6027,7 +7725,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 80
   },
   {
     "country": "US",
@@ -6046,7 +7748,13 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "media",
+      "xr"
+    ],
+    "prestige_score": 72
   },
   {
     "country": "US",
@@ -6066,7 +7774,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 74
   },
   {
     "country": "US",
@@ -6084,7 +7797,11 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media"
+    ],
+    "prestige_score": 74
   },
   {
     "country": "US",
@@ -6104,7 +7821,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 74
   },
   {
     "country": "US",
@@ -6122,7 +7843,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "game",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6140,7 +7866,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "game",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6161,7 +7892,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "ux"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6182,7 +7918,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "digital",
+      "engineering",
+      "media"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6202,7 +7944,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6223,7 +7969,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "tech",
+      "ux",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6241,7 +7993,12 @@
     "industry_tags": [
       "culture"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6262,7 +8019,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6283,7 +8045,13 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "film",
+      "xr",
+      "digital"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6304,7 +8072,11 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6322,7 +8094,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 84
   },
   {
     "country": "US",
@@ -6343,7 +8119,12 @@
       "hardware",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "product",
+      "research"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6361,7 +8142,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6379,7 +8166,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6397,7 +8190,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "arch",
+      "urban",
+      "xr"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6415,7 +8214,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "urban"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6434,7 +8237,12 @@
       "culture",
       "internet"
     ],
-    "source": "fos_csv"
+    "source": "fos_csv",
+    "keyword_tags": [
+      "media",
+      "xr"
+    ],
+    "prestige_score": 70
   },
   {
     "country": "US",
@@ -6442,7 +8250,7 @@
     "school_en": "Princeton University",
     "school_college": "School of Architecture",
     "program_name_en": "Professional M.Arch (Princeton School of Architecture)",
-    "program_name_zh": "",
+    "program_name_zh": "职业建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6452,7 +8260,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 76
   },
   {
     "country": "US",
@@ -6460,7 +8273,7 @@
     "school_en": "Princeton University",
     "school_college": "School of Architecture",
     "program_name_en": "Post-Professional M.Arch II(Princeton School of Architecture)",
-    "program_name_zh": "",
+    "program_name_zh": "后职业建筑学硕士 II",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6470,7 +8283,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 76
   },
   {
     "country": "US",
@@ -6478,7 +8296,7 @@
     "school_en": "Brown University",
     "school_college": "",
     "program_name_en": "Master of Arts in Design Engineering",
-    "program_name_zh": "",
+    "program_name_zh": "设计工程文学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6488,7 +8306,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "engineering",
+      "xr"
+    ],
+    "prestige_score": 62
   },
   {
     "country": "US",
@@ -6496,7 +8319,7 @@
     "school_en": "Rhode Island School of Design",
     "school_college": "",
     "program_name_en": "MDES Interior Studies",
-    "program_name_zh": "",
+    "program_name_zh": "室内研究设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6506,7 +8329,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "US",
@@ -6514,7 +8341,7 @@
     "school_en": "Rhode Island School of Design",
     "school_college": "",
     "program_name_en": "MA Interior Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "室内建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6524,7 +8351,13 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "arch",
+      "space",
+      "xr"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "US",
@@ -6532,7 +8365,7 @@
     "school_en": "Rhode Island School of Design",
     "school_college": "",
     "program_name_en": "Master of Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6542,7 +8375,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "US",
@@ -6550,7 +8388,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "MFA Interior Design",
-    "program_name_zh": "",
+    "program_name_zh": "室内设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6560,7 +8398,11 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "space"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -6568,7 +8410,7 @@
     "school_en": "Cooper Union",
     "school_college": "Irwin S. Chanin School of Architecture",
     "program_name_en": "Master of Science in Architecture",
-    "program_name_zh": "",
+    "program_name_zh": "建筑学理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6578,7 +8420,12 @@
     "industry_tags": [
       "arch"
     ],
-    "source": "空间_US"
+    "source": "空间_US",
+    "keyword_tags": [
+      "arch",
+      "xr"
+    ],
+    "prestige_score": 58
   },
   {
     "country": "US",
@@ -6586,7 +8433,7 @@
     "school_en": "Northwestern University",
     "school_college": "",
     "program_name_en": "Master of Science in Product Design & Development Management",
-    "program_name_zh": "",
+    "program_name_zh": "产品设计与开发管理理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6596,7 +8443,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "product",
+      "strategy"
+    ],
+    "prestige_score": 74
   },
   {
     "country": "US",
@@ -6604,7 +8456,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MFA Design Management",
-    "program_name_zh": "",
+    "program_name_zh": "设计管理美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6614,7 +8466,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -6622,7 +8478,7 @@
     "school_en": "Pennsylvania State University",
     "school_college": "",
     "program_name_en": "Master of Engineering in Engineering Design",
-    "program_name_zh": "",
+    "program_name_zh": "工程设计工程硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6632,7 +8488,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 30
   },
   {
     "country": "US",
@@ -6640,7 +8501,7 @@
     "school_en": "Pennsylvania State University",
     "school_college": "",
     "program_name_en": "Master of Science in Engineering Design",
-    "program_name_zh": "",
+    "program_name_zh": "工程设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6650,7 +8511,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "engineering",
+      "tech"
+    ],
+    "prestige_score": 30
   },
   {
     "country": "US",
@@ -6658,7 +8524,7 @@
     "school_en": "Parsons School of Design",
     "school_college": "",
     "program_name_en": "MPS Strategic Design and Management",
-    "program_name_zh": "",
+    "program_name_zh": "战略设计与管理专业研究硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6668,7 +8534,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 54
   },
   {
     "country": "US",
@@ -6676,7 +8546,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "Design Management, MPS",
-    "program_name_zh": "",
+    "program_name_zh": "设计管理专业研究硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6686,7 +8556,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -6694,7 +8568,7 @@
     "school_en": "Stevens Institute of Technology",
     "school_college": "",
     "program_name_en": "Master of Engineering Degree in Integrated Product Development",
-    "program_name_zh": "",
+    "program_name_zh": "综合产品开发工程硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6704,7 +8578,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "engineering",
+      "product"
+    ],
+    "prestige_score": 28
   },
   {
     "country": "US",
@@ -6712,7 +8591,7 @@
     "school_en": "Illinois Institute of Technology",
     "school_college": "",
     "program_name_en": "Engineering Management, Product Design and Development Track (M.A.S.)",
-    "program_name_zh": "",
+    "program_name_zh": "工程管理（产品设计与开发方向）硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6722,7 +8601,13 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "engineering",
+      "product",
+      "strategy"
+    ],
+    "prestige_score": 32
   },
   {
     "country": "US",
@@ -6730,7 +8615,7 @@
     "school_en": "Illinois Institute of Technology",
     "school_college": "",
     "program_name_en": "Design Methods (M.D.M.)",
-    "program_name_zh": "",
+    "program_name_zh": "设计方法硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6741,7 +8626,13 @@
       "brand",
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "research",
+      "strategy",
+      "product"
+    ],
+    "prestige_score": 32
   },
   {
     "country": "US",
@@ -6749,7 +8640,7 @@
     "school_en": "University of Kansas",
     "school_college": "",
     "program_name_en": "M.A. Design, Design Management and Strategy",
-    "program_name_zh": "",
+    "program_name_zh": "设计管理与战略文学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6759,7 +8650,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 26
   },
   {
     "country": "US",
@@ -6767,7 +8662,7 @@
     "school_en": "Massachusetts Institute of Technology",
     "school_college": "",
     "program_name_en": "Integrated Design & Management",
-    "program_name_zh": "",
+    "program_name_zh": "综合设计与管理硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6778,7 +8673,11 @@
       "brand",
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "strategy"
+    ],
+    "prestige_score": 98
   },
   {
     "country": "US",
@@ -6786,7 +8685,7 @@
     "school_en": "Rhode Island School of Design",
     "school_college": "",
     "program_name_en": "Master of Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 93 | IELTS 6.5",
@@ -6796,7 +8695,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "US",
@@ -6804,7 +8708,7 @@
     "school_en": "ArtCenter College of Design",
     "school_college": "",
     "program_name_en": "MS Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 100 | IELTS 7.0",
@@ -6814,7 +8718,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 56
   },
   {
     "country": "US",
@@ -6822,7 +8731,7 @@
     "school_en": "ArtCenter College of Design",
     "school_college": "",
     "program_name_en": "MS Transportation Systems and Design",
-    "program_name_zh": "",
+    "program_name_zh": "交通系统与设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6832,7 +8741,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "engineering"
+    ],
+    "prestige_score": 56
   },
   {
     "country": "US",
@@ -6840,7 +8754,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "Masters of Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 85 | IELTS 6.5",
@@ -6850,7 +8764,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -6858,7 +8777,7 @@
     "school_en": "Parsons School of Design",
     "school_college": "",
     "program_name_en": "MFA in Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 92 | IELTS 7.0",
@@ -6868,7 +8787,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 54
   },
   {
     "country": "US",
@@ -6876,7 +8800,7 @@
     "school_en": "School of Visual Arts",
     "school_college": "",
     "program_name_en": "MFA Design for Social Innovation",
-    "program_name_zh": "",
+    "program_name_zh": "社会创新设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6887,7 +8811,12 @@
       "brand",
       "culture"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "social",
+      "tech"
+    ],
+    "prestige_score": 52
   },
   {
     "country": "US",
@@ -6895,7 +8824,7 @@
     "school_en": "College for Creative Studies",
     "school_college": "",
     "program_name_en": "MFA Transportation Design",
-    "program_name_zh": "",
+    "program_name_zh": "交通设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 80 | IELTS 6.5",
@@ -6905,7 +8834,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "creative"
+    ],
+    "prestige_score": 38
   },
   {
     "country": "US",
@@ -6913,7 +8847,7 @@
     "school_en": "College for Creative Studies",
     "school_college": "",
     "program_name_en": "MFA integrated design",
-    "program_name_zh": "",
+    "program_name_zh": "综合设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 80 | IELTS 6.5",
@@ -6924,7 +8858,12 @@
       "brand",
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "product",
+      "creative"
+    ],
+    "prestige_score": 38
   },
   {
     "country": "US",
@@ -6932,7 +8871,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MFA in Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 85 | IELTS 6.5",
@@ -6942,7 +8881,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -6950,7 +8894,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MA in Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -6960,7 +8904,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -6968,7 +8917,7 @@
     "school_en": "Academy of Art University",
     "school_college": "",
     "program_name_en": "MA / MFA in Industrial Design",
-    "program_name_zh": "",
+    "program_name_zh": "工业设计文学/美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 82 | IELTS 7.0",
@@ -6978,7 +8927,12 @@
     "industry_tags": [
       "hardware"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "industrial",
+      "product"
+    ],
+    "prestige_score": 34
   },
   {
     "country": "US",
@@ -6986,7 +8940,7 @@
     "school_en": "ArtCenter College of Design",
     "school_college": "",
     "program_name_en": "MFA Media Design Practices",
-    "program_name_zh": "",
+    "program_name_zh": "媒体设计实践美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 100 | IELTS 7.0",
@@ -6997,7 +8951,12 @@
       "culture",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 56
   },
   {
     "country": "US",
@@ -7005,7 +8964,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "MS Information Experience Design",
-    "program_name_zh": "",
+    "program_name_zh": "信息体验设计理学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 82 | IELTS 6.5",
@@ -7015,7 +8974,13 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux",
+      "digital",
+      "media"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -7023,7 +8988,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "MFA Interactive Arts",
-    "program_name_zh": "",
+    "program_name_zh": "互动艺术美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 79 | IELTS 6.5",
@@ -7033,7 +8998,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "xr"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -7041,7 +9010,7 @@
     "school_en": "Pratt Institute",
     "school_college": "",
     "program_name_en": "MFA Communication Design",
-    "program_name_zh": "",
+    "program_name_zh": "传播设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -7051,7 +9020,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "brand",
+      "media"
+    ],
+    "prestige_score": 66
   },
   {
     "country": "US",
@@ -7059,7 +9033,7 @@
     "school_en": "Parsons School of Design",
     "school_college": "",
     "program_name_en": "MFA Design and Technology",
-    "program_name_zh": "",
+    "program_name_zh": "设计与技术美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 92 | IELTS 7.0",
@@ -7070,7 +9044,11 @@
       "culture",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 54
   },
   {
     "country": "US",
@@ -7078,7 +9056,7 @@
     "school_en": "Parsons School of Design",
     "school_college": "",
     "program_name_en": "MPS Communication Design",
-    "program_name_zh": "",
+    "program_name_zh": "传播设计专业研究硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -7088,7 +9066,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "brand",
+      "media"
+    ],
+    "prestige_score": 54
   },
   {
     "country": "US",
@@ -7096,7 +9079,7 @@
     "school_en": "School of Visual Arts",
     "school_college": "",
     "program_name_en": "MFA Interaction Design",
-    "program_name_zh": "",
+    "program_name_zh": "交互设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 79 | IELTS 6.5",
@@ -7106,7 +9089,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 52
   },
   {
     "country": "US",
@@ -7114,7 +9101,7 @@
     "school_en": "California College of the Arts",
     "school_college": "",
     "program_name_en": "MDes Interaction Design",
-    "program_name_zh": "",
+    "program_name_zh": "交互设计设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 100 | IELTS 7.5",
@@ -7124,7 +9111,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 50
   },
   {
     "country": "US",
@@ -7132,7 +9123,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MA/MFA Interactive Design and Game Development",
-    "program_name_zh": "",
+    "program_name_zh": "交互设计与游戏开发硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 85 | IELTS 6.5",
@@ -7143,7 +9134,11 @@
       "culture",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "game"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -7151,7 +9146,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MFA UX design",
-    "program_name_zh": "",
+    "program_name_zh": "用户体验设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -7161,7 +9156,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -7169,7 +9168,7 @@
     "school_en": "Savannah College of Art and Design",
     "school_college": "",
     "program_name_en": "MA/MFA Service Design",
-    "program_name_zh": "",
+    "program_name_zh": "服务设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "",
@@ -7179,7 +9178,11 @@
     "industry_tags": [
       "brand"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "service"
+    ],
+    "prestige_score": 48
   },
   {
     "country": "US",
@@ -7187,7 +9190,7 @@
     "school_en": "College for Creative Studies",
     "school_college": "",
     "program_name_en": "MFA User Experience Design",
-    "program_name_zh": "",
+    "program_name_zh": "用户体验设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 80 | IELTS 6.5",
@@ -7197,7 +9200,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 38
   },
   {
     "country": "US",
@@ -7205,7 +9212,7 @@
     "school_en": "Rhode Island School of Design",
     "school_college": "",
     "program_name_en": "MFA Digital+Media",
-    "program_name_zh": "",
+    "program_name_zh": "数字与媒体艺术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 93 | IELTS 6.5",
@@ -7215,7 +9222,12 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "digital",
+      "media"
+    ],
+    "prestige_score": 68
   },
   {
     "country": "US",
@@ -7223,7 +9235,7 @@
     "school_en": "Academy of Art University",
     "school_college": "",
     "program_name_en": "MA/MFA Interaction & UI/UX Design",
-    "program_name_zh": "",
+    "program_name_zh": "交互与界面/用户体验设计硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 82 | IELTS 6.5",
@@ -7233,7 +9245,11 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 34
   },
   {
     "country": "US",
@@ -7241,7 +9257,7 @@
     "school_en": "School of the Art Institute of Chicago",
     "school_college": "",
     "program_name_en": "MFA in Studio, Design for Emerging Technologies",
-    "program_name_zh": "",
+    "program_name_zh": "新兴技术设计美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 85 | IELTS 7.0",
@@ -7252,7 +9268,13 @@
       "culture",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "creative",
+      "tech",
+      "digital"
+    ],
+    "prestige_score": 46
   },
   {
     "country": "US",
@@ -7260,7 +9282,7 @@
     "school_en": "Maryland Institute College of Art",
     "school_college": "",
     "program_name_en": "MA in Social Design",
-    "program_name_zh": "",
+    "program_name_zh": "社会设计文学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 75 | IELTS 6.0",
@@ -7271,7 +9293,11 @@
       "brand",
       "culture"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "social"
+    ],
+    "prestige_score": 42
   },
   {
     "country": "US",
@@ -7279,7 +9305,7 @@
     "school_en": "Cranbrook Academy of Art",
     "school_college": "",
     "program_name_en": "MFA 4D",
-    "program_name_zh": "",
+    "program_name_zh": "四维艺术美术硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 90 | IELTS 7.0",
@@ -7290,7 +9316,13 @@
       "culture",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "film",
+      "animation",
+      "creative"
+    ],
+    "prestige_score": 44
   },
   {
     "country": "US",
@@ -7298,7 +9330,7 @@
     "school_en": "Massachusetts College of Art and Design",
     "school_college": "",
     "program_name_en": "Master of Design: Design Innovation",
-    "program_name_zh": "",
+    "program_name_zh": "设计创新硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 85 | IELTS 6.0",
@@ -7309,7 +9341,11 @@
       "brand",
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "tech"
+    ],
+    "prestige_score": 40
   },
   {
     "country": "US",
@@ -7317,7 +9353,7 @@
     "school_en": "Columbia College Chicago",
     "school_college": "",
     "program_name_en": "MA Interaction Design",
-    "program_name_zh": "",
+    "program_name_zh": "交互设计文学硕士",
     "degree_type": "",
     "gpa_requirement": "",
     "language_scores": "TOEFL 90 | IELTS 7.0",
@@ -7327,6 +9363,10 @@
     "industry_tags": [
       "internet"
     ],
-    "source": "art_schools_xlsx"
+    "source": "art_schools_xlsx",
+    "keyword_tags": [
+      "ux"
+    ],
+    "prestige_score": 22
   }
 ]
