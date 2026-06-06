@@ -1,1 +1,31 @@
 /_raw
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Thumbnails
+._*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
