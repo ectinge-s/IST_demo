@@ -74,8 +74,8 @@ const HomePage = {
     const base = inst.pseudonym || inst.name;
     const suffix = inst.tag === 'academic' ? '老师'
                  : inst.tag === 'industry' ? '老师'
-                 : inst.tag === 'overseas' ? ''
-                 : inst.tag === 'alumni' ? ''
+                 : inst.tag === 'overseas' ? '教授'
+                 : inst.tag === 'alumni' ? '老师'
                  : '';
     const displayName = base + suffix;
     const avatar = `<div class="person-card__avatar">${base.slice(-1)}</div>`;
