@@ -28,7 +28,9 @@ const Router = {
   scrollTo(selector, extraOffset = 0) {
     const el = typeof selector === 'string' ? document.querySelector(selector) : selector;
     if (!el) return;
-    const navH = 52 + (document.querySelector('.industry-nav') ? 48 : 0);
+    const navbarH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--navbar-h'), 10) || 56;
+    const indNav = document.querySelector('.industry-nav');
+    const navH = navbarH + (indNav ? indNav.offsetHeight : 0);
     const top = el.getBoundingClientRect().top + window.scrollY - navH - extraOffset;
     window.scrollTo({ top, behavior: 'smooth' });
   },

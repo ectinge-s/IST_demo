@@ -10,6 +10,15 @@ const HomePage = {
 
   buildInstructors() {
     this._renderInstructors('all');
+    // Re-fill complete rows when the column count changes with the window width.
+    if (!this._instResizeBound) {
+      this._instResizeBound = true;
+      let t;
+      window.addEventListener('resize', () => {
+        clearTimeout(t);
+        t = setTimeout(() => { if (!this._instOpen) this._applyInstClamp(); }, 150);
+      });
+    }
   },
 
   filterInstructors(type, btn) {
@@ -22,27 +31,40 @@ const HomePage = {
     const grid = document.getElementById('instructors-grid');
     if (!grid) return;
     const items = type === 'all' ? DATA.instructors : DATA.instructors.filter(i => i.tag === type);
-    const INITIAL = 6;
-    const cards = items.map(inst => this._instructorCard(inst));
-    const visible = cards.slice(0, INITIAL).join('');
-    const hidden  = cards.slice(INITIAL).join('');
-    const hasMore = cards.length > INITIAL;
-    grid.innerHTML = visible
-      + (hasMore ? `<div class="inst-more" id="inst-more" style="display:none">${hidden}</div>` : '');
-    // Re-render expand button
-    const btn = document.getElementById('inst-expand-btn');
-    if (btn) btn.style.display = hasMore ? '' : 'none';
-    if (btn) { btn.textContent = '展开查看更多'; btn.dataset.open = '0'; }
+    // All cards are direct grid children so we can clamp to whole rows.
+    grid.innerHTML = items.map(inst => this._instructorCard(inst)).join('');
+    this._instOpen = false;
+    this._applyInstClamp();
+  },
+
+  // Columns currently laid out by the grid (auto-fill → keyed to width).
+  _instColumns(grid) {
+    const tpl = getComputedStyle(grid).gridTemplateColumns;
+    return (tpl && tpl !== 'none') ? tpl.split(' ').length : 1;
+  },
+
+  // Collapsed = the fewest WHOLE rows that show at least MIN cards (no half-empty row).
+  _applyInstClamp() {
+    const grid = document.getElementById('instructors-grid');
+    const btn  = document.getElementById('inst-expand-btn');
+    if (!grid) return;
+    const cards = Array.from(grid.children);
+    const MIN = 6;
+    const cols = this._instColumns(grid);
+    const limit = Math.max(cols, Math.ceil(MIN / cols) * cols);
+    const open = !!this._instOpen;
+    cards.forEach((c, i) => { c.style.display = (open || i < limit) ? '' : 'none'; });
+    if (btn) {
+      const hasMore = cards.length > limit;
+      btn.style.display = hasMore ? '' : 'none';
+      btn.textContent = open ? '收起' : '展开查看更多';
+      btn.dataset.open = open ? '1' : '0';
+    }
   },
 
   toggleInstructors() {
-    const more = document.getElementById('inst-more');
-    const btn  = document.getElementById('inst-expand-btn');
-    if (!more) return;
-    const isOpen = btn.dataset.open === '1';
-    more.style.display = isOpen ? 'none' : 'contents';
-    btn.textContent = isOpen ? '展开查看更多' : '收起';
-    btn.dataset.open = isOpen ? '0' : '1';
+    this._instOpen = !this._instOpen;
+    this._applyInstClamp();
   },
 
   _instructorCard(inst) {
@@ -52,7 +74,8 @@ const HomePage = {
     const base = inst.pseudonym || inst.name;
     const suffix = inst.tag === 'academic' ? '老师'
                  : inst.tag === 'industry' ? '老师'
-                 : inst.tag === 'overseas' ? '教授'
+                 : inst.tag === 'overseas' ? ''
+                 : inst.tag === 'alumni' ? ''
                  : '';
     const displayName = base + suffix;
     const avatar = `<div class="person-card__avatar">${base.slice(-1)}</div>`;
@@ -113,7 +136,6 @@ const HomePage = {
     const TABS = [
       { id: 'internship',    label: '就业实习课程' },
       { id: 'summer',        label: '海外冬夏校' },
-      { id: 'admission',     label: '核心升学课程' },
       { id: 'masterclass',   label: '海外大师课' },
       { id: 'bizpractice',   label: '商业实践课程' },
       { id: 'other',         label: '其他' },
@@ -162,7 +184,7 @@ const HomePage = {
         <button class="filter-btn" data-icat="其他" onclick="HomePage._filterInternsCat('其他',this)">其他</button>
       </div>`;
 
-    const grid = `<div class="grid-4" id="internship-grid" style="background:var(--color-border);gap:3px;">
+    const grid = `<div class="grid-4" id="internship-grid">
       ${internItems.map(c => this._internCard(c)).join('')}
     </div>`;
 
@@ -213,7 +235,7 @@ const HomePage = {
   },
 
   _buildCourseGrid(items) {
-    return `<div class="grid-4" style="background:var(--color-border);gap:3px;">
+    return `<div class="grid-4">
       ${items.map(c => `
         <div class="course-card">
           <div class="course-card__img">
@@ -231,13 +253,13 @@ const HomePage = {
   },
 
   _buildPlaceholderGrid(label) {
-    return `<div class="grid-4" style="background:var(--color-border);gap:3px;">
-      ${Array.from({length:8}, (_,i) => `
-        <div class="course-card">
-          <div class="course-card__img"><span style="opacity:.3">${label} ${i+1}</span></div>
-          <div class="course-card__body">
-            <div class="course-card__company" style="color:var(--color-border)">████████</div>
-            <div class="course-card__role" style="color:var(--color-border)">████</div>
+    return `<div class="grid-4">
+      ${Array.from({length:8}, () => `
+        <div class="skeleton-card">
+          <div class="skeleton-card__img"><span class="skeleton-card__tag">${label}</span></div>
+          <div class="skeleton-card__body">
+            <div class="sk-line"></div>
+            <div class="sk-line sk-line--narrow"></div>
           </div>
         </div>`).join('')}
     </div>`;

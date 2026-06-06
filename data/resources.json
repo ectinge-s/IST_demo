@@ -1,212 +1,198 @@
 [
   {
-    "id": "res-01",
+    "id": "res-corp-01",
     "type": "企业",
-    "name": "Meta Reality Labs",
-    "desc": "全球XR与空间计算研究中心，提供实习与研究合作机会",
+    "name": "合作企业 01",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-02",
+    "id": "res-corp-02",
     "type": "企业",
-    "name": "字节跳动 ByteDance",
-    "desc": "互联网科技头部大厂，用户体验与产品设计岗位对标",
+    "name": "合作企业 02",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-03",
+    "id": "res-corp-03",
     "type": "企业",
-    "name": "米哈游 miHoYo",
-    "desc": "全球顶尖游戏公司，技术美术与叙事设计核心对标",
+    "name": "合作企业 03",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-04",
+    "id": "res-corp-04",
     "type": "企业",
-    "name": "ZHA 扎哈建筑事务所",
-    "desc": "参数化建筑全球领军，计算设计方向核心对标",
+    "name": "合作企业 04",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-05",
+    "id": "res-corp-05",
     "type": "企业",
-    "name": "IDEO",
-    "desc": "全球顶级设计咨询，服务设计与创新策略方向标杆",
+    "name": "合作企业 05",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-06",
+    "id": "res-corp-06",
     "type": "企业",
-    "name": "理想汽车",
-    "desc": "中国新能源汽车头部，智能座舱HMI设计核心对标",
+    "name": "合作企业 06",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-07",
+    "id": "res-corp-07",
     "type": "企业",
-    "name": "teamLab",
-    "desc": "日本互动艺术装置标杆，沉浸体验方向核心合作",
+    "name": "合作企业 07",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-08",
+    "id": "res-corp-08",
     "type": "企业",
-    "name": "Gensler",
-    "desc": "全球最大建筑事务所，商业空间与品牌空间设计对标",
+    "name": "合作企业 08",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-09",
-    "type": "高校",
-    "name": "CMU MHCI Program",
-    "desc": "全球顶尖人机交互硕士项目，IST升学核心对标院校",
+    "id": "res-corp-09",
+    "type": "企业",
+    "name": "合作企业 09",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-10",
-    "type": "高校",
-    "name": "RCA Design Products",
-    "desc": "皇家艺术学院产品设计，工业与交互方向标杆",
+    "id": "res-corp-10",
+    "type": "企业",
+    "name": "合作企业 10",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-11",
-    "type": "高校",
-    "name": "MIT Media Lab",
-    "desc": "媒体实验室，创意技术与互动装置研究前沿",
+    "id": "res-intl-01",
+    "type": "海外高校",
+    "name": "海外合作高校 01",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-12",
-    "type": "高校",
-    "name": "Harvard GSD",
-    "desc": "哈佛设计学院，建筑与城市方向升学核心对标",
+    "id": "res-intl-02",
+    "type": "海外高校",
+    "name": "海外合作高校 02",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-13",
-    "type": "高校",
-    "name": "TU Delft IDE",
-    "desc": "代尔夫特理工，全球工业设计与交互设计顶尖院校",
+    "id": "res-intl-03",
+    "type": "海外高校",
+    "name": "海外合作高校 03",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-14",
-    "type": "高校",
-    "name": "NYU ITP",
-    "desc": "纽约大学互动电信项目，创意编程与新媒体标杆",
+    "id": "res-intl-04",
+    "type": "海外高校",
+    "name": "海外合作高校 04",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-15",
-    "type": "高校",
-    "name": "UCL Bartlett",
-    "desc": "伦敦大学学院建筑学院，计算建筑方向核心对标",
+    "id": "res-intl-05",
+    "type": "海外高校",
+    "name": "海外合作高校 05",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-16",
-    "type": "高校",
-    "name": "Goldsmiths",
-    "desc": "金匠学院，计算艺术与数字媒体方向前沿院校",
+    "id": "res-intl-06",
+    "type": "海外高校",
+    "name": "海外合作高校 06",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-17",
-    "type": "海外教授",
-    "name": "Prof. John Zimmerman",
-    "desc": "CMU HCI研究所，AI交互设计与设计研究方法专家",
+    "id": "res-intl-07",
+    "type": "海外高校",
+    "name": "海外合作高校 07",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-18",
-    "type": "海外教授",
-    "name": "Prof. Ramesh Raskar",
-    "desc": "MIT Media Lab，增强现实与相机文化研究",
+    "id": "res-intl-08",
+    "type": "海外高校",
+    "name": "海外合作高校 08",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-19",
-    "type": "海外教授",
-    "name": "Prof. Achim Menges",
-    "desc": "斯图加特大学，参数化建筑与计算性设计国际权威",
+    "id": "res-intl-09",
+    "type": "海外高校",
+    "name": "海外合作高校 09",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-20",
-    "type": "海外教授",
-    "name": "Prof. Liz Sanders",
-    "desc": "俄亥俄州立大学，参与式设计与共创方法论先驱",
+    "id": "res-intl-10",
+    "type": "海外高校",
+    "name": "海外合作高校 10",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-21",
-    "type": "海外教授",
-    "name": "Prof. Neil Gershenfeld",
-    "desc": "MIT CBA，数字制造与个人fabrication研究先驱",
+    "id": "res-dom-01",
+    "type": "国内高校",
+    "name": "国内合作高校 01",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-22",
-    "type": "海外教授",
-    "name": "Prof. Keiichi Matsuda",
-    "desc": "RCA，混合现实与超现实UX设计研究者",
+    "id": "res-dom-02",
+    "type": "国内高校",
+    "name": "国内合作高校 02",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-23",
-    "type": "海外教授",
-    "name": "Prof. Molly Wright Steenson",
-    "desc": "CMU，AI历史与建筑计算交叉研究专家",
+    "id": "res-dom-03",
+    "type": "国内高校",
+    "name": "国内合作高校 03",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-24",
-    "type": "机构",
-    "name": "UCCA 尤伦斯当代艺术中心",
-    "desc": "中国顶尖当代艺术机构，展览科技与数字艺术合作资源",
+    "id": "res-dom-04",
+    "type": "国内高校",
+    "name": "国内合作高校 04",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-25",
-    "type": "机构",
-    "name": "黑弓 Blackbow",
-    "desc": "中国顶尖沉浸式演出与文旅体验公司，文化娱乐方向核心合作",
+    "id": "res-dom-05",
+    "type": "国内高校",
+    "name": "国内合作高校 05",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-26",
-    "type": "机构",
-    "name": "中国城市规划设计研究院",
-    "desc": "国家级城市规划权威机构，建筑环境科技方向对标",
+    "id": "res-dom-06",
+    "type": "国内高校",
+    "name": "国内合作高校 06",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-27",
-    "type": "机构",
-    "name": "Design Museum London",
-    "desc": "伦敦设计博物馆，工业与交互设计领域国际展览资源",
+    "id": "res-dom-07",
+    "type": "国内高校",
+    "name": "国内合作高校 07",
+    "desc": "待补充",
     "placeholder": true
   },
   {
-    "id": "res-28",
-    "type": "机构",
-    "name": "中关村科学城",
-    "desc": "北京科技创新核心区，互联网与智能制造实习合作资源",
-    "placeholder": true
-  },
-  {
-    "id": "res-29",
-    "type": "机构",
-    "name": "阿里巴巴设计",
-    "desc": "阿里巴巴集团用户体验设计部门，电商体验设计核心对标",
-    "placeholder": true
-  },
-  {
-    "id": "res-30",
-    "type": "机构",
-    "name": "奥美 Ogilvy China",
-    "desc": "国际顶级广告创意公司，品牌体验与服务设计对标",
+    "id": "res-dom-08",
+    "type": "国内高校",
+    "name": "国内合作高校 08",
+    "desc": "待补充",
     "placeholder": true
   }
 ]

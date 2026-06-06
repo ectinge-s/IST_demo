@@ -3259,6 +3259,7 @@
     ],
     "source": "空间_英国研究生",
     "keyword_tags": [
+      "film",
       "xr"
     ],
     "prestige_score": 89
@@ -3281,6 +3282,7 @@
     ],
     "source": "空间_英国研究生",
     "keyword_tags": [
+      "film",
       "xr"
     ],
     "prestige_score": 89
@@ -4159,6 +4161,7 @@
     "source": "空间_香港研究生",
     "keyword_tags": [
       "ai",
+      "film",
       "strategy",
       "xr"
     ],
@@ -4183,6 +4186,7 @@
     "source": "空间_香港研究生",
     "keyword_tags": [
       "ai",
+      "film",
       "space",
       "xr"
     ],
@@ -4798,7 +4802,11 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
-      "research"
+      "brand",
+      "creative",
+      "digital",
+      "research",
+      "ux"
     ],
     "prestige_score": 96
   },
@@ -4824,6 +4832,7 @@
     "source": "fos_csv",
     "keyword_tags": [
       "tech",
+      "ux",
       "xr"
     ],
     "prestige_score": 96
@@ -4850,7 +4859,9 @@
     "source": "fos_csv",
     "keyword_tags": [
       "engineering",
-      "industrial"
+      "industrial",
+      "product",
+      "strategy"
     ],
     "prestige_score": 96
   },
@@ -5407,8 +5418,7 @@
     "portfolio_required": "",
     "program_url": "",
     "industry_tags": [
-      "culture",
-      "internet"
+      "culture"
     ],
     "source": "fos_csv",
     "keyword_tags": [
@@ -5746,8 +5756,7 @@
     "portfolio_required": "",
     "program_url": "",
     "industry_tags": [
-      "culture",
-      "internet"
+      "culture"
     ],
     "source": "fos_csv",
     "keyword_tags": [
@@ -5991,8 +6000,9 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
+      "creative",
       "research",
-      "creative"
+      "visual"
     ],
     "prestige_score": 100
   },
@@ -6088,8 +6098,9 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
-      "space",
-      "creative"
+      "creative",
+      "film",
+      "space"
     ],
     "prestige_score": 100
   },
@@ -6231,11 +6242,13 @@
     "portfolio_required": "",
     "program_url": "",
     "industry_tags": [
-      "arch"
+      "arch",
+      "culture"
     ],
     "source": "fos_csv",
     "keyword_tags": [
-      "arch"
+      "arch",
+      "film"
     ],
     "prestige_score": 100
   },
@@ -6304,6 +6317,7 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
+      "film",
       "strategy"
     ],
     "prestige_score": 100
@@ -6442,6 +6456,7 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
+      "film",
       "strategy"
     ],
     "prestige_score": 88
@@ -6754,6 +6769,7 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
+      "film",
       "strategy",
       "xr"
     ],
@@ -7799,6 +7815,7 @@
     ],
     "source": "fos_csv",
     "keyword_tags": [
+      "film",
       "media"
     ],
     "prestige_score": 74

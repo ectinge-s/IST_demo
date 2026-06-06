@@ -6,7 +6,7 @@ const PortfolioPage = {
     const branches = ['全部', ...([...new Set(data.map(p => p.academic_branch).filter(Boolean))])];
     const cats = document.getElementById('portfolio-cats');
     cats.innerHTML = branches.map((b, i) =>
-      `<button class="portfolio-cat-btn${i === 0 ? ' is-active' : ''}"
+      `<button class="filter-btn${i === 0 ? ' is-active' : ''}"
                onclick="PortfolioPage.filter('${b}',this)">${b}</button>`
     ).join('');
 
@@ -14,7 +14,7 @@ const PortfolioPage = {
   },
 
   filter(branch, btn) {
-    document.querySelectorAll('.portfolio-cat-btn').forEach(b => b.classList.remove('is-active'));
+    document.querySelectorAll('#portfolio-cats .filter-btn').forEach(b => b.classList.remove('is-active'));
     btn.classList.add('is-active');
     this._render(branch, DATA.portfolio || []);
   },

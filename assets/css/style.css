@@ -22,9 +22,6 @@
   --color-accent-bright:  #ECFF7A;
   --color-accent-veil:    rgba(226,241,105,.12);
 
-  --color-black:       #050608;   /* void — navbar, deepest */
-  --color-white:       #FFFFFF;
-
   /* Surfaces — dark, layered (low → high) */
   --color-void:        #050608;
   --color-bg:          #0A0C11;   /* page + card base */
@@ -59,7 +56,6 @@
   --glow-primary-soft: 0 0 40px rgba(31,40,232,.35);
   --glow-accent:       0 0 24px rgba(226,241,105,.38);
   --glow-accent-soft:  0 0 60px rgba(226,241,105,.18);
-  --shadow-card:       0 1px 0 rgba(255,255,255,.03), 0 12px 30px -16px rgba(0,0,0,.7);
   --shadow-pop:        0 24px 60px -20px rgba(0,0,0,.85);
 
   /* Typography */
@@ -73,13 +69,10 @@
   --text-lg:   20px;
   --text-xl:   28px;
   --text-2xl:  40px;
-  --text-3xl:  60px;
-  --text-4xl:  clamp(56px, 8vw, 104px);  /* hero display */
 
   /* Radius — small, modern */
   --radius-sm:   4px;
   --radius-md:   8px;
-  --radius-lg:   14px;
   --radius-pill: 999px;
 
   /* Spacing */
@@ -98,13 +91,13 @@
   --navbar-h:     56px;
   --sidebar-w:    520px;
   --content-max:  1240px;
-  --section-pad:  72px 40px;
+  --section-pad:  var(--space-9) 40px;
 
   /* Transitions */
-  --transition-fast: 0.18s cubic-bezier(.2,.8,.2,1);
-  --transition-med:  0.32s cubic-bezier(.2,.8,.2,1);
-  --transition-slow: 0.6s  cubic-bezier(.2,.8,.2,1);
-  --ease-out: cubic-bezier(.2,.8,.2,1);
+  --transition-fast: 0.18s cubic-bezier(.22,1,.36,1);
+  --transition-med:  0.32s cubic-bezier(.22,1,.36,1);
+  --transition-slow: 0.6s  cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.22,1,.36,1);
 }
 
 /* ── RESET ── */
@@ -151,7 +144,6 @@ img { max-width: 100%; display: block; }
 .page.is-active { display: block; }
 
 /* ── SECTION WRAPPER ── */
-.section-wrap { max-width: var(--content-max); margin: 0 auto; padding: var(--section-pad); }
 .section-eyebrow {
   display: inline-flex; align-items: center; gap: 7px;
   font-family: var(--font-en);
@@ -171,13 +163,16 @@ img { max-width: 100%; display: block; }
 .section-divider { border: none; border-top: 1px solid var(--color-border); margin: var(--space-7) 0; }
 
 /* ── GRID HELPERS ── */
-/* auto-fit (not auto-fill): empty tracks collapse so cards always fill the full row width — no trailing blank. */
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-5 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; background: var(--color-border); }
-.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > *, .grid-6 > * { background: var(--color-bg); min-width: 0; }
+/* auto-fill (NOT auto-fit): the number of tracks is decided by container WIDTH only,
+   so card width stays put when a filter changes the card COUNT — leftover tracks stay
+   empty (and transparent) instead of stretching the cards to fill the row. */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1px; }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(218px, 1fr)); gap: 1px; }
+.grid-5 { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1px; }
+.grid-6 { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1px; }
+/* hairline lives on each card (not the container) → empty cells show the page bg */
+.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > *, .grid-6 > * { background: var(--color-bg); min-width: 0; box-shadow: 0 0 0 1px var(--color-border); }
 
 /* ── TAG / BADGE ── */
 .tag {
@@ -189,7 +184,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: .04em;
 }
 .tag--primary  { background: var(--color-primary); color: #fff; }
-.tag--accent   { background: var(--color-accent);  color: var(--color-black); }
+.tag--accent   { background: var(--color-accent);  color: var(--color-void); }
 .tag--surface  { background: var(--color-surface);  color: var(--color-text-muted); border: 1px solid var(--color-border); }
 .tag--outline  { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); }
 
@@ -211,7 +206,8 @@ img { max-width: 100%; display: block; }
 
 /* ── TAB BAR ── */
 .tab-bar { display: flex; gap: 2px; background: var(--color-border); flex-wrap: wrap; }
-.tab-btn {
+/* Segment tabs — courses (.tab-btn) + timeline tracks (.track-tab) share one recipe */
+.tab-btn, .track-tab {
   padding: 8px 20px;
   font-size: var(--text-sm);
   font-weight: 500;
@@ -221,8 +217,8 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-cn);
   border: none;
 }
-.tab-btn:hover { color: var(--color-text); background: var(--color-surface); }
-.tab-btn.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
+.tab-btn:hover, .track-tab:hover { color: var(--color-text); background: var(--color-surface); }
+.tab-btn.is-active, .track-tab.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
 .tab-panel { display: none; }
 .tab-panel.is-active { display: block; }
 

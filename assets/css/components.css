@@ -179,13 +179,16 @@
   position: relative; cursor: pointer; overflow: hidden;
   transition: background var(--transition-fast);
 }
-.person-card::before {
-  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: var(--color-primary); transform: scaleX(0); transform-origin: left;
+/* Shared hover-reveal accent bar (person / resource / offer cards) */
+.person-card::before, .resource-card::before, .offer-card::before {
+  content: ""; position: absolute; background: var(--color-primary);
   transition: transform var(--transition-med); box-shadow: var(--glow-primary-soft);
 }
+.person-card::before, .offer-card::before { top: 0; left: 0; right: 0; height: 2px; transform: scaleX(0); transform-origin: left; }
+.resource-card::before { left: 0; top: 0; bottom: 0; width: 2px; transform: scaleY(0); transform-origin: top; }
 .person-card:hover { background: var(--color-surface); }
-.person-card:hover::before { transform: scaleX(1); }
+.person-card:hover::before, .offer-card:hover::before { transform: scaleX(1); }
+.resource-card:hover::before { transform: scaleY(1); }
 .person-card__avatar {
   width: 100%; aspect-ratio: 1;
   background:
@@ -213,13 +216,7 @@
 
 /* ── RESOURCE CARD ── */
 .resource-card { padding: var(--space-4) var(--space-5); background: var(--color-bg); position: relative; transition: background var(--transition-fast); overflow: hidden; }
-.resource-card::before {
-  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
-  background: var(--color-primary); transform: scaleY(0); transform-origin: top;
-  transition: transform var(--transition-med); box-shadow: var(--glow-primary-soft);
-}
 .resource-card:hover { background: var(--color-surface); }
-.resource-card:hover::before { transform: scaleY(1); }
 .resource-card__type {
   font-family: var(--font-mono); font-size: 9px; letter-spacing: .12em;
   text-transform: uppercase; color: var(--color-primary-bright); font-weight: 500; margin-bottom: var(--space-2);
@@ -237,6 +234,27 @@
 }
 .course-card__img img {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top;
+}
+
+/* ── SKELETON (placeholder for empty / upcoming course tabs) ── */
+.skeleton-card { background: var(--color-bg); display: flex; flex-direction: column; }
+.skeleton-card__img { width: 100%; aspect-ratio: 16/9; background: var(--color-surface); position: relative; overflow: hidden; }
+.skeleton-card__body { padding: 14px var(--space-4); display: flex; flex-direction: column; gap: 9px; }
+.sk-line { height: 11px; border-radius: var(--radius-sm); background: var(--color-surface); position: relative; overflow: hidden; }
+.sk-line--narrow { width: 55%; height: 9px; }
+.skeleton-card__img::after, .sk-line::after {
+  content: ""; position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(90,103,255,.10), transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .skeleton-card__img::after, .sk-line::after { animation: skShimmer 1.6s var(--ease-out) infinite; }
+}
+@keyframes skShimmer { 100% { transform: translateX(100%); } }
+.skeleton-card__tag {
+  position: absolute; top: 8px; left: 8px; font-family: var(--font-mono);
+  font-size: 9px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--color-text-faint); background: var(--color-void);
+  padding: 2px 7px; border-radius: var(--radius-sm); z-index: 1;
 }
 
 /* ── POSTER OVERLAY ── */

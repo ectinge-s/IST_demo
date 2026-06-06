@@ -83,23 +83,23 @@
         ctx.lineJoin = 'round';
         ctx.globalCompositeOperation = 'lighter';
         // Soft comet in the LIME accent: wide haze → mid body → bright pale core.
-        drawSmooth(72, function (t) { return 'rgba(150,240,95,'  + (0.075 * t) + ')'; });
-        drawSmooth(40, function (t) { return 'rgba(196,246,108,' + (0.14  * t) + ')'; });
-        drawSmooth(20, function (t) { return 'rgba(226,241,105,' + (0.22  * t) + ')'; });
-        drawSmooth(8,  function (t) { return 'rgba(243,255,200,' + (0.30  * t) + ')'; });
+        drawSmooth(72, function (t) { return 'rgba(150,240,95,'  + (0.18  * t) + ')'; });
+        drawSmooth(40, function (t) { return 'rgba(196,246,108,' + (0.35  * t) + ')'; });
+        drawSmooth(20, function (t) { return 'rgba(226,241,105,' + (0.55  * t) + ')'; });
+        drawSmooth(8,  function (t) { return 'rgba(243,255,200,' + (0.80  * t) + ')'; });
         // Round cap on the head only — a filled circle at the cursor tip.
         var hp = pts[pts.length - 1];
         ctx.beginPath();
-        ctx.arc(hp.x, hp.y, 4, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(243,255,200,' + (0.30 * headAlpha) + ')';
-        ctx.fill();
-        ctx.beginPath();
-        ctx.arc(hp.x, hp.y, 10, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(196,246,108,' + (0.14 * headAlpha) + ')';
+        ctx.arc(hp.x, hp.y, 8, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255,255,220,' + (0.95 * headAlpha) + ')';
         ctx.fill();
         ctx.beginPath();
         ctx.arc(hp.x, hp.y, 20, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(150,240,95,' + (0.075 * headAlpha) + ')';
+        ctx.fillStyle = 'rgba(196,246,108,' + (0.55 * headAlpha) + ')';
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(hp.x, hp.y, 40, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(150,240,95,' + (0.25 * headAlpha) + ')';
         ctx.fill();
       }
 
