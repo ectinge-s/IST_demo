@@ -176,7 +176,8 @@ img { max-width: 100%; display: block; }
 .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 3px; background: var(--color-border); }
 .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); gap: 3px; background: var(--color-border); }
 .grid-5 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 3px; background: var(--color-border); }
-.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > * { background: var(--color-bg); min-width: 0; }
+.grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; background: var(--color-border); }
+.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > *, .grid-6 > * { background: var(--color-bg); min-width: 0; }
 
 /* ── TAG / BADGE ── */
 .tag {

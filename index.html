@@ -155,26 +155,29 @@
     <hr class="section-divider">
     <div class="filter-bar" id="instructor-tabs" style="margin-bottom:16px;">
       <button class="filter-btn is-active" data-itype="all" onclick="HomePage.filterInstructors('all',this)">全部</button>
-      <button class="filter-btn" data-itype="industry" onclick="HomePage.filterInstructors('industry',this)">业界导师</button>
+      <button class="filter-btn" data-itype="overseas" onclick="HomePage.filterInstructors('overseas',this)">海外教授</button>
       <button class="filter-btn" data-itype="academic" onclick="HomePage.filterInstructors('academic',this)">学术导师</button>
+      <button class="filter-btn" data-itype="industry" onclick="HomePage.filterInstructors('industry',this)">业界导师</button>
       <button class="filter-btn" data-itype="alumni" onclick="HomePage.filterInstructors('alumni',this)">校友导师</button>
     </div>
-    <div class="grid-5" id="instructors-grid"></div>
+    <div class="grid-6" id="instructors-grid"></div>
+    <div style="text-align:center;margin-top:16px;">
+      <button id="inst-expand-btn" class="filter-btn" style="display:none" onclick="HomePage.toggleInstructors()">展开查看更多</button>
+    </div>
   </section>
 
   <!-- RESOURCES -->
   <section class="home-section" id="resources">
     <div class="section-eyebrow">Network</div>
     <h2 class="section-title">资源网络</h2>
-    <p class="section-desc">横跨互联网科技、智能制造、数字文化、品牌咨询与建筑空间五大产业，深度合作的企业、顶尖高校、海外教授与行业机构资源网络，直连升学与就业的第一线。</p>
+    <p class="section-desc">横跨互联网科技、智能制造、数字文化、品牌咨询与建筑空间五大产业，深度合作的企业、国内高校、海外高校资源网络，直连升学与就业的第一线。</p>
     <hr class="section-divider">
     <div class="filter-bar">
       <span class="filter-bar__label">筛选</span>
       <button class="resource-filter-btn filter-btn is-active" data-type="all">全部</button>
       <button class="resource-filter-btn filter-btn" data-type="企业">企业</button>
-      <button class="resource-filter-btn filter-btn" data-type="高校">高校</button>
-      <button class="resource-filter-btn filter-btn" data-type="海外教授">海外教授</button>
-      <button class="resource-filter-btn filter-btn" data-type="机构">机构</button>
+      <button class="resource-filter-btn filter-btn" data-type="国内高校">国内高校</button>
+      <button class="resource-filter-btn filter-btn" data-type="海外高校">海外高校</button>
     </div>
     <div class="grid-4" id="resources-grid"></div>
   </section>

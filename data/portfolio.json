@@ -1,0 +1,204 @@
+[
+  {
+    "id": "互联网科技-ZHY-北京海淀",
+    "industry_label": "互联网科技",
+    "academic_branch": "用户体验与人机智能",
+    "academic_branch_en": "UX & Human-Computer Intelligence",
+    "industry_id": "internet",
+    "primary_school": "香港理工大学",
+    "primary_program": "Smart Service Design",
+    "other_schools": [
+      "皇家艺术学院"
+    ],
+    "tags": [
+      "人机交互",
+      "交互设计",
+      "服务设计"
+    ],
+    "image": "img/portfolio/互联网科技-ZHY-北京海淀.jpg"
+  },
+  {
+    "id": "互联网科技-LJN-北京CBD",
+    "industry_label": "互联网科技",
+    "academic_branch": "用户体验与人机智能",
+    "academic_branch_en": "UX & Human-Computer Intelligence",
+    "industry_id": "internet",
+    "primary_school": "哈佛大学",
+    "primary_program": "Master in Design Studies - Medium",
+    "other_schools": [
+      "纽约大学",
+      "萨凡纳艺术学院"
+    ],
+    "tags": [
+      "交互设计",
+      "用户体验设计",
+      "人机交互"
+    ],
+    "image": "img/portfolio/互联网科技-LJN-北京CBD.jpg"
+  },
+  {
+    "id": "建筑环境科技-YSY-北京CBD",
+    "industry_label": "建筑环境科技",
+    "academic_branch": "空间设计与智能环境",
+    "academic_branch_en": "Spatial Design & Intelligent Environments",
+    "industry_id": "arch",
+    "primary_school": "斯坦福大学",
+    "primary_program": "Sustainable Design & Construction(SDC)",
+    "other_schools": [
+      "宾夕法尼亚大学",
+      "哥伦比亚大学",
+      "伦敦大学学院",
+      "密歇根安娜堡分校"
+    ],
+    "tags": [
+      "可持续",
+      "建筑学",
+      "城市研究"
+    ],
+    "image": "img/portfolio/建筑环境科技-YSY-北京CBD.jpg"
+  },
+  {
+    "id": "建筑环境科技-DDZY-南京",
+    "industry_label": "建筑环境科技",
+    "academic_branch": "空间设计与智能环境",
+    "academic_branch_en": "Spatial Design & Intelligent Environments",
+    "industry_id": "arch",
+    "primary_school": "哥伦比亚大学",
+    "primary_program": "Master of Science in Advanced Architectural Design",
+    "other_schools": [
+      "宾夕法尼亚大学",
+      "新加坡国立大学",
+      "伦敦大学学院"
+    ],
+    "tags": [
+      "建筑",
+      "设计技术",
+      "空间设计"
+    ],
+    "image": "img/portfolio/建筑环境科技-DDZY-南京.jpg"
+  },
+  {
+    "id": "智能实体产业-MLC-深圳",
+    "industry_label": "智能实体产业",
+    "academic_branch": "工业工程与智能制造",
+    "academic_branch_en": "Industrial Systems & Intelligent Manufacturing",
+    "industry_id": "hardware",
+    "primary_school": "代尔夫特理工",
+    "primary_program": "Master Strategic Product Design",
+    "other_schools": [
+      "帝国理工学院",
+      "香港理工大学"
+    ],
+    "tags": [
+      "整合产品设计",
+      "设计工程",
+      "自动化设计"
+    ],
+    "image": "img/portfolio/智能实体产业-MLC-深圳.jpg"
+  },
+  {
+    "id": "智能实体产业-ZXY-上海",
+    "industry_label": "智能实体产业",
+    "academic_branch": "工业工程与智能制造",
+    "academic_branch_en": "Industrial Systems & Intelligent Manufacturing",
+    "industry_id": "hardware",
+    "primary_school": "杜克大学",
+    "primary_program": "MEng Design and Technology Innovation",
+    "other_schools": [
+      "佐治亚理工",
+      "密歇根安娜堡"
+    ],
+    "tags": [
+      "人因工程",
+      "社会创新",
+      "设计工程"
+    ],
+    "image": "img/portfolio/智能实体产业-ZXY-上海.jpg"
+  },
+  {
+    "id": "品牌与服务-XYB-南京",
+    "industry_label": "品牌与服务",
+    "academic_branch": "社会创新与产品策略",
+    "academic_branch_en": "Social Innovation & Product Strategy",
+    "industry_id": "brand",
+    "primary_school": "哥伦比亚大学",
+    "primary_program": "Technology, Media, and Learning (MA)",
+    "other_schools": [
+      "约翰霍普金斯",
+      "南加州大学",
+      "密西根安娜堡",
+      "新加坡国立",
+      "皇家艺术学院"
+    ],
+    "tags": [
+      "创新设计",
+      "设计影响",
+      "创意科技"
+    ],
+    "image": "img/portfolio/品牌与服务-XYB-南京.jpg"
+  },
+  {
+    "id": "品牌与服务-ZK-上海",
+    "industry_label": "品牌与服务",
+    "academic_branch": "社会创新与产品策略",
+    "academic_branch_en": "Social Innovation & Product Strategy",
+    "industry_id": "brand",
+    "primary_school": "康奈尔大学",
+    "primary_program": "M.S. Design Technology",
+    "other_schools": [
+      "加州大学伯克利分校",
+      "纽约大学",
+      "南加州大学",
+      "华盛顿大学",
+      "帕森斯设计学院"
+    ],
+    "tags": [
+      "设计未来",
+      "社会创新",
+      "新媒体艺术"
+    ],
+    "image": "img/portfolio/品牌与服务-ZK-上海.jpg"
+  },
+  {
+    "id": "数字文化娱乐-JXY-北京CBD",
+    "industry_label": "数字文化娱乐",
+    "academic_branch": "叙事交互与沉浸体验",
+    "academic_branch_en": "Narrative Experience & Immersive Media",
+    "industry_id": "culture",
+    "primary_school": "卡内基梅隆大学",
+    "primary_program": "Master of Entertainment Design",
+    "other_schools": [
+      "东北大学",
+      "南加州大学",
+      "威斯康星麦迪逊",
+      "爱丁堡大学",
+      "伦敦大学金史密斯学院"
+    ],
+    "tags": [
+      "沉浸式媒体",
+      "游戏设计",
+      "互动媒体"
+    ],
+    "image": "img/portfolio/数字文化娱乐-JXY-北京CBD.jpg"
+  },
+  {
+    "id": "品牌与服务-ZK-上海",
+    "industry_label": "数字文化娱乐",
+    "academic_branch": "叙事交互与沉浸体验",
+    "academic_branch_en": "Narrative Experience & Immersive Media",
+    "industry_id": "culture",
+    "primary_school": "皇家艺术学院",
+    "primary_program": "MA Information Experience Design",
+    "other_schools": [
+      "伦敦大学金史密斯学院",
+      "悉尼大学",
+      "新南威尔士大学"
+    ],
+    "tags": [
+      "新媒体艺术",
+      "互动媒体",
+      "计算艺术"
+    ],
+    "image": "img/portfolio/品牌与服务-ZK-上海.jpg"
+  }
+]

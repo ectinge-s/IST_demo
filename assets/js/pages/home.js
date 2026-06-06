@@ -21,18 +21,67 @@ const HomePage = {
   _renderInstructors(type) {
     const grid = document.getElementById('instructors-grid');
     if (!grid) return;
-    const TAG_MAP = { industry: 'tag-blue', academic: 'tag-lime', alumni: 'tag-gray' };
     const items = type === 'all' ? DATA.instructors : DATA.instructors.filter(i => i.tag === type);
-    grid.innerHTML = items.map(inst => {
-      const tagCls = inst.tag_cls === 'tag-blue' ? 'primary' : inst.tag_cls === 'tag-lime' ? 'accent' : 'surface';
-      return `
-        <div class="person-card">
-          <div class="person-card__avatar">${inst.name.slice(-1)}</div>
-          <div class="person-card__name">${inst.name}</div>
-          <div class="person-card__title">${inst.title}</div>
-          <span class="tag tag--${tagCls}" style="margin-top:6px;">${inst.role}</span>
-        </div>`;
-    }).join('');
+    const INITIAL = 6;
+    const cards = items.map(inst => this._instructorCard(inst));
+    const visible = cards.slice(0, INITIAL).join('');
+    const hidden  = cards.slice(INITIAL).join('');
+    const hasMore = cards.length > INITIAL;
+    grid.innerHTML = visible
+      + (hasMore ? `<div class="inst-more" id="inst-more" style="display:none">${hidden}</div>` : '');
+    // Re-render expand button
+    const btn = document.getElementById('inst-expand-btn');
+    if (btn) btn.style.display = hasMore ? '' : 'none';
+    if (btn) { btn.textContent = '展开查看更多'; btn.dataset.open = '0'; }
+  },
+
+  toggleInstructors() {
+    const more = document.getElementById('inst-more');
+    const btn  = document.getElementById('inst-expand-btn');
+    if (!more) return;
+    const isOpen = btn.dataset.open === '1';
+    more.style.display = isOpen ? 'none' : 'contents';
+    btn.textContent = isOpen ? '展开查看更多' : '收起';
+    btn.dataset.open = isOpen ? '0' : '1';
+  },
+
+  _instructorCard(inst) {
+    const tagClsMap = { 'tag-blue': 'primary', 'tag-lime': 'accent', 'tag-gray': 'surface', 'tag-purple': 'primary' };
+    const tagCls = tagClsMap[inst.tag_cls] || 'surface';
+    // Append role-appropriate suffix to pseudonym
+    const base = inst.pseudonym || inst.name;
+    const suffix = inst.tag === 'academic' ? '老师'
+                 : inst.tag === 'industry' ? '老师'
+                 : inst.tag === 'overseas' ? '教授'
+                 : '';
+    const displayName = base + suffix;
+    const avatar = `<div class="person-card__avatar">${base.slice(-1)}</div>`;
+    const nameRow = `<div class="person-card__name">${displayName}</div>`;
+    const roleTag = `<span class="tag tag--${tagCls}" style="margin-top:6px;">${inst.role}</span>`;
+
+    let body = '';
+    if (inst.tag === 'industry') {
+      body = `${nameRow}
+        <div class="person-card__title">${inst.title || ''}</div>
+        ${inst.intro ? `<div class="person-card__sub">${inst.intro}</div>` : ''}`;
+    } else if (inst.tag === 'academic') {
+      body = `${nameRow}
+        <div class="person-card__title">${inst.school || (inst.placeholder ? '待补充' : '')}</div>
+        ${inst.academic_branch ? `<div class="person-card__sub">${inst.academic_branch}</div>` : ''}`;
+    } else if (inst.tag === 'alumni') {
+      const dirs = (inst.directions || []).join('　/　');
+      body = `${nameRow}
+        <div class="person-card__title">${inst.school || ''}</div>
+        ${dirs ? `<div class="person-card__sub">${dirs}</div>` : ''}`;
+    } else if (inst.tag === 'overseas') {
+      body = `${nameRow}
+        <div class="person-card__title">${inst.school || (inst.placeholder ? '待补充' : '')}</div>
+        ${inst.title ? `<div class="person-card__sub">${inst.title}</div>` : ''}`;
+    } else {
+      body = `${nameRow}<div class="person-card__title">${inst.title || ''}</div>`;
+    }
+
+    return `<div class="person-card">${avatar}${body}${roleTag}</div>`;
   },
 
   buildResources() {

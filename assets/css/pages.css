@@ -402,7 +402,7 @@
 }
 .portfolio-cat-btn:hover { border-color: var(--color-primary-bright); color: var(--color-text); background: var(--color-surface-2); }
 .portfolio-cat-btn.is-active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); box-shadow: var(--glow-primary-soft); }
-.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 3px; background: var(--color-border); }
+.portfolio-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px; background: var(--color-border); }
 .portfolio-grid > * { min-width: 0; }
 
 /* ── TIMELINE PAGE ── */
