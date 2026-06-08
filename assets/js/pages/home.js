@@ -133,12 +133,21 @@ const HomePage = {
   },
 
   buildCourses() {
+    const INDUSTRY_TABS = [
+      { id: 'internship',  label: '就业实习课程' },
+      { id: 'bizpractice', label: '商业实践课程' },
+      { id: 'other',       label: '其他' },
+    ];
+    const ACADEMIC_TABS = [
+      { id: 'summer',      label: '海外冬夏校' },
+      { id: 'masterclass', label: '海外大师课' },
+    ];
     const TABS = [
-      { id: 'internship',    label: '就业实习课程' },
-      { id: 'summer',        label: '海外冬夏校' },
-      { id: 'masterclass',   label: '海外大师课' },
-      { id: 'bizpractice',   label: '商业实践课程' },
-      { id: 'other',         label: '其他' },
+      INDUSTRY_TABS[0],   // 就业实习课程
+      ACADEMIC_TABS[0],   // 海外冬夏校
+      INDUSTRY_TABS[1],   // 商业实践课程
+      ACADEMIC_TABS[1],   // 海外大师课
+      // INDUSTRY_TABS[2],   // 其他 (temporarily hidden)
     ];
 
     const bar = document.getElementById('courses-tab-bar');
@@ -149,15 +158,18 @@ const HomePage = {
                onclick="Tabs.switchCourse('${t.id}', this)">${t.label}</button>`
     ).join('');
 
+    const industryIds = new Set(INDUSTRY_TABS.map(t => t.id));
     panels.innerHTML = TABS.map((t, i) => {
-      const items = DATA.courses.filter(c => c.tab === t.id);
+      // Academic tabs use courses_academic, industry tabs use courses_industry
+      const src = industryIds.has(t.id) ? DATA.courses_industry : DATA.courses_academic;
+      const items = (src || []).filter(c => c.tab === t.id);
       let content;
       if (t.id === 'internship') {
         content = this._buildInternshipPanel(items);
-      } else if (items.length && !items[0].placeholder) {
-        content = this._buildCourseGrid(items);
+      } else if (industryIds.has(t.id)) {
+        content = items.length ? this._buildCourseGrid(items) : this._buildPlaceholderGrid(t.label);
       } else {
-        content = this._buildPlaceholderGrid(t.label);
+        content = items.length ? this._buildAcademicGrid(items) : this._buildPlaceholderGrid(t.label);
       }
       return `<div class="tab-panel${i === 0 ? ' is-active' : ''}" id="tab-${t.id}">${content}</div>`;
     }).join('');
@@ -167,8 +179,7 @@ const HomePage = {
     const INDUSTRIES = ['互联网科技','智能实体产业','数字文化娱乐','品牌与服务','建筑环境科技'];
     const INDUSTRY_IDS = ['internet','hardware','culture','brand','arch'];
 
-    // Map industry name to items (internship + mentoring combined)
-    const internItems = DATA.courses.filter(c => c.tab === 'internship' || c.tab === 'mentoring');
+    const internItems = DATA.courses_industry.filter(c => c.tab === 'internship' || c.tab === 'mentoring');
 
     const filterBar = `
       <div class="filter-bar" style="margin-bottom:16px;">
@@ -206,7 +217,7 @@ const HomePage = {
           ${c.location ? `<span class="course-card__badge">${c.location}</span>` : ''}
           ${c.duration ? `<span class="course-card__badge">${c.duration}</span>` : ''}
           ${c.enrollment_status ? `<span class="course-card__badge ${statusCls}">${c.enrollment_status}</span>` : ''}
-          ${c.price_rmb ? `<span class="course-card__badge course-card__badge--price">${c.price_rmb}</span>` : ''}
+          <span class="course-card__badge course-card__badge--price">报名中</span>
         </div>
       </div>
     </div>`;
@@ -245,7 +256,27 @@ const HomePage = {
             <div class="course-card__company">${c.company}</div>
             <div class="course-card__role">${c.role_or_course}</div>
             <div class="course-card__meta">
-              ${c.price_rmb ? `<span class="course-card__badge course-card__badge--price">${c.price_rmb}</span>` : ''}
+              <span class="course-card__badge course-card__badge--price">报名中</span>
+            </div>
+          </div>
+        </div>`).join('')}
+    </div>`;
+  },
+
+  _buildAcademicGrid(items) {
+    return `<div class="grid-4">
+      ${items.map(c => `
+        <div class="course-card">
+          <div class="course-card__img">
+            ${c.poster ? `<img src="${c.poster}" alt="${c.role_or_course}" loading="lazy">` : `<span style="opacity:.4">${c.program_type}</span>`}
+            <span class="course-card__img-label">${c.category || ''}</span>
+          </div>
+          <div class="course-card__body">
+            <div class="course-card__company">${c.role_or_course}</div>
+            <div class="course-card__role">${c.suitable_for || ''}</div>
+            <div class="course-card__meta">
+              ${c.location ? `<span class="course-card__badge">${c.location}</span>` : ''}
+              <span class="course-card__badge course-card__badge--price">报名中</span>
             </div>
           </div>
         </div>`).join('')}

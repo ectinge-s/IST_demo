@@ -1,5 +1,4 @@
-/_raw
-/_changed
+_*
 
 # macOS
 .DS_Store

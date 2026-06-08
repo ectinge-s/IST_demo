@@ -6,7 +6,7 @@
 const DATA = (() => {
   const cache = {};
   const BASE = './data/';
-  const FILES = ['careers','courses','programs','instructors','resources','taxonomy','school_priority','timeline','offers','portfolio'];
+  const FILES = ['careers','courses_industry','courses_academic','programs','instructors','resources','taxonomy','school_priority','timeline','offers','offers_featured','portfolio'];
 
   async function load() {
     await Promise.all(FILES.map(async name => {

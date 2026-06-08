@@ -1,778 +1,1105 @@
 {
   "season": "2026 Fall",
-  "total_offers": 2048,
-  "groups": {
-    "US": {
-      "label": "🇺🇸 美国",
-      "total_offers": 296,
-      "featured": [
-        {
-          "school_zh": "哈佛大学",
-          "school_en": "Harvard University",
-          "offer_count": 4
-        },
-        {
-          "school_zh": "宾夕法尼亚大学",
-          "school_en": "University of Pennsylvania",
-          "offer_count": 3
-        },
-        {
-          "school_zh": "哥伦比亚大学",
-          "school_en": "Columbia University",
-          "offer_count": 4
-        },
-        {
-          "school_zh": "康奈尔大学",
-          "school_en": "Cornell University",
-          "offer_count": 11
-        },
-        {
-          "school_zh": "卡内基梅隆大学",
-          "school_en": "Carnegie Mellon University",
-          "offer_count": 4
-        },
-        {
-          "school_zh": "纽约大学",
-          "school_en": "New York University",
-          "offer_count": 43
-        },
-        {
-          "school_zh": "南加州大学",
-          "school_en": "University of Southern California",
-          "offer_count": 39
-        },
-        {
-          "school_zh": "加州大学伯克利分校",
-          "school_en": "UC Berkeley",
-          "offer_count": 8
-        },
-        {
-          "school_zh": "约翰霍普金斯大学",
-          "school_en": "Johns Hopkins University",
-          "offer_count": 6
-        },
-        {
-          "school_zh": "华盛顿大学",
-          "school_en": "University of Washington",
-          "offer_count": 30
-        },
-        {
-          "school_zh": "斯坦福大学",
-          "school_en": "Stanford University",
-          "offer_count": 1
-        },
-        {
-          "school_zh": "帕森斯设计学院",
-          "school_en": "Parsons School of Design",
-          "offer_count": 14
-        }
-      ],
-      "all_schools": [
-        {
-          "school_raw": "纽约大学/New York University",
-          "offer_count": 43
-        },
-        {
-          "school_raw": "南加州大学/University of Southern California",
-          "offer_count": 39
-        },
-        {
-          "school_raw": "萨凡纳艺术与设计学院/Savannah College of Art and Design",
-          "offer_count": 27
-        },
-        {
-          "school_raw": "华盛顿大学/University of Washington",
-          "offer_count": 26
-        },
-        {
-          "school_raw": "东北大学/Northeastern University",
-          "offer_count": 25
-        },
-        {
-          "school_raw": "帕森斯设计学院/Parsons School of Design at The New School",
-          "offer_count": 14
-        },
-        {
-          "school_raw": "康奈尔大学/Cornell University",
-          "offer_count": 11
-        },
-        {
-          "school_raw": "罗彻斯特理工大学/Rochester Institute of Technology",
-          "offer_count": 11
-        },
-        {
-          "school_raw": "密歇根安娜堡分校/University of Michigan, Ann Arbor",
-          "offer_count": 9
-        },
-        {
-          "school_raw": "加州大学伯克利分校/University of California, Berkeley",
-          "offer_count": 8
-        },
-        {
-          "school_raw": "普瑞特艺术学院/Pratt Institute",
-          "offer_count": 8
-        },
-        {
-          "school_raw": "纽约视觉艺术学院/School of Visual Arts",
-          "offer_count": 7
-        },
-        {
-          "school_raw": "约翰霍普金斯大学/Johns Hopkins University",
-          "offer_count": 6
-        },
-        {
-          "school_raw": "佐治亚理工学院/Georgia Institute of Technology",
-          "offer_count": 5
-        },
-        {
-          "school_raw": "艺术中心设计学院/ArtCenter College of Design",
-          "offer_count": 5
-        },
-        {
-          "school_raw": "西北大学/Northwestern University",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "迈阿密大学（佛罗里达州）/University of Miami",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "哥伦比亚大学/Columbia University",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "哈佛大学/Harvard University",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "卡内基梅隆大学/Carnegie Mellon University",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "宾夕法尼亚大学/University of Pennsylvania",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "普渡大学/Purdue University",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "塔夫茨大学/Tufts University",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "圣路易斯华盛顿大学/Washington University in St. Louis",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "旧金山艺术大学/Academy of Art University",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "芝加哥艺术学院/School of the Art Institute of Chicago",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "亚利桑那州立大学/Arizona State University",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "布朗大学/Brown University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "乔治华盛顿大学/George Washington University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "南卫理公会大学/Southern Methodist University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "杜克大学/Duke University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "辛辛那提大学/University of Cincinnati",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "宾夕法尼亚州立大学/The Pennsylvania State University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "伊利诺伊理工学院/Illinois Institute of Technology",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "斯蒂文斯理工学院/Stevens Institute of Technology",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "罗德岛设计学院/Rhode Island School of Design",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "威斯康辛大学麦迪逊分校/University of Wisconsin-Madison",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "伊利诺伊大学香槟分校/University of Illinois at Urbana-Champaign",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "佛罗里达大学/University of Florida",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "创意设计学院/College for Creative Studies",
-          "offer_count": 1
-        }
-      ]
+  "total_offers": 3103,
+  "schools": [
+    {
+      "school_zh": "皇家艺术学院",
+      "school_en": "Royal College of Art",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 277
     },
-    "UK": {
-      "label": "🇬🇧 英国",
-      "total_offers": 1423,
-      "featured": [
-        {
-          "school_zh": "伦敦大学学院",
-          "school_en": "University College London",
-          "offer_count": 46
-        },
-        {
-          "school_zh": "皇家艺术学院",
-          "school_en": "Royal College of Art",
-          "offer_count": 183
-        },
-        {
-          "school_zh": "伦敦艺术大学 UAL",
-          "school_en": "University of the Arts London",
-          "offer_count": 244
-        },
-        {
-          "school_zh": "帝国理工学院",
-          "school_en": "Imperial College London",
-          "offer_count": 12
-        },
-        {
-          "school_zh": "爱丁堡大学",
-          "school_en": "University of Edinburgh",
-          "offer_count": 139
-        },
-        {
-          "school_zh": "伦敦大学金匠学院",
-          "school_en": "Goldsmiths University of London",
-          "offer_count": 105
-        },
-        {
-          "school_zh": "格拉斯哥艺术学院",
-          "school_en": "The Glasgow School of Art",
-          "offer_count": 106
-        },
-        {
-          "school_zh": "曼彻斯特大学",
-          "school_en": "University of Manchester",
-          "offer_count": 2
-        },
-        {
-          "school_zh": "拉夫堡大学",
-          "school_en": "Loughborough University",
-          "offer_count": 206
-        },
-        {
-          "school_zh": "利兹大学",
-          "school_en": "University of Leeds",
-          "offer_count": 115
-        },
-        {
-          "school_zh": "布里斯托大学",
-          "school_en": "University of Bristol",
-          "offer_count": 45
-        },
-        {
-          "school_zh": "格拉斯哥大学",
-          "school_en": "University of Glasgow",
-          "offer_count": 41
-        }
-      ],
-      "all_schools": [
-        {
-          "school_raw": "拉夫堡大学/Loughborough University",
-          "offer_count": 206
-        },
-        {
-          "school_raw": "皇家艺术学院/Royal College of Art",
-          "offer_count": 183
-        },
-        {
-          "school_raw": "伦艺-创意计算机学院/UAL- Creative Computing Institute",
-          "offer_count": 143
-        },
-        {
-          "school_raw": "爱丁堡大学/University of Edinburgh",
-          "offer_count": 139
-        },
-        {
-          "school_raw": "利兹大学/The University of Leeds",
-          "offer_count": 115
-        },
-        {
-          "school_raw": "格拉斯哥艺术学院/The Glasgow School of Art",
-          "offer_count": 106
-        },
-        {
-          "school_raw": "伦敦大学金史密斯学院/Goldsmiths, University of London",
-          "offer_count": 105
-        },
-        {
-          "school_raw": "南安普顿大学/University of Southampton",
-          "offer_count": 65
-        },
-        {
-          "school_raw": "金斯顿大学/Kingston University London",
-          "offer_count": 51
-        },
-        {
-          "school_raw": "伦艺-伦敦传媒学院/UAL-London College of Communication",
-          "offer_count": 47
-        },
-        {
-          "school_raw": "伦敦大学学院/University College London",
-          "offer_count": 46
-        },
-        {
-          "school_raw": "布里斯托大学/University of Bristol",
-          "offer_count": 45
-        },
-        {
-          "school_raw": "格拉斯哥大学/University of Glasgow",
-          "offer_count": 41
-        },
-        {
-          "school_raw": "伦艺-中央圣马丁艺术学院/UAL-Central Saint Martins",
-          "offer_count": 40
-        },
-        {
-          "school_raw": "伦敦大学布鲁内尔学院/Brunel University of London",
-          "offer_count": 20
-        },
-        {
-          "school_raw": "伦艺-坎伯韦尔艺术学院/UAL-Camberwell College of Arts",
-          "offer_count": 14
-        },
-        {
-          "school_raw": "约克大学(英国)/University of York",
-          "offer_count": 13
-        },
-        {
-          "school_raw": "帝国理工学院/Imperial College London",
-          "offer_count": 12
-        },
-        {
-          "school_raw": "威斯敏斯特大学/University of Westminster",
-          "offer_count": 9
-        },
-        {
-          "school_raw": "华威大学/The University of Warwick",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "伯明翰城市大学/Birmingham City University",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "考文垂大学/Coventry University",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "利物浦大学/University of Liverpool",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "伯明翰大学/University of Birmingham",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "曼彻斯特大学/The University of Manchester",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "布莱顿大学/University of Brighton",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "诺丁汉大学/University of Nottingham",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "西交利物浦大学/Xi'an Jiaotong-Liverpool University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "创意艺术大学/University for the Creative Arts",
-          "offer_count": 1
-        }
-      ]
+    {
+      "school_zh": "爱丁堡大学",
+      "school_en": "University of Edinburgh",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 234
     },
-    "HK_SG": {
-      "label": "🇭🇰 港新",
-      "total_offers": 130,
-      "featured": [
-        {
-          "school_zh": "香港理工大学",
-          "school_en": "Hong Kong Polytechnic University",
-          "offer_count": 28
-        },
-        {
-          "school_zh": "香港大学",
-          "school_en": "University of Hong Kong",
-          "offer_count": 44
-        },
-        {
-          "school_zh": "新加坡国立大学",
-          "school_en": "National University of Singapore",
-          "offer_count": 17
-        },
-        {
-          "school_zh": "香港城市大学",
-          "school_en": "City University of Hong Kong",
-          "offer_count": 17
-        },
-        {
-          "school_zh": "南洋理工大学",
-          "school_en": "Nanyang Technological University",
-          "offer_count": 10
-        },
-        {
-          "school_zh": "香港科技大学",
-          "school_en": "HKUST",
-          "offer_count": 10
-        },
-        {
-          "school_zh": "香港浸会大学",
-          "school_en": "Hong Kong Baptist University",
-          "offer_count": 8
-        },
-        {
-          "school_zh": "香港教育大学",
-          "school_en": "Education University of Hong Kong",
-          "offer_count": 7
-        },
-        {
-          "school_zh": "香港岭南大学",
-          "school_en": "Lingnan University",
-          "offer_count": 3
-        },
-        {
-          "school_zh": "澳门大学",
-          "school_en": "University of Macau",
-          "offer_count": 5
-        },
-        {
-          "school_zh": "澳门科技大学",
-          "school_en": "Macau University of Science and Technology",
-          "offer_count": 4
-        },
-        {
-          "school_zh": "澳门城市大学",
-          "school_en": "City University of Macau",
-          "offer_count": 3
-        }
-      ],
-      "all_schools": [
-        {
-          "school_raw": "香港理工大学/The Hong Kong Polytechnic University",
-          "offer_count": 28
-        },
-        {
-          "school_raw": "香港大学/The University of Hong Kong",
-          "offer_count": 20
-        },
-        {
-          "school_raw": "香港城市大学/City University of Hong Kong",
-          "offer_count": 17
-        },
-        {
-          "school_raw": "新加坡国立大学/National University of Singapore",
-          "offer_count": 17
-        },
-        {
-          "school_raw": "南洋理工大学/Nanyang Technological University",
-          "offer_count": 10
-        },
-        {
-          "school_raw": "香港科技大学/The Hong Kong University of Science and Technology",
-          "offer_count": 10
-        },
-        {
-          "school_raw": "香港浸会大学/Hong Kong Baptist University",
-          "offer_count": 7
-        },
-        {
-          "school_raw": "香港教育大学/The Education University of Hong Kong",
-          "offer_count": 7
-        },
-        {
-          "school_raw": "澳门科技大学/Macau University of Science and Technology",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "香港岭南大学/Lingnan University",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "澳门城市大学/Universidade da Cidade de Macau / City University of Macau",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "澳门大学/University of Macau",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "澳门理工大学/Macao Polytechnic University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "北京师范大学-香港浸会大学联合国际学院",
-          "offer_count": 1
-        }
-      ]
+    {
+      "school_zh": "拉夫堡大学",
+      "school_en": "Loughborough University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 202
     },
-    "OTHER": {
-      "label": "🌏 其他",
-      "total_offers": 199,
-      "featured": [
-        {
-          "school_zh": "悉尼大学",
-          "school_en": "University of Sydney",
-          "offer_count": 73
-        },
-        {
-          "school_zh": "蒙纳士大学",
-          "school_en": "Monash University",
-          "offer_count": 21
-        },
-        {
-          "school_zh": "新南威尔士大学",
-          "school_en": "UNSW Sydney",
-          "offer_count": 15
-        },
-        {
-          "school_zh": "墨尔本大学",
-          "school_en": "University of Melbourne",
-          "offer_count": 3
-        },
-        {
-          "school_zh": "代尔夫特理工大学",
-          "school_en": "Delft University of Technology",
-          "offer_count": 7
-        },
-        {
-          "school_zh": "米兰理工大学",
-          "school_en": "Politecnico di Milano",
-          "offer_count": 7
-        },
-        {
-          "school_zh": "埃因霍芬理工大学",
-          "school_en": "Eindhoven University of Technology",
-          "offer_count": 6
-        },
-        {
-          "school_zh": "皇家墨尔本理工大学",
-          "school_en": "RMIT University",
-          "offer_count": 6
-        },
-        {
-          "school_zh": "多伦多大学",
-          "school_en": "University of Toronto",
-          "offer_count": 2
-        },
-        {
-          "school_zh": "瑞典皇家理工学院",
-          "school_en": "KTH Royal Institute of Technology",
-          "offer_count": 3
-        },
-        {
-          "school_zh": "都灵理工大学",
-          "school_en": "Politecnico di Torino",
-          "offer_count": 3
-        },
-        {
-          "school_zh": "悉尼科技大学",
-          "school_en": "University of Technology Sydney",
-          "offer_count": 4
-        }
-      ],
-      "all_schools": [
-        {
-          "school_raw": "悉尼大学/University of Sydney",
-          "offer_count": 73
-        },
-        {
-          "school_raw": "蒙纳士大学/Monash University",
-          "offer_count": 21
-        },
-        {
-          "school_raw": "新南威尔士大学/The University of New South Wales",
-          "offer_count": 15
-        },
-        {
-          "school_raw": "昆士兰大学/The University of Queensland",
-          "offer_count": 12
-        },
-        {
-          "school_raw": "米兰理工大学/Politecnico di Milano",
-          "offer_count": 7
-        },
-        {
-          "school_raw": "代尔夫特理工大学/Delft University of Technology",
-          "offer_count": 7
-        },
-        {
-          "school_raw": "埃因霍芬理工大学/Eindhoven University of Technology",
-          "offer_count": 6
-        },
-        {
-          "school_raw": "皇家墨尔本理工大学/Royal Melbourne Institute of Technology",
-          "offer_count": 6
-        },
-        {
-          "school_raw": "罗马第一大学/Sapienza University of Rome",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "悉尼科技大学/University of Technology, Sydney",
-          "offer_count": 4
-        },
-        {
-          "school_raw": "都灵理工大学/Politecnico di TORINO",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "墨尔本大学/The University of Melbourne",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "瑞典皇家理工学院/KTH Royal Institute of Technology",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "米兰新美术学院/Nuova Accademia di Belle Arti Milano（NABA）",
-          "offer_count": 3
-        },
-        {
-          "school_raw": "香港科技大学（广州）/The Hong Kong University of Science and Technology (Guangzhou) ",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "多伦多大学/University of Toronto",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "斯威本科技大学/Swinburn University of Technology",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "阿德莱德大学/Adelaide University",
-          "offer_count": 2
-        },
-        {
-          "school_raw": "瓦赫宁根大学/Wageningen University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "卡尔顿大学/Carleton University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "都柏林大学圣三一学院/The University of Dublin, Trinity College",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "梨花女子大学/이화여자대학교",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "科廷大学/Curtin University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "不列颠哥伦比亚大学/University of British Columbia",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "格里菲斯大学/Griffith University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "欧洲设计学院/Istituto Europeo di Design（IED）",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "科克大学/University College Cork",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "林雪平大学/Linköping University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "乌普萨拉大学/Uppsala universitet",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "麦考瑞大学/Macquarie University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "昆士兰科技大学/The Queensland University of Technology",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "加拿大数字媒体中心/Centre for Digital Media",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "麦吉尔大学/McGill University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "哥本哈根大学/Københavns Universitet",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "埃因霍芬设计学院/Design Academy Eindhoven",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "利莫瑞克大学/University of Limerick",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "奥克兰大学/University of Auckland",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "多莫斯设计学院/Domus Academy",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "全南大学/전남대학교 ",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "汉阳大学/Hanyang University",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "弘益大学/홍익대학교",
-          "offer_count": 1
-        },
-        {
-          "school_raw": "世宗大学/Sejong University",
-          "offer_count": 1
-        }
-      ]
+    {
+      "school_zh": "格拉斯哥艺术学院",
+      "school_en": "The Glasgow School of Art",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 155
+    },
+    {
+      "school_zh": "伦艺-创意计算机学院",
+      "school_en": "UAL- Creative Computing Institute",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 139
+    },
+    {
+      "school_zh": "利兹大学",
+      "school_en": "The University of Leeds",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 135
+    },
+    {
+      "school_zh": "伦敦大学学院",
+      "school_en": "University College London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 132
+    },
+    {
+      "school_zh": "伦敦大学金史密斯学院",
+      "school_en": "Goldsmiths, University of London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 102
+    },
+    {
+      "school_zh": "悉尼大学",
+      "school_en": "University of Sydney",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 94
+    },
+    {
+      "school_zh": "曼彻斯特建筑学院",
+      "school_en": "Manchester School of Architecture",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 87
+    },
+    {
+      "school_zh": "南安普顿大学",
+      "school_en": "University of Southampton",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 66
+    },
+    {
+      "school_zh": "伦艺-中央圣马丁艺术学院",
+      "school_en": "UAL-Central Saint Martins",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 65
+    },
+    {
+      "school_zh": "金斯顿大学",
+      "school_en": "Kingston University London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 63
+    },
+    {
+      "school_zh": "AA建筑联盟学院",
+      "school_en": "Architectural Association School of Architecture",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 59
+    },
+    {
+      "school_zh": "香港大学",
+      "school_en": "The University of Hong Kong",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 51
+    },
+    {
+      "school_zh": "香港城市大学",
+      "school_en": "City University of Hong Kong",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 51
+    },
+    {
+      "school_zh": "新加坡国立大学",
+      "school_en": "National University of Singapore",
+      "country": "新加坡",
+      "country_group": "HK_SG",
+      "offer_count": 50
+    },
+    {
+      "school_zh": "谢菲尔德大学",
+      "school_en": "The University of Sheffield",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 47
+    },
+    {
+      "school_zh": "布里斯托大学",
+      "school_en": "University of Bristol",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 46
+    },
+    {
+      "school_zh": "香港理工大学",
+      "school_en": "The Hong Kong Polytechnic University",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 45
+    },
+    {
+      "school_zh": "伦艺-伦敦传媒学院",
+      "school_en": "UAL-London College of Communication",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 44
+    },
+    {
+      "school_zh": "格拉斯哥大学",
+      "school_en": "University of Glasgow",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 44
+    },
+    {
+      "school_zh": "南加州大学",
+      "school_en": "University of Southern California",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 44
+    },
+    {
+      "school_zh": "纽约大学",
+      "school_en": "New York University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 43
+    },
+    {
+      "school_zh": "伦艺-坎伯韦尔艺术学院",
+      "school_en": "UAL-Camberwell College of Arts",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 33
+    },
+    {
+      "school_zh": "香港中文大学",
+      "school_en": "The Chinese University of Hong Kong",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 32
+    },
+    {
+      "school_zh": "萨凡纳艺术与设计学院",
+      "school_en": "Savannah College of Art and Design",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 29
+    },
+    {
+      "school_zh": "诺丁汉大学",
+      "school_en": "University of Nottingham",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 29
+    },
+    {
+      "school_zh": "华盛顿大学",
+      "school_en": "University of Washington",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 26
+    },
+    {
+      "school_zh": "蒙纳士大学",
+      "school_en": "Monash University",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 24
+    },
+    {
+      "school_zh": "东北大学",
+      "school_en": "Northeastern University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 24
+    },
+    {
+      "school_zh": "宾夕法尼亚大学",
+      "school_en": "University of Pennsylvania",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 23
+    },
+    {
+      "school_zh": "昆士兰大学",
+      "school_en": "The University of Queensland",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 22
+    },
+    {
+      "school_zh": "新南威尔士大学",
+      "school_en": "The University of New South Wales",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 22
+    },
+    {
+      "school_zh": "哥伦比亚大学",
+      "school_en": "Columbia University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 20
+    },
+    {
+      "school_zh": "伦敦大学布鲁内尔学院",
+      "school_en": "Brunel University of London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 20
+    },
+    {
+      "school_zh": "康奈尔大学",
+      "school_en": "Cornell University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 19
+    },
+    {
+      "school_zh": "墨尔本大学",
+      "school_en": "The University of Melbourne",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 18
+    },
+    {
+      "school_zh": "密歇根安娜堡分校",
+      "school_en": "University of Michigan, Ann Arbor",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 18
+    },
+    {
+      "school_zh": "米兰理工大学",
+      "school_en": "Politecnico di Milano",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 15
+    },
+    {
+      "school_zh": "帕森斯设计学院",
+      "school_en": "Parsons School of Design at The New School",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 15
+    },
+    {
+      "school_zh": "圣路易斯华盛顿大学",
+      "school_en": "Washington University in St. Louis",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 14
+    },
+    {
+      "school_zh": "南洋理工大学",
+      "school_en": "Nanyang Technological University",
+      "country": "新加坡",
+      "country_group": "HK_SG",
+      "offer_count": 13
+    },
+    {
+      "school_zh": "约克大学(英国)",
+      "school_en": "University of York",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 13
+    },
+    {
+      "school_zh": "帝国理工学院",
+      "school_en": "Imperial College London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 12
+    },
+    {
+      "school_zh": "香港科技大学",
+      "school_en": "The Hong Kong University of Science and Technology",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 12
+    },
+    {
+      "school_zh": "普瑞特艺术学院",
+      "school_en": "Pratt Institute",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 12
+    },
+    {
+      "school_zh": "罗彻斯特理工大学",
+      "school_en": "Rochester Institute of Technology",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 11
+    },
+    {
+      "school_zh": "曼彻斯特大学",
+      "school_en": "The University of Manchester",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 11
+    },
+    {
+      "school_zh": "纽卡斯尔大学",
+      "school_en": "Newcastle University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 11
+    },
+    {
+      "school_zh": "皇家墨尔本理工大学",
+      "school_en": "Royal Melbourne Institute of Technology",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 10
+    },
+    {
+      "school_zh": "威斯敏斯特大学",
+      "school_en": "University of Westminster",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 10
+    },
+    {
+      "school_zh": "卡迪夫大学",
+      "school_en": "Cardiff University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 10
+    },
+    {
+      "school_zh": "加州大学伯克利分校",
+      "school_en": "University of California, Berkeley",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 9
+    },
+    {
+      "school_zh": "伯明翰城市大学",
+      "school_en": "Birmingham City University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 9
+    },
+    {
+      "school_zh": "阿德莱德大学",
+      "school_en": "Adelaide University",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 9
+    },
+    {
+      "school_zh": "香港浸会大学",
+      "school_en": "Hong Kong Baptist University",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 8
+    },
+    {
+      "school_zh": "罗马第一大学",
+      "school_en": "Sapienza University of Rome",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 8
+    },
+    {
+      "school_zh": "代尔夫特理工大学",
+      "school_en": "Delft University of Technology",
+      "country": "荷兰",
+      "country_group": "OTHER",
+      "offer_count": 8
+    },
+    {
+      "school_zh": "纽约视觉艺术学院",
+      "school_en": "School of Visual Arts",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "都灵理工大学",
+      "school_en": "Politecnico di TORINO",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "香港教育大学",
+      "school_en": "The Education University of Hong Kong",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "加州大学洛杉矶分校",
+      "school_en": "University of California, Los Angeles",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "南加州建筑学院",
+      "school_en": "Southern California Institute of Architecture",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "伦艺-温布尔登艺术学院",
+      "school_en": "UAL-Wimbledon College of Art",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 7
+    },
+    {
+      "school_zh": "埃因霍芬理工大学",
+      "school_en": "Eindhoven University of Technology",
+      "country": "荷兰",
+      "country_group": "OTHER",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "约翰霍普金斯大学",
+      "school_en": "Johns Hopkins University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "澳门城市大学",
+      "school_en": "Universidade da Cidade de Macau",
+      "country": "中国澳门",
+      "country_group": "HK_SG",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "利物浦大学",
+      "school_en": "University of Liverpool",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "卡内基梅隆大学",
+      "school_en": "Carnegie Mellon University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "伊利诺伊大学香槟分校",
+      "school_en": "University of Illinois at Urbana-Champaign",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 6
+    },
+    {
+      "school_zh": "佐治亚理工学院",
+      "school_en": "Georgia Institute of Technology",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "香港岭南大学",
+      "school_en": "Lingnan University",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "多伦多大学",
+      "school_en": "University of Toronto",
+      "country": "加拿大",
+      "country_group": "OTHER",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "澳门科技大学",
+      "school_en": "Macau University of Science and Technology",
+      "country": "中国澳门",
+      "country_group": "HK_SG",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "悉尼科技大学",
+      "school_en": "University of Technology, Sydney",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "艺术中心设计学院",
+      "school_en": "ArtCenter College of Design",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "伯明翰大学",
+      "school_en": "University of Birmingham",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 5
+    },
+    {
+      "school_zh": "西北大学",
+      "school_en": "Northwestern University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "迈阿密大学（佛罗里达州）",
+      "school_en": "University of Miami",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "华威大学",
+      "school_en": "The University of Warwick",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "考文垂大学",
+      "school_en": "Coventry University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "哈佛大学",
+      "school_en": "Harvard University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "罗德岛设计学院",
+      "school_en": "Rhode Island School of Design",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "奥克兰大学",
+      "school_en": "University of Auckland",
+      "country": "新西兰",
+      "country_group": "OTHER",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "巴斯大学",
+      "school_en": "University of Bath",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "曼彻斯特城市大学",
+      "school_en": "Manchester Metropolitan University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 4
+    },
+    {
+      "school_zh": "瑞典皇家理工学院",
+      "school_en": "KTH Royal Institute of Technology",
+      "country": "瑞典",
+      "country_group": "OTHER",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "米兰新美术学院",
+      "school_en": "Nuova Accademia di Belle Arti Milano（NABA）",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "普渡大学",
+      "school_en": "Purdue University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "塔夫茨大学",
+      "school_en": "Tufts University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "旧金山艺术大学",
+      "school_en": "Academy of Art University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "诺丁汉特伦特大学",
+      "school_en": "Nottingham Trent University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "雪城大学",
+      "school_en": "Syracuse University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "西澳大学",
+      "school_en": "The University of Western Australia",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 3
+    },
+    {
+      "school_zh": "芝加哥艺术学院",
+      "school_en": "School of the Art Institute of Chicago",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "香港科技大学（广州）",
+      "school_en": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "country": "中国",
+      "country_group": "OTHER",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "斯威本科技大学",
+      "school_en": "Swinburn University of Technology",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "辛辛那提大学",
+      "school_en": "University of Cincinnati",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "亚利桑那州立大学",
+      "school_en": "Arizona State University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "布莱顿大学",
+      "school_en": "University of Brighton",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "澳门大学",
+      "school_en": "University of Macau",
+      "country": "中国澳门",
+      "country_group": "HK_SG",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "多莫斯设计学院",
+      "school_en": "Domus Academy",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "创意艺术大学",
+      "school_en": "University for the Creative Arts",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "皇家威尔士音乐戏剧学院",
+      "school_en": "Royal Welsh College of Music and Drama",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "新加坡科技设计大学",
+      "school_en": "Singapore University of Technology and Design",
+      "country": "新加坡",
+      "country_group": "HK_SG",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "香港演艺学院",
+      "school_en": "The Hong Kong Academy for Performing Arts",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "纽约室内设计学院",
+      "school_en": "New York School of Interior Design",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "伦艺-切尔西艺术设计学院",
+      "school_en": "UAL-Chelsea college of arts",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 2
+    },
+    {
+      "school_zh": "瓦赫宁根大学",
+      "school_en": "Wageningen University",
+      "country": "荷兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "布朗大学",
+      "school_en": "Brown University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "卡尔顿大学",
+      "school_en": "Carleton University",
+      "country": "加拿大",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "都柏林大学圣三一学院",
+      "school_en": "The University of Dublin, Trinity College",
+      "country": "爱尔兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "乔治华盛顿大学",
+      "school_en": "George Washington University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "梨花女子大学",
+      "school_en": "이화여자대학교",
+      "country": "韩国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "澳门理工大学",
+      "school_en": "Macao Polytechnic University",
+      "country": "中国澳门",
+      "country_group": "HK_SG",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "科廷大学",
+      "school_en": "Curtin University",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "南卫理公会大学",
+      "school_en": "Southern Methodist University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "不列颠哥伦比亚大学",
+      "school_en": "University of British Columbia",
+      "country": "加拿大",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "格里菲斯大学",
+      "school_en": "Griffith University",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "欧洲设计学院",
+      "school_en": "Istituto Europeo di Design（IED）",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "科克大学",
+      "school_en": "University College Cork",
+      "country": "爱尔兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "林雪平大学",
+      "school_en": "Linköping University",
+      "country": "瑞典",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "乌普萨拉大学",
+      "school_en": "Uppsala universitet",
+      "country": "瑞典",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "麦考瑞大学",
+      "school_en": "Macquarie University",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "杜克大学",
+      "school_en": "Duke University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "昆士兰科技大学",
+      "school_en": "The Queensland University of Technology",
+      "country": "澳大利亚",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "加拿大数字媒体中心",
+      "school_en": "Centre for Digital Media",
+      "country": "加拿大",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "麦吉尔大学",
+      "school_en": "McGill University",
+      "country": "加拿大",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "哥本哈根大学",
+      "school_en": "Københavns Universitet",
+      "country": "丹麦",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "埃因霍芬设计学院",
+      "school_en": "Design Academy Eindhoven",
+      "country": "荷兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "宾夕法尼亚州立大学",
+      "school_en": "The Pennsylvania State University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "伊利诺伊理工学院",
+      "school_en": "Illinois Institute of Technology",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "西交利物浦大学",
+      "school_en": "Xi'an Jiaotong-Liverpool University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "威斯康辛大学麦迪逊分校",
+      "school_en": "University of Wisconsin-Madison",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "利莫瑞克大学",
+      "school_en": "University of Limerick",
+      "country": "爱尔兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "北京师范大学-香港浸会大学联合国际学院",
+      "school_en": "",
+      "country": "中国香港",
+      "country_group": "HK_SG",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "创意设计学院",
+      "school_en": "College for Creative Studies",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "全南大学",
+      "school_en": "전남대학교",
+      "country": "韩国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "汉阳大学",
+      "school_en": "Hanyang University",
+      "country": "韩国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "弘益大学",
+      "school_en": "홍익대학교",
+      "country": "韩国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "世宗大学",
+      "school_en": "Sejong University",
+      "country": "韩国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "皇家威尔士音乐学院",
+      "school_en": "Royal Welsh College of Music & Drama",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "香港中文大学（深圳）",
+      "school_en": "The Chinese University of Hong Kong，Shenzhen",
+      "country": "中国",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "阿尔托大学",
+      "school_en": "Aalto University",
+      "country": "芬兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "伦敦建筑学院",
+      "school_en": "London School of Architecture（LSA）",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "荷兰阿尔特兹艺术学院",
+      "school_en": "ArtEZ University of the Arts",
+      "country": "荷兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "威尼斯建筑大学",
+      "school_en": "Università IUAV di Venezia",
+      "country": "意大利",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "苏黎世联邦理工学院",
+      "school_en": "Swiss Federal Institute of Technology Zurich",
+      "country": "瑞士",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "莱斯大学",
+      "school_en": "Rice University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "伦敦大学皇家中央演讲戏剧学院",
+      "school_en": "Royal Central School of Speech and Drama, University of London",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "斯坦福大学",
+      "school_en": "Stanford University",
+      "country": "美国",
+      "country_group": "US",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "伦敦政治经济学院",
+      "school_en": "The London School of Economics and Political Science",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "谢菲尔德哈勒姆大学",
+      "school_en": "Sheffield Hallam University",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "林肯大学",
+      "school_en": "Lincoln University",
+      "country": "新西兰",
+      "country_group": "OTHER",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "皇家美术学院",
+      "school_en": "Royal Academy of Arts",
+      "country": "英国",
+      "country_group": "UK",
+      "offer_count": 1
+    },
+    {
+      "school_zh": "西班牙拉蒙尤以大学",
+      "school_en": "UNIVERSITAT RAMON LLULL(URL)",
+      "country": "西班牙",
+      "country_group": "OTHER",
+      "offer_count": 1
     }
-  }
+  ]
 }
