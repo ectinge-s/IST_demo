@@ -144,7 +144,37 @@
     setTimeout(function () { targets.forEach(reveal); }, 2600);
   }
 
-  function boot() { initComet(); initReveal(); }
+  /* ---- 3. Generic scroll-reveal (planning / portfolio / cards) ---- */
+  function initGenericReveal() {
+    if (reduce || !('IntersectionObserver' in window)) return;
+    document.body.classList.add('fx-ready');
+    var SEL = '.industry-section, .portfolio-grid > *, .school-grid-card, .person-card, .offer-card, .course-card';
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in-view'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
+
+    function stagger(el) {
+      var i = 0, p = el;
+      while ((p = p.previousElementSibling) && i < 9) i++;
+      el.style.transitionDelay = (Math.min(i, 9) * 0.05) + 's';
+    }
+    function scan() {
+      document.querySelectorAll(SEL).forEach(function (el) {
+        if (el.__fxr) return;
+        el.__fxr = true;
+        el.classList.add('fx-reveal');
+        stagger(el);
+        io.observe(el);
+      });
+    }
+    scan();
+    var mo = new MutationObserver(function () { scan(); });
+    mo.observe(document.body, { childList: true, subtree: true });
+  }
+
+  function boot() { initComet(); initReveal(); initGenericReveal(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();

@@ -14,24 +14,21 @@ const INDUSTRIES = [
     scope:'建筑设计院 · 景观与城市设计 · 智慧建造 · 数字孪生城市' },
 ];
 
+// Geometric line glyphs per industry (2px stroke, currentColor) — brand-consistent iconography
+const IND_ICONS = {
+  internet: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="4" r="1.7"/><circle cx="5" cy="18" r="1.7"/><circle cx="19" cy="18" r="1.7"/><path d="M12 9V5.7M10 14l-3.4 2.7M14 14l3.4 2.7"/></svg>',
+  hardware: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1.5"/><rect x="10" y="10" width="4" height="4" rx=".5"/><path d="M10 7V4.2M14 7V4.2M10 19.8V17M14 19.8V17M7 10H4.2M7 14H4.2M19.8 10H17M19.8 14H17"/></svg>',
+  culture:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M10.5 9.4l4.2 2.6-4.2 2.6z"/></svg>',
+  brand:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".9" fill="currentColor" stroke="none"/></svg>',
+  arch:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20h17"/><rect x="6" y="9" width="5" height="11"/><rect x="13" y="5" width="5" height="15"/><path d="M8 12.2h1M8 15.2h1M15 8.2h1M15 11.2h1M15 14.2h1"/></svg>',
+};
+
 const PlanningPage = {
   build() {
-    this._buildOverview();
     this._buildNav();
     this._buildSections();
     ScrollSpy.init();
-  },
-
-  _buildOverview() {
-    const grid = document.getElementById('plan-overview-grid');
-    grid.innerHTML = INDUSTRIES.map(ind => `
-      <div class="industry-ov-card" onclick="Router.goToIndustry('${ind.id}')">
-        <div class="industry-ov-card__num">${ind.num}</div>
-        <div class="industry-ov-card__name">${ind.name}</div>
-        <div class="industry-ov-card__acad">${ind.acad}</div>
-        <div class="industry-ov-card__acad-en">${ind.acadEn}</div>
-        <div class="industry-ov-card__arrow">→</div>
-      </div>`).join('');
+    this._initRailCollapse();
   },
 
   _buildNav() {
@@ -39,7 +36,39 @@ const PlanningPage = {
     nav.innerHTML = INDUSTRIES.map((ind, i) => `
       <button class="industry-nav__btn${i===0?' is-active':''}"
               id="nav-${ind.id}"
-              onclick="Router.goToIndustry('${ind.id}')">${ind.name}</button>`).join('');
+              onclick="Router.goToIndustry('${ind.id}')">
+        <span class="ind-ico">${IND_ICONS[ind.id]||''}</span>
+        <span class="ind-meta">
+          <span class="ind-num">${ind.num}</span>
+          <span class="ind-name">${ind.name}</span>
+          <span class="ind-acad">${ind.acad}</span>
+          <span class="ind-acad-en">${ind.acadEn}</span>
+        </span>
+        <span class="ind-arrow">→</span>
+      </button>`).join('');
+  },
+
+  _initRailCollapse() {
+    const nav = document.getElementById('industry-nav');
+    if (!nav) return;
+    const navbarH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--navbar-h'), 10) || 56;
+    // A 1px sentinel sits just above the rail. While it stays below the navbar
+    // line the rail shows full cards; once it scrolls past (rail pins) → collapse.
+    // IntersectionObserver fires on the display:none → visible transition too, so
+    // arriving on the page at the top always resolves to the expanded state.
+    let sentinel = document.getElementById('industry-nav-sentinel');
+    if (!sentinel) {
+      sentinel = document.createElement('div');
+      sentinel.id = 'industry-nav-sentinel';
+      sentinel.setAttribute('aria-hidden', 'true');
+      sentinel.style.cssText = 'height:1px;width:100%;pointer-events:none;';
+      nav.parentNode.insertBefore(sentinel, nav);
+    }
+    if (this._railIO) this._railIO.disconnect();
+    this._railIO = new IntersectionObserver((entries) => {
+      entries.forEach(e => nav.classList.toggle('is-collapsed', !e.isIntersecting));
+    }, { rootMargin: `-${navbarH + 1}px 0px 0px 0px`, threshold: 0 });
+    this._railIO.observe(sentinel);
   },
 
   _buildSections() {
@@ -83,12 +112,13 @@ const PlanningPage = {
         <div class="industry-section__header">
           <span class="industry-section__num">${ind.num}</span>
           <div style="flex:1">
-            <div class="industry-section__title">${ind.name}</div>
+            <div class="industry-section__title">${ind.name}<span class="industry-section__acad">— ${ind.acad}</span></div>
             <div class="industry-section__scope">${ind.scope}</div>
           </div>
-          <span class="industry-section__acad-tag">${ind.acad}</span>
-          <button class="cv-journey-btn" onclick="ImageModal.open('assets/img/cv_journey/${ind.id}.png','${ind.name} 求职旅程')">查看真实案例 →</button>
-          <button class="cv-journey-btn" onclick="Router.goToPortfolioFilter('${ind.acad}')">作品集示例 →</button>
+          <div class="cv-actions">
+            <button class="cv-btn cv-btn--primary" onclick="ImageModal.open('assets/img/cv_journey/${ind.id}.png','${ind.name} 求职旅程')">成功求职案例 →</button>
+            <button class="cv-btn cv-btn--secondary" onclick="Router.goToPortfolioFilter('${ind.acad}')">优秀作品集 →</button>
+          </div>
         </div>
 
         <div class="industry-section__intro" id="intro-wrap-${ind.id}">
@@ -284,7 +314,6 @@ const PlanningPage = {
 
     Sidebar.open(`
       <div class="sidebar__header">
-        <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
         <div class="sidebar__eyebrow">${ind.name} · 院校匹配</div>
         <div class="sidebar__title">可匹配院校专业</div>
         <div class="sidebar__subtitle">${ind.acad}</div>
@@ -334,7 +363,6 @@ const PlanningPage = {
 
     Sidebar.open(`
       <div class="sidebar__header">
-        <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
         <div class="sidebar__eyebrow">${industryName} · ${first.tier}</div>
         <div class="sidebar__title">${companyName}</div>
         <div class="sidebar__subtitle">${jobs.length > 1 ? jobs.length + ' 个岗位方向' : first.department}</div>
@@ -364,7 +392,6 @@ const PlanningPage = {
     const dirEn = job.direction_en || '';
     Sidebar.open(`
       <div class="sidebar__header">
-        <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
         <div class="sidebar__eyebrow">${ind.name}</div>
         <div class="sidebar__title">${directionZh}</div>
         <div class="sidebar__subtitle">${dirEn}</div>

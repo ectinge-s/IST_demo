@@ -134,8 +134,8 @@ const HomePage = {
   },
 
   _instructorCard(inst) {
-    const tagClsMap = { 'tag-blue': 'primary', 'tag-lime': 'accent', 'tag-gray': 'surface', 'tag-purple': 'primary', 'tag-teal': 'teal' };
-    const tagCls = inst.is_research ? 'teal' : (tagClsMap[inst.tag_cls] || 'surface');
+    const tagClsMap = { 'tag-blue': 'industry', 'tag-lime': 'academic', 'tag-gray': 'alumni', 'tag-purple': 'overseas', 'tag-teal': 'research' };
+    const tagCls = inst.is_research ? 'research' : (tagClsMap[inst.tag_cls] || 'industry');
     const base = inst.pseudonym || inst.name;
     const suffix = inst.tag === 'academic' ? '老师'
                  : inst.tag === 'industry' ? '老师'
