@@ -52,9 +52,20 @@ const PlanningPage = {
       // intro text from taxonomy subfields or fallback
       const introText = (t.legacy_subdirections || []).slice(0,3).join(' · ');
 
-      // Companies for this industry
+      // Companies for this industry (all entries, may have duplicates per company)
       const companies = DATA.careers.filter(c => c.industry === ind.name);
       const tiers = [...new Set(companies.map(c => c.tier))];
+
+      // Deduplicated company list for tags (max 20 unique companies)
+      const uniqueCompanies = [];
+      const seenCompanies = new Set();
+      for (const c of companies) {
+        if (!seenCompanies.has(c.company)) {
+          seenCompanies.add(c.company);
+          uniqueCompanies.push(c);
+        }
+        if (uniqueCompanies.length >= 25) break;
+      }
 
       // Job directions
       const directions = [...new Map(companies.map(c => [c.job_direction, c])).values()];
@@ -76,6 +87,7 @@ const PlanningPage = {
             <div class="industry-section__scope">${ind.scope}</div>
           </div>
           <span class="industry-section__acad-tag">${ind.acad}</span>
+          <button class="cv-journey-btn" onclick="ImageModal.open('img/cv_journey/${ind.id}.png','${ind.name} 求职旅程')">查看真实案例 →</button>
         </div>
 
         <div class="industry-section__intro" id="intro-wrap-${ind.id}">
@@ -110,9 +122,9 @@ const PlanningPage = {
                         onclick="PlanningPage.filterTier('${ind.id}','${t}',this)">${t}</button>`).join('')}
             </div>
             <div class="company-tag-cloud" id="colist-${ind.id}">
-              ${companies.slice(0, 20).map(c => `
+              ${uniqueCompanies.map(c => `
                 <span class="company-tag" data-tier="${c.tier}"
-                      onclick="PlanningPage.openCompanySidebar(DATA.careers.find(x=>x.id==='${c.id}'))">
+                      onclick="PlanningPage.openCompanyGroupSidebar('${ind.name.replace(/'/g,"\\'")}','${c.company.replace(/'/g,"\\'")}')">
                   ${c.company}
                 </span>`).join('')}
             </div>
@@ -148,7 +160,7 @@ const PlanningPage = {
             </div>
             <div class="industry-col__label">常用工具</div>
             <div class="skill-tags">
-              ${(t.program_tags_hint||[]).slice(0,6).map(s =>
+              ${(t.tools_hint||[]).map(s =>
                 `<span class="skill-tag">${s}</span>`
               ).join('')}
             </div>
@@ -285,23 +297,21 @@ const PlanningPage = {
       </div>`);
   },
 
-  openCompanySidebar(c) {
-    if (!c) return;
+  openCompanyGroupSidebar(industryName, companyName) {
     const IND_ID = {'互联网科技':'internet','智能实体产业':'hardware','数字文化娱乐':'culture','品牌与服务':'brand','建筑环境科技':'arch'};
-    const indId = IND_ID[c.industry] || 'internet';
-    const schoolPicks = Schools.pickForCompany(indId, 10, c.job_direction || '', c.company || '');
+    const jobs = DATA.careers.filter(c => c.industry === industryName && c.company === companyName);
+    if (!jobs.length) return;
+    const first = jobs[0];
+    const indId = IND_ID[industryName] || 'internet';
+    const jobContext = jobs.map(j => j.job_direction).join(' ');
+    const schoolPicks = Schools.pickForCompany(indId, 10, jobContext, companyName);
 
-    Sidebar.open(`
-      <div class="sidebar__header">
-        <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
-        <div class="sidebar__eyebrow">${c.industry} · ${c.tier}</div>
-        <div class="sidebar__title">${c.company}</div>
-        <div class="sidebar__subtitle">${c.department}</div>
-      </div>
-      <div class="sidebar__body">
+    const jobsHtml = jobs.map((c, i) => `
+      <div class="sidebar__job-entry${i > 0 ? ' sidebar__job-entry--divider' : ''}">
         <div class="sidebar__section">
-          <div class="sidebar__section-label">代表岗位</div>
-          <p>${c.job_direction}</p>
+          <div class="sidebar__section-label">岗位方向</div>
+          <p style="font-weight:600">${c.job_direction}</p>
+          ${c.department ? `<p style="font-size:12px;color:var(--color-text-muted);">${c.department}</p>` : ''}
         </div>
         <div class="sidebar__section">
           <div class="sidebar__section-label">岗位职责</div>
@@ -311,23 +321,39 @@ const PlanningPage = {
           <div class="sidebar__section-label">人才要求</div>
           <p>${c.talent_summary}</p>
         </div>
+        ${c.tools ? `
         <div class="sidebar__section">
           <div class="sidebar__section-label">核心工具</div>
           <div class="sidebar__tags">${c.tools.split(/[,，、]/).map(t=>t.trim()).filter(Boolean)
             .map(t=>`<span class="sidebar__tag">${t}</span>`).join('')}</div>
-        </div>
-        <hr class="sidebar__divider">
+        </div>` : ''}
         <div class="sidebar__section">
           <div class="sidebar__section-label">薪资参考</div>
           <span class="salary-badge">${c.salary_usd}</span>
-          <p style="font-size:12px;color:var(--color-text-muted);">${c.career_path}</p>
+          ${c.career_path ? `<p style="font-size:12px;color:var(--color-text-muted);margin-top:6px;">${c.career_path}</p>` : ''}
         </div>
+      </div>`).join('<hr class="sidebar__divider">');
+
+    Sidebar.open(`
+      <div class="sidebar__header">
+        <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
+        <div class="sidebar__eyebrow">${industryName} · ${first.tier}</div>
+        <div class="sidebar__title">${companyName}</div>
+        <div class="sidebar__subtitle">${jobs.length > 1 ? jobs.length + ' 个岗位方向' : first.department}</div>
+      </div>
+      <div class="sidebar__body">
+        ${jobsHtml}
         <hr class="sidebar__divider">
         <div class="sidebar__section">
           <div class="sidebar__section-label">代表性学历背景</div>
           ${Schools._renderFlat(schoolPicks)}
         </div>
       </div>`);
+  },
+
+  openCompanySidebar(c) {
+    if (!c) return;
+    this.openCompanyGroupSidebar(c.industry, c.company);
   },
 
   openJobSidebar(indId, direction) {

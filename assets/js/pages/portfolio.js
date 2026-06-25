@@ -23,8 +23,9 @@ const PortfolioPage = {
     const items = branch === '全部' ? data : data.filter(p => p.academic_branch === branch);
     document.getElementById('portfolio-grid').innerHTML = items.map(p => {
       const otherSchools = (p.other_schools || []).filter(Boolean);
+      const detailSrc = `img/portfolio_detail/${p.id}.jpg`;
       return `
-      <div class="port-card" onclick="alert('学生作品集页面（开发中）')">
+      <div class="port-card" style="cursor:pointer" onclick="ImageModal.open('${detailSrc}','${p.id}')">
         <div class="port-card__img">
           ${p.image
             ? `<img src="${p.image}" alt="${p.primary_school}" loading="lazy">`

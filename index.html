@@ -172,14 +172,9 @@
     <h2 class="section-title">资源网络</h2>
     <p class="section-desc">横跨互联网科技、智能制造、数字文化、品牌咨询与建筑空间五大产业，深度合作的企业、国内高校、海外高校资源网络，直连升学与就业的第一线。</p>
     <hr class="section-divider">
-    <div class="filter-bar">
-      <span class="filter-bar__label">筛选</span>
-      <button class="resource-filter-btn filter-btn is-active" data-type="all">全部</button>
-      <button class="resource-filter-btn filter-btn" data-type="企业">企业</button>
-      <button class="resource-filter-btn filter-btn" data-type="国内高校">国内高校</button>
-      <button class="resource-filter-btn filter-btn" data-type="海外高校">海外高校</button>
+    <div class="coop-marquee-section">
+      <div class="coop-marquee-wrap"><div class="coop-marquee-track" id="coop-row-a"></div></div>
     </div>
-    <div class="grid-4" id="resources-grid"></div>
   </section>
 
   <!-- COURSES -->
@@ -262,7 +257,8 @@
   TimelinePage.build();
   Search.init();
 
-  // Poster overlay
+  // Poster overlay — replaced by ImageModal (components.js)
+  /*
   const overlay = document.createElement('div');
   overlay.className = 'poster-overlay';
   overlay.innerHTML = '<button class="poster-overlay__close" aria-label="Close">✕</button><img class="poster-overlay__img" src="" alt="">';
@@ -291,6 +287,7 @@
     const img = imgEl.querySelector('img');
     if (img) openPoster(img.src, img.alt);
   });
+  */
 })();
 </script>
 

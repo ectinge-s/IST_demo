@@ -39,6 +39,18 @@
       "Digital Design",
       "Information Experience",
       "Cognitive Systems"
+    ],
+    "tools_hint": [
+      "Figma",
+      "ProtoPie / Framer",
+      "Python",
+      "LLM API / Prompt Engineering",
+      "SQL",
+      "A/B测试平台",
+      "眼动追踪",
+      "React / 前端基础",
+      "UserTesting / Maze",
+      "Midjourney / DALL·E"
     ]
   },
   "建筑环境科技": {
@@ -85,6 +97,18 @@
       "Design Technology",
       "Sustainable Design",
       "Design Studies"
+    ],
+    "tools_hint": [
+      "Rhino + Grasshopper",
+      "Revit / BIM",
+      "AutoCAD",
+      "SketchUp",
+      "3ds Max / V-Ray",
+      "Unreal Engine（可视化）",
+      "Python / Dynamo",
+      "ArcGIS / QGIS",
+      "Adobe Suite",
+      "Enscape / Twinmotion"
     ]
   },
   "智能实体产业": {
@@ -127,6 +151,18 @@
       "Human Factors",
       "Integrated Product Design",
       "Design & Engineering"
+    ],
+    "tools_hint": [
+      "Figma",
+      "Unity / Unreal Engine",
+      "Kanzi / Qt（车载HMI）",
+      "ProtoPie / Principle",
+      "Python",
+      "SolidWorks / Rhino（工业建模）",
+      "KeyShot / KeyVR（渲染）",
+      "ROS / ROS2（机器人）",
+      "眼动追踪 / 驾驶模拟器",
+      "Adobe Suite"
     ]
   },
   "品牌与服务": {
@@ -177,6 +213,18 @@
       "Global Innovation Design",
       "Design for Change",
       "Service Systems Design"
+    ],
+    "tools_hint": [
+      "Figma",
+      "Miro / FigJam",
+      "Service Blueprint / 旅程图",
+      "ProtoPie / Framer",
+      "Arduino / Raspberry Pi",
+      "Three.js / WebGL",
+      "TouchDesigner",
+      "Processing / p5.js",
+      "SPSS / R（用户研究）",
+      "Adobe Suite"
     ]
   },
   "数字文化娱乐": {
@@ -227,6 +275,18 @@
       "Design for Stage",
       "Scenic Design",
       "Interactive Media"
+    ],
+    "tools_hint": [
+      "Unity / Unreal Engine",
+      "TouchDesigner",
+      "Houdini",
+      "C4D / Blender",
+      "After Effects / Spine",
+      "Processing / p5.js / openFrameworks",
+      "Maya / ZBrush / Substance Painter",
+      "Max/MSP",
+      "Arduino / 传感器系统",
+      "Shader（GLSL / HLSL）"
     ]
   }
 }

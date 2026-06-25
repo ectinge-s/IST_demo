@@ -108,28 +108,33 @@ const HomePage = {
   },
 
   buildResources() {
-    const grid = document.getElementById('resources-grid');
-    if (!grid) return;
-    this._renderResources('all');
-
-    document.querySelectorAll('.resource-filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.resource-filter-btn').forEach(b => b.classList.remove('is-active'));
-        btn.classList.add('is-active');
-        this._renderResources(btn.dataset.type);
-      });
-    });
-  },
-
-  _renderResources(type) {
-    const grid = document.getElementById('resources-grid');
-    const items = type === 'all' ? DATA.resources : DATA.resources.filter(r => r.type === type);
-    grid.innerHTML = items.map(r => `
-      <div class="resource-card">
-        <div class="resource-card__type">${r.type}</div>
-        <div class="resource-card__name">${r.name}</div>
-        <div class="resource-card__desc">${r.desc}</div>
-      </div>`).join('');
+    const COOP = [
+      { nameEn:"Harvard",   nameCn:"哈佛大学",     logo:"harvard-edu-logo.jpg" },
+      { nameEn:"Tongji",    nameCn:"同济大学",     logo:"tongji-logo.jpg" },
+      { nameEn:"Alibaba",   nameCn:"阿里巴巴",     logo:"alibabagroup-com-logo.jpg" },
+      { nameEn:"RISD",      nameCn:"罗德岛设计",   logo:"risd-edu-logo.jpg" },
+      { nameEn:"HUST",      nameCn:"华中科技大学", logo:"hust-logo.jpg" },
+      { nameEn:"ByteDance", nameCn:"字节跳动",     logo:"bytedance-com-logo.jpg" },
+      { nameEn:"MIT",       nameCn:"麻省理工",     logo:"web-mit-edu-logo.jpg" },
+      { nameEn:"PolyU HK",  nameCn:"香港理工大学", logo:"polyu-logo.jpg" },
+      { nameEn:"Xiaomi",    nameCn:"小米",         logo:"xiaomi-com-ge-logo.jpg" },
+      { nameEn:"UCL",       nameCn:"伦敦大学学院", logo:"ucl-ac-uk-logo.jpg" },
+      { nameEn:"CMU",       nameCn:"卡内基梅隆",   logo:"cmu-edu-logo.jpg" },
+      { nameEn:"NIO",       nameCn:"蔚来汽车",     logo:"nio-com-logo.jpg" },
+      { nameEn:"RCA",       nameCn:"英国皇家艺术", logo:"rca-logo.jpg" },
+      { nameEn:"Columbia",  nameCn:"哥伦比亚大学", logo:"columbiadoctors-org-logo.jpg" },
+    ];
+    const BASE = 'img/coop_logo/';
+    const card = c => `<div class="coop-card">
+      <div class="coop-card__logo"><img src="${BASE}${c.logo}" alt="${c.nameEn}"></div>
+      <div class="coop-card__name-en">${c.nameEn}</div>
+      <div class="coop-card__name-cn">${c.nameCn}</div>
+    </div>`;
+    const fill = (id, items) => {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = [...items, ...items].map(card).join('');
+    };
+    fill('coop-row-a', COOP);
   },
 
   buildCourses() {
@@ -205,7 +210,8 @@ const HomePage = {
   _internCard(c) {
     const statusCls = c.enrollment_status === '招募中' ? 'course-card__badge--status-open' :
                       c.enrollment_status === '已满' ? 'course-card__badge--status-full' : '';
-    return `<div class="course-card" data-ptype="${c.program_type}" data-cat="${c.category}">
+    const posterClick = c.poster ? `onclick="ImageModal.open('${c.poster}','${c.company}')" style="cursor:pointer"` : '';
+    return `<div class="course-card" data-ptype="${c.program_type}" data-cat="${c.category}" ${posterClick}>
       <div class="course-card__img">
         ${c.poster ? `<img src="${c.poster}" alt="${c.company}" loading="lazy">` : `<span style="opacity:.4">${c.program_type === '行业导师带训（线上）' ? '导师带训' : '岗位实习'}</span>`}
         <span class="course-card__img-label">${c.category || '其他'}</span>
@@ -248,7 +254,7 @@ const HomePage = {
   _buildCourseGrid(items) {
     return `<div class="grid-4">
       ${items.map(c => `
-        <div class="course-card">
+        <div class="course-card" ${c.poster ? `onclick="ImageModal.open('${c.poster}','${c.company}')" style="cursor:pointer"` : ''}>
           <div class="course-card__img">
             ${c.poster ? `<img src="${c.poster}" alt="${c.company}" loading="lazy">` : `<span style="opacity:.4">${c.program_type}</span>`}
           </div>
@@ -266,7 +272,7 @@ const HomePage = {
   _buildAcademicGrid(items) {
     return `<div class="grid-4">
       ${items.map(c => `
-        <div class="course-card">
+        <div class="course-card" ${c.poster ? `onclick="ImageModal.open('${c.poster}','${c.role_or_course}')" style="cursor:pointer"` : ''}>
           <div class="course-card__img">
             ${c.poster ? `<img src="${c.poster}" alt="${c.role_or_course}" loading="lazy">` : `<span style="opacity:.4">${c.program_type}</span>`}
             <span class="course-card__img-label">${c.category || ''}</span>

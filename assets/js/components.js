@@ -378,3 +378,47 @@ const ScrollSpy = {
     document.querySelectorAll('.industry-section').forEach(el => observer.observe(el));
   },
 };
+
+// ── Shared Image Modal ────────────────────────────────────────────
+const ImageModal = {
+  _el: null,
+
+  _build() {
+    if (this._el) return;
+    const el = document.createElement('div');
+    el.className = 'img-modal-backdrop';
+    el.innerHTML = `
+      <div class="img-modal-flipper">
+        <div class="img-modal-inner">
+          <img id="img-modal-img" src="" alt="">
+          <button class="img-modal-close" id="img-modal-close">✕</button>
+        </div>
+      </div>`;
+    document.body.appendChild(el);
+    // close on backdrop click
+    el.addEventListener('click', e => { if (e.target === el) this.close(); });
+    el.querySelector('#img-modal-close').addEventListener('click', () => this.close());
+    // close on Escape
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') this.close(); });
+    this._el = el;
+  },
+
+  open(src, alt = '') {
+    this._build();
+    this._el.querySelector('#img-modal-img').src = src;
+    this._el.querySelector('#img-modal-img').alt = alt;
+    this._el.style.display = 'flex';
+    // force reflow before adding class so transition fires
+    this._el.offsetHeight;
+    this._el.classList.add('is-visible');
+    document.body.style.overflow = 'hidden';
+  },
+
+  close() {
+    if (!this._el) return;
+    this._el.classList.remove('is-visible');
+    document.body.style.overflow = '';
+    setTimeout(() => { if (this._el) this._el.style.display = 'none'; }, 300);
+  },
+};
+window.ImageModal = ImageModal;
