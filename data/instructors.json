@@ -865,7 +865,8 @@
     "tag": "industry",
     "tag_cls": "tag-blue",
     "title": "字节跳动 内容生态产品设计负责人",
-    "intro": "抖音亿级生态设计，字节校招面试官"
+    "intro": "抖音亿级生态设计，字节校招面试官",
+    "photo": "assets/img/instructors/industry.jpg"
   },
   {
     "id": "inst-ind-02",
@@ -875,7 +876,8 @@
     "tag": "industry",
     "tag_cls": "tag-blue",
     "title": "京东集团 设计经理",
-    "intro": "主导京造、惠寻品牌体系，8年+大厂"
+    "intro": "主导京造、惠寻品牌体系，8年+大厂",
+    "photo": "assets/img/instructors/industry.jpg"
   },
   {
     "id": "inst-ind-03",
@@ -885,7 +887,8 @@
     "tag": "industry",
     "tag_cls": "tag-blue",
     "title": "Apple 高级UX设计师",
-    "intro": "Red Dot得主，Apple / TikTok / Alibaba"
+    "intro": "Red Dot得主，Apple / TikTok / Alibaba",
+    "photo": "assets/img/instructors/industry.jpg"
   },
   {
     "id": "inst-alu-01",
@@ -898,7 +901,8 @@
     "directions": [
       "人机交互",
       "人工智能"
-    ]
+    ],
+    "photo": "assets/img/instructors/何雪怡.jpg"
   },
   {
     "id": "inst-alu-02",
@@ -911,7 +915,8 @@
     "directions": [
       "交互设计",
       "装置艺术"
-    ]
+    ],
+    "photo": "assets/img/instructors/刘雨昂.jpg"
   },
   {
     "id": "inst-alu-03",
@@ -924,7 +929,8 @@
     "directions": [
       "建筑学",
       "城市研究"
-    ]
+    ],
+    "photo": "assets/img/instructors/张琬彤.jpg"
   },
   {
     "id": "inst-alu-04",
@@ -937,7 +943,8 @@
     "directions": [
       "建筑与城市设计",
       "城市更新"
-    ]
+    ],
+    "photo": "assets/img/instructors/徐霄璇.jpg"
   },
   {
     "id": "inst-alu-05",
@@ -950,7 +957,8 @@
     "directions": [
       "就业与科研",
       "多模态交互"
-    ]
+    ],
+    "photo": "assets/img/instructors/袁怡辰.jpg"
   },
   {
     "id": "inst-alu-06",
@@ -963,7 +971,8 @@
     "directions": [
       "交互设计",
       "游戏设计"
-    ]
+    ],
+    "photo": "assets/img/instructors/梁虓.jpg"
   },
   {
     "id": "inst-alu-07",
@@ -976,7 +985,8 @@
     "directions": [
       "产品设计",
       "交互设计"
-    ]
+    ],
+    "photo": "assets/img/instructors/吕德宇.jpg"
   },
   {
     "id": "inst-alu-08",
@@ -989,7 +999,8 @@
     "directions": [
       "交互设计",
       "人机交互"
-    ]
+    ],
+    "photo": "assets/img/instructors/张晶.jpg"
   },
   {
     "id": "inst-alu-09",
@@ -1002,7 +1013,8 @@
     "directions": [
       "舞台设计",
       "戏服设计"
-    ]
+    ],
+    "photo": "assets/img/instructors/王祺婷.jpg"
   },
   {
     "id": "inst-alu-10",
@@ -1015,7 +1027,8 @@
     "directions": [
       "建筑学",
       "城市研究"
-    ]
+    ],
+    "photo": "assets/img/instructors/管宇豪.jpg"
   },
   {
     "id": "inst-alu-11",
@@ -1028,7 +1041,8 @@
     "directions": [
       "交互设计",
       "装置艺术"
-    ]
+    ],
+    "photo": "assets/img/instructors/陈代玮.jpg"
   },
   {
     "id": "inst-alu-12",
@@ -1041,7 +1055,8 @@
     "directions": [
       "工业设计",
       "产品设计"
-    ]
+    ],
+    "photo": "assets/img/instructors/陈小懿.jpg"
   },
   {
     "id": "inst-res-001",
@@ -1424,7 +1439,7 @@
     "tag_cls": "tag-purple",
     "school": "康奈尔大学",
     "title": "建筑设计讲师",
-    "photo": "assets/img/instructors/E. M_2.jpeg"
+    "photo": "assets/img/instructors/E. M.jpeg"
   },
   {
     "id": "inst-ovs-042",
@@ -1644,7 +1659,7 @@
     "tag_cls": "tag-purple",
     "school": "萨凡纳艺术设计学院",
     "title": "室内设计副教授",
-    "photo": "assets/img/instructors/G. B_2.jpeg"
+    "photo": "assets/img/instructors/G. B.jpeg"
   },
   {
     "id": "inst-ovs-044",

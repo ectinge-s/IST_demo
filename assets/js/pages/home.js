@@ -156,7 +156,7 @@ const HomePage = {
     } else if (inst.tag === 'academic') {
       body = `${nameRow}<div class="person-card__title">${inst.school || (inst.placeholder ? '待补充' : '')}</div>${inst.academic_branch ? `<div class="person-card__sub">${inst.academic_branch}</div>` : ''}`;
     } else if (inst.tag === 'alumni') {
-      const dirs = (inst.directions || []).join('　/　');
+      const dirs = (inst.directions || []).join(' / ');
       body = `${nameRow}<div class="person-card__title">${inst.school || ''}</div>${dirs ? `<div class="person-card__sub">${dirs}</div>` : ''}`;
     } else if (inst.tag === 'overseas') {
       body = `${nameRow}<div class="person-card__title">${inst.school || (inst.placeholder ? '待补充' : '')}</div>${inst.title ? `<div class="person-card__sub">${inst.title}</div>` : ''}`;
