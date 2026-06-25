@@ -8,90 +8,10 @@ const CATS    = ['关键节点','专业成长','求职准备'];
 const CAT_CLS = { '关键节点':'milestone', '专业成长':'growth', '求职准备':'career' };
 
 // courseTab values map to courses tab IDs in the main site
-const TL_RAW = [
-  // ── 英本3年 ──
-  {track:"uk3",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"uk3",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:6,end:9,courseTab:null},
-  {track:"uk3",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"uk3",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"uk3",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:6,end:9,courseTab:null},
-  {track:"uk3",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
-  {track:"uk3",year:"大二",category:"专业成长",label:"大师课",type:"master",start:5,end:8,courseTab:"masterclass"},
-  {track:"uk3",year:"大二",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"uk3",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"uk3",year:"大三",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:4,courseTab:null},
-  {track:"uk3",year:"大三",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:8,courseTab:null},
-  {track:"uk3",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"uk3",year:"大三",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
-  // ── 美本4年 ──
-  {track:"us4",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"us4",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"us4",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"us4",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
-  {track:"us4",year:"大二",category:"专业成长",label:"夏冬校（科研）",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"us4",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"us4",year:"大三",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"us4",year:"大三",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:9,courseTab:null},
-  {track:"us4",year:"大三",category:"专业成长",label:"大师课",type:"master",start:4,end:7,courseTab:"masterclass"},
-  {track:"us4",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"us4",year:"大四",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:6,courseTab:null},
-  {track:"us4",year:"大四",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"us4",year:"大四",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
-  // ── 建筑5年 ──
-  {track:"arch5",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"arch5",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"arch5",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"arch5",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
-  {track:"arch5",year:"大二",category:"专业成长",label:"夏冬校（科研）",type:"summer",start:10,end:12,courseTab:"summer"},
-  {track:"arch5",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"arch5",year:"大三",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"arch5",year:"大三",category:"专业成长",label:"大师课",type:"master",start:4,end:7,courseTab:"masterclass"},
-  {track:"arch5",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"arch5",year:"大四",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"arch5",year:"大四",category:"专业成长",label:"科研",type:"summer",start:1,end:4,courseTab:"summer"},
-  {track:"arch5",year:"大四",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"arch5",year:"大五",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:6,courseTab:null},
-  {track:"arch5",year:"大五",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:9,courseTab:null},
-  {track:"arch5",year:"大五",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
-  {track:"arch5",year:"大五",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
-  // ── 研1年 ──
-  {track:"pg1",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
-  {track:"pg1",year:"研一",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
-  {track:"pg1",year:"研一",category:"求职准备",label:"面试",type:"internship",start:2,end:5,courseTab:null},
-  {track:"pg1",year:"研一",category:"求职准备",label:"拿offer",type:"internship",start:4,end:6,courseTab:null},
-  {track:"pg1",year:"研一",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:12,courseTab:null},
-  {track:"pg1",year:"研一",category:"关键节点",label:"毕业",type:"milestone",start:12,end:12,courseTab:null},
-  // ── 研1.5年 ──
-  {track:"pg15",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
-  {track:"pg15",year:"研一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"pg15",year:"研一",category:"求职准备",label:"大厂实习投递",type:"internship",start:6,end:8,courseTab:null},
-  {track:"pg15",year:"研一",category:"求职准备",label:"面试",type:"internship",start:7,end:9,courseTab:null},
-  {track:"pg15",year:"研一",category:"求职准备",label:"实习",type:"internship",start:8,end:9,courseTab:"internship"},
-  {track:"pg15",year:"研二",category:"关键节点",label:"毕业",type:"milestone",start:3,end:4,courseTab:null},
-  {track:"pg15",year:"研二",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
-  {track:"pg15",year:"研二",category:"求职准备",label:"面试",type:"internship",start:2,end:3,courseTab:null},
-  {track:"pg15",year:"研二",category:"求职准备",label:"拿offer",type:"internship",start:3,end:4,courseTab:null},
-  {track:"pg15",year:"研二",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:12,courseTab:null},
-  // ── 研2年 ──
-  {track:"pg2",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
-  {track:"pg2",year:"研一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"pg2",year:"研一",category:"求职准备",label:"大厂实习投递",type:"internship",start:6,end:8,courseTab:null},
-  {track:"pg2",year:"研一",category:"求职准备",label:"面试+实习offer",type:"internship",start:7,end:9,courseTab:null},
-  {track:"pg2",year:"研一",category:"求职准备",label:"实习",type:"internship",start:8,end:12,courseTab:"internship"},
-  {track:"pg2",year:"研二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
-  {track:"pg2",year:"研二",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
-  {track:"pg2",year:"研二",category:"求职准备",label:"面试",type:"internship",start:2,end:5,courseTab:null},
-  {track:"pg2",year:"研二",category:"求职准备",label:"拿offer",type:"internship",start:4,end:6,courseTab:null},
-  {track:"pg2",year:"研二",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:9,courseTab:null},
-  {track:"pg2",year:"研二",category:"关键节点",label:"毕业",type:"milestone",start:12,end:12,courseTab:null},
-];
+// Data loaded from data/timeline.json via DATA.timeline
 
-// Pre-compute ordered years per track
-const TL_YEAR_ORDER = {};
-TL_RAW.forEach(r => {
-  if (!TL_YEAR_ORDER[r.track]) TL_YEAR_ORDER[r.track] = [];
-  if (!TL_YEAR_ORDER[r.track].includes(r.year)) TL_YEAR_ORDER[r.track].push(r.year);
-});
+// Pre-compute ordered years per track (built lazily on first render)
+let TL_YEAR_ORDER = {};
 
 // Greedy lane-packing: given bars[], return [{...bar, lane}]
 function tlPackLanes(bars) {
@@ -112,6 +32,7 @@ function tlPackLanes(bars) {
 function tlBuildGantt(segments) {
   if (!segments.length) return '<div class="tl-gantt-empty">请至少选择一个阶段</div>';
 
+  const tlData = DATA.timeline || [];
   let html = '';
   let gridRow = 2;
 
@@ -123,7 +44,7 @@ function tlBuildGantt(segments) {
   );
 
   segments.forEach((seg, si) => {
-    const rows  = TL_RAW.filter(r => r.track === seg.track);
+    const rows  = tlData.filter(r => r.track === seg.track);
     const years = TL_YEAR_ORDER[seg.track] || [];
 
     if (si > 0) {
@@ -178,6 +99,13 @@ const TimelinePage = {
   _selPg: 'pg1',
 
   build() {
+    // Build TL_YEAR_ORDER from loaded data
+    TL_YEAR_ORDER = {};
+    (DATA.timeline || []).forEach(r => {
+      if (!TL_YEAR_ORDER[r.track]) TL_YEAR_ORDER[r.track] = [];
+      if (!TL_YEAR_ORDER[r.track].includes(r.year)) TL_YEAR_ORDER[r.track].push(r.year);
+    });
+
     // Controls already in index.html; just set defaults + wire events
     this._setActive('tl-tabs-ug', this._selUg);
     this._setActive('tl-tabs-pg', this._selPg);

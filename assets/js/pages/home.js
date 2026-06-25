@@ -168,22 +168,7 @@ const HomePage = {
 
   // ── Resources (marquee) ────────────────────────────────────────
   buildResources() {
-    const COOP = [
-      { nameEn:"Harvard",   nameCn:"哈佛大学",     logo:"harvard-edu-logo.jpg" },
-      { nameEn:"Tongji",    nameCn:"同济大学",     logo:"tongji-logo.jpg" },
-      { nameEn:"Alibaba",   nameCn:"阿里巴巴",     logo:"alibabagroup-com-logo.jpg" },
-      { nameEn:"RISD",      nameCn:"罗德岛设计",   logo:"risd-edu-logo.jpg" },
-      { nameEn:"HUST",      nameCn:"华中科技大学", logo:"hust-logo.jpg" },
-      { nameEn:"ByteDance", nameCn:"字节跳动",     logo:"bytedance-com-logo.jpg" },
-      { nameEn:"MIT",       nameCn:"麻省理工",     logo:"web-mit-edu-logo.jpg" },
-      { nameEn:"PolyU HK",  nameCn:"香港理工大学", logo:"polyu-logo.jpg" },
-      { nameEn:"Xiaomi",    nameCn:"小米",         logo:"xiaomi-com-ge-logo.jpg" },
-      { nameEn:"UCL",       nameCn:"伦敦大学学院", logo:"ucl-ac-uk-logo.jpg" },
-      { nameEn:"CMU",       nameCn:"卡内基梅隆",   logo:"cmu-edu-logo.jpg" },
-      { nameEn:"NIO",       nameCn:"蔚来汽车",     logo:"nio-com-logo.jpg" },
-      { nameEn:"RCA",       nameCn:"英国皇家艺术", logo:"rca-logo.jpg" },
-      { nameEn:"Columbia",  nameCn:"哥伦比亚大学", logo:"columbiadoctors-org-logo.jpg" },
-    ];
+    const COOP = DATA.resources || [];
     const BASE = 'assets/img/coop_logo/';
     const card = c => `<div class="coop-card">
       <div class="coop-card__logo"><img src="${BASE}${c.logo}" alt="${c.nameEn}"></div>

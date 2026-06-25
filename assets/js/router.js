@@ -89,13 +89,6 @@ const Tabs = {
     document.getElementById('tab-' + tabId)?.classList.add('is-active');
   },
 
-  switchTrack(trackId, btn) {
-    document.querySelectorAll('.track-tab').forEach(b => b.classList.remove('is-active'));
-    document.querySelectorAll('.track-panel').forEach(p => p.classList.remove('is-active'));
-    btn.classList.add('is-active');
-    document.getElementById('track-' + trackId)?.classList.add('is-active');
-  },
-
   switchCountrySidebar(group, btn) {
     const sid = document.getElementById('sidebar');
     sid.querySelectorAll('.country-tab').forEach(b => b.classList.remove('is-active'));

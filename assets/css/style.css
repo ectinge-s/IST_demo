@@ -135,9 +135,6 @@ img { max-width: 100%; display: block; }
 .u-visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
 .u-en { font-family: var(--font-en); }
 .u-muted { color: var(--color-text-muted); }
-.u-faint  { color: var(--color-text-faint); }
-.u-primary { color: var(--color-primary-bright); }
-.u-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* ── PAGE SWITCHING ── */
 .page { display: none; padding-top: var(--navbar-h); }
@@ -207,8 +204,8 @@ img { max-width: 100%; display: block; }
 
 /* ── TAB BAR ── */
 .tab-bar { display: flex; gap: 2px; background: var(--color-border); flex-wrap: wrap; }
-/* Segment tabs — courses (.tab-btn) + timeline tracks (.track-tab) share one recipe */
-.tab-btn, .track-tab {
+/* Segment tabs — courses */
+.tab-btn {
   padding: 8px 20px;
   font-size: var(--text-sm);
   font-weight: 500;
@@ -218,8 +215,8 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-cn);
   border: none;
 }
-.tab-btn:hover, .track-tab:hover { color: var(--color-text); background: var(--color-surface); }
-.tab-btn.is-active, .track-tab.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
+.tab-btn:hover { color: var(--color-text); background: var(--color-surface); }
+.tab-btn.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
 .tab-panel { display: none; }
 .tab-panel.is-active { display: block; }
 
