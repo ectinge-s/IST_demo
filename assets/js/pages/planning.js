@@ -67,14 +67,14 @@ const PlanningPage = {
         if (uniqueCompanies.length >= 25) break;
       }
 
-      // Job directions
-      const directions = [...new Map(companies.map(c => [c.job_direction, c])).values()];
+      // Job directions — deduplicated by direction_zh
+      const directions = [...new Map(companies.map(c => [c.direction_zh, c])).values()];
 
       // Core skills from taxonomy
       const skills = (t.legacy_subdirections || []).concat(t.new_subdirections || []);
 
       // School match partial — use first direction as default context for section header
-      const defaultDir = directions[0] ? directions[0].job_direction : '';
+      const defaultDir = directions[0] ? directions[0].direction_zh : '';
       const schoolPicks = Schools.pickForSidebar(ind.id, 3, defaultDir, '');
 
       const copy = PlanningPage._getIntro(ind.id);
@@ -87,7 +87,8 @@ const PlanningPage = {
             <div class="industry-section__scope">${ind.scope}</div>
           </div>
           <span class="industry-section__acad-tag">${ind.acad}</span>
-          <button class="cv-journey-btn" onclick="ImageModal.open('img/cv_journey/${ind.id}.png','${ind.name} 求职旅程')">查看真实案例 →</button>
+          <button class="cv-journey-btn" onclick="ImageModal.open('assets/img/cv_journey/${ind.id}.png','${ind.name} 求职旅程')">查看真实案例 →</button>
+          <button class="cv-journey-btn" onclick="Router.goToPortfolioFilter('${ind.acad}')">作品集示例 →</button>
         </div>
 
         <div class="industry-section__intro" id="intro-wrap-${ind.id}">
@@ -134,16 +135,13 @@ const PlanningPage = {
           <div class="industry-col">
             <div class="industry-col__label">岗位方向</div>
             <ul class="job-dir-list">
-              ${directions.map(c => {
-                const parts = c.job_direction.split(' ');
-                const zh = parts[0], en = parts.slice(1).join(' ');
-                return `<li class="job-dir-list__item"
-                            onclick="PlanningPage.openJobSidebar('${ind.id}','${c.job_direction.replace(/'/g,"\\'")}')">
-                  <span>${zh}</span>
-                  <span class="job-dir-list__item-en">${en}</span>
-                  <span class="job-dir-list__count">${companies.filter(x=>x.job_direction===c.job_direction).length}</span>
-                </li>`;
-              }).join('')}
+              ${directions.map(c => `
+                <li class="job-dir-list__item"
+                    onclick="PlanningPage.openJobSidebar('${ind.id}','${c.direction_zh.replace(/'/g,"\\'")}')">
+                  <span>${c.direction_zh}</span>
+                  <span class="job-dir-list__item-en">${c.direction_en}</span>
+                  <span class="job-dir-list__count">${companies.filter(x=>x.direction_zh===c.direction_zh).length}</span>
+                </li>`).join('')}
             </ul>
           </div>
 
@@ -303,14 +301,14 @@ const PlanningPage = {
     if (!jobs.length) return;
     const first = jobs[0];
     const indId = IND_ID[industryName] || 'internet';
-    const jobContext = jobs.map(j => j.job_direction).join(' ');
+    const jobContext = jobs.map(j => j.direction_zh).join(' ');
     const schoolPicks = Schools.pickForCompany(indId, 10, jobContext, companyName);
 
     const jobsHtml = jobs.map((c, i) => `
       <div class="sidebar__job-entry${i > 0 ? ' sidebar__job-entry--divider' : ''}">
         <div class="sidebar__section">
-          <div class="sidebar__section-label">岗位方向</div>
-          <p style="font-weight:600">${c.job_direction}</p>
+          <p style="font-weight:600;margin:0 0 2px">${c.job_title_zh}</p>
+          <p style="font-size:12px;color:var(--color-text-muted);margin:0 0 4px">${c.job_title_en}</p>
           ${c.department ? `<p style="font-size:12px;color:var(--color-text-muted);">${c.department}</p>` : ''}
         </div>
         <div class="sidebar__section">
@@ -356,19 +354,20 @@ const PlanningPage = {
     this.openCompanyGroupSidebar(c.industry, c.company);
   },
 
-  openJobSidebar(indId, direction) {
+  openJobSidebar(indId, directionZh) {
     const ind = INDUSTRIES.find(i => i.id === indId);
-    const jobs = DATA.careers.filter(c => c.job_direction === direction && c.industry === ind.name);
-    const companyContext = jobs.map(j => j.company).join(' ');
-    const schoolPicks = Schools.pickForJob(indId, direction, companyContext);
-
+    const jobs = DATA.careers.filter(c => c.direction_zh === directionZh && c.industry === ind.name);
     const job = jobs[0] || {};
+    const companyContext = jobs.map(j => j.company).join(' ');
+    const roleContext = [directionZh, job.direction_en || '', jobs.map(j => j.responsibilities || '').join(' ')].join(' ');
+    const schoolPicks = Schools.pickForJob(indId, roleContext, companyContext);
+    const dirEn = job.direction_en || '';
     Sidebar.open(`
       <div class="sidebar__header">
         <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
-        <div class="sidebar__eyebrow">${ind.name} · 岗位方向</div>
-        <div class="sidebar__title">${direction}</div>
-        <div class="sidebar__subtitle">${jobs.map(j=>j.company).slice(0,4).join(' · ')}</div>
+        <div class="sidebar__eyebrow">${ind.name}</div>
+        <div class="sidebar__title">${directionZh}</div>
+        <div class="sidebar__subtitle">${dirEn}</div>
       </div>
       <div class="sidebar__body">
         ${job.responsibilities ? `

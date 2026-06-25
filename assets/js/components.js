@@ -32,27 +32,27 @@ const ProgramScorer = {
     xr:          ['xr','vr ','ar ','immersive','mixed reality','extended reality','沉浸','虚拟现实','增强现实'],
     brand:       ['brand','communication design','graphic design','visual communication','品牌','视觉传达','平面设计'],
     media:       ['media','communication','advertising','传播','媒体','广告'],
-    film:        ['film','screen','motion','影视','电影'],
+    film:        ['film','screen','motion','影视','电影','舞台','戏剧','剧场','演出','布景','scenic','theatre','theater','stage design','production design'],
     animation:   ['animation','motion design','动画'],
     arch:        ['architecture','建筑','architectural'],
-    space:       ['spatial','space design','interior','室内','空间设计'],
+    space:       ['spatial design','space design','interior design','室内设计','空间设计','布展','陈列','空间叙事','展陈','动线','空间呈现'],
     landscape:   ['landscape','景观'],
-    urban:       ['urban','city design','planning','城市','规划'],
+    urban:       ['urban','city design','planning','城市规划','urban design','城市设计'],
     sustainable: ['sustainable','sustainability','可持续','environmental'],
-    parametric:  ['parametric','computational design','参数化','digital fabrication'],
+    parametric:  ['parametric','computational design','参数化','digital fabrication','bim','数字化交付','正向设计'],
     industrial:  ['industrial design','product engineering','工业设计','设计工程'],
     engineering: ['engineering','mechatronics','工程','机械'],
     social:      ['social innovation','social design','社会创新','social impact'],
     fashion:     ['fashion','textile','时尚','服装'],
     creative:    ['creative technology','creative computing','创意科技'],
-    visual:      ['visual art','fine art','visual design','视觉艺术','纯艺'],
+    visual:      ['visual art','fine art','visual design','视觉艺术','纯艺','当代艺术','艺术展','展览设计','curator','exhibition','gallery','美术馆','策展'],
     strategy:    ['strategy','management','innovation management','策略','管理'],
   },
 
   // Industry → relevant topic clusters
   IND_TOPICS: {
     internet: ['ux','product','digital','ai','tech','service','research'],
-    hardware: ['industrial','engineering','product','tech','ai','parametric'],
+    hardware: ['industrial','engineering','product','tech','ai','parametric','ux'],
     culture:  ['game','xr','animation','film','digital','media','creative','visual'],
     brand:    ['brand','media','visual','creative','social','service','strategy'],
     arch:     ['arch','space','urban','landscape','parametric','sustainable','industrial'],
@@ -68,22 +68,27 @@ const ProgramScorer = {
   },
 
   // Score a single program against role context
+  // primary_tags define the core identity — high weight, prevents擦边 programs from winning
+  // secondary_tags are real but supporting — low weight, only lift programs already near the top
   score(prog, roleText, companyText, industryId) {
-    const progText = [prog.program_name_en, prog.program_name_zh, prog.school_college].join(' ');
-    const progTopics = new Set(prog.keyword_tags || []);
+    const primary   = new Set(prog.primary_tags   || prog.keyword_tags || []);
+    const secondary = new Set(prog.secondary_tags || []);
     const targetTopics = this.extractTopics(roleText + ' ' + companyText);
     const indTopics = new Set(this.IND_TOPICS[industryId] || []);
 
-    // Specific match (role-derived keywords match program)
-    const specificHits = [...targetTopics].filter(t => progTopics.has(t)).length;
-    // Industry-level match
-    const industryHits = [...indTopics].filter(t => progTopics.has(t)).length;
-    // Industry tag match
+    // Primary hits — must match core identity of the program
+    const primaryRoleHits = [...targetTopics].filter(t => primary.has(t)).length;
+    const primaryIndHits  = [...indTopics].filter(t => primary.has(t)).length;
+    // Secondary hits — supporting signal, lower weight
+    const secRoleHits = [...targetTopics].filter(t => secondary.has(t)).length;
+    const secIndHits  = [...indTopics].filter(t => secondary.has(t)).length;
+    // Industry tag in candidate pool
     const tagBonus = (prog.industry_tags || []).includes(industryId) ? 10 : 0;
-    // Prestige
-    const prestige = (prog.prestige_score || 55) * 0.3;
+    // Prestige — higher weight so name schools win when primary match is equal
+    const prestige = (prog.prestige_score || 55) * 0.5;
 
-    return specificHits * 25 + industryHits * 8 + tagBonus + prestige;
+    return primaryRoleHits * 40 + prestige + primaryIndHits * 12
+         + secRoleHits * 8 + secIndHits * 4 + tagBonus;
   },
 
   // Return top N programs scored for a role, one per school, grouped by country group
@@ -287,10 +292,10 @@ const Search = {
     // Job directions
     const seenJob = new Set();
     DATA.careers.forEach(c => {
-      if (seenJob.has(c.job_direction)) return;
-      if (c.job_direction.toLowerCase().includes(q) || c.job_title_en.toLowerCase().includes(q)) {
+      if (seenJob.has(c.direction_zh)) return;
+      if (c.direction_zh.toLowerCase().includes(q) || c.direction_en.toLowerCase().includes(q) || c.job_title_en.toLowerCase().includes(q)) {
         hits.jobs.push(c);
-        seenJob.add(c.job_direction);
+        seenJob.add(c.direction_zh);
       }
     });
 
@@ -325,9 +330,9 @@ const Search = {
     if (hits.jobs.length) {
       html += `<div class="search-results__group-label">岗位方向</div>`;
       hits.jobs.slice(0,4).forEach(c => {
-        html += `<div class="search-result-item" onclick="Search.jumpTo('job','${c.industry}','${c.job_direction.replace(/'/g,"\\'")}')">
-          <div class="search-result-item__title">${c.job_direction}</div>
-          <div class="search-result-item__sub">${c.industry}</div>
+        html += `<div class="search-result-item" onclick="Search.jumpTo('job','${c.industry}','${c.direction_zh.replace(/'/g,"\\'")}')">
+          <div class="search-result-item__title">${c.direction_zh}</div>
+          <div class="search-result-item__sub">${c.direction_en} · ${c.industry}</div>
         </div>`;
       });
     }

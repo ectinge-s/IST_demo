@@ -15,7 +15,7 @@
       "交互设计",
       "服务设计"
     ],
-    "image": "img/portfolio/互联网科技-ZHY-北京海淀.jpg"
+    "image": "assets/img/portfolio/互联网科技-ZHY-北京海淀.jpg"
   },
   {
     "id": "互联网科技-LJN-北京CBD",
@@ -34,7 +34,7 @@
       "用户体验设计",
       "人机交互"
     ],
-    "image": "img/portfolio/互联网科技-LJN-北京CBD.jpg"
+    "image": "assets/img/portfolio/互联网科技-LJN-北京CBD.jpg"
   },
   {
     "id": "建筑环境科技-YSY-北京CBD",
@@ -55,7 +55,7 @@
       "建筑学",
       "城市研究"
     ],
-    "image": "img/portfolio/建筑环境科技-YSY-北京CBD.jpg"
+    "image": "assets/img/portfolio/建筑环境科技-YSY-北京CBD.jpg"
   },
   {
     "id": "建筑环境科技-DDZY-南京",
@@ -75,7 +75,7 @@
       "设计技术",
       "空间设计"
     ],
-    "image": "img/portfolio/建筑环境科技-DDZY-南京.jpg"
+    "image": "assets/img/portfolio/建筑环境科技-DDZY-南京.jpg"
   },
   {
     "id": "智能实体产业-MLC-深圳",
@@ -94,7 +94,7 @@
       "设计工程",
       "自动化设计"
     ],
-    "image": "img/portfolio/智能实体产业-MLC-深圳.jpg"
+    "image": "assets/img/portfolio/智能实体产业-MLC-深圳.jpg"
   },
   {
     "id": "智能实体产业-ZXY-上海",
@@ -113,7 +113,7 @@
       "社会创新",
       "设计工程"
     ],
-    "image": "img/portfolio/智能实体产业-ZXY-上海.jpg"
+    "image": "assets/img/portfolio/智能实体产业-ZXY-上海.jpg"
   },
   {
     "id": "品牌与服务-XYB-南京",
@@ -135,7 +135,7 @@
       "设计影响",
       "创意科技"
     ],
-    "image": "img/portfolio/品牌与服务-XYB-南京.jpg"
+    "image": "assets/img/portfolio/品牌与服务-XYB-南京.jpg"
   },
   {
     "id": "品牌与服务-ZK-上海",
@@ -157,7 +157,7 @@
       "社会创新",
       "新媒体艺术"
     ],
-    "image": "img/portfolio/品牌与服务-ZK-上海.jpg"
+    "image": "assets/img/portfolio/品牌与服务-ZK-上海.jpg"
   },
   {
     "id": "数字文化娱乐-JXY-北京CBD",
@@ -179,7 +179,7 @@
       "游戏设计",
       "互动媒体"
     ],
-    "image": "img/portfolio/数字文化娱乐-JXY-北京CBD.jpg"
+    "image": "assets/img/portfolio/数字文化娱乐-JXY-北京CBD.jpg"
   },
   {
     "id": "数字文化娱乐-CJD-杭州",
@@ -199,6 +199,6 @@
       "互动媒体",
       "计算艺术"
     ],
-    "image": "img/portfolio/数字文化娱乐-CJD-杭州.jpg"
+    "image": "assets/img/portfolio/数字文化娱乐-CJD-杭州.jpg"
   }
 ]

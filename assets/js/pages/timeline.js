@@ -1,152 +1,227 @@
-const TRACK_LABELS = {
-  '英国本科三年时间轴+1年制研究生':   '💡 本科 3年 + 研1年',
-  '英国本科三年时间轴+1.5年制研究生': '💡 本科 3年 + 研1.5年',
-  '美国本科四年时间轴+1年制研究生':   '💡 本科 4年 + 研1年',
-  '美国本科四年时间轴+2年制研究生':   '💡 本科 4年 + 研2年',
-};
+// ── Timeline page — Gantt-style month-based layout ──────────────────────────
+// Vertical axis: 关键节点 / 专业成长 / 求职准备
+// Horizontal axis: 12 months starting Sep (1=Sep … 12=Aug)
+// Overlapping bars in same category auto-stack into sub-rows
 
-const PHASE_TO_SEM = {
-  '开学':'autumn','秋季学期':'autumn','递交研究生申请':'autumn',
-  '秋招':'autumn','笔试和测试':'autumn','面试':'autumn',
-  '圣诞寒假':'winter','圣诞假（约3–5周）':'winter','圣诞假':'winter',
-  '拿offer-就业':'winter','拿offer':'winter',
-  '春季学期':'spring','复活节春假':'spring','春假（约1周）':'spring',
-  '春季学期后段':'spring','春招补录+社招':'spring','毕业':'spring',
-  '就业':'spring','春季学期毕业设计':'spring',
-  '暑假':'summer','大一暑假（约3个月）':'summer','大二暑假':'summer',
-  '大三暑假':'summer','大四暑假':'summer','研一暑假':'summer',
-  '夏季学期（含期末考）':'summer','夏季学期（毕业设计）':'summer','夏季学期':'summer',
-  '实习2':'summer','实习3':'summer','实习4':'summer','实习5':'summer',
-  '求职作品集+投递':'summer',
-};
-const SEMS = ['autumn','winter','spring','summer'];
-const SEM_LABELS = { autumn:'秋季学期', winter:'寒假', spring:'春季学期', summer:'暑假 / 夏季' };
+const MONTHS  = ['Sep','Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'];
+const CATS    = ['关键节点','专业成长','求职准备'];
+const CAT_CLS = { '关键节点':'milestone', '专业成长':'growth', '求职准备':'career' };
 
-const ACT_KEYS   = ['internship','summer_program','business_practice','masterclass','gpa_support'];
-const ACT_LABELS = { internship:'实习', summer_program:'夏校/冬校', business_practice:'商业实践', masterclass:'大师课', gpa_support:'GPA支持' };
-const ACT_CLS    = { internship:'blue', summer_program:'lime' };
-const TAG_JUMP   = { '实习':'internship','夏校':'summer','冬校':'summer','商业实践':'bizpractice','大师课':'masterclass','GPA':'other' };
+// courseTab values map to courses tab IDs in the main site
+const TL_RAW = [
+  // ── 英本3年 ──
+  {track:"uk3",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"uk3",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:6,end:9,courseTab:null},
+  {track:"uk3",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"uk3",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"uk3",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:6,end:9,courseTab:null},
+  {track:"uk3",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
+  {track:"uk3",year:"大二",category:"专业成长",label:"大师课",type:"master",start:5,end:8,courseTab:"masterclass"},
+  {track:"uk3",year:"大二",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"uk3",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"uk3",year:"大三",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:4,courseTab:null},
+  {track:"uk3",year:"大三",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:8,courseTab:null},
+  {track:"uk3",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"uk3",year:"大三",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
+  // ── 美本4年 ──
+  {track:"us4",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"us4",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"us4",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"us4",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
+  {track:"us4",year:"大二",category:"专业成长",label:"夏冬校（科研）",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"us4",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"us4",year:"大三",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"us4",year:"大三",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:9,courseTab:null},
+  {track:"us4",year:"大三",category:"专业成长",label:"大师课",type:"master",start:4,end:7,courseTab:"masterclass"},
+  {track:"us4",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"us4",year:"大四",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:6,courseTab:null},
+  {track:"us4",year:"大四",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"us4",year:"大四",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
+  // ── 建筑5年 ──
+  {track:"arch5",year:"大一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"arch5",year:"大一",category:"专业成长",label:"夏冬校",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"arch5",year:"大二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"arch5",year:"大二",category:"专业成长",label:"商业实践",type:"biz",start:4,end:7,courseTab:"bizpractice"},
+  {track:"arch5",year:"大二",category:"专业成长",label:"夏冬校（科研）",type:"summer",start:10,end:12,courseTab:"summer"},
+  {track:"arch5",year:"大二",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"arch5",year:"大三",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"arch5",year:"大三",category:"专业成长",label:"大师课",type:"master",start:4,end:7,courseTab:"masterclass"},
+  {track:"arch5",year:"大三",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"arch5",year:"大四",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"arch5",year:"大四",category:"专业成长",label:"科研",type:"summer",start:1,end:4,courseTab:"summer"},
+  {track:"arch5",year:"大四",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"arch5",year:"大五",category:"关键节点",label:"递交研究生申请",type:"milestone",start:1,end:6,courseTab:null},
+  {track:"arch5",year:"大五",category:"专业成长",label:"毕无忧",type:"gpa",start:5,end:9,courseTab:null},
+  {track:"arch5",year:"大五",category:"求职准备",label:"实习",type:"internship",start:10,end:12,courseTab:"internship"},
+  {track:"arch5",year:"大五",category:"求职准备",label:"作品集+投递",type:"internship",start:11,end:12,courseTab:null},
+  // ── 研1年 ──
+  {track:"pg1",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
+  {track:"pg1",year:"研一",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
+  {track:"pg1",year:"研一",category:"求职准备",label:"面试",type:"internship",start:2,end:5,courseTab:null},
+  {track:"pg1",year:"研一",category:"求职准备",label:"拿offer",type:"internship",start:4,end:6,courseTab:null},
+  {track:"pg1",year:"研一",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:12,courseTab:null},
+  {track:"pg1",year:"研一",category:"关键节点",label:"毕业",type:"milestone",start:12,end:12,courseTab:null},
+  // ── 研1.5年 ──
+  {track:"pg15",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
+  {track:"pg15",year:"研一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"pg15",year:"研一",category:"求职准备",label:"大厂实习投递",type:"internship",start:6,end:8,courseTab:null},
+  {track:"pg15",year:"研一",category:"求职准备",label:"面试",type:"internship",start:7,end:9,courseTab:null},
+  {track:"pg15",year:"研一",category:"求职准备",label:"实习",type:"internship",start:8,end:9,courseTab:"internship"},
+  {track:"pg15",year:"研二",category:"关键节点",label:"毕业",type:"milestone",start:3,end:4,courseTab:null},
+  {track:"pg15",year:"研二",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
+  {track:"pg15",year:"研二",category:"求职准备",label:"面试",type:"internship",start:2,end:3,courseTab:null},
+  {track:"pg15",year:"研二",category:"求职准备",label:"拿offer",type:"internship",start:3,end:4,courseTab:null},
+  {track:"pg15",year:"研二",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:12,courseTab:null},
+  // ── 研2年 ──
+  {track:"pg2",year:"研一",category:"关键节点",label:"入学",type:"milestone",start:1,end:1,courseTab:null},
+  {track:"pg2",year:"研一",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"pg2",year:"研一",category:"求职准备",label:"大厂实习投递",type:"internship",start:6,end:8,courseTab:null},
+  {track:"pg2",year:"研一",category:"求职准备",label:"面试+实习offer",type:"internship",start:7,end:9,courseTab:null},
+  {track:"pg2",year:"研一",category:"求职准备",label:"实习",type:"internship",start:8,end:12,courseTab:"internship"},
+  {track:"pg2",year:"研二",category:"专业成长",label:"安心办",type:"gpa",start:1,end:4,courseTab:null},
+  {track:"pg2",year:"研二",category:"求职准备",label:"秋招+笔试",type:"internship",start:1,end:2,courseTab:null},
+  {track:"pg2",year:"研二",category:"求职准备",label:"面试",type:"internship",start:2,end:5,courseTab:null},
+  {track:"pg2",year:"研二",category:"求职准备",label:"拿offer",type:"internship",start:4,end:6,courseTab:null},
+  {track:"pg2",year:"研二",category:"求职准备",label:"春招补录+社招",type:"internship",start:6,end:9,courseTab:null},
+  {track:"pg2",year:"研二",category:"关键节点",label:"毕业",type:"milestone",start:12,end:12,courseTab:null},
+];
 
-const TAG_CLASS = v => {
-  if(!v) return '';
-  if(v.includes('实习')) return 'internship';
-  if(v.includes('夏校')||v.includes('冬校')) return 'summer';
-  if(v.includes('商业实践')) return 'biz';
-  if(v.includes('大师课')) return 'master';
-  return 'gpa';
-};
+// Pre-compute ordered years per track
+const TL_YEAR_ORDER = {};
+TL_RAW.forEach(r => {
+  if (!TL_YEAR_ORDER[r.track]) TL_YEAR_ORDER[r.track] = [];
+  if (!TL_YEAR_ORDER[r.track].includes(r.year)) TL_YEAR_ORDER[r.track].push(r.year);
+});
 
-function cellTag(v) {
-  if(!v) return '';
-  const cls = TAG_CLASS(v);
-  const jump = Object.entries(TAG_JUMP).find(([k])=>v.includes(k))?.[1];
-  const onclick = jump ? `onclick="Router.goToCoursesTab('${jump}')"` : '';
-  return `<span class="tl-tag tl-tag--${cls}" ${onclick} title="${jump?'点击跳转到对应课程':''}">${v}</span>`;
+// Greedy lane-packing: given bars[], return [{...bar, lane}]
+function tlPackLanes(bars) {
+  const lanes = [];
+  return bars.map(bar => {
+    for (let li = 0; li < lanes.length; li++) {
+      if (!lanes[li].some(b => bar.start <= b.end && bar.end >= b.start)) {
+        lanes[li].push(bar);
+        return { ...bar, lane: li };
+      }
+    }
+    lanes.push([bar]);
+    return { ...bar, lane: lanes.length - 1 };
+  });
+}
+
+// Build gantt HTML for given segments [{track, isPg}]
+function tlBuildGantt(segments) {
+  if (!segments.length) return '<div class="tl-gantt-empty">请至少选择一个阶段</div>';
+
+  let html = '';
+  let gridRow = 2;
+
+  // Header (gridRow=1)
+  html += `<div class="tl-gh" style="grid-column:1;grid-row:1">年级</div>`;
+  html += `<div class="tl-gh tl-gh--cat" style="grid-column:2;grid-row:1">维度</div>`;
+  MONTHS.forEach((m, i) =>
+    html += `<div class="tl-gh" style="grid-column:${i+3};grid-row:1">${m}</div>`
+  );
+
+  segments.forEach((seg, si) => {
+    const rows  = TL_RAW.filter(r => r.track === seg.track);
+    const years = TL_YEAR_ORDER[seg.track] || [];
+
+    if (si > 0) {
+      html += `<div class="tl-seg-div" style="grid-row:${gridRow}"></div>`;
+      gridRow++;
+    }
+
+    years.forEach(year => {
+      html += `<div class="tl-year-band" style="grid-row:${gridRow}">${year}</div>`;
+      gridRow++;
+      const yearStartRow = gridRow;
+
+      CATS.forEach(cat => {
+        const catBars = rows.filter(r => r.year === year && r.category === cat);
+        if (!catBars.length) return;
+
+        const packed   = tlPackLanes(catBars);
+        const numLanes = Math.max(...packed.map(b => b.lane)) + 1;
+        const catCls   = CAT_CLS[cat];
+
+        for (let li = 0; li < numLanes; li++) {
+          if (li === 0) {
+            html += `<div class="tl-cat tl-cat--${catCls}" style="grid-column:2;grid-row:${gridRow}/${gridRow+numLanes}">${cat}</div>`;
+          }
+          MONTHS.forEach((_, mi) =>
+            html += `<div class="tl-mc${mi%2?' tl-mc--odd':''}" style="grid-column:${mi+3};grid-row:${gridRow}"></div>`
+          );
+          packed.filter(b => b.lane === li).forEach(bar => {
+            const cs = bar.start + 2, ce = bar.end + 3;
+            const linked  = bar.courseTab ? ' is-linked' : '';
+            const onclick = bar.courseTab
+              ? ` onclick="Router.goToCoursesTab('${bar.courseTab}')" title="点击跳转课程页面"`
+              : '';
+            html += `<div class="tl-bar tl-bar--${bar.type}${linked}" style="grid-column:${cs}/${ce};grid-row:${gridRow};z-index:2"${onclick}>${bar.label}</div>`;
+          });
+          gridRow++;
+        }
+      });
+
+      const span = gridRow - yearStartRow;
+      if (span > 0) {
+        html += `<div class="tl-yl" style="grid-column:1;grid-row:${yearStartRow}/${gridRow}">${year}</div>`;
+      }
+    });
+  });
+
+  return html;
 }
 
 const TimelinePage = {
+  _selUg: 'uk3',
+  _selPg: 'pg1',
+
   build() {
-    const rows = DATA.timeline || [];
-    if (!rows.length) { document.getElementById('track-tabs').innerHTML = '<p>数据加载中…</p>'; return; }
+    // Controls already in index.html; just set defaults + wire events
+    this._setActive('tl-tabs-ug', this._selUg);
+    this._setActive('tl-tabs-pg', this._selPg);
 
-    const tracks = [...new Set(rows.map(r=>r.track))];
-    const tabsEl   = document.getElementById('track-tabs');
-    const panelsEl = document.getElementById('track-panels');
-
-    tabsEl.innerHTML = tracks.map((t,i) =>
-      `<button class="track-tab${i===0?' is-active':''}"
-               onclick="Tabs.switchTrack('tl${i}',this)">
-        ${TRACK_LABELS[t]||t}
-      </button>`
-    ).join('');
-
-    panelsEl.innerHTML = tracks.map((t,i) => {
-      const trows = rows.filter(r=>r.track===t);
-      const years = [...new Set(trows.map(r=>r.year))].filter(Boolean);
-
-      // Build grid: year → sem → { phases[], months[], activities{} }
-      const grid = {};
-      years.forEach(y => {
-        grid[y] = {};
-        SEMS.forEach(s => {
-          grid[y][s] = { phases:[], months:[], activities:{} };
-          ACT_KEYS.forEach(k => grid[y][s].activities[k] = []);
-        });
+    document.querySelectorAll('#tl-tabs-ug .tl-seg-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this._selUg = btn.dataset.val;
+        this._setActive('tl-tabs-ug', this._selUg);
+        this._render();
       });
-
-      trows.forEach(r => {
-        if(!r.year) return;
-        const phase = (r.phase||'').trim();
-        const sem = PHASE_TO_SEM[phase] || 'autumn';
-        const cell = grid[r.year][sem];
-        // Collect phases (skip pure activity/date rows like 实习2, 求职...)
-        const skipPhases = new Set(['实习2','实习3','实习4','实习5','求职作品集+投递']);
-        if(phase && !cell.phases.includes(phase) && !skipPhases.has(phase))
-          cell.phases.push(phase);
-        // Collect months
-        const mo = (r.month_period||'').trim();
-        if(mo && !cell.months.includes(mo))
-          cell.months.push(mo);
-        // Collect activities
-        ACT_KEYS.forEach(k => {
-          if(r[k]) r[k].split(/[,，、]+/).map(v=>v.trim()).filter(Boolean).forEach(v => {
-            if(!cell.activities[k].includes(v)) cell.activities[k].push(v);
-          });
-        });
+    });
+    document.querySelectorAll('#tl-tabs-pg .tl-seg-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this._selPg = btn.dataset.val;
+        this._setActive('tl-tabs-pg', this._selPg);
+        this._render();
       });
+    });
 
-      // Build table
-      // Columns: 年级 | 学期 | 阶段 | 月份 | internship | summer | biz | masterclass | gpa
-      let tbl = `<div style="overflow-x:auto"><table class="tl-table" style="width:100%;min-width:800px;">
-        <thead><tr>
-          <th class="tl-th-label" style="width:60px;">年级</th>
-          <th class="tl-th-label" style="width:90px;">学期</th>
-          <th class="tl-th-label" style="width:160px;">阶段</th>
-          <th class="tl-th-label" style="width:130px;">月份</th>
-          ${ACT_KEYS.map(k => {
-            const c = ACT_CLS[k]||'';
-            return `<th class="tl-th-label${c?' tl-th-label--'+c:''}">${ACT_LABELS[k]}</th>`;
-          }).join('')}
-        </tr></thead>
-        <tbody>`;
+    this._render();
+  },
 
-      years.forEach(y => {
-        // Which semesters have any content for this year?
-        const activeSems = SEMS.filter(s =>
-          grid[y][s].phases.length ||
-          ACT_KEYS.some(k => grid[y][s].activities[k].length)
-        );
-        if(!activeSems.length) return;
+  _setActive(groupId, val) {
+    document.querySelectorAll(`#${groupId} .tl-seg-tab`).forEach(b =>
+      b.classList.toggle('is-active', b.dataset.val === val)
+    );
+  },
 
-        activeSems.forEach((s, si) => {
-          const cell = grid[y][s];
-          const hasActs = ACT_KEYS.some(k => cell.activities[k].length);
-          const phases = cell.phases.join(' · ') || '—';
-          const months = cell.months
-            .filter((v,i,a) => a.indexOf(v)===i)  // dedupe
-            .join(' / ');
-
-          tbl += `<tr>
-            ${si===0 ? `<td class="tl-cell" style="font-weight:700;vertical-align:top;background:var(--color-surface);text-align:center;" rowspan="${activeSems.length}">${y}</td>` : ''}
-            <td class="tl-cell" style="font-size:11px;color:var(--color-primary-bright);font-weight:600;white-space:nowrap;">${SEM_LABELS[s]}</td>
-            <td class="tl-cell" style="font-size:11px;color:var(--color-text-muted);">${phases}</td>
-            <td class="tl-cell" style="font-size:10px;color:var(--color-text-muted);">${months}</td>
-            ${ACT_KEYS.map(k =>
-              `<td class="tl-cell">${cell.activities[k].map(cellTag).join('')}</td>`
-            ).join('')}
-          </tr>`;
-        });
-      });
-
-      tbl += `</tbody></table></div>`;
-
-      return `<div class="track-panel${i===0?' is-active':''}" id="track-tl${i}">
-        <p style="font-size:12px;color:var(--color-text-secondary);margin-bottom:16px;padding:10px 14px;background:var(--color-surface);border-left:3px solid var(--color-primary);border-radius:var(--radius-sm);">
-          按学年与学期规划关键任务节点。点击课程标签可跳转至对应课程产品页面。
-        </p>
-        ${tbl}
-      </div>`;
-    }).join('');
+  _render() {
+    const segments = [];
+    if (this._selUg) segments.push({ track: this._selUg });
+    if (this._selPg) segments.push({ track: this._selPg });
+    const wrap = document.getElementById('tl-gantt-wrap');
+    const el   = document.getElementById('tl-gantt');
+    if (!segments.length) {
+      if (wrap) wrap.innerHTML = '<div class="tl-gantt-empty">请至少选择一个阶段</div>';
+      return;
+    }
+    if (wrap && !el) {
+      wrap.innerHTML = '<div class="tl-gantt" id="tl-gantt"></div>';
+    }
+    const g = document.getElementById('tl-gantt');
+    if (g) g.innerHTML = tlBuildGantt(segments);
   },
 };
+
 window.TimelinePage = TimelinePage;

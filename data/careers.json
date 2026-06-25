@@ -6,7 +6,6 @@
     "tier": "头部大厂",
     "company": "Meta",
     "department": "Reality Labs — Spatial UX Team",
-    "job_direction": "空间交互设计师 Spatial UX Designer",
     "job_title_zh": "空间交互设计师",
     "job_title_en": "Spatial UX Designer",
     "responsibilities": "定义空间计算中手势、眼动追踪、语音融合交互范式；设计2D→3D空间连续性体验；构建Spatial Design System组件库；输出Unity/XR交互原型验证方案",
@@ -22,7 +21,9 @@
       "人机交互（HCI） | — CMU MHCI / UW HCDE / Georgia Tech HCI",
       "综合数字艺术媒体 | — MIT Media Lab / NYU ITP",
       "交互设计 | — RCA IDE / UAL Interaction Design"
-    ]
+    ],
+    "direction_zh": "空间交互设计师",
+    "direction_en": "Spatial UX Designer"
   },
   {
     "id": "2",
@@ -31,7 +32,6 @@
     "tier": "头部大厂",
     "company": "Meta",
     "department": "Meta AI — AI Interaction Design",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "AI交互设计师",
     "job_title_en": "AI Interaction Designer",
     "responsibilities": "设计Llama生态下的多模态对话体验；定义AI Agent人格与对话边界；设计用户对AI产出的审阅/修正界面",
@@ -47,7 +47,9 @@
       "人机交互（HCI） | — CMU MHCI / Stanford HCI / UCL HCI",
       "数字媒体/创意技术 | — NYU ITP / RCA Digital Direction",
       "计算设计 | — MIT SMArchS Computation / CMU CD"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "3",
@@ -56,9 +58,8 @@
     "tier": "头部大厂",
     "company": "Apple",
     "department": "Human Interface — Spatial Design",
-    "job_direction": "系统级交互设计师 OS / System UX Designer",
     "job_title_zh": "空间交互设计师",
-    "job_title_en": "Vision Pro生态",
+    "job_title_en": "Spatial UX Designer",
     "responsibilities": "主导visionOS空间交互规范设计；定义眼动+手势+语音融合的多模态交互；设计Spatial Persona交互体验；优化空间音频与UI的联动",
     "talent_summary": "空间交互设计（visionOS/macOS/iOS生态）、混合现实UX、人因工程",
     "education": "硕士及以上（HCI/设计/计算机科学）",
@@ -72,7 +73,9 @@
       "人机交互（HCI） | — CMU MHCI / Stanford HCI",
       "工业设计/产品设计 | — RCA Design Products / RISD ID",
       "交互设计 | — Parsons D&T / Delft DfI"
-    ]
+    ],
+    "direction_zh": "系统级交互设计师",
+    "direction_en": "OS / System UX Designer"
   },
   {
     "id": "4",
@@ -81,9 +84,8 @@
     "tier": "头部大厂",
     "company": "Apple",
     "department": "Human Interface Design",
-    "job_direction": "空间交互设计师 (Vision Pro生态)",
     "job_title_zh": "空间交互设计师",
-    "job_title_en": "",
+    "job_title_en": "Spatial UX Designer",
     "responsibilities": "主导visionOS空间交互规范设计；定义眼动+手势+语音融合的多模态交互；设计Spatial Persona交互体验；优化空间音频与UI的联动",
     "talent_summary": "Apple全生态交互设计（iOS/macOS设计体系）、无障碍设计",
     "education": "硕士及以上（HCI/设计/计算机科学）",
@@ -97,7 +99,9 @@
       "人机交互（HCI） | — CMU MHCI / Stanford HCI",
       "工业设计/产品设计 | — RCA Design Products / RISD ID",
       "交互设计 | — Parsons D&T / Delft DfI"
-    ]
+    ],
+    "direction_zh": "空间交互设计师",
+    "direction_en": "Spatial UX Designer"
   },
   {
     "id": "5",
@@ -106,7 +110,6 @@
     "tier": "头部大厂",
     "company": "Google",
     "department": "Google DeepMind — UX for AI",
-    "job_direction": "多模态交互设计师 Multimodal Interaction Designer",
     "job_title_zh": "多模态AI交互设计师",
     "job_title_en": "Multimodal AI UX Designer",
     "responsibilities": "设计Gemini生态的多模态对话交互（文本+语音+视觉+代码）；定义AI输出可信度表达；构建'玻璃盒'透明度界面",
@@ -122,7 +125,9 @@
       "人机交互（HCI） | — CMU MHCI / UW HCDE / Michigan HCI",
       "综合数字艺术媒体 | — MIT Media Lab / NYU ITP",
       "认知科学/设计研究 | — UCL HCI / TU Delft DfI"
-    ]
+    ],
+    "direction_zh": "多模态交互设计师",
+    "direction_en": "Multimodal Interaction Designer"
   },
   {
     "id": "6",
@@ -131,7 +136,6 @@
     "tier": "头部大厂",
     "company": "Microsoft",
     "department": "Microsoft AI — Copilot UX Team",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "人机协同设计师",
     "job_title_en": "Human-AI Collaboration Designer",
     "responsibilities": "设计AI'副驾驶'交互流程（用户主导→AI辅助→用户审阅）；定义AI介入时机与放权边界；设计多模态输入下的协作体验",
@@ -147,7 +151,9 @@
       "人机交互（HCI） | — CMU MHCI / UW HCDE / UCL HCI",
       "服务设计 | — RCA Service Design / SCAD",
       "认知心理学/人因工程 | — Georgia Tech / UIUC"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "7",
@@ -156,7 +162,6 @@
     "tier": "头部大厂",
     "company": "Amazon",
     "department": "Amazon 3D Commerce — Visual Innovation",
-    "job_direction": "空间交互设计师 Spatial UX Designer",
     "job_title_zh": "3D交互设计师",
     "job_title_en": "3D Interactive Designer",
     "responsibilities": "构建商品3D实时渲染与AR虚拟试用体验；优化WebGL/Three.js移动端性能；设计3D场景导航与信息呈现；产出可运行原型",
@@ -172,7 +177,9 @@
       "计算机图形学/创意技术 | — CMU ETC / NYU ITP",
       "数字媒体/计算设计 | — RCA Digital Direction / MIT Media Lab",
       "交互设计/产品设计 | — Parsons D&T / Delft DfI"
-    ]
+    ],
+    "direction_zh": "空间交互设计师",
+    "direction_en": "Spatial UX Designer"
   },
   {
     "id": "8",
@@ -181,7 +188,6 @@
     "tier": "头部大厂",
     "company": "字节跳动 (ByteDance)",
     "department": "TikTok Shop — 社交电商UX团队",
-    "job_direction": "增长与电商体验设计师 Growth & Commerce UX Designer",
     "job_title_zh": "社交电商体验设计师",
     "job_title_en": "Social Commerce UX",
     "responsibilities": "设计直播带货全链路交互（商品卡→优惠券→支付→售后）；平衡冲动消费心理与用户体验保护机制；构建AI驱动的推荐-转化闭环体验",
@@ -197,7 +203,9 @@
       "交互设计/服务设计 | — RCA Service Design / UAL Interaction Design",
       "人机交互（HCI） | — CMU MHCI / Delft DfI",
       "电商/数字产品设计 | — Parsons D&T / SCAD"
-    ]
+    ],
+    "direction_zh": "增长与电商体验设计师",
+    "direction_en": "Growth & Commerce UX Designer"
   },
   {
     "id": "9",
@@ -206,9 +214,8 @@
     "tier": "头部大厂",
     "company": "腾讯 (Tencent)",
     "department": "IEG互动娱乐 — 游戏UX设计中心 / CSIG云与智慧产业 — AI设计组",
-    "job_direction": "多模态交互设计师 Multimodal Interaction Designer",
     "job_title_zh": "多模态交互设计师 / 游戏UX设计师",
-    "job_title_en": "MultimodalInteraction Designer / Game UXDesigner",
+    "job_title_en": "Multimodal Interaction Designer / Game UX Designer",
     "responsibilities": "设计AI Agent在游戏/社交产品中的交互体验；定义腾讯混元大模型的C端交互范式；构建游戏UI/UX设计系统",
     "talent_summary": "多模态交互设计（微信/QQ生态）、游戏UX、社会价值产品体验",
     "education": "硕士及以上（交互设计/游戏设计/HCI）",
@@ -222,7 +229,9 @@
       "游戏设计/交互设计 | — CMU ETC / NYU Game Center / USC Game Design",
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "数字媒体/创意技术 | — NYU ITP / RCA Digital Direction"
-    ]
+    ],
+    "direction_zh": "多模态交互设计师",
+    "direction_en": "Multimodal Interaction Designer"
   },
   {
     "id": "10",
@@ -231,9 +240,8 @@
     "tier": "头部大厂",
     "company": "腾讯 (Tencent)",
     "department": "IEG（互动娱乐事业群）/ 游戏UX中心",
-    "job_direction": "多模态交互设计师 / 游戏UX设计师",
     "job_title_zh": "多模态交互设计师 / 游戏UX设计师",
-    "job_title_en": "",
+    "job_title_en": "Multimodal Interaction Designer / Game UX Designer",
     "responsibilities": "设计AI Agent在游戏/社交产品中的交互体验；定义腾讯混元大模型的C端交互范式；构建游戏UI/UX设计系统",
     "talent_summary": "游戏UX设计（王者荣耀/和平精英等）、游戏化交互研究、IP数字化",
     "education": "硕士及以上（交互设计/游戏设计/HCI）",
@@ -247,7 +255,9 @@
       "游戏设计/交互设计 | — CMU ETC / NYU Game Center / USC Game Design",
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "数字媒体/创意技术 | — NYU ITP / RCA Digital Direction"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "11",
@@ -256,7 +266,6 @@
     "tier": "头部大厂",
     "company": "阿里巴巴 (Alibaba)",
     "department": "淘宝天猫 — 体验设计中心 / 达摩院 — AI Design Lab",
-    "job_direction": "增长与电商体验设计师 Growth & Commerce UX Designer",
     "job_title_zh": "数据驱动界面设计师",
     "job_title_en": "Data-Driven UI Designer",
     "responsibilities": "设计基于实时用户行为的界面动态生成系统；定义'千人千面'组件调用规则；构建设计系统的AI可消费能力",
@@ -272,7 +281,9 @@
       "人机交互/数据可视化 | — CMU MHCI / Parsons DataViz",
       "交互设计/设计系统 | — RCA IDE / Delft DfI",
       "计算设计/数字媒体 | — MIT Media Lab / NYU ITP"
-    ]
+    ],
+    "direction_zh": "增长与电商体验设计师",
+    "direction_en": "Growth & Commerce UX Designer"
   },
   {
     "id": "12",
@@ -281,7 +292,6 @@
     "tier": "行业独角兽",
     "company": "Figma",
     "department": "Figma AI — Design Systems",
-    "job_direction": "设计系统架构师 Design Systems Architect",
     "job_title_zh": "设计系统架构师",
     "job_title_en": "Design Systems Architect",
     "responsibilities": "定义智能Design Token系统（含场景约束+暗黑模式映射+品牌语义权重）；构建AI可消费设计系统；跨平台设计规范治理",
@@ -297,7 +307,9 @@
       "人机交互（HCI） | — CMU MHCI / UW HCDE",
       "交互设计/设计系统 | — RCA IDE / Delft DfI",
       "计算设计 | — CMU Computational Design / MIT SMArchS"
-    ]
+    ],
+    "direction_zh": "生成式UI与设计系统",
+    "direction_en": "Generative UI & Design Systems"
   },
   {
     "id": "13",
@@ -306,7 +318,6 @@
     "tier": "行业独角兽",
     "company": "Figma",
     "department": "Figma AI — Generative Design",
-    "job_direction": "生成式界面设计师 Generative UI Designer",
     "job_title_zh": "生成式界面设计师",
     "job_title_en": "Generative UI Designer",
     "responsibilities": "设计'Prompt→完整界面'的生成管道；定义风格迁移+布局生成+组件替换的AI规则；构建AI生成界面的质量评估框架",
@@ -322,7 +333,9 @@
       "综合数字艺术媒体 | — NYU ITP / RCA Digital Direction",
       "创意编程/计算艺术 | — Goldsmiths Computational Arts / RISD D+M",
       "人机交互（HCI） | — CMU MHCI / UCL HCI"
-    ]
+    ],
+    "direction_zh": "生成式UI与设计系统",
+    "direction_en": "Generative UI & Design Systems"
   },
   {
     "id": "14",
@@ -331,7 +344,6 @@
     "tier": "行业独角兽",
     "company": "Notion",
     "department": "Notion AI — AI Workflow Design",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "AI工作流体验设计师",
     "job_title_en": "AI Workflow UX Designer",
     "responsibilities": "设计'Prompt-to-Output'对话式交互+AI主动建议机制；定义AI Agent在协作工具中的介入边界；设计AI产物审阅/编辑/接受/拒绝全流程",
@@ -347,7 +359,9 @@
       "人机交互（HCI） | — CMU MHCI / Stanford HCI",
       "信息架构/交互设计 | — UCL HCI / UAL Interaction Design",
       "服务设计/系统设计 | — RCA Service Design / Delft DfI"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "15",
@@ -356,7 +370,6 @@
     "tier": "行业独角兽",
     "company": "Canva",
     "department": "Canva AI — Magic Design",
-    "job_direction": "设计系统架构师 Design Systems Architect",
     "job_title_zh": "生成式界面设计师",
     "job_title_en": "Generative UI Designer",
     "responsibilities": "设计Canva Magic Design的AI生成管道；构建品牌风格一键迁移的AI规则；定义用户Prompt→AI生成→用户调整的协作体验",
@@ -372,7 +385,9 @@
       "综合数字艺术媒体 | — NYU ITP / RCA Digital Direction",
       "视觉传达/品牌设计 | — RCA Visual Communication / RISD GD",
       "创意编程/计算艺术 | — SVA MFA Computer Arts / Goldsmiths"
-    ]
+    ],
+    "direction_zh": "生成式UI与设计系统",
+    "direction_en": "Generative UI & Design Systems"
   },
   {
     "id": "16",
@@ -381,7 +396,6 @@
     "tier": "行业独角兽",
     "company": "SHEIN",
     "department": "SHEIN Technology — 数据智能设计部",
-    "job_direction": "增长与电商体验设计师 Growth & Commerce UX Designer",
     "job_title_zh": "数据驱动动态界面设计师",
     "job_title_en": "Data-Driven UI Designer",
     "responsibilities": "设计基于实时用户行为+供应链数据的界面动态生成系统；构建个性化推荐与定价的UX规则引擎；定义不同用户分层的界面生成策略",
@@ -397,7 +411,9 @@
       "人机交互/数据驱动设计 | — CMU MHCI / Georgia Tech HCI",
       "交互设计/服务设计 | — Delft DfI / RCA Service Design",
       "电商与数字产品设计 | — Parsons D&T / SCAD"
-    ]
+    ],
+    "direction_zh": "增长与电商体验设计师",
+    "direction_en": "Growth & Commerce UX Designer"
   },
   {
     "id": "17",
@@ -406,9 +422,8 @@
     "tier": "行业独角兽",
     "company": "Temu (拼多多海外)",
     "department": "Temu — 增长与体验设计团队",
-    "job_direction": "增长与电商体验设计师 Growth & Commerce UX Designer",
     "job_title_zh": "增长体验设计师 / 数据驱动UI设计师",
-    "job_title_en": "Growth UXDesigner / Data-drivenUI Designer",
+    "job_title_en": "Growth UX Designer / Data-Driven UI Designer",
     "responsibilities": "设计极端数据驱动的界面动态生成规则（实时价格/优惠券/社交裂变组合）；构建GMV驱动的UX优化闭环；设计新兴市场用户的多语言+多货币体验",
     "talent_summary": "增长体验设计（裂变/社交电商）、数据驱动UI、全球化电商UX",
     "education": "硕士及以上（交互设计/HCI/数据科学）",
@@ -422,7 +437,9 @@
       "增长设计/行为经济学 | — CMU MHCI / Stanford D.School",
       "交互设计/电商UX | — Parsons D&T / Delft DfI",
       "数据驱动设计 | — Georgia Tech HCI / UW HCDE"
-    ]
+    ],
+    "direction_zh": "增长与电商体验设计师",
+    "direction_en": "Growth & Commerce UX Designer"
   },
   {
     "id": "18",
@@ -431,7 +448,6 @@
     "tier": "国央企业",
     "company": "中国移动研究院",
     "department": "用户与市场研究所 — 数字产品体验设计室",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "数字产品体验设计师",
     "job_title_en": "Digital Product UX",
     "responsibilities": "设计5G消息/AI通话/数字人客服等创新产品的交互体验；构建运营商级设计系统；主导用户研究与可用性测试",
@@ -447,7 +463,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "交互设计/服务设计 | — RCA Service Design / Delft DfI",
       "信息通信+设计 | — 国内985交互设计 / 北邮人机交互"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "19",
@@ -456,9 +474,8 @@
     "tier": "国央企业",
     "company": "中国移动研究院",
     "department": "政企数字化事业部 / 行业解决方案部",
-    "job_direction": "数字产品体验设计师 (Digital Product UX)",
     "job_title_zh": "数字产品体验设计师",
-    "job_title_en": "",
+    "job_title_en": "Digital Product UX Designer",
     "responsibilities": "设计5G消息/AI通话/数字人客服等创新产品的交互体验；构建运营商级设计系统；主导用户研究与可用性测试",
     "talent_summary": "教育数字化产品UX、金融科技体验设计",
     "education": "硕士及以上（交互设计/HCI/通信工程背景优先）",
@@ -472,7 +489,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "交互设计/服务设计 | — RCA Service Design / Delft DfI",
       "信息通信+设计 | — 国内985交互设计 / 北邮人机交互"
-    ]
+    ],
+    "direction_zh": "服务体验设计师",
+    "direction_en": "Service Experience Designer"
   },
   {
     "id": "20",
@@ -481,9 +500,8 @@
     "tier": "国央企业",
     "company": "中国电子科技集团 (CETC)",
     "department": "中国电科创新院 — 人机交互与智能系统实验室",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "人机交互设计师 / 智能系统体验研究员",
-    "job_title_en": "[人机交互设计师 / 智能系统体验研究员]",
+    "job_title_en": "Human-Computer Interaction Designer / Intelligent Systems UX Researcher",
     "responsibilities": "设计指挥控制系统/态势感知大屏的交互体验；构建国产化软硬件适配的设计系统；主导军工+民用双线产品的用户研究",
     "talent_summary": "人机交互系统设计（指挥控制系统）、军工智能系统体验",
     "education": "硕士及以上（HCI/系统工程/计算机科学）",
@@ -497,7 +515,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "认知系统工程 | — Georgia Tech / TU Delft",
       "数据可视化/信息设计 | — Parsons DataViz / 国内985交互设计"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "21",
@@ -506,9 +526,8 @@
     "tier": "国央企业",
     "company": "中国电子科技集团 (CETC)",
     "department": "物联网事业部 / 智能装备研究所",
-    "job_direction": "人机交互设计师 / 智能系统体验研究员",
     "job_title_zh": "人机交互设计师 / 智能系统体验研究员",
-    "job_title_en": "",
+    "job_title_en": "Human-Computer Interaction Designer / Intelligent Systems UX Researcher",
     "responsibilities": "设计指挥控制系统/态势感知大屏的交互体验；构建国产化软硬件适配的设计系统；主导军工+民用双线产品的用户研究",
     "talent_summary": "工业物联网可视化交互、智能装备HMI设计",
     "education": "硕士及以上（HCI/系统工程/计算机科学）",
@@ -522,7 +541,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "认知系统工程 | — Georgia Tech / TU Delft",
       "数据可视化/信息设计 | — Parsons DataViz / 国内985交互设计"
-    ]
+    ],
+    "direction_zh": "人机交互设计师",
+    "direction_en": "HCI Designer"
   },
   {
     "id": "22",
@@ -531,9 +552,8 @@
     "tier": "国央企业",
     "company": "国家电网 — 国网数字科技",
     "department": "国网数科 — 数字创新设计中心",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "数据可视化与能源交互设计师",
-    "job_title_en": "[数据可视化与能源交互设计师]",
+    "job_title_en": "Data Visualization & Energy Interaction Designer",
     "responsibilities": "设计能源大数据可视化平台（电网调度/新能源/碳排放等）交互界面；构建能源C端App体验设计；参与'双碳'数字产品设计",
     "talent_summary": "能源数据可视化交互设计、电力调度大屏UX",
     "education": "硕士及以上（交互设计/数据可视化/能源相关背景优先）",
@@ -547,7 +567,9 @@
       "数据可视化/信息设计 | — Parsons DataViz / NYU ITP",
       "人机交互/交互设计 | — CMU MHCI / Delft DfI",
       "可持续设计/能源系统 | — RCA Service Design / TU Delft"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "24",
@@ -556,9 +578,8 @@
     "tier": "国央企业",
     "company": "中国航天科工集团",
     "department": "航天科工智能院 — 人机交互与增强现实实验室",
-    "job_direction": "工业与航天HMI设计师 Industrial / Aerospace HMI Designer",
     "job_title_zh": "航天器交互界面设计师 / AR辅助系统设计师",
-    "job_title_en": "[航天器交互界面设计师 / AR辅助系统设计师]",
+    "job_title_en": "Spacecraft UI Designer / AR Assisted Systems Designer",
     "responsibilities": "设计航天器/无人机地面控制站的人机交互界面；构建AR辅助维修/装配交互系统；定义高可靠性场景下的交互安全标准",
     "talent_summary": "航天器交互界面设计（载人航天）、AR辅助装配系统设计",
     "education": "硕士及以上（HCI/航空航天工程/人因工程）",
@@ -572,7 +593,9 @@
       "人因工程/人机交互 | — Georgia Tech / UIUC Human Factors",
       "航空航天工程+交互 | — TU Delft Aerospace / MIT AeroAstro",
       "AR/VR交互设计 | — CMU ETC / RCA IDE"
-    ]
+    ],
+    "direction_zh": "工业与航天HMI设计师",
+    "direction_en": "Industrial & Aerospace HMI Designer"
   },
   {
     "id": "25",
@@ -581,9 +604,8 @@
     "tier": "国央企业",
     "company": "中国航天科工集团",
     "department": "信息中心 / 仿真与可视化实验室",
-    "job_direction": "航天器交互界面设计师 / AR辅助系统设计师",
     "job_title_zh": "航天器交互界面设计师 / AR辅助系统设计师",
-    "job_title_en": "",
+    "job_title_en": "Spacecraft UI Designer / AR Assisted Systems Designer",
     "responsibilities": "设计航天器/无人机地面控制站的人机交互界面；构建AR辅助维修/装配交互系统；定义高可靠性场景下的交互安全标准",
     "talent_summary": "航天仿真可视化交互、指挥控制大屏UX",
     "education": "硕士及以上（HCI/航空航天工程/人因工程）",
@@ -597,7 +619,9 @@
       "人因工程/人机交互 | — Georgia Tech / UIUC Human Factors",
       "航空航天工程+交互 | — TU Delft Aerospace / MIT AeroAstro",
       "AR/VR交互设计 | — CMU ETC / RCA IDE"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "26",
@@ -606,9 +630,8 @@
     "tier": "国家科研单位",
     "company": "中国科学院自动化研究所",
     "department": "模式识别国家重点实验室 — 人机交互课题组",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "人机交互研究员 / AI交互科学家",
-    "job_title_en": "[人机交互研究员 / AI交互科学家]",
+    "job_title_en": "HCI Researcher / AI Interaction Scientist",
     "responsibilities": "开展多模态人机交互基础研究（手势/眼动/脑机接口）；发表CHI/UIST等顶会论文；承担国家级科研项目；推动技术成果转化",
     "talent_summary": "人机交互基础研究、多模态交互认知建模、AI交互原型",
     "education": "博士（HCI/计算机科学/认知科学）",
@@ -622,7 +645,9 @@
       "人机交互（HCI） | — CMU HCII PhD / Stanford HCI",
       "计算机科学/AI | — MIT CSAIL / ETH Zurich",
       "认知科学/神经科学 | — UCL ICN / UCSD Cognitive Science"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "27",
@@ -631,9 +656,8 @@
     "tier": "国家科研单位",
     "company": "中科院软件研究所",
     "department": "人机交互技术与智能信息处理实验室",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "交互设计与用户体验研究员",
-    "job_title_en": "[交互设计与用户体验研究员]",
+    "job_title_en": "Interaction Design & UX Researcher",
     "responsibilities": "研究面向国产操作系统/办公软件的交互设计方法；制定国家/行业人机交互标准；开展大规模用户行为数据驱动的UX研究",
     "talent_summary": "交互设计方法研究、用户体验评估体系、智能交互工具开发",
     "education": "硕士及以上（HCI/设计学/心理学），博士优先",
@@ -647,7 +671,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "用户体验研究 | — TU Delft DfI / Michigan HCI",
       "心理学/人因工程 | — UIUC Human Factors / Georgia Tech"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "28",
@@ -656,7 +682,6 @@
     "tier": "国家科研单位",
     "company": "之江实验室",
     "department": "智能交互研究中心",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "AI交互研究员",
     "job_title_en": "AI Interaction Researcher",
     "responsibilities": "研究大语言模型驱动的智能交互范式；构建AI Agent交互行为评估基准（Benchmark）；开展脑机融合交互前沿探索",
@@ -672,7 +697,9 @@
       "人工智能+人机交互 | — Stanford AI+Design / MIT Media Lab",
       "计算认知科学 | — CMU MLD+HCII / UCL Gatsby",
       "脑机接口/神经工程 | — ETH Zurich / UCSD"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "29",
@@ -681,7 +708,6 @@
     "tier": "国家科研单位",
     "company": "清华大学未来实验室",
     "department": "未来实验室 — 人机交互与数字媒体组",
-    "job_direction": "HCI研究员 HCI Researcher",
     "job_title_zh": "创意技术研究员",
     "job_title_en": "Creative Technologist Researcher",
     "responsibilities": "开展材料+数字+交互的跨学科研究（如触觉反馈、柔性交互界面、智能材料交互）；创作具有学术深度和艺术价值的原型装置；发表顶级会议论文并参展国际媒体艺术节",
@@ -697,7 +723,9 @@
       "综合数字艺术媒体 | — MIT Media Lab / RCA Digital Direction",
       "交互艺术/创意技术 | — NYU ITP / RISD Digital+Media",
       "材料+设计交叉 | — RCA IDE / TU Delft"
-    ]
+    ],
+    "direction_zh": "HCI研究员",
+    "direction_en": "HCI Researcher"
   },
   {
     "id": "30",
@@ -706,9 +734,8 @@
     "tier": "国家科研单位",
     "company": "清华大学未来实验室",
     "department": "未来实验室 / 教学实验组",
-    "job_direction": "创意技术研究员 (Creative Technologist Researcher)",
     "job_title_zh": "创意技术研究员",
-    "job_title_en": "",
+    "job_title_en": "Creative Technologist Researcher",
     "responsibilities": "开展材料+数字+交互的跨学科研究（如触觉反馈、柔性交互界面、智能材料交互）；创作具有学术深度和艺术价值的原型装置；发表顶级会议论文并参展国际媒体艺术节",
     "talent_summary": "创意技术人才培养、跨学科教学实验",
     "education": "博士（设计学/HCI/电子工程/材料科学等交叉背景）",
@@ -722,7 +749,9 @@
       "综合数字艺术媒体 | — MIT Media Lab / RCA Digital Direction",
       "交互艺术/创意技术 | — NYU ITP / RISD Digital+Media",
       "材料+设计交叉 | — RCA IDE / TU Delft"
-    ]
+    ],
+    "direction_zh": "创意技术专家",
+    "direction_en": "Creative Technologist"
   },
   {
     "id": "31",
@@ -731,7 +760,6 @@
     "tier": "创意工作室",
     "company": "IDEO",
     "department": "IDEO Palo Alto / London / Tokyo",
-    "job_direction": "创意技术专家 Creative Technologist",
     "job_title_zh": "设计技术专家",
     "job_title_en": "Design Technologist",
     "responsibilities": "在跨学科设计团队中担任'技术翻译者'角色；用代码将设计概念转为可交互原型；在早期设计阶段验证技术可行性；引导团队理解新兴技术的能力边界与应用前景",
@@ -747,7 +775,9 @@
       "创意技术/交互设计 | — NYU ITP / RCA IDE",
       "综合数字艺术媒体 | — MIT Media Lab / RCA Digital Direction",
       "产品设计/HCI | — CMU MHCI / Stanford D.School"
-    ]
+    ],
+    "direction_zh": "创意技术专家",
+    "direction_en": "Creative Technologist"
   },
   {
     "id": "32",
@@ -756,7 +786,6 @@
     "tier": "创意工作室",
     "company": "frog design (Capgemini)",
     "department": "frog — Design Technology Practice",
-    "job_direction": "创意技术专家 Creative Technologist",
     "job_title_zh": "创意技术专家",
     "job_title_en": "Creative Technologist",
     "responsibilities": "在企业级创新咨询中提供技术原型与概念验证；领导VR/AR/AI等新技术领域的体验原型开发；连接设计团队与工程团队，确保创新概念的落地可行性",
@@ -772,7 +801,9 @@
       "设计工程/创新设计 | — RCA IDE / TU Delft DfI",
       "创意编程/互动媒体 | — NYU ITP / Goldsmiths Computational Arts",
       "人机交互/设计技术 | — CMU MHCI / MIT Media Lab"
-    ]
+    ],
+    "direction_zh": "创意技术专家",
+    "direction_en": "Creative Technologist"
   },
   {
     "id": "33",
@@ -781,9 +812,8 @@
     "tier": "创意工作室",
     "company": "teamLab",
     "department": "teamLab Tokyo — 创意技术团队",
-    "job_direction": "创意编程师 Creative Coder",
     "job_title_zh": "创意编程师 / 互动装置设计师",
-    "job_title_en": "[创意编程师 / 互动装置设计师]",
+    "job_title_en": "Creative Coder / Interactive Installation Designer",
     "responsibilities": "用代码（Processing/openFrameworks/TouchDesigner）创作大型沉浸式互动数字艺术作品；设计观众与数字环境的实时交互逻辑；参与从概念到全球展出的完整项目周期",
     "talent_summary": "创意编程（Processing/TouchDesigner）、互动装置设计、沉浸式空间设计",
     "education": "硕士（创意编程/数字媒体/新媒体艺术/计算机艺术）",
@@ -797,7 +827,9 @@
       "创意编程/新媒体艺术 | — RCA Digital Direction / NYU ITP",
       "计算机艺术 | — Goldsmiths Computational Arts / SVA MFA Computer Arts",
       "互动装置/数字媒体 | — UCLA DMA / 东京艺术大学"
-    ]
+    ],
+    "direction_zh": "创意编程师",
+    "direction_en": "Creative Coder"
   },
   {
     "id": "34",
@@ -806,7 +838,6 @@
     "tier": "创意工作室",
     "company": "Random Studio (Amsterdam)",
     "department": "Random Studio — 体验设计 + 创意技术",
-    "job_direction": "创意技术专家 Creative Technologist",
     "job_title_zh": "创意技术专家",
     "job_title_en": "Creative Technologist",
     "responsibilities": "参与奢侈品牌/博物馆/公共空间的沉浸式体验设计；领导传感交互系统的技术架构设计；在虚实融合场景中创造'无感交互'体验",
@@ -822,7 +853,9 @@
       "创意技术/互动媒体 | — NYU ITP / RCA Digital Direction",
       "空间设计+交互 | — RCA IDE / Bartlett UCL Interactive Architecture",
       "舞台/表演技术+设计 | — UCLA DMA / Aalto New Media"
-    ]
+    ],
+    "direction_zh": "创意技术专家",
+    "direction_en": "Creative Technologist"
   },
   {
     "id": "35",
@@ -831,9 +864,8 @@
     "tier": "创意工作室",
     "company": "Random Studio (Amsterdam)",
     "department": "Creative Engineering / Exhibition",
-    "job_direction": "创意技术专家 (Creative Technologist)",
     "job_title_zh": "创意技术专家",
-    "job_title_en": "",
+    "job_title_en": "Creative Technologist",
     "responsibilities": "参与奢侈品牌/博物馆/公共空间的沉浸式体验设计；领导传感交互系统的技术架构设计；在虚实融合场景中创造'无感交互'体验",
     "talent_summary": "新媒体艺术装置设计、沉浸式商业空间体验",
     "education": "硕士（创意技术/交互设计/数字媒体/电子工程）",
@@ -847,7 +879,9 @@
       "创意技术/互动媒体 | — NYU ITP / RCA Digital Direction",
       "空间设计+交互 | — RCA IDE / Bartlett UCL Interactive Architecture",
       "舞台/表演技术+设计 | — UCLA DMA / Aalto New Media"
-    ]
+    ],
+    "direction_zh": "创意编程师",
+    "direction_en": "Creative Coder"
   },
   {
     "id": "36",
@@ -856,9 +890,8 @@
     "tier": "创意工作室",
     "company": "Ustwo games",
     "department": "Ustwo games (London) — 游戏设计团队",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "游戏UX设计师 / 情感化交互设计师",
-    "job_title_en": "Game UX Designer",
+    "job_title_en": "Game UX Designer / Emotional Interaction Designer",
     "responsibilities": "设计情感驱动的移动端游戏交互体验；定义触觉+视觉+听觉的多感官交互语言；构建包容性设计体验（Accessibility-first）",
     "talent_summary": "游戏UX设计（情感化交互）、叙事交互设计、独立游戏美术",
     "education": "硕士（游戏设计/交互设计/HCI/数字媒体）",
@@ -872,7 +905,9 @@
       "游戏设计与开发 | — CMU ETC / NYU Game Center / USC Game Design",
       "交互设计/情感化设计 | — RCA IDE / UAL Interaction Design",
       "数字媒体/叙事设计 | — RCA Digital Direction / Aalto Game Design"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "37",
@@ -881,7 +916,6 @@
     "tier": "头部大厂",
     "company": "美团 (Meituan)",
     "department": "到家事业群 — 用户端体验设计团队",
-    "job_direction": "服务体验设计师 Service Experience Designer",
     "job_title_zh": "服务体验设计师",
     "job_title_en": "Service Experience Designer",
     "responsibilities": "设计外卖/到店/酒旅/买菜等多业务线融合的用户体验；构建LBS+时间敏感型的交互模式；设计AI智能推荐与个性化排序的UX策略；优化骑手端调度与商家端工具的B端交互",
@@ -897,7 +931,9 @@
       "服务设计/交互设计 | — RCA Service Design / Delft DfI",
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "电商与O2O设计 | — Parsons D&T / 国内985服务设计"
-    ]
+    ],
+    "direction_zh": "服务体验设计师",
+    "direction_en": "Service Experience Designer"
   },
   {
     "id": "38",
@@ -906,9 +942,8 @@
     "tier": "头部大厂",
     "company": "美团 (Meituan)",
     "department": "美团设计委员会 / 行业UX组",
-    "job_direction": "本地生活服务体验设计师 (Local Services UX)",
     "job_title_zh": "本地生活服务体验设计师",
-    "job_title_en": "",
+    "job_title_en": "Local Services UX Designer",
     "responsibilities": "设计外卖/到店/酒旅/买菜等多业务线融合的用户体验；构建LBS+时间敏感型的交互模式；设计AI智能推荐与个性化排序的UX策略；优化骑手端调度与商家端工具的B端交互",
     "talent_summary": "本地生活全场景体验、即时配送交互设计",
     "education": "硕士及以上（交互设计/HCI/服务设计）",
@@ -922,7 +957,9 @@
       "服务设计/交互设计 | — RCA Service Design / Delft DfI",
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "电商与O2O设计 | — Parsons D&T / 国内985服务设计"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "39",
@@ -931,7 +968,6 @@
     "tier": "头部大厂",
     "company": "京东 (JD.com)",
     "department": "京东零售 — 体验设计部 / 京东物流 — 物流科技UX组",
-    "job_direction": "增长与电商体验设计师 Growth & Commerce UX Designer",
     "job_title_zh": "供应链与零售体验设计师",
     "job_title_en": "Supply Chain & Retail UX",
     "responsibilities": "设计全渠道零售（线上+线下+即时配送）的用户体验闭环；构建AR试妆/试穿等沉浸式购物体验；设计仓储/分拣/运输等B端物流系统的交互界面；优化基于用户画像的动态界面生成规则",
@@ -947,7 +983,9 @@
       "人机交互/信息设计 | — CMU MHCI / Parsons DataViz",
       "交互设计/服务设计 | — Delft DfI / RCA Service Design",
       "AR/电商体验设计 | — NYU ITP / RCA IDE"
-    ]
+    ],
+    "direction_zh": "增长与电商体验设计师",
+    "direction_en": "Growth & Commerce UX Designer"
   },
   {
     "id": "40",
@@ -956,7 +994,6 @@
     "tier": "头部大厂",
     "company": "百度 (Baidu)",
     "department": "百度MEG — 搜索与AI体验设计团队 / 文心一言产品设计组",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI搜索与对话交互设计师",
     "job_title_en": "AI Search & Conversational UX",
     "responsibilities": "设计文心一言生态的对话式交互体验；重构搜索从'关键词→链接列表'到'自然语言→多模态答案'的交互范式；设计AI搜索结果的可信度表达与溯源交互；构建搜索+AI Agent的融合体验",
@@ -972,7 +1009,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI / Michigan HCI",
       "信息架构/认知科学 | — UW HCDE / Stanford HCI",
       "对话式UI/语音设计 | — NYU ITP / RCA IDE"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "41",
@@ -981,7 +1020,6 @@
     "tier": "头部大厂",
     "company": "华为云 (Huawei Cloud)",
     "department": "华为云BU — 用户体验设计中心",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "云计算产品体验设计师",
     "job_title_en": "Cloud Product UX",
     "responsibilities": "设计华为云控制台的开发者体验（DevX）；构建云原生产品（容器/微服务/Serverless）的可视化交互界面；设计AI开发平台ModelArts的全链路UX；优化多云管理场景下的复杂信息架构",
@@ -997,7 +1035,9 @@
       "人机交互/信息架构 | — CMU MHCI / UW HCDE",
       "技术产品设计 | — Delft DfI / Georgia Tech HCI",
       "开发者体验(DevX) | — CMU MHCI / UCL HCI"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "42",
@@ -1006,7 +1046,6 @@
     "tier": "头部大厂",
     "company": "腾讯云 (Tencent Cloud)",
     "department": "CSIG云与智慧产业 — 设计中心",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "企业级SaaS产品体验设计师",
     "job_title_en": "Enterprise SaaS UX",
     "responsibilities": "设计腾讯云控制台及企业级SaaS产品的交互体验；构建音视频/数据库/AI等产品的可视化操作界面；设计企业级产品的Onboarding与自助服务体系；参与腾讯混元大模型在企业场景的UX落地",
@@ -1022,7 +1061,9 @@
       "人机交互/企业产品设计 | — CMU MHCI / UW HCDE",
       "服务设计/系统设计 | — RCA Service Design / Delft DfI",
       "B端UX/信息架构 | — UCL HCI / Georgia Tech HCI"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "43",
@@ -1031,7 +1072,6 @@
     "tier": "头部大厂",
     "company": "阿里云 (Alibaba Cloud)",
     "department": "阿里云智能 — 设计与用户体验中心",
-    "job_direction": "产品体验设计师 Product UX Designer",
     "job_title_zh": "云产品体验设计师 / 数据可视化设计师",
     "job_title_en": "Cloud UX / DataViz Designer",
     "responsibilities": "设计阿里云控制台的开发者体验与AI产品UX（通义千问/百炼平台）；构建DataV数据可视化产品的交互范式；设计飞天操作系统管理界面的信息架构；定义云产品的设计语言系统",
@@ -1047,7 +1087,9 @@
       "数据可视化/信息设计 | — Parsons DataViz / NYU ITP",
       "人机交互/技术产品设计 | — CMU MHCI / Georgia Tech HCI",
       "设计系统/交互设计 | — Delft DfI / RCA IDE"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "44",
@@ -1056,7 +1098,6 @@
     "tier": "头部大厂",
     "company": "小米 (Xiaomi)",
     "department": "小米手机部 — MIUI/HyperOS UX设计中心 / 小米AIoT — 智能家居UX团队",
-    "job_direction": "系统级交互设计师 OS / System UX Designer",
     "job_title_zh": "智能终端与IoT体验设计师",
     "job_title_en": "Terminal & IoT UX",
     "responsibilities": "设计HyperOS手机/平板/手表/电视多端一致的交互体验；构建小米智能家居生态的跨设备交互逻辑（手机→音箱→家电）；设计AI助手'小爱同学'的多模态交互体验（语音+视觉+触控）；定义小米生态链产品的设计语言规范",
@@ -1072,7 +1113,9 @@
       "交互设计/工业设计 | — RCA IDE / RCA Design Products",
       "人机交互（HCI） | — CMU MHCI / Delft DfI",
       "物联网/智能产品设计 | — MIT Media Lab / NYU ITP"
-    ]
+    ],
+    "direction_zh": "系统级交互设计师",
+    "direction_en": "OS / System UX Designer"
   },
   {
     "id": "45",
@@ -1081,9 +1124,8 @@
     "tier": "头部大厂",
     "company": "小米 (Xiaomi)",
     "department": "MIUI/HyperOS设计团队",
-    "job_direction": "智能终端与IoT体验设计师 (Terminal & IoT UX)",
     "job_title_zh": "智能终端与IoT体验设计师",
-    "job_title_en": "",
+    "job_title_en": "Terminal & IoT UX Designer",
     "responsibilities": "设计HyperOS手机/平板/手表/电视多端一致的交互体验；构建小米智能家居生态的跨设备交互逻辑（手机→音箱→家电）；设计AI助手'小爱同学'的多模态交互体验（语音+视觉+触控）；定义小米生态链产品的设计语言规范",
     "talent_summary": "操作系统UX设计（HyperOS）、多端协同交互",
     "education": "硕士及以上（交互设计/HCI/工业设计）",
@@ -1097,7 +1139,9 @@
       "交互设计/工业设计 | — RCA IDE / RCA Design Products",
       "人机交互（HCI） | — CMU MHCI / Delft DfI",
       "物联网/智能产品设计 | — MIT Media Lab / NYU ITP"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "46",
@@ -1106,7 +1150,6 @@
     "tier": "头部大厂",
     "company": "OPPO",
     "department": "OPPO研究院 — 用户体验设计中心 / ColorOS设计团队",
-    "job_direction": "系统级交互设计师 OS / System UX Designer",
     "job_title_zh": "ColorOS系统交互设计师",
     "job_title_en": "OS UX Designer",
     "responsibilities": "设计ColorOS操作系统的交互体验与动画语言；构建AI驱动的智能侧边栏/小布助手等系统级AI功能UX；设计折叠屏/卷轴屏等新形态设备的交互适配方案；定义ColorOS Design System",
@@ -1122,7 +1165,9 @@
       "交互设计/操作系统UX | — CMU MHCI / Stanford HCI",
       "动态设计/数字媒体 | — RCA Digital Direction / NYU ITP",
       "人机交互/移动UX | — UCL HCI / Delft DfI"
-    ]
+    ],
+    "direction_zh": "系统级交互设计师",
+    "direction_en": "OS / System UX Designer"
   },
   {
     "id": "47",
@@ -1131,7 +1176,6 @@
     "tier": "头部大厂",
     "company": "荣耀 (Honor)",
     "department": "荣耀UX设计部 — MagicOS交互设计团队",
-    "job_direction": "系统级交互设计师 OS / System UX Designer",
     "job_title_zh": "智慧终端交互设计师",
     "job_title_en": "Smart Device UX",
     "responsibilities": "设计MagicOS全场景智慧交互体验（手机/平板/PC/穿戴/IoT）；构建AI意图识别驱动的'主动服务'交互范式；设计跨设备无缝流转的连续性体验；定义荣耀AI助手YOYO的交互人格与对话设计",
@@ -1147,7 +1191,9 @@
       "人机交互（HCI） | — CMU MHCI / UCL HCI",
       "认知科学/AI交互 | — Stanford HCI / Michigan HCI",
       "交互设计/跨设备UX | — Delft DfI / RCA IDE"
-    ]
+    ],
+    "direction_zh": "系统级交互设计师",
+    "direction_en": "OS / System UX Designer"
   },
   {
     "id": "48",
@@ -1156,9 +1202,8 @@
     "tier": "头部大厂",
     "company": "VIVO",
     "department": "VIVO OS产品设计部 — OriginOS体验设计团队",
-    "job_direction": "系统级交互设计师 OS / System UX Designer",
     "job_title_zh": "OriginOS系统UX设计师 / AI交互设计师",
-    "job_title_en": "[OriginOS系统UX设计师 / AI交互设计师]",
+    "job_title_en": "OriginOS UX Designer / AI Interaction Designer",
     "responsibilities": "设计OriginOS的独特交互范式（原子组件/变形器/行为壁纸等）；构建Jovi AI助手的多模态交互体验；设计基于用户行为学习的个性化界面动态适配；定义OriginOS设计哲学与交互规范",
     "talent_summary": "OriginOS系统UX设计、AI手机交互设计、多模态终端UX",
     "education": "硕士及以上（交互设计/HCI/视觉设计）",
@@ -1172,7 +1217,9 @@
       "交互设计/操作系统UX | — CMU MHCI / Stanford HCI",
       "生成式设计/创意技术 | — NYU ITP / RCA Digital Direction",
       "人机交互 | — UCL HCI / Delft DfI"
-    ]
+    ],
+    "direction_zh": "系统级交互设计师",
+    "direction_en": "OS / System UX Designer"
   },
   {
     "id": "49",
@@ -1181,7 +1228,6 @@
     "tier": "头部大厂",
     "company": "理想汽车 (Li Auto)",
     "department": "理想汽车 — 智能座舱UX团队",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "智能座舱HMI设计师",
     "job_title_en": "Smart Cockpit HMI Designer",
     "responsibilities": "设计理想汽车智能座舱的全场景交互体验（仪表/中控/副驾/后排娱乐/HUD）；构建理想同学AI语音助手的多模态交互（语音+手势+触控）；设计ADAS智能驾驶的可视化HMI交互界面；定义理想OS座舱设计系统",
@@ -1197,7 +1243,9 @@
       "车载HMI/交互设计 | — RCA IDE / CMU MHCI",
       "人因工程/驾驶安全 | — TU Delft / Georgia Tech",
       "信息可视化/AR-HUD | — Parsons DataViz / NYU ITP"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "50",
@@ -1206,9 +1254,8 @@
     "tier": "头部大厂",
     "company": "蔚来 (NIO)",
     "department": "蔚来数字座舱与体验设计中心",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "数字座舱体验设计师 / NOMI AI交互设计师",
-    "job_title_en": "[数字座舱体验设计师 / NOMI AI交互设计师]",
+    "job_title_en": "Digital Cockpit UX Designer / NOMI AI Interaction Designer",
     "responsibilities": "设计蔚来数字座舱的全场景交互体验与品牌化UI语言；构建NOMI AI助手的拟人化交互设计（表情/声音/动作/主动关怀）；设计换电站/充电地图等补能场景的UX体验；定义NIO Life数字生态的设计语言",
     "talent_summary": "数字座舱UX设计（全景数字空间）、NOMI AI情感化交互设计、车载AR-HUD UX",
     "education": "硕士及以上（交互设计/HCI/情感计算/车载设计）",
@@ -1222,7 +1269,9 @@
       "车载HMI/情感计算 | — RCA IDE / MIT Media Lab",
       "交互设计/工业设计 | — RCA Design Products / Delft DfI",
       "人工智能+交互 | — CMU MHCI / Stanford HCI"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "51",
@@ -1231,9 +1280,8 @@
     "tier": "头部大厂",
     "company": "小鹏汽车 (XPeng)",
     "department": "小鹏汽车 — 智能体验设计中心 / 飞行汽车UX团队",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "智能座舱UX设计师 / 飞行汽车交互设计师",
-    "job_title_en": "[智能座舱UX设计师 / 飞行汽车交互设计师]",
+    "job_title_en": "Smart Cockpit UX Designer / Flying Car Interaction Designer",
     "responsibilities": "设计XOS智能座舱的交互体验与AI助手小P的多模态交互；构建XNGP智能驾驶的可视化HMI界面；设计飞行汽车（旅航者）的地空一体交互范式；定义下一代出行体验（陆空融合）的交互语言",
     "talent_summary": "智能座舱UX设计（Xmart OS）、飞行汽车交互设计、自动驾驶HMI",
     "education": "硕士及以上（交互设计/HCI/航空航天人因工程）",
@@ -1247,7 +1295,9 @@
       "车载HMI/飞行器交互 | — MIT Media Lab / RCA IDE",
       "人因工程/航空交互 | — Georgia Tech / TU Delft Aerospace",
       "交互设计/创新设计 | — CMU MHCI / Stanford D.School"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "52",
@@ -1256,9 +1306,8 @@
     "tier": "头部大厂",
     "company": "问界 (AITO) — 华为智选车",
     "department": "华为CBG — 车载智能体验设计部",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "HarmonyOS智能座舱UX设计师",
-    "job_title_en": "[HarmonyOS智能座舱UX设计师]",
+    "job_title_en": "HarmonyOS Smart Cockpit UX Designer",
     "responsibilities": "设计基于HarmonyOS的智能座舱交互体验（手机-车机-家居全场景协同）；构建小艺车载版AI助手的多模态交互；设计华为ADS智能驾驶的HMI可视化界面；定义鸿蒙座舱设计系统与跨设备流转交互规范",
     "talent_summary": "HarmonyOS智能座舱UX设计、鸿蒙多设备协同交互",
     "education": "硕士及以上（交互设计/HCI/操作系统UX）",
@@ -1272,7 +1321,9 @@
       "车载HMI/操作系统UX | — CMU MHCI / Delft DfI",
       "跨设备交互设计 | — RCA IDE / UCL HCI",
       "人因工程/驾驶安全 | — Georgia Tech / TU Delft"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "53",
@@ -1281,9 +1332,8 @@
     "tier": "头部大厂",
     "company": "比亚迪 (BYD)",
     "department": "比亚迪 — 智能生态研究院 / DiLink UX设计中心",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "DiLink智能座舱交互设计师",
-    "job_title_en": "[DiLink智能座舱交互设计师]",
+    "job_title_en": "DiLink Smart Cockpit Interaction Designer",
     "responsibilities": "设计DiLink智能座舱系统的交互体验（旋转屏/多屏/抬头显示）；构建车载AI助手的多模态交互（语音+手势+视觉）；设计车外智能交互（车灯交互/外屏/V2X）；定义比亚迪全球化座舱设计语言（适应不同地区用户习惯）",
     "talent_summary": "DiLink智能座舱交互设计、车载旋转大屏UX、智能语音助手UX",
     "education": "硕士及以上（交互设计/HCI/车载HMI/人因工程）",
@@ -1297,7 +1347,9 @@
       "车载HMI/交互设计 | — RCA IDE / CMU MHCI",
       "跨文化UX/全球化设计 | — Delft DfI / UCL HCI",
       "人因工程/智能出行 | — Georgia Tech / TU Delft"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "54",
@@ -1306,7 +1358,6 @@
     "tier": "头部大厂",
     "company": "小米汽车 (Xiaomi EV)",
     "department": "小米汽车 — 智能座舱UX团队",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "HyperOS车载交互设计师",
     "job_title_en": "HyperOS Automotive UX",
     "responsibilities": "设计小米汽车基于HyperOS的'人-车-家'全生态交互体验；构建小爱同学车载版的多模态AI助手交互；设计基于小米生态链（手机/手表/家居）与汽车联动的跨场景无缝流转体验；定义小米汽车座舱设计系统",
@@ -1322,7 +1373,9 @@
       "交互设计/IoT设计 | — RCA IDE / MIT Media Lab",
       "车载HMI/操作系统UX | — CMU MHCI / Delft DfI",
       "多设备交互/全场景设计 | — NYU ITP / Stanford D.School"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "55",
@@ -1331,10 +1384,9 @@
     "tier": "头部大厂",
     "company": "网易 (NetEase)",
     "department": "网易游戏 — 用户体验中心 (UXC) / 网易互娱 — 技术美术部",
-    "job_direction": "游戏UX设计师 Game UX Designer",
-    "job_title_zh": "游戏UX设计师 / 技术美术",
-    "job_title_en": "Technical Artist",
-    "responsibilities": "设计《逆水寒》《永劫无间》《蛋仔派对》等头部游戏的UI/UX交互系统；构建开放世界/MMORPG类游戏的HUD与菜单信息架构；设计跨平台（PC/手游/主机）的UI适配方案；参与AI驱动的游戏UI动态生成与个性化推荐系统设计",
+    "job_title_zh": "交互体验设计师 / 产品设计师",
+    "job_title_en": "Interaction Designer / Product UX Designer",
+    "responsibilities": "设计复杂数字产品的交互系统与信息架构；构建跨平台（Web/移动/桌面）的用户体验一致性方案；制定设计规范与组件库提升团队协作效率；运用用户研究与数据分析驱动体验迭代",
     "talent_summary": "互联网产品UX设计（网易云音乐/有道/严选等）、技术美术",
     "education": "硕士及以上（游戏设计/交互设计/HCI/计算机图形学）",
     "background": "游戏设计、交互设计、计算机图形学、人机交互",
@@ -1347,7 +1399,9 @@
       "游戏设计与开发 | — CMU ETC / NYU Game Center / USC Game Design",
       "交互设计/游戏UX | — RCA IDE / UAL Interaction Design",
       "技术美术/计算机图形学 | — CMU CS / Utah Entertain Arts"
-    ]
+    ],
+    "direction_zh": "交互体验设计师",
+    "direction_en": "Interaction & Experience Designer"
   },
   {
     "id": "56",
@@ -1356,9 +1410,8 @@
     "tier": "头部大厂",
     "company": "网易 (NetEase)",
     "department": "网易游戏UX中心 / 技术美术部",
-    "job_direction": "游戏UX设计师 / 技术美术 (Technical Artist)",
     "job_title_zh": "游戏UX设计师 / 技术美术",
-    "job_title_en": "",
+    "job_title_en": "Game UX Designer / Technical Artist",
     "responsibilities": "设计《逆水寒》《永劫无间》《蛋仔派对》等头部游戏的UI/UX交互系统；构建开放世界/MMORPG类游戏的HUD与菜单信息架构；设计跨平台（PC/手游/主机）的UI适配方案；参与AI驱动的游戏UI动态生成与个性化推荐系统设计",
     "talent_summary": "游戏UX设计（逆水寒/永劫无间等）、技术美术（TA管线）、游戏交互研究",
     "education": "硕士及以上（游戏设计/交互设计/HCI/计算机图形学）",
@@ -1372,7 +1425,9 @@
       "游戏设计与开发 | — CMU ETC / NYU Game Center / USC Game Design",
       "交互设计/游戏UX | — RCA IDE / UAL Interaction Design",
       "技术美术/计算机图形学 | — CMU CS / Utah Entertain Arts"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "57",
@@ -1381,9 +1436,8 @@
     "tier": "头部大厂",
     "company": "米哈游 (miHoYo)",
     "department": "米哈游 — 用户体验设计中心 / 技术美术与特效部",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "二次元游戏UX设计师 / 视觉技术美术",
-    "job_title_en": "[二次元游戏UX设计师 / 视觉技术美术]",
+    "job_title_en": "Anime/2D Game UX Designer / Visual Technical Artist",
     "responsibilities": "设计《原神》《崩坏：星穹铁道》《绝区零》等全球化游戏的UI/UX系统；构建多平台（PC/PS5/手机/云游戏）统一的交互体验；设计角色养成/抽卡/战斗等核心系统的交互逻辑与情感化动效；参与游戏内Live 2D/3D动画与UI的融合交互设计",
     "talent_summary": "二次元游戏UX设计（原神/崩坏/绝区零）、视觉技术美术、IP衍生品交互",
     "education": "硕士及以上（游戏设计/交互设计/数字媒体/视觉设计）",
@@ -1397,7 +1451,9 @@
       "游戏设计与开发 | — CMU ETC / USC Game Design",
       "数字媒体/动态设计 | — RCA Digital Direction / SVA MFA Computer Arts",
       "交互设计/视觉传达 | — UAL Interaction Design / RISD Graphic Design"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "58",
@@ -1406,7 +1462,6 @@
     "tier": "行业独角兽",
     "company": "DeepSeek (深度求索)",
     "department": "DeepSeek — 产品与设计团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI产品交互设计师",
     "job_title_en": "AI Product UX Designer",
     "responsibilities": "设计DeepSeek对话产品的多模态交互体验（文本+代码+文件解析+联网搜索）；定义AI推理过程的可视化交互（Chain-of-Thought展示）；设计API开发者平台的产品UX；构建开源社区的用户体验与文档交互设计",
@@ -1422,7 +1477,9 @@
       "人机交互/AI交互 | — CMU MHCI / Stanford HCI",
       "计算认知科学 | — MIT Media Lab / UCL Gatsby",
       "技术产品设计 | — Delft DfI / UW HCDE"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "59",
@@ -1431,7 +1488,6 @@
     "tier": "行业独角兽",
     "company": "字节跳动 — 豆包 (Doubao)",
     "department": "字节跳动AI产品部 — 豆包UX团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI助手多模态交互设计师",
     "job_title_en": "AI Assistant UX",
     "responsibilities": "设计豆包App的对话式+功能式混合交互体验；构建AI生图/视频/音乐等多模态生成功能的UX流程；设计AI Agent智能体商店的用户体验；定义豆包在不同场景（学习/工作/创作/娱乐）的交互差异化",
@@ -1447,7 +1503,9 @@
       "人机交互/AI产品设计 | — CMU MHCI / Stanford HCI",
       "交互设计/消费UX | — RCA IDE / Delft DfI",
       "数字媒体/AIGC | — NYU ITP / RCA Digital Direction"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "60",
@@ -1456,7 +1514,6 @@
     "tier": "行业独角兽",
     "company": "OpenAI",
     "department": "OpenAI — Product Design (ChatGPT / API Platform)",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI产品设计师",
     "job_title_en": "AI Product Designer",
     "responsibilities": "设计ChatGPT的多模态交互演进（文本→语音→视觉→代码执行→Agent Actions）；定义AI Agent自主行动的交互边界与用户控制；设计ChatGPT在企业/教育/开发者等场景的差异化体验；参与GPT模型能力→产品体验的转化设计",
@@ -1472,7 +1529,9 @@
       "人机交互/AI设计 | — Stanford HCI / CMU MHCI",
       "计算机科学+设计 | — MIT Media Lab / CMU HCII PhD",
       "认知科学/交互设计 | — UCL HCI / Cambridge CS+HCI"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "61",
@@ -1481,7 +1540,6 @@
     "tier": "行业独角兽",
     "company": "Anthropic",
     "department": "Anthropic — Product Design (Claude)",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI安全交互设计师",
     "job_title_en": "AI Safety UX Designer",
     "responsibilities": "设计Claude的'宪法AI'交互准则在产品层面的体验落地；定义AI拒绝/边界/不安全请求的交互表达；设计AI辅助思考（而非替代思考）的交互范式；构建Claude Code/Agent工具使用的安全交互框架",
@@ -1497,7 +1555,9 @@
       "人机交互/AI伦理 | — Stanford HCI / CMU MHCI",
       "认知科学/AI安全 | — MIT Media Lab / Cambridge CS",
       "科技伦理/设计研究 | — UCL HCI / Oxford HCI"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "62",
@@ -1506,9 +1566,8 @@
     "tier": "行业独角兽",
     "company": "腾讯 — 元宝 (Yuanbao)",
     "department": "腾讯混元大模型 — 元宝产品设计组",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI助手UX设计师",
-    "job_title_en": "[AI助手UX设计师]",
+    "job_title_en": "AI Assistant UX Designer",
     "responsibilities": "设计腾讯元宝App的C端AI助手交互体验；整合微信/QQ生态场景的AI入口（如聊天记录总结/文件解析/公众号辅助阅读）；设计AI搜索与对话融合的新型交互范式；定义元宝在不同使用场景下的人格与对话策略",
     "talent_summary": "AI助手UX设计（元宝App/小程序）、混元大模型产品化体验",
     "education": "硕士及以上（HCI/交互设计/认知科学）",
@@ -1522,7 +1581,9 @@
       "人机交互/社交UX | — CMU MHCI / UCL HCI",
       "AI产品设计 | — Stanford HCI / Delft DfI",
       "认知科学/交互设计 | — UW HCDE / RCA IDE"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "63",
@@ -1531,7 +1592,6 @@
     "tier": "行业独角兽",
     "company": "智谱AI (Zhipu GLM)",
     "department": "智谱AI — 产品体验设计团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI产品交互设计师",
     "job_title_en": "AI Product UX Designer",
     "responsibilities": "设计ChatGLM系列产品的多模态对话交互；构建智谱AI开放平台（API/模型训练/微调）的开发者体验；设计AI Agent（AutoGLM）的自主行动交互与用户控制面板；参与大模型→产品化的全链路UX设计",
@@ -1547,7 +1607,9 @@
       "人机交互/AI产品 | — CMU MHCI / Stanford HCI",
       "技术产品UX | — Delft DfI / UW HCDE",
       "计算机科学+设计 | — UCL HCI / Georgia Tech HCI"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "64",
@@ -1556,7 +1618,6 @@
     "tier": "行业独角兽",
     "company": "海康威视 (Hikvision)",
     "department": "海康威视 — 体验设计中心 / AI开放平台UX团队",
-    "job_direction": "IoT体验设计师 IoT Experience Designer",
     "job_title_zh": "安防与AI可视化交互设计师",
     "job_title_en": "Security & AI Viz UX",
     "responsibilities": "设计AI安防监控管理平台的复杂信息可视化交互；构建AI巡检/智能告警/事件回溯的UX流程；设计热成像/多光谱/全景拼接等多模态感知数据的融合可视化界面；定义面向公安/交通/园区等不同场景的行业UX方案",
@@ -1572,7 +1633,9 @@
       "数据可视化/信息设计 | — Parsons DataViz / NYU ITP",
       "人机交互/复杂系统UX | — CMU MHCI / Georgia Tech HCI",
       "信息设计/安防可视化 | — Delft DfI / UCL HCI"
-    ]
+    ],
+    "direction_zh": "IoT体验设计师",
+    "direction_en": "IoT UX Designer"
   },
   {
     "id": "65",
@@ -1581,7 +1644,6 @@
     "tier": "行业独角兽",
     "company": "大华股份 (Dahua)",
     "department": "大华股份 — 软件UX设计中心",
-    "job_direction": "IoT体验设计师 IoT Experience Designer",
     "job_title_zh": "智慧物联可视化交互设计师",
     "job_title_en": "IoT Visualization UX",
     "responsibilities": "设计大华智慧物联平台的数据可视化与设备管理UX；构建AI视频结构化（人/车/物识别）的交互呈现方案；设计智慧城市/智慧园区/智慧交通等行业Dashboard；定义多端（PC/移动/大屏）一致的管理体验",
@@ -1597,7 +1659,9 @@
       "数据可视化/物联网UX | — Parsons DataViz / NYU ITP",
       "人机交互/智慧城市UX | — CMU MHCI / Delft DfI",
       "信息设计 | — RCA Visual Communication / 国内985交互设计"
-    ]
+    ],
+    "direction_zh": "IoT体验设计师",
+    "direction_en": "IoT UX Designer"
   },
   {
     "id": "66",
@@ -1606,7 +1670,6 @@
     "tier": "行业独角兽",
     "company": "科大讯飞 (iFlytek)",
     "department": "科大讯飞 — AI交互设计中心",
-    "job_direction": "多模态交互设计师 Multimodal Interaction Designer",
     "job_title_zh": "语音交互与多模态UX设计师",
     "job_title_en": "Voice & Multimodal UX",
     "responsibilities": "设计讯飞星火大模型的多模态交互（语音+文字+图像+数字人）；构建AI教育/医疗/办公等垂直场景的语音交互范式；设计数字人产品（虚拟主播/客服/教师）的交互体验与人格定义；参与语音交互的评估标准与UX研究",
@@ -1622,7 +1685,9 @@
       "语音交互/人机交互 | — CMU MHCI / UCL HCI",
       "认知科学/语言学 | — Stanford Symbolic Systems / UW HCDE",
       "数字媒体/数字人 | — NYU ITP / RCA Digital Direction"
-    ]
+    ],
+    "direction_zh": "多模态交互设计师",
+    "direction_en": "Multimodal Interaction Designer"
   },
   {
     "id": "67",
@@ -1631,9 +1696,8 @@
     "tier": "行业独角兽",
     "company": "科大讯飞 (iFlytek)",
     "department": "智能汽车UX组 / 智能硬件UX组",
-    "job_direction": "语音交互与多模态UX设计师 (Voice & Multimodal UX)",
     "job_title_zh": "语音交互与多模态UX设计师",
-    "job_title_en": "",
+    "job_title_en": "Voice & Multimodal UX Designer",
     "responsibilities": "设计讯飞星火大模型的多模态交互（语音+文字+图像+数字人）；构建AI教育/医疗/办公等垂直场景的语音交互范式；设计数字人产品（虚拟主播/客服/教师）的交互体验与人格定义；参与语音交互的评估标准与UX研究",
     "talent_summary": "车载语音交互UX、智能硬件产品HMI设计",
     "education": "硕士及以上（HCI/语音交互/认知心理学）",
@@ -1647,7 +1711,9 @@
       "语音交互/人机交互 | — CMU MHCI / UCL HCI",
       "认知科学/语言学 | — Stanford Symbolic Systems / UW HCDE",
       "数字媒体/数字人 | — NYU ITP / RCA Digital Direction"
-    ]
+    ],
+    "direction_zh": "语音与多模态UX设计师",
+    "direction_en": "Voice & Multimodal UX Designer"
   },
   {
     "id": "68",
@@ -1656,9 +1722,8 @@
     "tier": "行业独角兽",
     "company": "地平线 (Horizon Robotics)",
     "department": "地平线 — 智能座舱HMI团队",
-    "job_direction": "智能座舱设计师 Smart Cockpit / HMI Designer",
     "job_title_zh": "自动驾驶HMI与智能座舱UX设计师",
-    "job_title_en": "[自动驾驶HMI与智能座舱UX设计师]",
+    "job_title_en": "Autonomous Driving HMI & Smart Cockpit UX Designer",
     "responsibilities": "设计基于地平线征程芯片的智能座舱HMI解决方案；构建L2+/L4自动驾驶的人机交互界面（感知可视化/决策解释/接管交互）；设计DMS驾驶员监控与交互反馈系统；定义面向车企客户的HMI设计参考方案",
     "talent_summary": "自动驾驶HMI设计、智能座舱UX设计（征程平台）、车载芯片可视化监控",
     "education": "硕士及以上（HCI/车载HMI/人因工程/计算机视觉）",
@@ -1672,7 +1737,9 @@
       "车载HMI/自动驾驶UX | — CMU MHCI / TU Delft",
       "人因工程/驾驶安全 | — Georgia Tech / Michigan HCI",
       "计算机视觉+设计 | — MIT Media Lab / RCA IDE"
-    ]
+    ],
+    "direction_zh": "智能座舱设计师",
+    "direction_en": "Smart Cockpit / HMI Designer"
   },
   {
     "id": "69",
@@ -1681,9 +1748,8 @@
     "tier": "行业独角兽",
     "company": "三七互娱 (37 Interactive)",
     "department": "三七互娱 — 游戏UX设计中心",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "全球化游戏UX设计师",
-    "job_title_en": "[全球化游戏UX设计师]",
+    "job_title_en": "Global Game UX Designer",
     "responsibilities": "设计面向全球市场的SLG/模拟经营类手游的UI/UX系统；构建多语言多地区的游戏UI适配方案；设计游戏内购/社交/活动等核心系统的交互逻辑；参与数据驱动的游戏UX优化（留存/付费转化/玩家行为分析）",
     "talent_summary": "全球化游戏UX设计（SLG/MMO品类）、多语言/跨文化游戏交互",
     "education": "硕士及以上（游戏设计/交互设计/HCI）",
@@ -1697,7 +1763,9 @@
       "游戏设计与开发 | — CMU ETC / USC Game Design",
       "交互设计/全球化UX | — Delft DfI / UAL Interaction Design",
       "数据驱动设计 | — CMU MHCI / Georgia Tech HCI"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "70",
@@ -1706,9 +1774,8 @@
     "tier": "行业独角兽",
     "company": "吉比特 (G-Bits)",
     "department": "吉比特 — 雷霆游戏UX设计部",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "精品游戏UX设计师",
-    "job_title_en": "[精品游戏UX设计师]",
+    "job_title_en": "Premium Game UX Designer",
     "responsibilities": "设计《一念逍遥》《问道》等精品手游的UX系统；构建'小而美'品类的独特交互语言与美学体系；设计游戏内社交/宗门/副本等复杂系统的信息架构；参与从立项到运营的全生命周期UX设计",
     "talent_summary": "精品游戏UX设计（修仙/古风/策略品类）、游戏美术与交互融合",
     "education": "硕士及以上（游戏设计/HCI/交互设计）",
@@ -1722,7 +1789,9 @@
       "游戏设计/交互设计 | — CMU ETC / NYU Game Center",
       "数字媒体/国风美学 | — RCA Digital Direction / SVA Computer Arts",
       "交互设计 | — UAL Interaction Design / RCA IDE"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "71",
@@ -1731,9 +1800,8 @@
     "tier": "行业独角兽",
     "company": "盛趣游戏 (Shengqu)",
     "department": "盛趣游戏 — UX设计中心",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "经典IP游戏UX设计师",
-    "job_title_en": "[经典IP游戏UX设计师]",
+    "job_title_en": "Classic IP Game UX Designer",
     "responsibilities": "设计传奇/龙之谷/最终幻想等经典IP手游的现代化UX重制；构建跨世代（PC→手游→云游戏）的用户体验一致性方案；设计大型MMO的复杂社交/交易/帮会系统UX；参与经典IP的年轻化体验重塑",
     "talent_summary": "经典IP游戏UX设计（传奇/龙之谷/FF14等）、MMO游戏交互研究",
     "education": "硕士及以上（游戏设计/交互设计/HCI）",
@@ -1747,7 +1815,9 @@
       "游戏设计与开发 | — CMU ETC / USC Game Design",
       "交互设计/MMO UX | — NYU Game Center / RCA IDE",
       "用户研究/游戏心理学 | — UCL HCI / Delft DfI"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "72",
@@ -1756,9 +1826,8 @@
     "tier": "行业独角兽",
     "company": "巨人网络 (Giant)",
     "department": "巨人网络 — 游戏UX设计部",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "征途系列UX设计师 / 全球化游戏UX设计师",
-    "job_title_en": "[征途系列UX设计师 / 全球化游戏UX设计师]",
+    "job_title_en": "ZhengTu Series UX Designer / Global Game UX Designer",
     "responsibilities": "设计征途系列国战MMO的UX系统现代化；构建面向海外市场的休闲/策略类手游UX；设计游戏内社交/国战/帮会等大型多人实时交互体验；参与AI NPC驱动的动态游戏UX设计",
     "talent_summary": "征途系列UX设计、全球化游戏UX设计（SLG/卡牌）、AI驱动游戏NPC交互",
     "education": "硕士及以上（游戏设计/交互设计/HCI）",
@@ -1772,7 +1841,9 @@
       "游戏设计与开发 | — CMU ETC / NYU Game Center",
       "社交UX/多人交互 | — USC Game Design / RCA IDE",
       "交互设计 | — UAL Interaction Design / Delft DfI"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "73",
@@ -1781,7 +1852,6 @@
     "tier": "行业独角兽",
     "company": "Manus (蝴蝶效应)",
     "department": "Manus — 产品与设计团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI Agent交互设计师",
     "job_title_en": "AI Agent UX Designer",
     "responsibilities": "设计Manus AI Agent的自主执行与用户协作交互范式；定义Agent思考过程→执行步骤→结果交付的可视化交互体验；设计用户对Agent行为的审核/干预/重定向控制面板；构建通用Agent平台的多场景UX方案（编程/研究/办公/创意）",
@@ -1797,7 +1867,9 @@
       "人机交互/AI Agent UX | — CMU MHCI / Stanford HCI",
       "认知科学/人机协作 | — MIT Media Lab / UCL HCI",
       "AI产品设计 | — UW HCDE / Delft DfI"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "74",
@@ -1806,7 +1878,6 @@
     "tier": "行业独角兽",
     "company": "LiblibAI (哩布哩布)",
     "department": "LiblibAI — 产品设计团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI图像生成UX设计师",
     "job_title_en": "AIGC Image UX Designer",
     "responsibilities": "设计LiblibAI的AI图像生成全链路UX（Prompt输入→参数调节→生成→筛选→编辑→发布）；构建AI模型社区（模型广场/工作流分享/LoRA训练）的社交UX；设计从'工具'到'创作者社区'的产品体验闭环",
@@ -1822,7 +1893,9 @@
       "AIGC产品设计 | — NYU ITP / RCA Digital Direction",
       "交互设计/创作工具UX | — CMU MHCI / Delft DfI",
       "数字媒体/视觉设计 | — SVA MFA Computer Arts / RISD D+M"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "75",
@@ -1831,7 +1904,6 @@
     "tier": "行业独角兽",
     "company": "Lovart (良作)",
     "department": "Lovart — 设计团队",
-    "job_direction": "AI产品设计师 AI Product Designer",
     "job_title_zh": "AI创意工具UX设计师",
     "job_title_en": "AI Creative Tool UX",
     "responsibilities": "设计Lovart AI创意工具的产品交互体验（海报/品牌/视频/3D等多模态AIGC）；构建'Prompt→创意资产'的高效创作管道；设计AI辅助的创意迭代与版本管理UX；定义面向专业设计师+非专业用户的差异化体验",
@@ -1847,7 +1919,9 @@
       "创意工具设计 | — CMU MHCI / NYU ITP",
       "交互设计/视觉传达 | — RCA IDE / RCA Visual Communication",
       "AIGC/数字媒体 | — RCA Digital Direction / SVA Computer Arts"
-    ]
+    ],
+    "direction_zh": "AI产品设计师",
+    "direction_en": "AI Product Designer"
   },
   {
     "id": "76",
@@ -1856,7 +1930,6 @@
     "tier": "创意工作室",
     "company": "宇树科技 (Unitree)",
     "department": "宇树科技 — 产品体验与UX团队",
-    "job_direction": "机器人交互设计师 Human-Robot Interaction Designer",
     "job_title_zh": "机器人交互体验设计师",
     "job_title_en": "Human-Robot Interaction Designer",
     "responsibilities": "设计宇树四足/人形机器人的交互体验（APP控制/语音/手势/遥操作）；构建机器人状态可视化的UX界面（电量/关节/传感器/任务状态）；设计消费级机器人的Onboarding与日常交互体验；参与机器人'人格化'交互设计",
@@ -1872,7 +1945,9 @@
       "人机交互/机器人交互(HRI) | — CMU MHCI / MIT Media Lab",
       "工业设计/产品设计 | — RCA IDE / RCA Design Products",
       "交互设计/物理UX | — Delft DfI / TU Delft Robotics"
-    ]
+    ],
+    "direction_zh": "机器人交互设计师",
+    "direction_en": "Human-Robot Interaction Designer"
   },
   {
     "id": "77",
@@ -1881,7 +1956,6 @@
     "tier": "创意工作室",
     "company": "智元机器人 (Agibot)",
     "department": "智元机器人 — 人形机器人交互设计团队",
-    "job_direction": "机器人交互设计师 Human-Robot Interaction Designer",
     "job_title_zh": "人形机器人交互设计师",
     "job_title_en": "Humanoid HRI Designer",
     "responsibilities": "设计人形机器人'远征'系列的全身交互体验（表情/手势/语言/体态）；构建机器人遥操作与自主操作混合的UX范式；设计机器人在家庭/工厂/服务等场景的差异化交互方案；参与人形机器人的社会接受度(Social Acceptance)UX研究",
@@ -1897,7 +1971,9 @@
       "人形机器人交互(HRI) | — MIT Media Lab / CMU RI+HCI",
       "认知科学/社会机器人 | — Stanford HCI / UCSD Cognitive Science",
       "工业设计/人因工程 | — RCA IDE / TU Delft"
-    ]
+    ],
+    "direction_zh": "机器人交互设计师",
+    "direction_en": "Human-Robot Interaction Designer"
   },
   {
     "id": "78",
@@ -1906,7 +1982,6 @@
     "tier": "创意工作室",
     "company": "逐际动力 (LimX Dynamics)",
     "department": "逐际动力 — 产品设计团队",
-    "job_direction": "机器人交互设计师 Human-Robot Interaction Designer",
     "job_title_zh": "双足机器人交互设计师",
     "job_title_en": "Bipedal HRI Designer",
     "responsibilities": "设计逐际动力双足/四轮足机器人的运动控制交互界面；构建机器人在复杂地形（楼梯/斜坡/野外）导航的UX反馈系统；设计远程遥操作与半自主模式的混合交互；定义机器人'运动智能'的可视化表达",
@@ -1922,7 +1997,9 @@
       "机器人交互(HRI) | — CMU RI / MIT Media Lab",
       "运动可视化/仿真UX | — Georgia Tech / ETH Zurich",
       "工业设计/人因工程 | — RCA IDE / TU Delft"
-    ]
+    ],
+    "direction_zh": "机器人交互设计师",
+    "direction_en": "Human-Robot Interaction Designer"
   },
   {
     "id": "79",
@@ -1931,9 +2008,8 @@
     "tier": "创意工作室",
     "company": "曦智科技 (Lightelligence)",
     "department": "曦智科技 — 产品与UX团队",
-    "job_direction": "工业与航天HMI设计师 Industrial / Aerospace HMI Designer",
     "job_title_zh": "光电计算UI/数据可视化设计师",
-    "job_title_en": "[光电计算UI/数据可视化设计师]",
+    "job_title_en": "Optoelectronic Computing UI / Data Visualization Designer",
     "responsibilities": "设计曦智光电计算平台的开发者控制台UX；构建光子芯片性能监控与调试的可视化界面；设计光计算算法开发的IDE交互体验；定义从'电子计算'到'光电混合计算'范式转移中的UX语言",
     "talent_summary": "光电计算UI/数据可视化设计、光子芯片设计工具UX、数据中心能耗可视化",
     "education": "硕士及以上（HCI/信息可视化/计算机科学）",
@@ -1947,7 +2023,9 @@
       "信息可视化/技术UX | — CMU MHCI / Parsons DataViz",
       "计算系统UX | — MIT Media Lab / UW HCDE",
       "交互设计/硬科技UX | — Delft DfI / RCA IDE"
-    ]
+    ],
+    "direction_zh": "工业与航天HMI设计师",
+    "direction_en": "Industrial & Aerospace HMI Designer"
   },
   {
     "id": "80",
@@ -1956,7 +2034,6 @@
     "tier": "创意工作室",
     "company": "众擎机器人 (EngineAI)",
     "department": "众擎机器人 — 交互体验设计团队",
-    "job_direction": "机器人交互设计师 Human-Robot Interaction Designer",
     "job_title_zh": "通用人形机器人交互设计师",
     "job_title_en": "General-Purpose Humanoid HRI",
     "responsibilities": "设计众擎SE01/SA01人形机器人的通用交互语言（表情/语音/手势/身体动作）；构建机器人在工业/服务/家庭多场景的UX适配方案；设计机器人技能学习过程中的用户教导/反馈UX；参与定义'通用人形机器人'的人机交互行业标准",
@@ -1972,7 +2049,9 @@
       "通用机器人交互(HRI) | — CMU RI + HCII / MIT Media Lab",
       "工业设计/人因工程 | — RCA IDE / TU Delft",
       "认知科学/多模态交互 | — Stanford HCI / UCL ICN"
-    ]
+    ],
+    "direction_zh": "机器人交互设计师",
+    "direction_en": "Human-Robot Interaction Designer"
   },
   {
     "id": "81",
@@ -1981,7 +2060,6 @@
     "tier": "创意工作室",
     "company": "泡泡玛特 (Pop Mart)",
     "department": "泡泡玛特 — 数字创新与体验设计部",
-    "job_direction": "品牌与IP创意设计师 Brand & IP Creative Designer",
     "job_title_zh": "IP数字体验设计师",
     "job_title_en": "IP Digital Experience Designer",
     "responsibilities": "设计泡泡玛特App/小程序中IP角色的数字化交互体验（虚拟潮玩展示/AR互动/数字收藏）；构建线上抽盒/盲盒开箱的情感化UX设计；设计IP角色的3D数字孪生与AR虚实融合体验；参与潮玩IP的元宇宙/数字藏品交互方案设计",
@@ -1997,7 +2075,9 @@
       "数字媒体/交互设计 | — NYU ITP / RCA Digital Direction",
       "游戏设计/IP交互 | — CMU ETC / USC Game Design",
       "AR/VR设计 | — Parsons D&T / UAL Interaction Design"
-    ]
+    ],
+    "direction_zh": "品牌与IP创意设计师",
+    "direction_en": "Brand & IP Creative Designer"
   },
   {
     "id": "82",
@@ -2006,7 +2086,6 @@
     "tier": "创意工作室",
     "company": "名创优品 (MINISO)",
     "department": "名创优品 — 数字零售体验设计团队",
-    "job_direction": "零售体验设计师 Retail Experience Designer",
     "job_title_zh": "零售体验设计师",
     "job_title_en": "Retail Experience Designer",
     "responsibilities": "设计名创优品线上线下融合的新零售UX（扫码购/自助收银/AR导航/数字会员体验）；构建名创优品IP联名（迪士尼/三丽鸥/漫威等）的数字互动体验；设计门店数字化大屏/互动装置的交互体验；参与全球门店的本地化UX适配设计",
@@ -2022,7 +2101,9 @@
       "服务设计/零售UX | — RCA Service Design / Delft DfI",
       "交互设计/新零售 | — CMU MHCI / Parsons D&T",
       "品牌体验/数字媒体 | — UAL Interaction Design / NYU ITP"
-    ]
+    ],
+    "direction_zh": "服务体验设计师",
+    "direction_en": "Service Experience Designer"
   },
   {
     "id": "83",
@@ -2031,9 +2112,8 @@
     "tier": "行业独角兽",
     "company": "名创优品 (MINISO)",
     "department": "MINISO品牌体验部 / 门店数字化UX组",
-    "job_direction": "新零售体验设计师 (New Retail UX Designer)",
     "job_title_zh": "新零售体验设计师",
-    "job_title_en": "",
+    "job_title_en": "New Retail Experience Designer",
     "responsibilities": "设计名创优品线上线下融合的新零售UX（扫码购/自助收银/AR导航/数字会员体验）；构建名创优品IP联名（迪士尼/三丽鸥/漫威等）的数字互动体验；设计门店数字化大屏/互动装置的交互体验；参与全球门店的本地化UX适配设计",
     "talent_summary": "门店数字化体验设计、零售空间体验UX",
     "education": "硕士及以上（交互设计/服务设计/零售UX）",
@@ -2047,7 +2127,9 @@
       "服务设计/零售UX | — RCA Service Design / Delft DfI",
       "交互设计/新零售 | — CMU MHCI / Parsons D&T",
       "品牌体验/数字媒体 | — UAL Interaction Design / NYU ITP"
-    ]
+    ],
+    "direction_zh": "产品体验设计师",
+    "direction_en": "Product UX Designer"
   },
   {
     "id": "84",
@@ -2056,7 +2138,6 @@
     "tier": "创意工作室",
     "company": "奥美 (Ogilvy)",
     "department": "奥美 — 数字体验与创意技术团队 (Ogilvy Experience)",
-    "job_direction": "互动创意设计师 Interactive Creative Designer",
     "job_title_zh": "数字创意体验设计师",
     "job_title_en": "Digital Experience Designer",
     "responsibilities": "为全球品牌客户设计数字化创意体验（互动广告/品牌H5/社交互动/沉浸式活动）；构建品牌在社交媒体（TikTok/Instagram/微信/小红书）上的创新交互形式；参与AI生成内容(AIGC)在品牌营销中的创意应用设计；领导从创意概念到技术原型落地的全流程",
@@ -2072,7 +2153,9 @@
       "数字媒体/创意技术 | — NYU ITP / RCA Digital Direction",
       "品牌设计/交互设计 | — RCA Visual Communication / UAL Interaction Design",
       "广告创意/数字体验 | — SVA MFA Computer Arts / Goldsmiths"
-    ]
+    ],
+    "direction_zh": "互动创意设计师",
+    "direction_en": "Interactive Creative Designer"
   },
   {
     "id": "85",
@@ -2081,7 +2164,6 @@
     "tier": "创意工作室",
     "company": "BBDO",
     "department": "BBDO — 数字创意与互动体验团队",
-    "job_direction": "互动创意设计师 Interactive Creative Designer",
     "job_title_zh": "互动创意设计师",
     "job_title_en": "Interactive Creative Designer",
     "responsibilities": "为全球品牌打造跨平台的互动创意体验（互动视频/WebGL品牌官网/AI互动装置/社交游戏化Campaign）；设计品牌营销活动中的数字交互玩法；参与从创意Brief到技术落地执行的全链路；构建品牌数字资产（Filter/Lens/Mini-Program/互动视频）",
@@ -2097,7 +2179,9 @@
       "互动创意/数字媒体 | — NYU ITP / RCA Digital Direction",
       "广告创意/品牌体验 | — SVA MFA Computer Arts / VCU Brandcenter",
       "创意编程/WebGL | — Goldsmiths Computational Arts / RISD D+M"
-    ]
+    ],
+    "direction_zh": "互动创意设计师",
+    "direction_en": "Interactive Creative Designer"
   },
   {
     "id": "86",
@@ -2106,9 +2190,8 @@
     "tier": "创意工作室",
     "company": "电通 (Dentsu)",
     "department": "电通 — 创意体验与数字创新团队 (Dentsu Creative)",
-    "job_direction": "创意技术专家 Creative Technologist",
     "job_title_zh": "体验策略设计师 / 数字创意技术专家",
-    "job_title_en": "[体验策略设计师 / 数字创意技术专家]",
+    "job_title_en": "Experience Strategy Designer / Digital Creative Technologist",
     "responsibilities": "为亚洲/全球品牌设计整合数字体验策略（社交/电商/CRM/互动内容）；构建线上线下融合的品牌体验设计（O2O活动/快闪/沉浸式展厅）；设计AI+数据的精准营销交互体验；领导跨职能团队（策略/创意/技术/数据）从洞察到交付",
     "talent_summary": "体验策略设计（CX Strategy）、数字创意技术融合、品牌数字化转型设计",
     "education": "硕士及以上（服务设计/交互设计/数字媒体/营销策略）",
@@ -2122,7 +2205,9 @@
       "服务设计/品牌策略 | — RCA Service Design / Delft DfI",
       "数字媒体/创意技术 | — RCA Digital Direction / NYU ITP",
       "交互设计/营销UX | — CMU MHCI / UAL Interaction Design"
-    ]
+    ],
+    "direction_zh": "创意技术专家",
+    "direction_en": "Creative Technologist"
   },
   {
     "id": "87",
@@ -2131,7 +2216,6 @@
     "tier": "创意工作室",
     "company": "麦肯锡设计 (McKinsey Design)",
     "department": "McKinsey Design — Digital Experience / Innovation Lab",
-    "job_direction": "设计策略顾问 Design Strategy Consultant",
     "job_title_zh": "设计策略顾问",
     "job_title_en": "Design Strategy Consultant",
     "responsibilities": "为Fortune 500企业提供设计驱动的业务转型咨询；设计新业务/新产品的0→1体验策略与MVP原型；构建企业级设计系统与设计组织(DesignOps)战略；用设计思维方法论解决商业战略问题（增长/效率/创新）",
@@ -2147,7 +2231,9 @@
       "设计战略/服务设计 | — RCA Service Design / Stanford D.School",
       "商业+设计(MBA+Design) | — CMU MHCI / MIT IDM",
       "设计管理/创新 | — Delft DfI / RCA IDE"
-    ]
+    ],
+    "direction_zh": "设计策略顾问",
+    "direction_en": "Design Strategy Consultant"
   },
   {
     "id": "88",
@@ -2156,9 +2242,8 @@
     "tier": "创意工作室",
     "company": "网易 (NetEase) — 创意方向",
     "department": "网易 — 独立游戏孵化器 / 网易游戏艺术中心",
-    "job_direction": "游戏UX设计师 Game UX Designer",
     "job_title_zh": "独立游戏艺术指导 / 实验性游戏UX设计师",
-    "job_title_en": "[独立游戏艺术指导 / 实验性游戏UX设计师]",
+    "job_title_en": "Indie Game Art Director / Experimental Game UX Designer",
     "responsibilities": "参与网易独立游戏孵化器的游戏UX设计（创新型/艺术向/叙事向项目）；设计实验性游戏交互（如AI驱动NPC叙事/程序化生成玩法）；定义独立游戏品类的差异化交互语言；从概念到Demo的0→1创意设计",
     "talent_summary": "独立游戏艺术指导（非商业向创新游戏）、实验性游戏UX设计、游戏艺术风格探索",
     "education": "硕士及以上（游戏设计/交互设计/数字媒体/艺术）",
@@ -2172,7 +2257,9 @@
       "游戏设计/实验性游戏 | — NYU Game Center / CMU ETC",
       "数字媒体/互动叙事 | — RCA Digital Direction / USC Game Design",
       "创意编程/独立游戏 | — Goldsmiths Computational Arts / RISD D+M"
-    ]
+    ],
+    "direction_zh": "游戏UX设计师",
+    "direction_en": "Game UX Designer"
   },
   {
     "id": "89",
@@ -2181,7 +2268,6 @@
     "tier": "创意工作室",
     "company": "米哈游 (miHoYo) — 创意方向",
     "department": "米哈游 — 前沿技术探索部 / 动画与视觉特效中心",
-    "job_direction": "技术美术 Technical Artist",
     "job_title_zh": "技术美术/视觉特效设计师",
     "job_title_en": "Technical Artist / VFX Designer",
     "responsibilities": "设计与实现游戏中的高品质视觉特效（Shader/粒子/后处理/场景氛围）；探索前沿渲染技术（光线追踪/全局光照/NPR风格化渲染）在产品中的创意应用；参与角色皮肤/武器/道具的特殊视觉表现设计；在Unity/Unreal中构建TA工具链提升美术生产效率",
@@ -2197,7 +2283,9 @@
       "计算机图形学/技术美术 | — CMU CS/ETC / Utah Entertain Arts",
       "视觉特效/数字媒体 | — SVA MFA Computer Arts / RCA Digital Direction",
       "实时渲染/游戏技术 | — USC Game Design / NYU ITP"
-    ]
+    ],
+    "direction_zh": "技术美术",
+    "direction_en": "Technical Artist"
   },
   {
     "id": "1000",
@@ -2206,7 +2294,6 @@
     "tier": "国际顶尖事务所",
     "company": "OMA (大都会建筑事务所)",
     "department": "Research & Strategy / Digital Fabrication Lab",
-    "job_direction": "参数化设计师 Parametric / Computational Designer",
     "job_title_zh": "数字设计研究员 / 参数化设计师",
     "job_title_en": "Digital Design Researcher / Parametric Designer",
     "responsibilities": "运用参数化工具（Grasshopper/Rhino）推进非线性建筑形态研究；开发数字孪生原型辅助方案决策；撰写建成环境数据分析报告；配合主创团队完成从概念到落地的全周期设计文档",
@@ -2222,7 +2309,9 @@
       "建筑学/计算性设计\n— UCL Bartlett / TU Delft Architecture",
       "城市设计/数字遗产\n— Harvard GSD / Columbia GSAPP",
       "空间数据/建筑研究\n— ETH Zürich / AA School London"
-    ]
+    ],
+    "direction_zh": "参数化与计算性设计师",
+    "direction_en": "Parametric / Computational Designer"
   },
   {
     "id": "1001",
@@ -2231,10 +2320,9 @@
     "tier": "国际顶尖事务所",
     "company": "BIG (Bjarke Ingels Group)",
     "department": "Design Team / BIG Ideas Lab",
-    "job_direction": "建筑师 Architect",
     "job_title_zh": "建筑设计师 / 数字化创新设计师",
     "job_title_en": "Architect / Digital Innovation Designer",
-    "responsibilities": "主导或协助概念方案设计，尤其在可持续性与社区参与维度；构建交互式3D叙事（VR walkthrough/3D动画）用于客户汇报；整合数据驱动的场地分析与设计迭代；协助BIG Ideas（创新研究部门）跨学科项目",
+    "responsibilities": "主导或协助概念方案设计，深化空间形态与社区场地关系；制作高质量效果图与展示材料用于客户竞标汇报；参与从概念投标到施工文件的全周期建筑设计；协助跨学科团队完成建筑空间研究与叙事性图纸表达",
     "talent_summary": "建筑概念设计、可持续设计、数字叙事与客户沟通",
     "education": "硕士（建筑学/景观建筑/城市设计）",
     "background": "建筑学、环境设计、城市规划、可持续设计",
@@ -2247,7 +2335,9 @@
       "建筑学/可持续设计\n— Harvard GSD / ETH Zürich",
       "景观建筑/城市设计\n— UCL Bartlett / TU Delft",
       "建筑研究/数字建造\n— AA School / Columbia GSAPP"
-    ]
+    ],
+    "direction_zh": "建筑师",
+    "direction_en": "Architect"
   },
   {
     "id": "1002",
@@ -2256,7 +2346,6 @@
     "tier": "国际顶尖事务所",
     "company": "Zaha Hadid Architects (ZHA)",
     "department": "Computation and Design (ZHACODE)",
-    "job_direction": "参数化设计师 Parametric / Computational Designer",
     "job_title_zh": "参数化建筑设计师 / 计算性设计研究员",
     "job_title_en": "Parametric Architect / Computational Design Researcher",
     "responsibilities": "运用算法驱动方法生成复杂有机建筑形态；开发参数化设计脚本优化结构与表皮性能；构建高精度BIM模型配合工程协作；产出交互式渲染与实时VR演示用于国际竞赛及展览汇报",
@@ -2272,7 +2361,9 @@
       "计算性设计/参数化\n— AA School DLAB / UCL Bartlett RC+D",
       "建筑学/数字建造\n— ETH Zürich / TU Delft",
       "建筑研究/创新设计\n— Harvard GSD / SCI-Arc"
-    ]
+    ],
+    "direction_zh": "参数化与计算性设计师",
+    "direction_en": "Parametric / Computational Designer"
   },
   {
     "id": "1003",
@@ -2281,7 +2372,6 @@
     "tier": "国际顶尖事务所",
     "company": "MAD建筑事务所 (马岩松)",
     "department": "设计部 / 概念研究组",
-    "job_direction": "空间体验设计师 Spatial Experience Designer",
     "job_title_zh": "建筑师 / 空间叙事设计师",
     "job_title_en": "Architect / Spatial Narrative Designer",
     "responsibilities": "参与文化建筑、城市综合体的概念方案设计；以\"自然与人文融合\"为核心叙事框架构建空间体验；制作高质量竞赛图纸及展览表达；参与国内外竞赛及学术研究课题",
@@ -2297,7 +2387,9 @@
       "建筑学/城市设计\n— Harvard GSD / Columbia GSAPP",
       "景观建筑/环境艺术\n— 中央美术学院 / 同济大学",
       "艺术与建筑交叉\n— AA School / RCA Architecture"
-    ]
+    ],
+    "direction_zh": "空间体验设计师",
+    "direction_en": "Spatial Experience Designer"
   },
   {
     "id": "1004",
@@ -2306,10 +2398,9 @@
     "tier": "国际顶尖事务所",
     "company": "Foster + Partners (Norman Foster)",
     "department": "Specialist Modelling Group (SMG)",
-    "job_direction": "建筑师 Architect",
     "job_title_zh": "建筑设计师 / 数字孪生研究员",
     "job_title_en": "Architect / Digital Twin Researcher",
-    "responsibilities": "参与标志性高技派项目从概念到施工文件全周期设计；开发建筑数字孪生模型整合实时能耗与结构监测数据；运用参数化工具优化立面系统与结构性能；协助SMG专项研究小组探索智能建造前沿课题",
+    "responsibilities": "参与标志性建筑项目从概念方案到施工图的全周期设计；深化建筑形体、空间序列与立面系统方案；制作精细化施工图纸与建造细部设计；协调各专业顾问推进项目落地，参与客户评审与方案汇报",
     "talent_summary": "高性能建筑设计、数字孪生、BIM协同",
     "education": "硕士（建筑学/结构工程/可持续设计）",
     "background": "建筑学、结构工程、机电工程、可持续设计",
@@ -2322,7 +2413,9 @@
       "建筑学/可持续设计\n— UCL Bartlett / Cambridge Architecture",
       "结构工程/数字建造\n— Imperial College / ETH Zürich",
       "城市设计/BIM研究\n— Harvard GSD / TU Delft"
-    ]
+    ],
+    "direction_zh": "建筑师",
+    "direction_en": "Architect"
   },
   {
     "id": "1005",
@@ -2331,10 +2424,9 @@
     "tier": "国际知名设计公司",
     "company": "SOM (Skidmore, Owings & Merrill)",
     "department": "SOM Digital Practice Group",
-    "job_direction": "建筑师 Architect",
     "job_title_zh": "建筑/结构数字化设计师",
     "job_title_en": "Architectural / Structural Digital Designer",
-    "responsibilities": "参与超高层、文化与基础设施项目的BIM集成设计；运用数字化工具优化结构—建筑协同方案；编写Dynamo/Python脚本实现设计自动化；支持施工阶段数字交付与项目信息管理",
+    "responsibilities": "参与超高层、文化与基础设施项目的建筑方案及施工图设计；负责建筑空间功能规划与形体推敲；协调结构、机电、幕墙等顾问协同深化方案；参与项目各阶段客户汇报与设计竞赛投标",
     "talent_summary": "建筑/结构BIM、超高层建筑设计、数字化交付",
     "education": "硕士（建筑学/结构工程/城市设计）",
     "background": "建筑学、结构工程、土木工程、城市规划",
@@ -2347,7 +2439,9 @@
       "建筑学/城市设计\n— Columbia GSAPP / Harvard GSD",
       "结构工程/数字建造\n— MIT Architecture / ETH Zürich",
       "建筑技术/BIM管理\n— UCL / Georgia Tech"
-    ]
+    ],
+    "direction_zh": "建筑师",
+    "direction_en": "Architect"
   },
   {
     "id": "1006",
@@ -2356,7 +2450,6 @@
     "tier": "国际知名设计公司",
     "company": "Gensler",
     "department": "Experience Design Studio / Cities & Urban Design",
-    "job_direction": "空间体验设计师 Spatial Experience Designer",
     "job_title_zh": "体验设计师 / 工作场所策略师",
     "job_title_en": "Experience Designer / Workplace Strategist",
     "responsibilities": "主导办公、零售、酒店等商业空间的体验策略设计；运用行为数据与用户研究指导空间规划决策；构建数字孪生辅助空间运营优化；协助全球城市项目的客户沟通与设计叙事",
@@ -2372,7 +2465,9 @@
       "建筑学/室内设计\n— RISD / Pratt Institute",
       "城市设计/体验设计\n— Parsons / RCA Interior Design",
       "工作场所研究/服务设计\n— UCL / Cornell AAP"
-    ]
+    ],
+    "direction_zh": "空间体验设计师",
+    "direction_en": "Spatial Experience Designer"
   },
   {
     "id": "1007",
@@ -2381,7 +2476,6 @@
     "tier": "国际知名设计公司",
     "company": "UNStudio",
     "department": "UNSense / Research & Development",
-    "job_direction": "参数化设计师 Parametric / Computational Designer",
     "job_title_zh": "参数化设计师 / 知识平台研究员",
     "job_title_en": "Parametric Designer / Knowledge Platform Researcher",
     "responsibilities": "为住宅、交通枢纽、教育建筑开发参数化设计方案；参与UNSense智慧建筑研究项目（传感器整合、用户行为数据、楼宇自动化）；构建设计规则知识库支持设计决策系统化；产出竞赛及展览所需高质量设计表达",
@@ -2397,7 +2491,9 @@
       "计算性设计/参数化\n— TU Delft / AA School",
       "建筑学/智慧城市\n— ETH Zürich / UCL",
       "建筑研究/知识系统\n— Harvard GSD / Berlage Institute"
-    ]
+    ],
+    "direction_zh": "参数化与计算性设计师",
+    "direction_en": "Parametric / Computational Designer"
   },
   {
     "id": "1008",
@@ -2406,7 +2502,6 @@
     "tier": "国际知名设计公司",
     "company": "隈研吾建筑都市设计事务所 (KKAA)",
     "department": "素材研究室 / 保存修复部门",
-    "job_direction": "遗产保护设计师 Heritage Conservation Designer",
     "job_title_zh": "材料研究设计师 / 建筑保护设计师",
     "job_title_en": "Material Research Designer / Heritage Architect",
     "responsibilities": "研究并实验自然材料（木、竹、石、纸）与建造工艺的当代运用；主导历史建筑保护修复方案设计；以\"负建筑\"理念融合景观与建筑边界；产出材料实验报告及设计方案，参与国际展览",
@@ -2422,7 +2517,9 @@
       "建筑遗产保护\n— UCL Bartlett Heritage / 东京大学工学部",
       "建筑材料/构造研究\n— ETH Zürich / 早稻田大学理工学术院",
       "建筑学/景观设计\n— Harvard GSD / RCA Architecture"
-    ]
+    ],
+    "direction_zh": "遗产保护设计师",
+    "direction_en": "Heritage Conservation Designer"
   },
   {
     "id": "1009",
@@ -2431,7 +2528,6 @@
     "tier": "国央企业",
     "company": "中国建筑设计研究院 (CADG)",
     "department": "BIM设计研究中心 / 各设计所",
-    "job_direction": "BIM设计师 BIM / Digital Architect",
     "job_title_zh": "数字化建筑设计师 / BIM技术负责人",
     "job_title_en": "Digital Architect / BIM Lead",
     "responsibilities": "主持国家重点项目（文化场馆、交通枢纽、政务建筑）方案及施工图设计；推动全专业BIM协同设计与数字化交付；参与建筑信息化标准编制；协助院级科研课题及国家标准制定",
@@ -2447,7 +2543,9 @@
       "建筑学/城市设计\n— 清华大学 / 同济大学",
       "建筑技术/BIM\n— 哈尔滨工业大学 / 华南理工大学",
       "建筑研究/数字建造\n— Harvard GSD / UCL Bartlett"
-    ]
+    ],
+    "direction_zh": "BIM与数字建造设计师",
+    "direction_en": "BIM & Digital Construction Designer"
   },
   {
     "id": "1010",
@@ -2456,7 +2554,6 @@
     "tier": "国央企业",
     "company": "北京市建筑设计研究院 (BIAD/北京建院)",
     "department": "城市设计研究中心 / 数字化中心",
-    "job_direction": "城市数据规划师 Urban Data Planner",
     "job_title_zh": "建筑设计师 / 城市数据可视化设计师",
     "job_title_en": "Architect / Urban Data Visualization Designer",
     "responsibilities": "参与北京城市更新、居住建筑、文化建筑设计项目；运用GIS与城市数据工具分析场地与规划条件；开发城市数据可视化作品辅助规划决策展示；参与院级数字化转型课题研究",
@@ -2472,7 +2569,9 @@
       "建筑学/城市设计\n— 清华大学 / 北京建筑大学",
       "城市规划/GIS\n— 同济大学 / UCL Urban Planning",
       "城市数据/数字城市\n— MIT DUSP / Columbia Urban Planning"
-    ]
+    ],
+    "direction_zh": "城市数据规划师",
+    "direction_en": "Urban Data Planner"
   },
   {
     "id": "1011",
@@ -2481,7 +2580,6 @@
     "tier": "国央企业",
     "company": "中国建筑西南设计研究院 (CSWADI)",
     "department": "数字化设计研究中心",
-    "job_direction": "BIM设计师 BIM / Digital Architect",
     "job_title_zh": "建筑设计师 / 智能建造工程师",
     "job_title_en": "Architect / Smart Construction Engineer",
     "responsibilities": "承接西南地区大型公共建筑、文旅综合体项目方案及施工图设计；推进项目级BIM正向设计应用；研究装配式建筑与智能建造技术结合路径；参与省部级科研课题",
@@ -2497,7 +2595,9 @@
       "建筑学\n— 重庆大学 / 西安建筑科技大学",
       "建筑技术/智能建造\n— 同济大学 / 哈尔滨工业大学",
       "城市设计/BIM研究\n— UCL / ETH Zürich"
-    ]
+    ],
+    "direction_zh": "BIM与数字建造设计师",
+    "direction_en": "BIM & Digital Construction Designer"
   },
   {
     "id": "1012",
@@ -2506,7 +2606,6 @@
     "tier": "精品建筑工作室",
     "company": "OPEN Architecture (开放建筑)",
     "department": "设计研究部",
-    "job_direction": "空间体验设计师 Spatial Experience Designer",
     "job_title_zh": "建筑师 / 公共空间研究员",
     "job_title_en": "Architect / Public Space Researcher",
     "responsibilities": "参与文化、教育、公共空间类实验性建筑项目设计；以\"开放\"与\"共享\"为核心议题开展空间社会学研究；制作竞赛及展览图纸，撰写研究文章；协助主持建筑师参与国际竞赛及讲座",
@@ -2522,7 +2621,9 @@
       "建筑学/实验性设计\n— Columbia GSAPP / AA School",
       "公共空间/城市研究\n— Harvard GSD / ETH Zürich",
       "建筑与社会\n— UCL Bartlett / RCA Architecture"
-    ]
+    ],
+    "direction_zh": "空间体验设计师",
+    "direction_en": "Spatial Experience Designer"
   },
   {
     "id": "1013",
@@ -2531,10 +2632,9 @@
     "tier": "精品建筑工作室",
     "company": "直向建筑 (Vector Architects)",
     "department": "设计部",
-    "job_direction": "建筑师 Architect",
     "job_title_zh": "建筑师 / 材料与构造研究员",
     "job_title_en": "Architect / Materials & Tectonics Researcher",
-    "responsibilities": "参与文化建筑、乡村营建、遗址改造等精品项目全周期设计；深入研究当代材料建造工艺及细部处理逻辑；制作高精度模型与图纸表达设计意图；协助撰写项目研究文章与参展材料",
+    "responsibilities": "参与文化建筑、乡村营建、遗址改造等精品项目全周期设计；深入研究建筑空间体验与建造细部处理逻辑；制作高精度建筑模型与图纸表达设计意图；撰写项目研究文章并参与国内外建筑展览",
     "talent_summary": "精品建筑设计、材料建造研究、建筑细部设计",
     "education": "硕士（建筑学/建筑历史与理论/材料与建造）",
     "background": "建筑学、建筑历史、材料科学、景观设计",
@@ -2547,7 +2647,9 @@
       "建筑学/建筑历史\n— 清华大学 / 同济大学",
       "材料建造/建构研究\n— ETH Zürich / AA School",
       "建筑理论/精品设计\n— Columbia GSAPP / Harvard GSD"
-    ]
+    ],
+    "direction_zh": "建筑师",
+    "direction_en": "Architect"
   },
   {
     "id": "1014",
@@ -2556,7 +2658,6 @@
     "tier": "精品建筑工作室",
     "company": "如恩设计研究室 (Neri&Hu)",
     "department": "建筑设计部 / 室内设计部",
-    "job_direction": "遗产保护设计师 Heritage Conservation Designer",
     "job_title_zh": "建筑与室内设计师 / 遗产改造设计师",
     "job_title_en": "Architect & Interior Designer / Adaptive Reuse Designer",
     "responsibilities": "主持精品酒店、文化中心、历史建筑改造项目从概念到落地全程设计；融合东西方文化叙事构建场所精神；深化室内细部、材料搭配与定制家具设计；协调建筑、室内、品牌视觉一体化呈现",
@@ -2572,7 +2673,9 @@
       "建筑学/遗产保护\n— Columbia GSAPP / UCL Bartlett Heritage",
       "室内设计/空间叙事\n— RCA Interior Design / Parsons",
       "建筑与材料研究\n— Harvard GSD / AA School"
-    ]
+    ],
+    "direction_zh": "遗产保护设计师",
+    "direction_en": "Heritage Conservation Designer"
   },
   {
     "id": "1015",
@@ -2581,7 +2684,6 @@
     "tier": "国央企业",
     "company": "中国城市规划设计研究院 (CAUPD)",
     "department": "城市大数据研究中心 / 数字化规划研究所",
-    "job_direction": "城市数据规划师 Urban Data Planner",
     "job_title_zh": "城市数据治理研究员 / 数字孪生城市规划师",
     "job_title_en": "Urban Data Governance Researcher / Digital Twin Urban Planner",
     "responsibilities": "承担城市体检、国土空间规划数字化、城市运行监测平台等国家级规划研究课题；构建城市数字孪生底板整合多源时空数据；开发城市数据可视化分析看板；参与国家和地方数据治理标准编制",
@@ -2597,7 +2699,9 @@
       "城市规划/城市数据科学\n— MIT DUSP / UCL Urban Planning",
       "地理信息系统/数字城市\n— Columbia Urban Planning / 同济大学",
       "城市研究/数据治理\n— Harvard GSD / LSE Cities"
-    ]
+    ],
+    "direction_zh": "城市数据规划师",
+    "direction_en": "Urban Data Planner"
   },
   {
     "id": "1016",
@@ -2606,7 +2710,6 @@
     "tier": "国央企业",
     "company": "中国文化遗产研究院",
     "department": "数字技术与保护研究所",
-    "job_direction": "遗产保护设计师 Heritage Conservation Designer",
     "job_title_zh": "数字遗产保护研究员 / 文物信息化专员",
     "job_title_en": "Digital Heritage Conservation Researcher / Cultural Relic Digitalization Specialist",
     "responsibilities": "主持重要文化遗产（古建筑、遗址）三维数字采集与建模；开发数字遗产信息平台与数据库系统；研究文物劣化规律并建立预防性保护数字模型；参与国家文化遗产数字化标准编制；与国际文保机构开展学术合作",
@@ -2622,7 +2725,9 @@
       "建筑遗产保护\n— UCL Bartlett Heritage / 同济大学历史建筑保护",
       "文化遗产管理\n— UCL Institute for Sustainable Heritage / 北京大学考古文博",
       "测绘遥感/数字建模\n— 武汉大学测绘学院 / ETH Zürich"
-    ]
+    ],
+    "direction_zh": "遗产保护设计师",
+    "direction_en": "Heritage Conservation Designer"
   },
   {
     "id": "1017",
@@ -2631,7 +2736,6 @@
     "tier": "影视与媒体",
     "company": "中央广播电视总台 (CMG/CCTV)",
     "department": "融媒体中心 / 新媒体创新实验室",
-    "job_direction": "新媒体内容制作人 New Media Content Producer",
     "job_title_zh": "新媒体互动设计师 / XR内容制作人",
     "job_title_en": "New Media Interactive Designer / XR Content Producer",
     "responsibilities": "设计重大主题活动（春晚、国庆）的AR互动体验与XR演播室虚拟场景；开发观众互动H5/小程序；整合AI生成技术与实时渲染引擎制作融媒体内容；参与国家重大宣传项目数字创意策划",
@@ -2647,7 +2751,9 @@
       "数字媒体/新媒体艺术\n— 中国传媒大学 / 北京电影学院",
       "XR内容/交互设计\n— RCA Digital Direction / NYU ITP",
       "广播影视/融媒体\n— 中国传媒大学 / USC School of Cinematic Arts"
-    ]
+    ],
+    "direction_zh": "新媒体内容制作人",
+    "direction_en": "New Media Content Producer"
   },
   {
     "id": "1018",
@@ -2656,7 +2762,6 @@
     "tier": "影视与媒体",
     "company": "湖南广播电视台/芒果TV",
     "department": "产品设计中心 / 互动内容事业部",
-    "job_direction": "新媒体内容制作人 New Media Content Producer",
     "job_title_zh": "互动内容设计师 / 用户增长体验设计师",
     "job_title_en": "Interactive Content Designer / User Growth Experience Designer",
     "responsibilities": "设计短视频、综艺节目的互动观看体验（弹幕互动、多线剧情、观众投票）；优化APP用户增长漏斗中的关键体验节点；以数据驱动方式迭代内容推荐界面；策划面向年轻用户的文化IP互动活动",
@@ -2672,7 +2777,9 @@
       "交互设计/HCI\n— CMU MHCI / RCA IDE",
       "数字媒体/传播\n— NYU Tisch / 中国传媒大学",
       "用户研究/产品体验\n— UW HCDE / UCL HCI"
-    ]
+    ],
+    "direction_zh": "新媒体内容制作人",
+    "direction_en": "New Media Content Producer"
   },
   {
     "id": "1019",
@@ -2681,7 +2788,6 @@
     "tier": "影视与媒体",
     "company": "浙江广播电视集团 (ZMG)",
     "department": "新媒体内容中心",
-    "job_direction": "新媒体内容制作人 New Media Content Producer",
     "job_title_zh": "数字内容创意设计师 / 新媒体运营设计师",
     "job_title_en": "Digital Content Creative Designer / New Media Operations Designer",
     "responsibilities": "创作短视频、直播、互动H5等多形态新媒体内容；设计社交平台创意视觉与品牌传播物料；运用AIGC工具提升内容生产效率；策划文化节庆互动主题活动的视觉与体验方案",
@@ -2697,7 +2803,9 @@
       "数字媒体/视觉传达\n— 中国传媒大学 / 浙江大学",
       "传播学/新媒体运营\n— NYU / USC Annenberg",
       "AIGC内容创作\n— RCA Visual Communication / Goldsmiths"
-    ]
+    ],
+    "direction_zh": "新媒体内容制作人",
+    "direction_en": "New Media Content Producer"
   },
   {
     "id": "1020",
@@ -2706,7 +2814,6 @@
     "tier": "演出与展览",
     "company": "锋尚文化集团 (FSC, 300860)",
     "department": "创意设计中心 / 文旅项目部",
-    "job_direction": "沉浸式体验设计师 Immersive Experience Designer",
     "job_title_zh": "演出创意设计师 / 文旅体验策划师",
     "job_title_en": "Live Event Creative Designer / Cultural Tourism Experience Planner",
     "responsibilities": "主导大型演出（演唱会、晚会、开幕式）的舞美概念设计与视觉方案；策划文旅目的地沉浸式体验内容；整合XR技术、实时LED演出与自动化舞台系统；协调创意、技术、品牌各方实现完整演出落地",
@@ -2722,7 +2829,9 @@
       "舞台设计/数字媒体艺术\n— 中央戏剧学院 / 上海戏剧学院",
       "体验设计/空间叙事\n— RCA Design Products / Parsons",
       "XR演出技术\n— NYU ITP / Goldsmiths"
-    ]
+    ],
+    "direction_zh": "沉浸式体验设计师",
+    "direction_en": "Immersive Experience Designer"
   },
   {
     "id": "1021",
@@ -2731,10 +2840,9 @@
     "tier": "演出与展览",
     "company": "UCCA尤伦斯当代艺术中心",
     "department": "展览部 / 公共项目部",
-    "job_direction": "策展人 / 展览设计师 Curator / Exhibition Designer",
     "job_title_zh": "展览设计师 / 公共项目策划员",
     "job_title_en": "Exhibition Designer / Public Programs Coordinator",
-    "responsibilities": "设计当代艺术展览的空间呈现与动线体验；开发面向公众的艺术教育与互动项目；构建数字导览系统提升观展体验；协助策展人完成国际巡回展览的在地化呈现",
+    "responsibilities": "设计当代艺术展览的空间呈现与观众动线体验；布展规划与展品陈列逻辑研究；协助策展人完成国际巡回展览的在地化呈现；开发面向公众的艺术教育项目与现场活动",
     "talent_summary": "当代艺术展览设计、公共艺术项目策划、数字导览",
     "education": "硕士（展览设计/策展研究/博物馆学/数字人文）",
     "background": "展览设计、艺术史、博物馆学、空间设计",
@@ -2747,7 +2855,9 @@
       "策展研究/博物馆学\n— RCA Curating Contemporary Art / UCL Museum Studies",
       "展览设计/数字人文\n— Parsons / NYU",
       "艺术史/当代艺术\n— 中央美术学院 / 芝加哥艺术学院"
-    ]
+    ],
+    "direction_zh": "策展人与展览设计师",
+    "direction_en": "Curator / Exhibition Designer"
   },
   {
     "id": "1022",
@@ -2756,10 +2866,9 @@
     "tier": "演出与展览",
     "company": "上海当代艺术博物馆 (PSA)",
     "department": "展览部 / 数字艺术项目",
-    "job_direction": "策展人 / 展览设计师 Curator / Exhibition Designer",
     "job_title_zh": "当代艺术展览设计师 / 数字艺术体验策划师",
     "job_title_en": "Contemporary Art Exhibition Designer / Digital Art Experience Planner",
-    "responsibilities": "主导当代艺术与数字艺术展览的空间叙事与呈现设计；开发互动数字艺术装置的用户体验逻辑；策划公众艺术教育项目与社区参与活动；整合数字媒体与实体空间的混合展陈体验",
+    "responsibilities": "主导当代艺术展览的空间叙事与实体呈现设计；统筹展览布展、灯光与材料选用；策划公众艺术教育项目与社区参与活动；协调艺术家、建筑师与施工团队完成展览落地",
     "talent_summary": "当代艺术展览设计、数字艺术体验、公众艺术教育",
     "education": "硕士（展览设计/数字艺术/策展研究/新媒体）",
     "background": "展览设计、艺术史、数字媒体、新媒体艺术",
@@ -2772,7 +2881,9 @@
       "策展研究/展览设计\n— RCA / Goldsmiths MA Curating",
       "数字艺术/新媒体\n— NYU ITP / UCLA DMA",
       "艺术史/博物馆学\n— 中央美术学院 / UCL Museum Studies"
-    ]
+    ],
+    "direction_zh": "策展人与展览设计师",
+    "direction_en": "Curator / Exhibition Designer"
   },
   {
     "id": "1023",
@@ -2781,7 +2892,6 @@
     "tier": "影视与媒体",
     "company": "追光动画 (Light Chaser Animation)",
     "department": "概念设计部",
-    "job_direction": "概念设计师 Concept Designer",
     "job_title_zh": "角色/场景概念设计师",
     "job_title_en": "Character / Environment Concept Designer",
     "responsibilities": "为中国动画电影开发角色造型、场景美术与世界观视觉风格；深度融合中国传统美学与现代动画技法进行视觉叙事；制作高精度概念原画与色彩脚本；与建模、动画部门协作将概念转化为三维实现",
@@ -2797,7 +2907,9 @@
       "动画/视觉开发\n— CalArts / SVA MFA Illustration",
       "游戏美术/概念设计\n— SCAD Animation / ArtCenter",
       "插画/美术史\n— 中央美术学院 / 北京电影学院"
-    ]
+    ],
+    "direction_zh": "概念设计师",
+    "direction_en": "Concept Designer"
   },
   {
     "id": "1024",
@@ -2806,7 +2918,6 @@
     "tier": "影视与媒体",
     "company": "光线传媒 (Enlight Media)",
     "department": "视觉开发中心 / 市场营销部",
-    "job_direction": "概念设计师 Concept Designer",
     "job_title_zh": "视觉开发设计师 / 数字营销创意设计师",
     "job_title_en": "Visual Development Designer / Digital Marketing Creative Designer",
     "responsibilities": "为院线电影开发宣发物料的创意视觉系统（海报、动态物料、社媒内容）；设计电影数字营销互动活动H5与小程序；整合AIGC工具提升物料生产效率；策划基于IP的跨媒介品牌联名视觉方案",
@@ -2822,7 +2933,9 @@
       "视觉传达/品牌设计\n— 中央美术学院 / 中国美术学院",
       "数字媒体/广告创意\n— Parsons / RCA Visual Communication",
       "电影艺术/传播学\n— 北京电影学院 / NYU Tisch"
-    ]
+    ],
+    "direction_zh": "概念设计师",
+    "direction_en": "Concept Designer"
   },
   {
     "id": "1025",
@@ -2831,7 +2944,6 @@
     "tier": "影视与媒体",
     "company": "数字王国 (Digital Domain)",
     "department": "VFX合成部 / 虚拟制作部门",
-    "job_direction": "VFX合成师 VFX Compositor",
     "job_title_zh": "VFX合成师 / 虚拟制作技术总监",
     "job_title_en": "VFX Compositor / Virtual Production Technical Director",
     "responsibilities": "承接院线电影、流媒体剧集的VFX合成与视效制作；主导LED虚拟制片（In-Camera VFX）的技术管线搭建；研发基于AI的视效自动化工具提升交付效率；协调跨地区（香港/北京/温哥华）团队完成国际项目",
@@ -2847,7 +2959,9 @@
       "视觉效果/计算机图形学\n— Gnomon / VFS (Vancouver Film School)",
       "数字媒体/动画\n— Bournemouth NCCA / UCLA DMA",
       "电影制作/虚拟制作\n— USC School of Cinematic Arts / AFI"
-    ]
+    ],
+    "direction_zh": "VFX合成师",
+    "direction_en": "VFX Compositor"
   },
   {
     "id": "1026",
@@ -2856,7 +2970,6 @@
     "tier": "影视与媒体",
     "company": "原力动画 (Original Force)",
     "department": "美术设计部 / 数字内容中心",
-    "job_direction": "新媒体内容制作人 New Media Content Producer",
     "job_title_zh": "动画美术设计师 / 数字内容创意总监",
     "job_title_en": "Animation Art Director / Digital Content Creative Director",
     "responsibilities": "主导动画项目美术风格建立与视觉开发全流程；设计面向文旅市场的沉浸式数字内容（光影秀、全息投影、数字展馆）；整合实时渲染技术（Unreal/Unity）实现高效内容生产；开发动画IP的衍生品视觉体系",
@@ -2872,7 +2985,9 @@
       "动画/视觉开发\n— CalArts / 北京电影学院",
       "数字媒体艺术/实时渲染\n— SVA MFA Computer Arts / UCLA DMA",
       "游戏美术/数字内容\n— SCAD / 中央美术学院"
-    ]
+    ],
+    "direction_zh": "新媒体内容制作人",
+    "direction_en": "New Media Content Producer"
   },
   {
     "id": "1027",
@@ -2881,7 +2996,6 @@
     "tier": "创意工作室",
     "company": "黑弓Blackbow (王志鸥团队)",
     "department": "创意设计中心",
-    "job_direction": "沉浸式体验设计师 Immersive Experience Designer",
     "job_title_zh": "沉浸式体验创意设计师 / 文旅项目执行制作人",
     "job_title_en": "Immersive Experience Creative Designer / Cultural Tourism Executive Producer",
     "responsibilities": "策划并设计大型沉浸式文旅体验项目（实景演出、主题展览、夜游产品）；构建基于空间叙事的多感官体验逻辑；整合灯光、投影、音效、AR等技术实现现场沉浸效果；统筹项目从创意到落地的全周期执行",
@@ -2897,7 +3011,9 @@
       "体验设计/空间叙事\n— RCA Design Products / Parsons",
       "舞台设计/数字媒体艺术\n— NYU Tisch / 中央戏剧学院",
       "沉浸式设计/主题娱乐\n— Savannah SCAD / 上海戏剧学院"
-    ]
+    ],
+    "direction_zh": "沉浸式体验设计师",
+    "direction_en": "Immersive Experience Designer"
   },
   {
     "id": "1028",
@@ -2906,7 +3022,6 @@
     "tier": "创意工作室",
     "company": "UFO媒体实验室 (吴珏辉)",
     "department": "研究与创作部",
-    "job_direction": "创意编程师 Creative Coder",
     "job_title_zh": "媒体艺术研究员 / 互动装置设计师",
     "job_title_en": "Media Art Researcher / Interactive Installation Designer",
     "responsibilities": "开展跨媒介艺术研究与实验性互动装置创作；运用传感技术、网络协议与实时数据构建公众参与式艺术体验；参与国内外艺术节、双年展的装置项目策划与制作；撰写艺术研究报告及申请驻地项目",
@@ -2922,7 +3037,9 @@
       "新媒体艺术/创意科技\n— NYU ITP / RCA Digital Direction",
       "互动装置/计算艺术\n— Goldsmiths Computational Arts / UCLA DMA",
       "媒体艺术研究\n— MIT Media Lab / 东京艺术大学"
-    ]
+    ],
+    "direction_zh": "创意编程师",
+    "direction_en": "Creative Coder"
   },
   {
     "id": "1029",
@@ -2931,10 +3048,9 @@
     "tier": "创意工作室",
     "company": "蔡国强工作室 (Cai Studio)",
     "department": "创作与制作部",
-    "job_direction": "策展人 / 展览设计师 Curator / Exhibition Designer",
     "job_title_zh": "艺术创作助理 / 大型装置制作统筹",
     "job_title_en": "Studio Art Assistant / Large-scale Installation Production Coordinator",
-    "responsibilities": "协助蔡国强策划并执行大型当代艺术装置（烟火艺术、多媒体装置、博物馆巡展）；统筹国际展览场地协调、物料运输与安装落地；撰写艺术项目申请书及赞助提案；处理与国际美术馆、双年展的沟通与合作事宜",
+    "responsibilities": "协助策划并执行大型当代艺术装置（烟火艺术、多媒体装置、博物馆巡展）；统筹国际展览场地协调、物料运输与安装落地；撰写艺术项目申请书及赞助提案；处理与国际美术馆、双年展的沟通与合作事宜",
     "talent_summary": "当代艺术大型装置统筹、国际巡展执行、艺术项目管理",
     "education": "硕士（当代艺术/策展研究/艺术管理）",
     "background": "当代艺术、策展研究、艺术史、项目管理",
@@ -2947,7 +3063,9 @@
       "当代艺术/策展研究\n— Goldsmiths MA Curating / RCA Curating",
       "艺术管理/文化政策\n— Columbia Arts Administration / NYU Arts Admin",
       "艺术史/博物馆学\n— 中央美术学院 / UCL Museum Studies"
-    ]
+    ],
+    "direction_zh": "策展人与展览设计师",
+    "direction_en": "Curator / Exhibition Designer"
   },
   {
     "id": "1030",
@@ -2956,7 +3074,6 @@
     "tier": "创意工作室",
     "company": "北京北奥集团 (Beijing Beiao Group)",
     "department": "创意设计部",
-    "job_direction": "演出创意设计师 Live Event Creative Designer",
     "job_title_zh": "大型活动创意设计师 / 开幕式视觉总监",
     "job_title_en": "Large-scale Event Creative Designer / Opening Ceremony Visual Director",
     "responsibilities": "策划国家级重大活动（运动会开闭幕式、主题展览、文化庆典）的视觉创意方案；设计融合实时LED、烟火、无人机、XR技术的综合演出体验；统筹创意、技术、施工多方协作推进项目落地；产出完整创意方案册及演示PPT",
@@ -2972,7 +3089,9 @@
       "舞台设计/体验设计\n— 中央戏剧学院 / RCA Design Products",
       "视觉传达/活动创意\n— 中央美术学院 / Parsons",
       "XR演出/新媒体\n— NYU ITP / Goldsmiths"
-    ]
+    ],
+    "direction_zh": "沉浸式体验设计师",
+    "direction_en": "Immersive Experience Designer"
   },
   {
     "id": "1031",
@@ -2981,10 +3100,9 @@
     "tier": "创意工作室",
     "company": "今日美术馆 (Today Art Museum / TAM)",
     "department": "策展部 / 公共项目部",
-    "job_direction": "策展人 / 展览设计师 Curator / Exhibition Designer",
     "job_title_zh": "展览策划与设计师 / 艺术项目运营专员",
     "job_title_en": "Exhibition Curator & Designer / Art Program Operations Specialist",
-    "responsibilities": "独立策划或协助完成当代艺术群展与个展；设计展览空间布局与观众体验动线；策划艺术家讲座、工作坊等公众教育项目；运营美术馆社交媒体及会员体系；对接艺术基金、品牌赞助和政府文化项目",
+    "responsibilities": "独立策划或协助完成当代艺术展览；设计展览空间布局与观众体验动线；策划艺术家讲座、工作坊等公众教育项目；对接艺术基金、品牌赞助和政府文化项目",
     "talent_summary": "当代艺术展览策划、美术馆运营、公众艺术教育",
     "education": "硕士（策展研究/艺术管理/艺术史）",
     "background": "艺术史、策展研究、文化管理、视觉传达",
@@ -2997,7 +3115,9 @@
       "策展研究/艺术管理\n— RCA Curating / Goldsmiths MA Curating",
       "艺术史/博物馆学\n— 中央美术学院 / UCL Museum Studies",
       "文化政策/艺术行政\n— NYU Arts Admin / Columbia Arts Admin"
-    ]
+    ],
+    "direction_zh": "策展人与展览设计师",
+    "direction_en": "Curator / Exhibition Designer"
   },
   {
     "id": "1032",
@@ -3006,7 +3126,6 @@
     "tier": "创意工作室",
     "company": "X美术馆 (X Museum)",
     "department": "策展与项目部",
-    "job_direction": "创意编程师 Creative Coder",
     "job_title_zh": "数字艺术策展人 / 新媒体艺术项目专员",
     "job_title_en": "Digital Art Curator / New Media Art Projects Specialist",
     "responsibilities": "策划以数字艺术、AI艺术、互动装置为核心的展览项目；研究并推介国内外新兴数字艺术家；构建数字藏品（NFT/数字艺术品）的展示与收藏框架；策划线上线下联动的数字艺术体验；撰写展览文本及学术评论",
@@ -3022,7 +3141,9 @@
       "策展研究/数字人文\n— RCA Curating / Goldsmiths",
       "新媒体艺术/数字艺术\n— NYU ITP / MIT Media Lab",
       "艺术史/当代艺术\n— 中央美术学院 / 芝加哥艺术学院"
-    ]
+    ],
+    "direction_zh": "创意编程师",
+    "direction_en": "Creative Coder"
   },
   {
     "id": "1033",
@@ -3031,7 +3152,6 @@
     "tier": "行业独角兽",
     "company": "华策影视 (Huace Film & TV, 300133)",
     "department": "视觉设计中心 / 数字营销部",
-    "job_direction": "品牌与IP创意设计师 Brand & IP Creative Designer",
     "job_title_zh": "IP内容视觉设计师 / 数字营销创意专员",
     "job_title_en": "IP Content Visual Designer / Digital Marketing Creative Specialist",
     "responsibilities": "为院线电影与网剧开发IP视觉系统及宣发物料；设计基于IP的跨媒介互动营销活动；运用AIGC工具批量生产高质量宣发素材；策划面向年轻用户的社交媒体互动与病毒式传播内容",
@@ -3047,7 +3167,9 @@
       "视觉传达/品牌设计\n— 中国美术学院 / 中央美术学院",
       "数字媒体/广告创意\n— Parsons / RCA Visual Communication",
       "IP内容/传播学\n— 北京电影学院 / USC Annenberg"
-    ]
+    ],
+    "direction_zh": "品牌与IP创意设计师",
+    "direction_en": "Brand & IP Creative Designer"
   },
   {
     "id": "1034",
@@ -3056,7 +3178,6 @@
     "tier": "行业独角兽",
     "company": "Base FX / 倍视传媒 (Base Media)",
     "department": "VFX制作部 / 技术研发部",
-    "job_direction": "VFX合成师 VFX Compositor",
     "job_title_zh": "VFX合成艺术家 / 特效技术总监",
     "job_title_en": "VFX Compositor / VFX Technical Director",
     "responsibilities": "承接国际级院线电影（好莱坞合拍项目）VFX合成制作；开发基于Python/C++的TD脚本优化视效制作管线；参与AI驱动视效工具的研发与落地；与国际导演及视效监制紧密协作保障艺术品质",
@@ -3072,7 +3193,9 @@
       "视觉效果/计算机图形学\n— Bournemouth NCCA / VFS",
       "数字媒体/动画\n— USC / UCLA DMA",
       "技术艺术/Houdini\n— Gnomon / SCAD"
-    ]
+    ],
+    "direction_zh": "VFX合成师",
+    "direction_en": "VFX Compositor"
   },
   {
     "id": "1035",
@@ -3081,7 +3204,6 @@
     "tier": "创意工作室",
     "company": "大悲宇宙工作室 (Dabeiyuzhou Studio / 林琨皓)",
     "department": "创作团队",
-    "job_direction": "创意编程师 Creative Coder",
     "job_title_zh": "创意编程师 / 沉浸式空间艺术家",
     "job_title_en": "Creative Coder / Immersive Space Artist",
     "responsibilities": "以创意编程创作沉浸式数字艺术空间（全息投影、互动地面、多通道投影）；开发基于传感器与实时数据的观众参与式体验；参与国内外艺术节、商业展览项目全程创作与执行；探索AI生成与传统媒材的融合实践",
@@ -3097,7 +3219,9 @@
       "新媒体艺术/创意科技\n— NYU ITP / RCA Digital Direction",
       "互动装置/计算艺术\n— Goldsmiths Computational Arts / MIT Media Lab",
       "沉浸式设计/展陈艺术\n— UCLA DMA / 中央美术学院"
-    ]
+    ],
+    "direction_zh": "创意编程师",
+    "direction_en": "Creative Coder"
   },
   {
     "id": "1036",
@@ -3106,7 +3230,6 @@
     "tier": "创意工作室",
     "company": "AKI-JIANG / 蒋友柏设计工作室 (Demos Chiang Studio)",
     "department": "创意设计部",
-    "job_direction": "品牌与IP创意设计师 Brand & IP Creative Designer",
     "job_title_zh": "品牌体验设计师 / 文化创意策划师",
     "job_title_en": "Brand Experience Designer / Cultural Creative Planner",
     "responsibilities": "为高端品牌与文化机构策划整合品牌体验项目（品牌空间、展览、艺术装置联名）；融合台湾与国际设计美学构建品牌视觉叙事；设计多媒体品牌故事内容（影片、出版物、互动展览）；协调设计、制作、传播各方推进项目落地",
@@ -3122,7 +3245,9 @@
       "品牌设计/视觉传达\n— RCA Visual Communication / Parsons",
       "文化研究/体验设计\n— Goldsmiths / ArtCenter",
       "东西方设计研究\n— 台湾师范大学 / Edinburgh College of Art"
-    ]
+    ],
+    "direction_zh": "品牌与IP创意设计师",
+    "direction_en": "Brand & IP Creative Designer"
   },
   {
     "id": "2000",
@@ -3131,7 +3256,6 @@
     "tier": "国际顶级咨询",
     "company": "Fjord / Accenture Song",
     "department": "Service Design Studio",
-    "job_direction": "服务设计师 Service Designer",
     "job_title_zh": "服务设计师",
     "job_title_en": "Service Designer",
     "responsibilities": "主导医疗、金融、政务等复杂系统的服务蓝图设计；以用户旅程地图为工具梳理多触点体验缺口；协调前台体验设计与后台流程重组；产出可落地的服务设计原型并推动客户组织内实施",
@@ -3147,7 +3271,9 @@
       "服务设计\n— RCA Service Design / TU Delft DfI",
       "交互设计/HCI\n— CMU MHCI / UCL HCI",
       "社会创新/设计管理\n— Parsons / UAL Design Management"
-    ]
+    ],
+    "direction_zh": "服务设计师",
+    "direction_en": "Service Designer"
   },
   {
     "id": "2001",
@@ -3156,7 +3282,6 @@
     "tier": "国际顶级咨询",
     "company": "IBM iX (IBM Consulting)",
     "department": "Experience Design Practice",
-    "job_direction": "体验策略设计师 Experience Strategy Designer",
     "job_title_zh": "体验策略设计师",
     "job_title_en": "Experience Strategy Designer",
     "responsibilities": "为企业级数字化转型项目制定体验战略；设计覆盖员工与客户的端到端服务体验；结合IBM Watson/AI能力设计智能服务触点；输出体验设计规范与设计系统框架，支撑多团队并行落地",
@@ -3172,7 +3297,9 @@
       "服务设计/设计创新\n— RCA Global Innovation Design / TU Delft",
       "HCI/产品设计\n— CMU MHCI / Georgia Tech HCI",
       "设计管理/商业\n— RCA Design Futures / IE Business School"
-    ]
+    ],
+    "direction_zh": "体验策略设计师",
+    "direction_en": "Experience Strategy Designer"
   },
   {
     "id": "2002",
@@ -3181,7 +3308,6 @@
     "tier": "国际顶级咨询",
     "company": "PwC Experience Center",
     "department": "Experience Design & Innovation",
-    "job_direction": "社会创新设计师 Social Innovation Designer",
     "job_title_zh": "社会创新设计师",
     "job_title_en": "Social Innovation Designer",
     "responsibilities": "在医疗、教育、公共服务领域应用服务设计方法推动社会性创新；主持共创工作坊与利益相关者协同设计；构建可持续服务模型与商业案例；协助政府与非营利组织将创新方案转化为可执行的服务系统",
@@ -3197,7 +3323,9 @@
       "服务设计/社会创新\n— RCA Service Design / Parsons Transdisciplinary Design",
       "设计管理/公共政策\n— UAL Design Management / UCL",
       "教育设计/人文设计研究\n— Harvard GSD / CMU"
-    ]
+    ],
+    "direction_zh": "社会创新设计师",
+    "direction_en": "Social Innovation Designer"
   },
   {
     "id": "2003",
@@ -3206,7 +3334,6 @@
     "tier": "头部大厂",
     "company": "京东健康 (JD Health)",
     "department": "用户体验与服务设计中心",
-    "job_direction": "医疗服务体验设计师 Healthcare Service Experience Designer",
     "job_title_zh": "医疗服务体验设计师",
     "job_title_en": "Healthcare Service Experience Designer",
     "responsibilities": "设计在线问诊、慢病管理、药品配送等医疗服务的端到端用户体验；与医生、护士、患者共同参与服务共创，优化就医旅程中的关键摩擦点；构建医疗服务设计语言规范；推动AI诊断辅助工具的交互设计落地",
@@ -3222,7 +3349,9 @@
       "服务设计/HCI\n— RCA Service Design / CMU MHCI",
       "公共卫生/健康设计\n— UCL / Harvard T.H. Chan",
       "交互设计/心理学\n— NYU / UW HCDE"
-    ]
+    ],
+    "direction_zh": "医疗与公共服务设计师",
+    "direction_en": "Healthcare & Public Service Designer"
   },
   {
     "id": "2004",
@@ -3231,7 +3360,6 @@
     "tier": "行业独角兽",
     "company": "好未来 (TAL Education) / 学而思",
     "department": "产品与体验设计中心",
-    "job_direction": "教育产品体验设计师 EdTech Product Experience Designer",
     "job_title_zh": "教育产品体验设计师",
     "job_title_en": "EdTech Product Experience Designer",
     "responsibilities": "设计K12与成人教育的在线学习体验，涵盖课程界面、学习路径与师生互动；运用学习科学理论指导教育产品的交互逻辑设计；构建亲子/师生多角色服务旅程地图；整合AI辅助学习功能的体验设计",
@@ -3247,6 +3375,50 @@
       "学习设计/教育技术\n— Harvard Ed.M. LDIT / Columbia Learning Analytics",
       "交互设计/HCI\n— CMU MHCI / UCL HCI",
       "服务设计/社会创新\n— RCA Service Design / Parsons"
-    ]
+    ],
+    "direction_zh": "医疗与公共服务设计师",
+    "direction_en": "Healthcare & Public Service Designer"
+  },
+  {
+    "industry": "数字文化娱乐",
+    "company": "国家大剧院 (NCPA)",
+    "tier": "顶级",
+    "department": "舞台技术部",
+    "job_title_zh": "舞台美术设计师",
+    "job_title_en": "Scenic Designer / Production Designer",
+    "direction_zh": "舞台美术设计师",
+    "direction_en": "Scenic / Production Designer",
+    "responsibilities": "主导歌剧、话剧、舞剧等演出的舞台空间设计与布景方案；与导演、灯光设计师协作构建舞台视觉语言；制作舞台设计效果图、模型及施工图纸；监督布景制作与现场装台落地",
+    "tools": "Vectorworks, SketchUp, Rhino, AutoCAD, 手绘效果图",
+    "salary_range": "15-35万/年",
+    "requirements": "舞台设计、戏剧设计或相关专业；具备空间造型与材料工艺理解；有实习演出制作经验优先"
+  },
+  {
+    "industry": "数字文化娱乐",
+    "company": "孟京辉戏剧工作室",
+    "tier": "主流",
+    "department": "创作团队",
+    "job_title_zh": "舞台视觉设计师",
+    "job_title_en": "Stage Visual Designer",
+    "direction_zh": "舞台美术设计师",
+    "direction_en": "Scenic / Production Designer",
+    "responsibilities": "参与实验戏剧的舞台视觉概念创作；设计布景、道具与装置的整体视觉风格；协调服装、灯光、多媒体等各视觉部门统一语言；参与排练阶段的现场调整与方案迭代",
+    "tools": "Vectorworks, Photoshop, SketchUp, 手工模型",
+    "salary_range": "12-25万/年",
+    "requirements": "舞台美术、戏剧设计相关学历；对当代戏剧有热情；具备动手制作能力"
+  },
+  {
+    "industry": "数字文化娱乐",
+    "company": "SMG尚世影业 / 东方卫视",
+    "tier": "主流",
+    "department": "舞台视觉中心",
+    "job_title_zh": "综艺节目舞台设计师",
+    "job_title_en": "TV Production / Set Designer",
+    "direction_zh": "舞台美术设计师",
+    "direction_en": "Scenic / Production Designer",
+    "responsibilities": "承接大型综艺节目、晚会、颁奖典礼的舞台整体视觉设计；与导演组、灯光师协同确立节目视觉风格；制作舞台效果图与施工图，对接工程搭建团队；现场督导装台与彩排调整",
+    "tools": "Vectorworks, Cinema 4D, Photoshop, AutoCAD",
+    "salary_range": "20-45万/年",
+    "requirements": "舞台设计、展示设计或相关专业；熟悉大型活动舞台制作流程；有综艺节目经验者优先"
   }
 ]

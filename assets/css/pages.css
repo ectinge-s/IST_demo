@@ -447,7 +447,66 @@
 .tl-tag--gpa       { background: var(--color-surface); color: var(--color-text-muted); }
 .tl-legend { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; font-size: var(--text-xs); }
 .tl-legend__item { display: flex; align-items: center; gap: 5px; }
-.tl-legend__dot { width: 10px; height: 10px; border-radius: 1px; }
+.tl-legend__dot { width: 24px; height: 8px; border-radius: 2px; }
+.tl-legend__dot--milestone { background: var(--color-accent-bright); }
+.tl-legend__dot--summer    { background: var(--color-success); }
+.tl-legend__dot--biz       { background: var(--color-warning); }
+.tl-legend__dot--master    { background: var(--color-danger); }
+.tl-legend__dot--gpa       { background: var(--color-text-faint); }
+.tl-legend__dot--internship{ background: var(--color-primary-bright); }
+
+/* ── Gantt selector controls ── */
+.tl-controls { display: flex; gap: 32px; flex-wrap: wrap; margin-bottom: 24px; align-items: flex-start; }
+.tl-ctrl-group { display: flex; flex-direction: column; gap: 8px; }
+.tl-ctrl-label { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--color-text-faint); font-family: var(--font-en); }
+.tl-seg-tabs { display: flex; gap: 2px; background: var(--color-surface); border: 1px solid var(--color-border-2); border-radius: 8px; padding: 3px; }
+.tl-seg-tab { padding: 6px 14px; border-radius: 6px; border: none; cursor: pointer; font-size: 12px; font-family: var(--font-cn); color: var(--color-text-muted); background: transparent; transition: background .15s, color .15s; white-space: nowrap; }
+.tl-seg-tab:hover { color: var(--color-text); }
+.tl-seg-tab.is-active { background: var(--color-primary); color: #fff; font-weight: 600; }
+
+/* ── Gantt grid ── */
+.tl-gantt-wrap { overflow-x: auto; padding-bottom: 8px; }
+.tl-gantt { display: grid; grid-template-columns: 52px 76px repeat(12, minmax(46px, 1fr)); gap: 2px; min-width: 820px; }
+.tl-gh { background: var(--color-surface-2); font-size: 10px; font-family: var(--font-mono); color: var(--color-text-muted); padding: 7px 4px; text-align: center; font-weight: 500; letter-spacing: .04em; position: sticky; top: 0; z-index: 3; }
+.tl-gh--cat { text-align: left; padding-left: 8px; font-family: var(--font-cn); font-size: 9px; }
+.tl-year-band { grid-column: 1/-1; background: var(--color-surface); border-left: 3px solid var(--color-primary-bright); padding: 6px 12px; font-size: 11px; font-weight: 600; color: var(--color-primary-bright); font-family: var(--font-mono); letter-spacing: .06em; }
+.tl-seg-div { grid-column: 1/-1; height: 3px; background: linear-gradient(to right, var(--color-primary) 0%, transparent 80%); }
+.tl-yl { background: var(--color-surface); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; font-family: var(--font-mono); color: var(--color-text-muted); writing-mode: vertical-rl; letter-spacing: .08em; border-left: 3px solid var(--color-border-2); }
+.tl-cat { background: var(--color-surface); display: flex; align-items: center; padding: 0 8px; font-size: 9px; font-family: var(--font-cn); border-left: 2px solid var(--color-border); white-space: nowrap; color: var(--color-text-faint); }
+.tl-cat--milestone { border-left-color: var(--color-accent-bright); color: var(--color-accent-bright); }
+.tl-cat--growth    { border-left-color: var(--color-success);        color: var(--color-success); }
+.tl-cat--career    { border-left-color: var(--color-primary-bright); color: var(--color-primary-bright); }
+.tl-mc { background: var(--color-surface); min-height: 34px; }
+.tl-mc--odd { background: #0C0F18; }
+.tl-bar { border-radius: 4px; display: flex; align-items: center; padding: 0 7px; font-size: 10px; font-family: var(--font-cn); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; height: 28px; margin: 3px 1px; cursor: default; z-index: 2; transition: filter .15s; }
+.tl-bar:hover { filter: brightness(1.15); }
+.tl-bar.is-linked { cursor: pointer; }
+.tl-bar.is-linked::after { content: ' ↗'; font-size: 9px; opacity: .7; flex-shrink: 0; }
+.tl-bar--internship { background: rgba(90,103,255,.22);  color: var(--color-primary-bright); box-shadow: inset 0 0 0 1px rgba(90,103,255,.4); }
+.tl-bar--summer     { background: rgba(79,209,139,.18);  color: var(--color-success);        box-shadow: inset 0 0 0 1px rgba(79,209,139,.38); }
+.tl-bar--biz        { background: rgba(255,154,61,.18);  color: var(--color-warning);        box-shadow: inset 0 0 0 1px rgba(255,154,61,.38); }
+.tl-bar--master     { background: rgba(255,90,110,.18);  color: var(--color-danger);         box-shadow: inset 0 0 0 1px rgba(255,90,110,.36); }
+.tl-bar--gpa        { background: var(--color-surface-2); color: var(--color-text-muted);    box-shadow: inset 0 0 0 1px var(--color-border-2); }
+.tl-bar--milestone  { background: rgba(226,241,105,.15); color: var(--color-accent-bright);  box-shadow: inset 0 0 0 1px rgba(226,241,105,.38); }
+.tl-gantt-empty { padding: 40px; text-align: center; color: var(--color-text-faint); font-size: 13px; writing-mode: horizontal-tb; }
+
+/* ── Sticky collapse bar ── */
+.sticky-collapse {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  z-index: 200; pointer-events: none;
+}
+.sticky-collapse__btn {
+  pointer-events: all;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border-2);
+  color: var(--color-text-muted);
+  font-family: var(--font-cn); font-size: 12px;
+  padding: 8px 20px; border-radius: 20px;
+  cursor: pointer; white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,.4);
+  transition: background .15s, color .15s, opacity .2s;
+}
+.sticky-collapse__btn:hover { background: var(--color-surface); color: var(--color-text); }
 
 /* ── RESPONSIVE (ordered: large → small max-width) ── */
 @media (max-width: 1100px) {
@@ -490,8 +549,11 @@
   display: flex;
   gap: 12px;
   width: max-content;
+  will-change: transform;
   animation: coop-scroll-fwd 48s linear infinite;
+  animation-play-state: running;
 }
+.coop-marquee-track.is-paused { animation-play-state: paused; }
 .coop-marquee-wrap:hover .coop-marquee-track { animation-play-state: paused; }
 @keyframes coop-scroll-fwd { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 

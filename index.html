@@ -31,7 +31,7 @@
     <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#courses'})">课程产品</button>
     <span class="navbar__div" aria-hidden="true"></span>
     <button class="navbar__btn navbar__btn--page" onclick="Router.go('portfolio')">案例展示</button>
-    <button class="navbar__btn navbar__btn--page" onclick="Router.go('timeline')">升学时间轴</button>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('timeline')">成长时间轴</button>
   </div>
   <div class="navbar__search-wrap">
     <span class="navbar__search-icon">⌕</span>
@@ -42,6 +42,11 @@
     规划我的未来 <span class="u-en" style="font-size:11px;opacity:.7;">/ Plan Your Future</span>
   </button>
 </nav>
+
+<!-- ═══ STICKY COLLAPSE BAR ═══ -->
+<div id="sticky-collapse" class="sticky-collapse" style="display:none">
+  <button class="sticky-collapse__btn" id="sticky-collapse-btn">↑ 收起</button>
+</div>
 
 <!-- ═══ SIDEBAR ═══ -->
 <div id="sidebar-overlay" class="sidebar-overlay" onclick="Sidebar.close()"></div>
@@ -156,6 +161,7 @@
     <div class="filter-bar" id="instructor-tabs" style="margin-bottom:16px;">
       <button class="filter-btn is-active" data-itype="all" onclick="HomePage.filterInstructors('all',this)">全部</button>
       <button class="filter-btn" data-itype="overseas" onclick="HomePage.filterInstructors('overseas',this)">海外教授</button>
+      <button class="filter-btn" data-itype="research" onclick="HomePage.filterInstructors('research',this)">教研导师</button>
       <button class="filter-btn" data-itype="academic" onclick="HomePage.filterInstructors('academic',this)">学术导师</button>
       <button class="filter-btn" data-itype="industry" onclick="HomePage.filterInstructors('industry',this)">业界导师</button>
       <button class="filter-btn" data-itype="alumni" onclick="HomePage.filterInstructors('alumni',this)">校友导师</button>
@@ -221,19 +227,48 @@
 ════════════════════════════════════════ -->
 <div id="page-timeline" class="page">
   <section class="timeline-hero">
-    <h1 class="timeline-hero__title">升学时间轴</h1>
-    <p class="timeline-hero__sub">按留学年制规划每个学年的关键任务节点。学年从 9 月开学起算，分四个季度。点击课程标签可跳转至对应课程产品页面。</p>
+    <h1 class="timeline-hero__title">成长时间轴</h1>
+    <p class="timeline-hero__sub">选择就读阶段，灵活查看全程规划路径。点击相应模块可查询可报名课程列表。</p>
   </section>
   <div class="timeline-section">
-    <div class="tl-legend">
-      <div class="tl-legend__item"><div class="tl-legend__dot" style="background:var(--color-primary-veil);border:1px solid var(--color-primary-bright);"></div>实习</div>
-      <div class="tl-legend__item"><div class="tl-legend__dot" style="background:var(--color-success-veil);border:1px solid var(--color-success);"></div>夏校/冬校</div>
-      <div class="tl-legend__item"><div class="tl-legend__dot" style="background:var(--color-warning-veil);border:1px solid var(--color-warning);"></div>商业实践</div>
-      <div class="tl-legend__item"><div class="tl-legend__dot" style="background:var(--color-danger-veil);border:1px solid var(--color-danger);"></div>大师课</div>
-      <div class="tl-legend__item"><div class="tl-legend__dot" style="background:var(--color-surface);border:1px solid var(--color-border);"></div>GPA支持</div>
+
+    <!-- Selectors -->
+    <div class="tl-controls">
+      <div class="tl-ctrl-group">
+        <div class="tl-ctrl-label">本科阶段</div>
+        <div class="tl-seg-tabs" id="tl-tabs-ug">
+          <button class="tl-seg-tab" data-val="uk3">英国本科 3年</button>
+          <button class="tl-seg-tab" data-val="us4">美国本科 4年</button>
+          <button class="tl-seg-tab" data-val="arch5">建筑学 5年</button>
+          <button class="tl-seg-tab" data-val="">不含本科</button>
+        </div>
+      </div>
+      <div class="tl-ctrl-group">
+        <div class="tl-ctrl-label">研究生阶段</div>
+        <div class="tl-seg-tabs" id="tl-tabs-pg">
+          <button class="tl-seg-tab" data-val="pg1">研究生 1年</button>
+          <button class="tl-seg-tab" data-val="pg15">研究生 1.5年</button>
+          <button class="tl-seg-tab" data-val="pg2">研究生 2年</button>
+          <button class="tl-seg-tab" data-val="">不含研究生</button>
+        </div>
+      </div>
     </div>
-    <div class="track-tabs" id="track-tabs"></div>
-    <div id="track-panels"></div>
+
+    <!-- Legend -->
+    <div class="tl-legend">
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--milestone"></div>关键节点</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--summer"></div>夏冬校</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--biz"></div>商业实践</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--master"></div>大师课</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--gpa"></div>学业支持</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--internship"></div>求职准备</div>
+    </div>
+
+    <!-- Gantt -->
+    <div class="tl-gantt-wrap" id="tl-gantt-wrap">
+      <div class="tl-gantt" id="tl-gantt"></div>
+    </div>
+
   </div>
 </div>
 
@@ -257,37 +292,15 @@
   TimelinePage.build();
   Search.init();
 
-  // Poster overlay — replaced by ImageModal (components.js)
-  /*
-  const overlay = document.createElement('div');
-  overlay.className = 'poster-overlay';
-  overlay.innerHTML = '<button class="poster-overlay__close" aria-label="Close">✕</button><img class="poster-overlay__img" src="" alt="">';
-  document.body.appendChild(overlay);
-  const overlayImg = overlay.querySelector('.poster-overlay__img');
-
-  function openPoster(src, alt) {
-    overlayImg.src = src;
-    overlayImg.alt = alt;
-    overlay.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closePoster() {
-    overlay.classList.remove('is-open');
-    document.body.style.overflow = '';
-    overlayImg.src = '';
+  // Restore page from URL hash on load/refresh (page-level only, no scroll)
+  const PAGES = ['portfolio','planning','timeline'];
+  const hashPage = location.hash.replace('#', '');
+  if (PAGES.includes(hashPage)) {
+    Router.go(hashPage);
+  } else {
+    window.scrollTo(0, 0);
   }
 
-  overlay.querySelector('.poster-overlay__close').addEventListener('click', closePoster);
-  overlay.addEventListener('click', e => { if (e.target === overlay) closePoster(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePoster(); });
-
-  document.addEventListener('click', e => {
-    const imgEl = e.target.closest('.course-card__img');
-    if (!imgEl) return;
-    const img = imgEl.querySelector('img');
-    if (img) openPoster(img.src, img.alt);
-  });
-  */
 })();
 </script>
 

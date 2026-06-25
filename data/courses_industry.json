@@ -13,7 +13,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥18,800",
-    "poster": "img/courses/course_000_AI创意产品经理产业班_AIGC创意先修课+创意产品经理.jpg"
+    "poster": "assets/img/courses/course_000_AI创意产品经理产业班_AIGC创意先修课+创意产品经理.jpg"
   },
   {
     "tab": "industry_class",
@@ -29,7 +29,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥6,800",
-    "poster": "img/courses/course_001_AI创意视频产业班_创意先修课+商业视频实操.jpg"
+    "poster": "assets/img/courses/course_001_AI创意视频产业班_创意先修课+商业视频实操.jpg"
   },
   {
     "tab": "cert",
@@ -45,7 +45,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥13,800",
-    "poster": "img/courses/course_002_阿里巴巴独家_AIGC_实训课_技能认证.jpg"
+    "poster": "assets/img/courses/course_002_阿里巴巴独家_AIGC_实训课_技能认证.jpg"
   },
   {
     "tab": "internship",
@@ -61,7 +61,7 @@
     "enrolled_count": "1",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_003_歌华设计_产品设计.jpg"
+    "poster": "assets/img/courses/course_003_歌华设计_产品设计.jpg"
   },
   {
     "tab": "internship",
@@ -77,7 +77,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_004_中国动漫集团_沉浸式VR策展实习生.jpg"
+    "poster": "assets/img/courses/course_004_中国动漫集团_沉浸式VR策展实习生.jpg"
   },
   {
     "tab": "internship",
@@ -93,7 +93,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_005_国家新能源汽车技术创新中心_机械工程实习生.jpg"
+    "poster": "assets/img/courses/course_005_国家新能源汽车技术创新中心_机械工程实习生.jpg"
   },
   {
     "tab": "internship",
@@ -109,7 +109,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_006_国家新能源汽车技术创新中心_人工智能实习生.jpg"
+    "poster": "assets/img/courses/course_006_国家新能源汽车技术创新中心_人工智能实习生.jpg"
   },
   {
     "tab": "internship",
@@ -125,7 +125,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_007_一汽大众_新型机器人机械工程实习生.jpg"
+    "poster": "assets/img/courses/course_007_一汽大众_新型机器人机械工程实习生.jpg"
   },
   {
     "tab": "internship",
@@ -141,7 +141,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_008_一汽大众_汽车研发制造实习生.jpg"
+    "poster": "assets/img/courses/course_008_一汽大众_汽车研发制造实习生.jpg"
   },
   {
     "tab": "internship",
@@ -157,7 +157,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_009_一汽大众_机械设计和自动化实习生.jpg"
+    "poster": "assets/img/courses/course_009_一汽大众_机械设计和自动化实习生.jpg"
   },
   {
     "tab": "internship",
@@ -173,7 +173,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_010_一汽大众_生态环境实习生.jpg"
+    "poster": "assets/img/courses/course_010_一汽大众_生态环境实习生.jpg"
   },
   {
     "tab": "internship",
@@ -189,7 +189,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_011_一汽大众_电子电气_结构设计_实习生.jpg"
+    "poster": "assets/img/courses/course_011_一汽大众_电子电气_结构设计_实习生.jpg"
   },
   {
     "tab": "internship",
@@ -205,7 +205,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_012_清尚建筑_AI_品牌文创设计实习生.jpg"
+    "poster": "assets/img/courses/course_012_清尚建筑_AI_品牌文创设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -221,7 +221,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_013_国家建筑信息模型_BIM_产业技术创新战略联盟_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_013_国家建筑信息模型_BIM_产业技术创新战略联盟_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -237,7 +237,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_014_国家建筑信息模型_BIM_产业技术创新战略联盟_产品设计实习生.jpg"
+    "poster": "assets/img/courses/course_014_国家建筑信息模型_BIM_产业技术创新战略联盟_产品设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -253,7 +253,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_015_国家级华表奖最佳导演工作室_AIGC实习生.jpg"
+    "poster": "assets/img/courses/course_015_国家级华表奖最佳导演工作室_AIGC实习生.jpg"
   },
   {
     "tab": "internship",
@@ -269,7 +269,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_016_北京清尚建筑设计研究院_AI_品牌文创设计实习生.jpg"
+    "poster": "assets/img/courses/course_016_北京清尚建筑设计研究院_AI_品牌文创设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -285,7 +285,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_017_北京清尚建筑设计研究院_Al产品开发实习生.jpg"
+    "poster": "assets/img/courses/course_017_北京清尚建筑设计研究院_Al产品开发实习生.jpg"
   },
   {
     "tab": "internship",
@@ -301,7 +301,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_018_北京清尚建筑设计研究院_AIGC工业设计实习生.jpg"
+    "poster": "assets/img/courses/course_018_北京清尚建筑设计研究院_AIGC工业设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -317,7 +317,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_019_北京清尚建筑设计研究院_AIGC交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_019_北京清尚建筑设计研究院_AIGC交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -333,7 +333,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_020_蓝色光标_市场营销实习生.jpg"
+    "poster": "assets/img/courses/course_020_蓝色光标_市场营销实习生.jpg"
   },
   {
     "tab": "internship",
@@ -349,7 +349,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_021_蓝色光标_PR新闻传播实习生.jpg"
+    "poster": "assets/img/courses/course_021_蓝色光标_PR新闻传播实习生.jpg"
   },
   {
     "tab": "internship",
@@ -365,7 +365,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_022_蓝色光标_视频制作实习生.jpg"
+    "poster": "assets/img/courses/course_022_蓝色光标_视频制作实习生.jpg"
   },
   {
     "tab": "internship",
@@ -381,7 +381,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_023_蓝色光标_效果营销_广告优化师实习生.jpg"
+    "poster": "assets/img/courses/course_023_蓝色光标_效果营销_广告优化师实习生.jpg"
   },
   {
     "tab": "internship",
@@ -397,7 +397,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_024_蓝色光标_AE执行实习生.jpg"
+    "poster": "assets/img/courses/course_024_蓝色光标_AE执行实习生.jpg"
   },
   {
     "tab": "internship",
@@ -413,7 +413,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_025_蓝色光标_创意设计实习生.jpg"
+    "poster": "assets/img/courses/course_025_蓝色光标_创意设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -429,7 +429,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_026_阿里旗下业务产品_品牌及IP设计_AIGC业务_产品运营_市场营销_产品经理_产品研发_新媒体运营.jpg"
+    "poster": "assets/img/courses/course_026_阿里旗下业务产品_品牌及IP设计_AIGC业务_产品运营_市场营销_产品经理_产品研发_新媒体运营.jpg"
   },
   {
     "tab": "internship",
@@ -445,7 +445,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_027_吉利汽车_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_027_吉利汽车_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -461,7 +461,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_028_一汽大众_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_028_一汽大众_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -477,7 +477,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_029_联合国科教文_意大利上海中心_设计与运营支持实习生.jpg"
+    "poster": "assets/img/courses/course_029_联合国科教文_意大利上海中心_设计与运营支持实习生.jpg"
   },
   {
     "tab": "internship",
@@ -493,7 +493,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_030_携程_ui_ux交互设计_产品_运营_市场实习生.jpg"
+    "poster": "assets/img/courses/course_030_携程_ui_ux交互设计_产品_运营_市场实习生.jpg"
   },
   {
     "tab": "internship",
@@ -509,7 +509,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_031_阿里旗下钉钉悟空事业部_ai智能体skill设计.jpg"
+    "poster": "assets/img/courses/course_031_阿里旗下钉钉悟空事业部_ai智能体skill设计.jpg"
   },
   {
     "tab": "internship",
@@ -525,7 +525,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_032_中国宋庆龄基金会_教研与产品设计_衍生品设计实习生.jpg"
+    "poster": "assets/img/courses/course_032_中国宋庆龄基金会_教研与产品设计_衍生品设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -541,7 +541,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_033_廖静文公益基金_衍生品设计实习生.jpg"
+    "poster": "assets/img/courses/course_033_廖静文公益基金_衍生品设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -557,7 +557,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_034_北京燕山出版社_美编实习生.jpg"
+    "poster": "assets/img/courses/course_034_北京燕山出版社_美编实习生.jpg"
   },
   {
     "tab": "internship",
@@ -573,7 +573,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_035_郭帆电影_流浪地球_张艺谋电影_悬崖之上_数字绘景3D_环境概念设计团队_3D建模实习生_概念设计实习生_AIGC实.jpg"
+    "poster": "assets/img/courses/course_035_郭帆电影_流浪地球_张艺谋电影_悬崖之上_数字绘景3D_环境概念设计团队_3D建模实习生_概念设计实习生_AIGC实.jpg"
   },
   {
     "tab": "internship",
@@ -589,7 +589,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_036_全球精选_美国娱乐巨头3D艺术家XJMP数字艺术公司_建模_特效_影视实习生.jpg"
+    "poster": "assets/img/courses/course_036_全球精选_美国娱乐巨头3D艺术家XJMP数字艺术公司_建模_特效_影视实习生.jpg"
   },
   {
     "tab": "internship",
@@ -605,7 +605,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_037_全球精选_美国艺电EA游戏公司在职工程师_数字科技公司_游戏开发_交互设计_AIGC.jpg"
+    "poster": "assets/img/courses/course_037_全球精选_美国艺电EA游戏公司在职工程师_数字科技公司_游戏开发_交互设计_AIGC.jpg"
   },
   {
     "tab": "internship",
@@ -621,7 +621,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_038_全球精选_皮克斯动画工作室Pixar艺术家数字艺术公司_数字艺术实习生_特效实习生.jpg"
+    "poster": "assets/img/courses/course_038_全球精选_皮克斯动画工作室Pixar艺术家数字艺术公司_数字艺术实习生_特效实习生.jpg"
   },
   {
     "tab": "internship",
@@ -637,7 +637,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_039_颐高集团_服务企业10万_产业园区运营领域的垂直巨头_品牌活动官_创新研究_招商运营.jpg"
+    "poster": "assets/img/courses/course_039_颐高集团_服务企业10万_产业园区运营领域的垂直巨头_品牌活动官_创新研究_招商运营.jpg"
   },
   {
     "tab": "internship",
@@ -653,7 +653,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_040_政采云_浙江省财政厅与阿里巴巴集团共同筹建的一站式采购云服务平合_大模型数据标注.jpg"
+    "poster": "assets/img/courses/course_040_政采云_浙江省财政厅与阿里巴巴集团共同筹建的一站式采购云服务平合_大模型数据标注.jpg"
   },
   {
     "tab": "internship",
@@ -669,7 +669,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_041_全球循环生态电商产业_新加坡欧尼拜集团_Onnibac_Group_新媒体设计专员_创意设计专员_体验设计专员_电商.jpg"
+    "poster": "assets/img/courses/course_041_全球循环生态电商产业_新加坡欧尼拜集团_Onnibac_Group_新媒体设计专员_创意设计专员_体验设计专员_电商.jpg"
   },
   {
     "tab": "internship",
@@ -685,7 +685,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_042_TEA新媒体社区_国际运营_创意研发_视觉设计_媒体制作.jpg"
+    "poster": "assets/img/courses/course_042_TEA新媒体社区_国际运营_创意研发_视觉设计_媒体制作.jpg"
   },
   {
     "tab": "internship",
@@ -701,7 +701,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_043_全球精选_迪士尼工业光魔在职艺术家数字艺术公司_3D建模实习生_特效实习生_影视实习生.jpg"
+    "poster": "assets/img/courses/course_043_全球精选_迪士尼工业光魔在职艺术家数字艺术公司_3D建模实习生_特效实习生_影视实习生.jpg"
   },
   {
     "tab": "internship",
@@ -717,7 +717,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_044_与光同尘_AIGC智能影像标杆品牌_AI生图师_AI编导.jpg"
+    "poster": "assets/img/courses/course_044_与光同尘_AIGC智能影像标杆品牌_AI生图师_AI编导.jpg"
   },
   {
     "tab": "internship",
@@ -733,7 +733,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_045_Winza_艺术科技设计公司_UI_交互设计实习.jpg"
+    "poster": "assets/img/courses/course_045_Winza_艺术科技设计公司_UI_交互设计实习.jpg"
   },
   {
     "tab": "internship",
@@ -749,7 +749,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_046_浙江汉度设计_智能硬件工业交互公司_工业设计.jpg"
+    "poster": "assets/img/courses/course_046_浙江汉度设计_智能硬件工业交互公司_工业设计.jpg"
   },
   {
     "tab": "internship",
@@ -765,7 +765,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_047_Winza_艺术科技设计公司_工业产品设计建模实习生.jpg"
+    "poster": "assets/img/courses/course_047_Winza_艺术科技设计公司_工业产品设计建模实习生.jpg"
   },
   {
     "tab": "internship",
@@ -781,7 +781,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_048_Winza_艺术科技设计公司_平面设计实习生.jpg"
+    "poster": "assets/img/courses/course_048_Winza_艺术科技设计公司_平面设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -797,7 +797,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_049_上海Be_Station设计公司_小程序_UI_UX_设计实习生.jpg"
+    "poster": "assets/img/courses/course_049_上海Be_Station设计公司_小程序_UI_UX_设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -813,7 +813,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_050_杭州素点设计工业交互公司_工业设计实习生.jpg"
+    "poster": "assets/img/courses/course_050_杭州素点设计工业交互公司_工业设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -829,7 +829,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_051_杭州素点设计工业交互公司_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_051_杭州素点设计工业交互公司_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -845,7 +845,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_052_广州壹图设计工业交互公司_工业设计实习生.jpg"
+    "poster": "assets/img/courses/course_052_广州壹图设计工业交互公司_工业设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -861,7 +861,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_053_广州壹图设计工业交互公司_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_053_广州壹图设计工业交互公司_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -877,7 +877,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_054_深圳或宇连接具身智能机器人公司_工业设计实习生.jpg"
+    "poster": "assets/img/courses/course_054_深圳或宇连接具身智能机器人公司_工业设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -893,7 +893,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_055_深圳或宇连接具身智能机器人公司_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_055_深圳或宇连接具身智能机器人公司_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -909,7 +909,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_056_杭州应许设计公司_工业设计实习生_交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_056_杭州应许设计公司_工业设计实习生_交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -925,7 +925,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥14,800",
-    "poster": "img/courses/course_057_灌木文化_央视合作国家级项目背书IP创制平台_动漫_插画设计_VR数字资产制作_文创产品设计与运营_AI艺术辅助创作.jpg"
+    "poster": "assets/img/courses/course_057_灌木文化_央视合作国家级项目背书IP创制平台_动漫_插画设计_VR数字资产制作_文创产品设计与运营_AI艺术辅助创作.jpg"
   },
   {
     "tab": "internship",
@@ -941,7 +941,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥14,800",
-    "poster": "img/courses/course_058_瓜瓣科技_体验设计_新媒体设计_运营_前端_后端开发.jpg"
+    "poster": "assets/img/courses/course_058_瓜瓣科技_体验设计_新媒体设计_运营_前端_后端开发.jpg"
   },
   {
     "tab": "mentoring",
@@ -957,7 +957,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_059_捷豹路虎_电子工程师助理.jpg"
+    "poster": "assets/img/courses/course_059_捷豹路虎_电子工程师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -973,7 +973,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_060_捷豹路虎_汽车产品经理研究助理.jpg"
+    "poster": "assets/img/courses/course_060_捷豹路虎_汽车产品经理研究助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -989,7 +989,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_061_捷豹路虎_机械工程师助理.jpg"
+    "poster": "assets/img/courses/course_061_捷豹路虎_机械工程师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1005,7 +1005,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_062_蔚来汽车_新能源汽车市场研究助理.jpg"
+    "poster": "assets/img/courses/course_062_蔚来汽车_新能源汽车市场研究助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1021,7 +1021,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_063_吉利汽车研究院_汽车产品经理研究助理.jpg"
+    "poster": "assets/img/courses/course_063_吉利汽车研究院_汽车产品经理研究助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1037,7 +1037,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_064_国轩高科_动力电池生产工艺和质量管理助理.jpg"
+    "poster": "assets/img/courses/course_064_国轩高科_动力电池生产工艺和质量管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1053,7 +1053,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_065_国轩高科_驱动电机生产工艺和质量管理助理.jpg"
+    "poster": "assets/img/courses/course_065_国轩高科_驱动电机生产工艺和质量管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1069,7 +1069,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_066_国轩高科_整车质量管理助理.jpg"
+    "poster": "assets/img/courses/course_066_国轩高科_整车质量管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1085,7 +1085,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_067_国轩高科_汽车和零部件精益生产助理.jpg"
+    "poster": "assets/img/courses/course_067_国轩高科_汽车和零部件精益生产助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1101,7 +1101,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_068_江淮汽车_新能源商业分析助理.jpg"
+    "poster": "assets/img/courses/course_068_江淮汽车_新能源商业分析助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1117,7 +1117,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_069_江淮汽车_新能源战略管理助理.jpg"
+    "poster": "assets/img/courses/course_069_江淮汽车_新能源战略管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1133,7 +1133,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_070_江淮汽车_汽车数字化转型助理.jpg"
+    "poster": "assets/img/courses/course_070_江淮汽车_汽车数字化转型助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1149,7 +1149,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_071_英特尔_智能制造工程师助理.jpg"
+    "poster": "assets/img/courses/course_071_英特尔_智能制造工程师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1165,7 +1165,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_072_阿里巴巴_数据科学助理.jpg"
+    "poster": "assets/img/courses/course_072_阿里巴巴_数据科学助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1181,7 +1181,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_073_小米_工业设计师助理.jpg"
+    "poster": "assets/img/courses/course_073_小米_工业设计师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1197,7 +1197,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_074_小米_交互设计师助理.jpg"
+    "poster": "assets/img/courses/course_074_小米_交互设计师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1213,7 +1213,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_075_字节跳动_人工智能助理.jpg"
+    "poster": "assets/img/courses/course_075_字节跳动_人工智能助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1229,7 +1229,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_076_字节跳动_交互设计师助理.jpg"
+    "poster": "assets/img/courses/course_076_字节跳动_交互设计师助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1245,7 +1245,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_077_玛氏_包装设计助理.jpg"
+    "poster": "assets/img/courses/course_077_玛氏_包装设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1261,7 +1261,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_078_天津智慧城市研究院_研究院咨询助理_城市规划和建设咨询_智慧交通_智能网联.jpg"
+    "poster": "assets/img/courses/course_078_天津智慧城市研究院_研究院咨询助理_城市规划和建设咨询_智慧交通_智能网联.jpg"
   },
   {
     "tab": "mentoring",
@@ -1277,7 +1277,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_079_蔚来汽车_汽车电子软件开发助理.jpg"
+    "poster": "assets/img/courses/course_079_蔚来汽车_汽车电子软件开发助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1293,7 +1293,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_080_阿里巴巴_人工智能助理.jpg"
+    "poster": "assets/img/courses/course_080_阿里巴巴_人工智能助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1309,7 +1309,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_081_阿里巴巴_产品经理助理.jpg"
+    "poster": "assets/img/courses/course_081_阿里巴巴_产品经理助理.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1325,7 +1325,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_082_SFK_阿里_2026第二期_Al_Driven_体验创新.jpg"
+    "poster": "assets/img/courses/course_082_SFK_阿里_2026第二期_Al_Driven_体验创新.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1341,7 +1341,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_083_SFK_美国顶尖VR游戏工作室_独创VR世界_资深大厂环境艺术家的沉浸式游戏设计课.jpg"
+    "poster": "assets/img/courses/course_083_SFK_美国顶尖VR游戏工作室_独创VR世界_资深大厂环境艺术家的沉浸式游戏设计课.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1357,7 +1357,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_084_SFK_x_网易旗舰级项目_天谕_影之刃_游戏设计进阶_资深主策的DEMO攻坚指南.jpg"
+    "poster": "assets/img/courses/course_084_SFK_x_网易旗舰级项目_天谕_影之刃_游戏设计进阶_资深主策的DEMO攻坚指南.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1373,7 +1373,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_085_SFK_知名创意设计研发企业SEEEKLAB_再生设计与生态社区活化.jpg"
+    "poster": "assets/img/courses/course_085_SFK_知名创意设计研发企业SEEEKLAB_再生设计与生态社区活化.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1389,7 +1389,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_086_SFK_阿里_2026第一期_阿里AIGC平台_高校创享实验室计划.jpg"
+    "poster": "assets/img/courses/course_086_SFK_阿里_2026第一期_阿里AIGC平台_高校创享实验室计划.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1405,7 +1405,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_087_SFK_社会创新企业大城小村_儿童友好社区服务系统创新设计.jpg"
+    "poster": "assets/img/courses/course_087_SFK_社会创新企业大城小村_儿童友好社区服务系统创新设计.jpg"
   },
   {
     "tab": "bizpractice",
@@ -1421,7 +1421,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_088_SFK_十里芳菲_服务焕新计划_十里芳菲用户服务系统创新设计.jpg"
+    "poster": "assets/img/courses/course_088_SFK_十里芳菲_服务焕新计划_十里芳菲用户服务系统创新设计.jpg"
   },
   {
     "tab": "internship",
@@ -1437,7 +1437,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_089_中国动漫集团_沉浸式VR策展实习生.jpg"
+    "poster": "assets/img/courses/course_089_中国动漫集团_沉浸式VR策展实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1453,7 +1453,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_090_国家新能源汽车技术创新中心_人工智能实习生.jpg"
+    "poster": "assets/img/courses/course_090_国家新能源汽车技术创新中心_人工智能实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1469,7 +1469,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_091_一汽大众_生态环境实习生.jpg"
+    "poster": "assets/img/courses/course_091_一汽大众_生态环境实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1485,7 +1485,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_092_北京清尚建筑设计研究院_AI_建筑设计实习生.jpg"
+    "poster": "assets/img/courses/course_092_北京清尚建筑设计研究院_AI_建筑设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1501,7 +1501,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_093_北京清尚建筑设计研究院_AI_室内设计实习生.jpg"
+    "poster": "assets/img/courses/course_093_北京清尚建筑设计研究院_AI_室内设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1517,7 +1517,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_094_国家建筑信息模型_BIM_产业技术创新战略联盟_空间交互设计实习生.jpg"
+    "poster": "assets/img/courses/course_094_国家建筑信息模型_BIM_产业技术创新战略联盟_空间交互设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1533,7 +1533,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_095_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑工程师实习生.jpg"
+    "poster": "assets/img/courses/course_095_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑工程师实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1549,7 +1549,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_096_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑技术实习生.jpg"
+    "poster": "assets/img/courses/course_096_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑技术实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1565,7 +1565,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_097_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑机器人应用工程师实习生.jpg"
+    "poster": "assets/img/courses/course_097_国家建筑信息模型_BIM_产业技术创新战略联盟_建筑机器人应用工程师实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1581,7 +1581,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_098_国家建筑信息模型_BIM_产业技术创新战略联盟_古建筑设计实习生.jpg"
+    "poster": "assets/img/courses/course_098_国家建筑信息模型_BIM_产业技术创新战略联盟_古建筑设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1597,7 +1597,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_099_国家建筑信息模型_BIM_产业技术创新战略联盟_智能建造工程师实习生.jpg"
+    "poster": "assets/img/courses/course_099_国家建筑信息模型_BIM_产业技术创新战略联盟_智能建造工程师实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1613,7 +1613,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_100_国家建筑信息模型_BIM_产业技术创新战略联盟_园林景观设计实习生.jpg"
+    "poster": "assets/img/courses/course_100_国家建筑信息模型_BIM_产业技术创新战略联盟_园林景观设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1629,7 +1629,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_101_国家建筑信息模型_BIM_产业技术创新战略联盟_城市规划与设计实习生.jpg"
+    "poster": "assets/img/courses/course_101_国家建筑信息模型_BIM_产业技术创新战略联盟_城市规划与设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1645,7 +1645,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_102_北京清尚建筑设计研究院_城市规划实习生.jpg"
+    "poster": "assets/img/courses/course_102_北京清尚建筑设计研究院_城市规划实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1661,7 +1661,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_103_北京清尚建筑设计研究院_景观设计实习生.jpg"
+    "poster": "assets/img/courses/course_103_北京清尚建筑设计研究院_景观设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1677,7 +1677,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥34,800",
-    "poster": "img/courses/course_104_北京清尚建筑设计研究院_展陈博物馆设计实习生.jpg"
+    "poster": "assets/img/courses/course_104_北京清尚建筑设计研究院_展陈博物馆设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1693,7 +1693,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_105_国际大型艺术策展项目_北京侨福芳草地摩纳哥大使馆_上海双年展_首席策展团队_策展助理_展览设计_媒体运营_展览讲解_活.jpg"
+    "poster": "assets/img/courses/course_105_国际大型艺术策展项目_北京侨福芳草地摩纳哥大使馆_上海双年展_首席策展团队_策展助理_展览设计_媒体运营_展览讲解_活.jpg"
   },
   {
     "tab": "internship",
@@ -1709,7 +1709,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_106_郭帆电影_流浪地球_张艺谋电影_悬崖之上_数字绘景3D_环境概念设计团队_3D建模实习生_概念设计实习生_AIGC实.jpg"
+    "poster": "assets/img/courses/course_106_郭帆电影_流浪地球_张艺谋电影_悬崖之上_数字绘景3D_环境概念设计团队_3D建模实习生_概念设计实习生_AIGC实.jpg"
   },
   {
     "tab": "internship",
@@ -1725,7 +1725,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_107_全球精选_美国娱乐巨头3D艺术家XJMP数字艺术公司_建模_特效_影视实习生.jpg"
+    "poster": "assets/img/courses/course_107_全球精选_美国娱乐巨头3D艺术家XJMP数字艺术公司_建模_特效_影视实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1741,7 +1741,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_108_全球精选_MAD建筑所系建筑师_MOTIF空间设计公司_空间设计.jpg"
+    "poster": "assets/img/courses/course_108_全球精选_MAD建筑所系建筑师_MOTIF空间设计公司_空间设计.jpg"
   },
   {
     "tab": "internship",
@@ -1757,7 +1757,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_109_全球精选_意大利高奢视觉设计师_Heng_Studio_视觉设计_时尚管理.jpg"
+    "poster": "assets/img/courses/course_109_全球精选_意大利高奢视觉设计师_Heng_Studio_视觉设计_时尚管理.jpg"
   },
   {
     "tab": "internship",
@@ -1773,7 +1773,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_110_全球精选_玩具大厂空间设计师_NOHO设计公司_陈列设计_展览设计_舞台美术设计.jpg"
+    "poster": "assets/img/courses/course_110_全球精选_玩具大厂空间设计师_NOHO设计公司_陈列设计_展览设计_舞台美术设计.jpg"
   },
   {
     "tab": "internship",
@@ -1789,7 +1789,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_111_伦敦空间设计公司UNITY_STUDIO_空间设计实习生.jpg"
+    "poster": "assets/img/courses/course_111_伦敦空间设计公司UNITY_STUDIO_空间设计实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1805,7 +1805,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_112_全球精选_美国建筑大厂建筑师_一隙建筑事务所_空间设计.jpg"
+    "poster": "assets/img/courses/course_112_全球精选_美国建筑大厂建筑师_一隙建筑事务所_空间设计.jpg"
   },
   {
     "tab": "internship",
@@ -1821,7 +1821,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_113_与光同尘_AIGC智能影像标杆品牌_AI生图师_AI编导.jpg"
+    "poster": "assets/img/courses/course_113_与光同尘_AIGC智能影像标杆品牌_AI生图师_AI编导.jpg"
   },
   {
     "tab": "internship",
@@ -1837,7 +1837,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥24,800",
-    "poster": "img/courses/course_114_上海大犬建筑所_空间全专业实习生.jpg"
+    "poster": "assets/img/courses/course_114_上海大犬建筑所_空间全专业实习生.jpg"
   },
   {
     "tab": "internship",
@@ -1853,7 +1853,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥14,800",
-    "poster": "img/courses/course_115_瓜瓣科技_体验设计_新媒体设计_运营_前端_后端开发.jpg"
+    "poster": "assets/img/courses/course_115_瓜瓣科技_体验设计_新媒体设计_运营_前端_后端开发.jpg"
   },
   {
     "tab": "mentoring",
@@ -1869,7 +1869,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_116_中国科学院_城市规划与景观设计助理.jpg"
+    "poster": "assets/img/courses/course_116_中国科学院_城市规划与景观设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1885,7 +1885,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_117_玛氏箭牌_工业工程助理.jpg"
+    "poster": "assets/img/courses/course_117_玛氏箭牌_工业工程助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1901,7 +1901,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_118_中国建筑_建筑设计助理.jpg"
+    "poster": "assets/img/courses/course_118_中国建筑_建筑设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1917,7 +1917,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_119_中国建筑_土木工程设计助理.jpg"
+    "poster": "assets/img/courses/course_119_中国建筑_土木工程设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1933,7 +1933,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_120_中国建筑_工程科研助理.jpg"
+    "poster": "assets/img/courses/course_120_中国建筑_工程科研助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1949,7 +1949,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_121_中国建筑_工程监测助理.jpg"
+    "poster": "assets/img/courses/course_121_中国建筑_工程监测助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1965,7 +1965,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_122_中国建筑_工程管理助理.jpg"
+    "poster": "assets/img/courses/course_122_中国建筑_工程管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1981,7 +1981,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_123_中国建筑_市场经营助理.jpg"
+    "poster": "assets/img/courses/course_123_中国建筑_市场经营助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -1997,7 +1997,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_124_中国建筑_项目管理助理.jpg"
+    "poster": "assets/img/courses/course_124_中国建筑_项目管理助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2013,7 +2013,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_125_万科_建筑设计.jpg"
+    "poster": "assets/img/courses/course_125_万科_建筑设计.jpg"
   },
   {
     "tab": "mentoring",
@@ -2029,7 +2029,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_126_凯达事务所_Aedas_景观设计助理.jpg"
+    "poster": "assets/img/courses/course_126_凯达事务所_Aedas_景观设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2045,7 +2045,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_127_凯达事务所_Aedas_城市设计助理.jpg"
+    "poster": "assets/img/courses/course_127_凯达事务所_Aedas_城市设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2061,7 +2061,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_128_楷亚锐衡建筑设计咨询_建筑设计助理.jpg"
+    "poster": "assets/img/courses/course_128_楷亚锐衡建筑设计咨询_建筑设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2077,7 +2077,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_129_迪奥_陈列设计助理.jpg"
+    "poster": "assets/img/courses/course_129_迪奥_陈列设计助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2093,7 +2093,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_130_阿里巴巴_人工智能助理.jpg"
+    "poster": "assets/img/courses/course_130_阿里巴巴_人工智能助理.jpg"
   },
   {
     "tab": "mentoring",
@@ -2109,7 +2109,7 @@
     "enrolled_count": "—",
     "capacity": "不限",
     "price_rmb": "¥16,800",
-    "poster": "img/courses/course_131_阿里巴巴_产品经理助理.jpg"
+    "poster": "assets/img/courses/course_131_阿里巴巴_产品经理助理.jpg"
   },
   {
     "tab": "bizpractice",
@@ -2125,7 +2125,7 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_132_SFK_十里芳菲_拾光筑影_叙事性古建改造与村落新生.jpg"
+    "poster": "assets/img/courses/course_132_SFK_十里芳菲_拾光筑影_叙事性古建改造与村落新生.jpg"
   },
   {
     "tab": "bizpractice",
@@ -2141,6 +2141,6 @@
     "enrolled_count": "—",
     "capacity": "15",
     "price_rmb": "30000（内部九折）",
-    "poster": "img/courses/course_133_SFK_开心麻花_构筑喜剧_开心麻花商业叙事舞台设计.jpg"
+    "poster": "assets/img/courses/course_133_SFK_开心麻花_构筑喜剧_开心麻花商业叙事舞台设计.jpg"
   }
 ]

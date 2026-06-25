@@ -187,6 +187,7 @@ img { max-width: 100%; display: block; }
 .tag--accent   { background: var(--color-accent);  color: var(--color-void); }
 .tag--surface  { background: var(--color-surface);  color: var(--color-text-muted); border: 1px solid var(--color-border); }
 .tag--outline  { background: transparent; border: 1px solid var(--color-border); color: var(--color-text-muted); }
+.tag--teal     { background: #0d9488; color: #fff; }
 
 /* ── FILTER BAR ── */
 .filter-bar { display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; margin-bottom: var(--space-4); }

@@ -1,6 +1,10 @@
 /* ═══════════════════════════════════════════
    ROUTER — page switching + scroll helpers
 ═══════════════════════════════════════════ */
+
+// Disable browser's native scroll restoration so we control it fully
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
 const Router = {
   current: 'home',
 
@@ -12,6 +16,13 @@ const Router = {
     if (!page) return;
     page.classList.add('is-active');
     this.current = pageId;
+
+    // Persist page in URL hash; push new history entry so browser back button works
+    const pagesToHash = ['portfolio','planning','timeline'];
+    const newHash = pagesToHash.includes(pageId) ? '#' + pageId : location.pathname + location.search;
+    if (!this._fromPopstate && location.hash !== '#' + pageId) {
+      history.pushState(null, '', newHash);
+    }
 
     // Sync navbar active state
     const navMap = { home: 0, portfolio: 5, timeline: 6 };
@@ -33,6 +44,15 @@ const Router = {
     const navH = navbarH + (indNav ? indNav.offsetHeight : 0);
     const top = el.getBoundingClientRect().top + window.scrollY - navH - extraOffset;
     window.scrollTo({ top, behavior: 'smooth' });
+  },
+
+  goToPortfolioFilter(branch) {
+    this.go('portfolio');
+    setTimeout(() => {
+      const btn = [...document.querySelectorAll('#portfolio-cats .filter-btn')]
+        .find(b => b.textContent.trim() === branch);
+      if (btn) PortfolioPage.filter(branch, btn);
+    }, 100);
   },
 
   goToCoursesTab(tabId) {
@@ -84,6 +104,15 @@ const Tabs = {
     sid.querySelector('.country-tab-panel[data-group="' + group + '"]')?.classList.add('is-active');
   },
 };
+
+// Handle browser back/forward
+window.addEventListener('popstate', () => {
+  const PAGES = ['portfolio','planning','timeline'];
+  const hashPage = location.hash.replace('#', '');
+  Router._fromPopstate = true;
+  Router.go(PAGES.includes(hashPage) ? hashPage : 'home');
+  Router._fromPopstate = false;
+});
 
 /* Keep the navbar selection box on whichever item the user actually clicked.
    The in-page scroll links all route to 'home', so positional sync alone
